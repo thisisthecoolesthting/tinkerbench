@@ -148,3 +148,4 @@ For most casual users, a single or dual output switching supply with digital con
 If your projects involve noise-sensitive electronics or you prioritize simplicity and linear regulation, keeping an eye out for budget linear units is worthwhile.
 
 Whichever model you choose, focus on well-reviewed units and ensure basic safety protections are in place. A reliable benchtop power supply will enhance your electronics experience for years to come without busting your budget.
+

@@ -124,3 +124,4 @@ While it's tempting to save money on $10 oscilloscope probes, beware that their 
 Choosing a probe is about more than the number on the package. Consider the importance of component quality, frequency response testing, compensation ability, and physical build to ensure what you measure is actually what you see.
 
 For serious electronics work, don't let a low-quality probe become the weak link that undermines your costly oscilloscope and your engineering efforts. Spend smarter by investing in probes with proven real-world performance. Your measurements—and your sanity—will thank you.
+

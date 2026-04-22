@@ -129,3 +129,4 @@ Software-defined radios (SDRs) are radio receivers (and sometimes transmitters) 
 The tinySA and SDR-based software solutions represent two accessible paths to spectrum analysis for amateurs and semi-professionals. The tinySA excels in portability and ease of use, making it ideal for straightforward, on-the-go measurements. SDR-based spectrum analysis offers flexibility, broad frequency coverage, and powerful software tools for more demanding or experimental work, albeit with greater complexity and hardware needs.
 
 Understanding these spectrum analyzer basics will help you select the right tool for your RF projects and continue building your skills in signal analysis without overspending on professional gear. Both paths provide solid educational value and practical utility in modern RF exploration and experimentation.
+

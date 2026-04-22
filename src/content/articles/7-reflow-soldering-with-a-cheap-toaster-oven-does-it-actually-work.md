@@ -137,3 +137,4 @@ Using a cheap toaster oven for reflow soldering **does actually work** if you're
 However, achieving repeatable, high-quality results demands additional modifications like PID controllers and fans, careful temperature profiling, and continuous monitoring. For small projects, prototyping, or learning, toaster oven reflow is a surprisingly viable option — but for anything beyond that, a more controlled soldering solution is recommended.
 
 By understanding these tradeoffs and implementing smart process controls, you can get impressive solder joints without breaking the bank.
+

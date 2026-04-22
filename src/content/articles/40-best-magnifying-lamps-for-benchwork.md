@@ -153,3 +153,4 @@ Whether you’re refining tiny solder joints, assembling intricate miniatures, o
 | Construction      | Metal frame and clamp preferred |
 
 With these pointers, you’ll be ready to pick a magnifying lamp that fits your bench and workflow perfectly. Happy tinkering!
+

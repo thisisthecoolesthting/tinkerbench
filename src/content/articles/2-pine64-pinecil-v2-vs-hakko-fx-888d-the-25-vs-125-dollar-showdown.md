@@ -194,3 +194,4 @@ If you solder daily or professionally, the Hakko is a sound investment that will
 ---
 
 Choosing between the Pinecil V2 and Hakko FX-888D is essentially a choice between flexibility and proven reliability, at very different price points. Both irons have their merits — your best iron depends on your soldering style, budget, and priorities.
+

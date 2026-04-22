@@ -118,3 +118,4 @@ Always follow proper electrical safety protocols when working near live conducto
 Using a clamp meter to measure current is an excellent way to avoid blowing fuses while gathering essential electrical data. Its non-intrusive operation simplifies the process, safeguards both the operator and equipment, and speeds up diagnostics and maintenance tasks. Understanding the correct technique and limitations ensures accurate and safe current measurement in various applications.
 
 For anyone working regularly around electrical circuits—whether in industrial, residential, or automotive settings—knowing how to use a clamp meter properly is a fundamental skill that promotes both safety and efficiency.
+

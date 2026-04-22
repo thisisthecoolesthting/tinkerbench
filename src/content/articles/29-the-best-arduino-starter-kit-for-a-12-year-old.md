@@ -132,3 +132,4 @@ Before buying, review kit contents and tutorials to ensure they match the childâ
 ---
 
 Feel free to browse starter kits focusing on educational value and practical project guidance tailored for young makers. Armed with the right kit, a 12-year-old can quickly turn curiosity into cool electronics projects and coding skills!
+

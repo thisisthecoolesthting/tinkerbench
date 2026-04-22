@@ -124,3 +124,4 @@ Understanding the limitations of your multimeter’s resistance measurements wil
 ---
 
 If you regularly deal with low-resistance components, learning to use four-wire resistance measurement will elevate the precision and confidence of your work beyond what a typical hand-held meter can offer.
+

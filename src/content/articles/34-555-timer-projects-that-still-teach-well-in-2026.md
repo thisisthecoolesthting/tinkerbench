@@ -250,3 +250,4 @@ Keep experimenting, measuring, and building—there’s a lot the 555 timer can 
 - Electronics hobbyist and maker communities sharing 555 projects  
 
 Approach each project step-by-step, measure real signals with a multimeter or oscilloscope, and enjoy the process of seeing theory come alive through practical circuits.
+

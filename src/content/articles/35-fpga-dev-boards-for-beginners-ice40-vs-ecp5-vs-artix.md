@@ -142,3 +142,4 @@ FPGA development boards come in many flavors, especially at the beginner level. 
 Your choice should revolve around your budget, the scale of projects you want to tackle, and your comfort with tooling. Starting small with an iCE40 or ECP5 board lets you build solid FPGA fundamentals before moving to the more complex and costly Artix boards.
 
 Whatever your pick, FPGA development is a rewarding way to deepen your hardware and embedded systems knowledge, unlocking new possibilities beyond traditional microcontrollers. Happy tinkering!
+

@@ -133,3 +133,4 @@ You’ll find surface-mount parts in most modern electronics due to their size e
 Both through-hole and surface-mount soldering have their place in a beginner’s journey. Through-hole is generally the friendlier starting point with less demand on tools and skills, while surface-mount offers the appeal and challenge of modern electronics assembly.
 
 By understanding these methods, their differences, and when to apply them, you’ll be better equipped to tackle your electronics projects confidently. Start simple, build your skills, and as your experience grows, don’t hesitate to explore surface-mount soldering—a critical skill in today’s compact and intricate electronics landscape.
+

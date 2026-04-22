@@ -118,3 +118,4 @@ This combination saves time while ensuring a clean and damage-free result.
 Both desoldering pumps and braid are valuable tools in the electronics hobbyist or professional toolbox. Pumps shine when you need fast removal of large solder masses, especially on through-hole components. Braid excels at precision and cleaning residual solder, which is important for delicate or surface-mount components.
 
 Learning when and how to use each tool effectively will make your desoldering tasks smoother and keep your PCBs in good shape for rework or repair. For best results, consider using both together — pump first, then braid — for clean, damage-free joints ready for new soldering.
+

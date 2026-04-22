@@ -107,3 +107,4 @@ Both handheld and bench scopes occupy important positions in the optics ecosyste
 Ultimately, many shooters benefit from having access to both, using handheld scopes for scouting and situational awareness, and bench scopes when the action calls for exacting precision.
 
 By considering your environment, shooting style, and the nature of your target engagement, you can select the right optic to enhance accuracy, confidence, and enjoyment in the field or on the range.
+

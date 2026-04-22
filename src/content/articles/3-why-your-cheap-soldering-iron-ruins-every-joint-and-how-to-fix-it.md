@@ -116,3 +116,4 @@ Then it’s time to consider investing in a better soldering iron or soldering s
 Cheap soldering irons can be frustrating, but knowing their common pitfalls helps you adjust your approach and improve results. Focus on maintaining a clean, tinned tip, practicing sound technique, and controlling temperature when possible. These fixes can salvage many cheap irons for hobby-level work.
 
 However, for anyone serious about soldering or handling delicate electronics, spending a bit more for a stable, adjustable iron yields dividends in cleaner joints, less rework, and a more enjoyable soldering experience overall.
+

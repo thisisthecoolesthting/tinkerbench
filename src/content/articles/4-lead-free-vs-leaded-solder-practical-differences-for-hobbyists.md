@@ -107,3 +107,4 @@ Many experienced hobbyists maintain both types for different tasks, choosing lea
 Leaded and lead-free solders each have practical advantages and disadvantages for hobbyists. Leaded solder offers easier handling and lower heat requirements, while lead-free solder aligns better with health and environmental concerns. Understanding these trade-offs can help hobbyists select the right solder for their projects, skill level, and priorities.
 
 By focusing on technique, safety, and quality materials, you can achieve reliable, high-quality solder joints with either type, supporting your broader tinkering and making experience more enjoyable and sustainable.
+

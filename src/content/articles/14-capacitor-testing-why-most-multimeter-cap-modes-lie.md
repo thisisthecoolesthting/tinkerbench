@@ -136,3 +136,4 @@ In practice, if you’re troubleshooting electronics and suspect capacitors, err
 ---
 
 Capacitor testing is more complex than it appears, and understanding the limitations of your tools can save time, frustration, and equipment damage in the long run.
+

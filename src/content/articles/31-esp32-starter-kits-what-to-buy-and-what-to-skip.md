@@ -122,3 +122,4 @@ Pick a kit that leaves room to grow. Avoid kits that include only very basic com
 An ideal ESP32 starter kit balances practical components and avoids unnecessary extras. Prioritize a proven ESP32 board, essential prototyping gear, a small set of common sensors, a neat display for feedback, and solid documentation. Steer clear of bloated kits with too many niche parts or poor overall quality.
 
 With the right starter kit, you’ll spend less time troubleshooting hardware and more time learning the ins and outs of ESP32 development, setting a strong foundation for exciting projects ahead. Happy tinkering!
+

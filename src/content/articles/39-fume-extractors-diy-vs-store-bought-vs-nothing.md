@@ -135,3 +135,4 @@ While DIY and store-bought extractors come with pros and cons, doing nothing is 
 ---
 
 By considering your budget, project frequency, and workspace conditions, you can select the right fume extraction method—keeping your air clean without overspending or compromising safety.
+
