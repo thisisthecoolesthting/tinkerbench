@@ -31,6 +31,18 @@
       "fontCssHref": "https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600;700&display=swap"
     }
   },
+  "persona": {
+    "ymyl": false,
+    "tone": "enthusiast_technical"
+  },
+  "newsletter": {
+    "title": "The TinkerBench weekly",
+    "subtitle": "Practical picks and straight answers from TinkerBench, once a week. No spam.",
+    "kicker": "Stay in the loop"
+  },
+  "supportEmail": "hello@tinkerbench.co",
+  "defaultAuthorSlug": "eli-tinkerbench",
+  "defaultMetaDescription": "Honest reviews of soldering stations, bench multimeters, entry-level oscilloscopes, starter kits, and the small-batch tools that actually matter. Written by someone who spent 40 years in electronics a",
   "homepage": {
     "eyebrow": "Hobby electronics, tested in-shop",
     "h1": "The toolkit for the weekend tinkerer.",
