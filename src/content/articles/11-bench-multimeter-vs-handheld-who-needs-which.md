@@ -5,6 +5,9 @@ topic: '11. Bench multimeter vs handheld: who needs which'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Bench Multimeter vs Handheld: Who Needs Which"
+publishedAt: 2026-04-22
+excerpt: "Bench Multimeter vs Handheld: Who Needs Which"
 ---
 
 ## Bench Multimeter vs Handheld: Who Needs Which

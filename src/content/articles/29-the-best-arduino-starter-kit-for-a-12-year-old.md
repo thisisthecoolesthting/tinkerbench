@@ -5,6 +5,9 @@ topic: 29. The best Arduino starter kit for a 12 year old
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "The Best Arduino Starter Kit for a 12 Year Old"
+publishedAt: 2026-04-22
+excerpt: "The Best Arduino Starter Kit for a 12 Year Old"
 ---
 
 ## The Best Arduino Starter Kit for a 12-Year-Old

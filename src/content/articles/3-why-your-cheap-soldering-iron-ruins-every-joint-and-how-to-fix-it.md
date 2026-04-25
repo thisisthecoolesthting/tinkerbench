@@ -5,6 +5,9 @@ topic: 3. Why your cheap soldering iron ruins every joint and how to fix it
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Why Your Cheap Soldering Iron Ruins Every Joint and How to Fix It"
+publishedAt: 2026-04-22
+excerpt: "Why Your Cheap Soldering Iron Ruins Every Joint and How to Fix It"
 ---
 
 ## Why Your Cheap Soldering Iron Ruins Every Joint and How to Fix It

@@ -5,6 +5,9 @@ topic: 13. Current measurement without blowing the fuse via clamp meter
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Current Measurement Without Blowing the Fuse via Clamp Meter"
+publishedAt: 2026-04-22
+excerpt: "Current Measurement Without Blowing the Fuse via Clamp Meter"
 ---
 
 ## Current Measurement Without Blowing the Fuse via Clamp Meter

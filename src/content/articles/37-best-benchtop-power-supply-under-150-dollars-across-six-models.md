@@ -5,6 +5,9 @@ topic: 37. Best benchtop power supply under 150 dollars across six models
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Best Benchtop Power Supply Under $150: Six Reliable Models Compared"
+publishedAt: 2026-04-22
+excerpt: "Best Benchtop Power Supply Under $150: Six Reliable Models Compared"
 ---
 
 ## Best Benchtop Power Supply Under $150: Six Reliable Models Compared

@@ -5,6 +5,9 @@ topic: 6. Desoldering pumps vs braid and when to use each
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Desoldering Pumps vs. Braid: When to Use Each"
+publishedAt: 2026-04-22
+excerpt: "Desoldering Pumps vs. Braid: When to Use Each"
 ---
 
 ## Desoldering Pumps vs. Braid: When to Use Each

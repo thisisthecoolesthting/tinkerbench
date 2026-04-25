@@ -5,6 +5,9 @@ topic: 40. Best magnifying lamps for benchwork
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Best Magnifying Lamps for Benchwork: Practical Tips and Top Picks"
+publishedAt: 2026-04-22
+excerpt: "Best Magnifying Lamps for Benchwork: Practical Tips and Top Picks"
 ---
 
 ## Best Magnifying Lamps for Benchwork: Practical Tips and Top Picks

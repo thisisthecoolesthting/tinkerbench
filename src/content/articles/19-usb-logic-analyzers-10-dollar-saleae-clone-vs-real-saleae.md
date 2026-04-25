@@ -5,6 +5,9 @@ topic: '19. USB logic analyzers: 10 dollar Saleae clone vs real Saleae'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "USB Logic Analyzers: $10 Saleae Clone vs Real Saleae"
+publishedAt: 2026-04-22
+excerpt: "USB Logic Analyzers: $10 Saleae Clone vs Real Saleae"
 ---
 
 ## USB Logic Analyzers: $10 Saleae Clone vs Real Saleae

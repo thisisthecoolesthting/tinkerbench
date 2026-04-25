@@ -5,6 +5,9 @@ topic: '7. Reflow soldering with a cheap toaster oven: does it actually work?'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Reflow Soldering with a Cheap Toaster Oven: Does It Actually Work?"
+publishedAt: 2026-04-22
+excerpt: "Reflow Soldering with a Cheap Toaster Oven: Does It Actually Work?"
 ---
 
 ## Reflow Soldering with a Cheap Toaster Oven: Does It Actually Work?

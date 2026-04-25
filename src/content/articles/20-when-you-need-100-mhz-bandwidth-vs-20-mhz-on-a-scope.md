@@ -5,6 +5,9 @@ topic: 20. When you need 100 MHz bandwidth vs 20 MHz on a scope
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Understanding Bandwidth in Oscilloscopes: 20 MHz vs 100 MHz"
+publishedAt: 2026-04-22
+excerpt: "Understanding Bandwidth in Oscilloscopes: 20 MHz vs 100 MHz"
 ---
 
 ## Understanding Bandwidth in Oscilloscopes: 20 MHz vs 100 MHz

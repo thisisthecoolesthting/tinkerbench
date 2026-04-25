@@ -5,6 +5,9 @@ topic: '14. Capacitor testing: why most multimeter cap modes lie'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Capacitor Testing: Why Most Multimeter Capacitance Modes Lie"
+publishedAt: 2026-04-22
+excerpt: "Capacitor Testing: Why Most Multimeter Capacitance Modes Lie"
 ---
 
 # Capacitor Testing: Why Most Multimeter Capacitance Modes Lie

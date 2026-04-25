@@ -5,6 +5,9 @@ topic: '23. Bambu A1 vs Prusa MK4 vs Creality K1: the 2026 starter verdict'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "23. Bambu A1 vs Prusa MK4 vs Creality K1: The 2026 Starter Verdict"
+publishedAt: 2026-04-22
+excerpt: "23. Bambu A1 vs Prusa MK4 vs Creality K1: The 2026 Starter Verdict"
 ---
 
 ## 23. Bambu A1 vs Prusa MK4 vs Creality K1: The 2026 Starter Verdict

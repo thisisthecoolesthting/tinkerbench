@@ -5,6 +5,9 @@ topic: 16. The cheapest decent oscilloscope in 2026 after testing 5 units
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "16. The Cheapest Decent Oscilloscope in 2026 After Testing 5 Units"
+publishedAt: 2026-04-22
+excerpt: "16. The Cheapest Decent Oscilloscope in 2026 After Testing 5 Units"
 ---
 
 ## 16. The Cheapest Decent Oscilloscope in 2026 After Testing 5 Units

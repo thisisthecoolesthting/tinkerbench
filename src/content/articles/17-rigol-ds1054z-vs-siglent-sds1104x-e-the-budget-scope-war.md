@@ -5,6 +5,9 @@ topic: '17. Rigol DS1054Z vs Siglent SDS1104X-E: the budget scope war'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "17. Rigol DS1054Z vs Siglent SDS1104X E: The Budget Scope War"
+publishedAt: 2026-04-22
+excerpt: "17. Rigol DS1054Z vs Siglent SDS1104X E: The Budget Scope War"
 ---
 
 ## 17. Rigol DS1054Z vs Siglent SDS1104X-E: The Budget Scope War

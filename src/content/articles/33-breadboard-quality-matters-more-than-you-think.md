@@ -5,6 +5,9 @@ topic: 33. Breadboard quality matters more than you think
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "33. Breadboard Quality Matters More Than You Think"
+publishedAt: 2026-04-22
+excerpt: "33. Breadboard Quality Matters More Than You Think"
 ---
 
 ## 33. Breadboard Quality Matters More Than You Think

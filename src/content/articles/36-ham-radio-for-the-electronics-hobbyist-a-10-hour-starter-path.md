@@ -5,6 +5,9 @@ topic: '36. Ham radio for the electronics hobbyist: a 10-hour starter path'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Ham Radio for the Electronics Hobbyist: A 10 Hour Starter Path"
+publishedAt: 2026-04-22
+excerpt: "Ham Radio for the Electronics Hobbyist: A 10 Hour Starter Path"
 ---
 
 ## Ham Radio for the Electronics Hobbyist: A 10-Hour Starter Path

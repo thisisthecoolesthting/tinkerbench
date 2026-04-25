@@ -5,6 +5,9 @@ topic: 30. Raspberry Pi 5 vs Pi 4 for hobbyist projects
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Raspberry Pi 5 vs Pi 4 for Hobbyist Projects"
+publishedAt: 2026-04-22
+excerpt: "Raspberry Pi 5 vs Pi 4 for Hobbyist Projects"
 ---
 
 ## Raspberry Pi 5 vs Pi 4 for Hobbyist Projects

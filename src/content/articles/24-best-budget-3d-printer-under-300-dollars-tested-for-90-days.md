@@ -5,6 +5,9 @@ topic: 24. Best budget 3D printer under 300 dollars tested for 90 days
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Best Budget 3D Printer Under $300 Tested for 90 Days"
+publishedAt: 2026-04-22
+excerpt: "Best Budget 3D Printer Under $300 Tested for 90 Days"
 ---
 
 ## Best Budget 3D Printer Under $300 Tested for 90 Days

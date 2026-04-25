@@ -5,6 +5,9 @@ topic: '18. Handheld scopes vs bench scopes: real-world verdict'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Handheld Scopes vs Bench Scopes: Real World Verdict"
+publishedAt: 2026-04-22
+excerpt: "Handheld Scopes vs Bench Scopes: Real World Verdict"
 ---
 
 ## Handheld Scopes vs Bench Scopes: Real-World Verdict

@@ -5,6 +5,9 @@ topic: '2. Pine64 Pinecil V2 vs Hakko FX-888D: the 25 vs 125 dollar showdown'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Pine64 Pinecil V2 vs Hakko FX 888D: The $25 vs $125 Soldering Iron Showdown"
+publishedAt: 2026-04-22
+excerpt: "Pine64 Pinecil V2 vs Hakko FX 888D: The $25 vs $125 Soldering Iron Showdown"
 ---
 
 ## Pine64 Pinecil V2 vs Hakko FX-888D: The $25 vs $125 Soldering Iron Showdown

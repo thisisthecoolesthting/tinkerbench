@@ -5,6 +5,9 @@ topic: '4. Lead-free vs leaded solder: practical differences for hobbyists'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Lead Free vs Leaded Solder: Practical Differences for Hobbyists"
+publishedAt: 2026-04-22
+excerpt: "Lead Free vs Leaded Solder: Practical Differences for Hobbyists"
 ---
 
 ## Lead-Free vs Leaded Solder: Practical Differences for Hobbyists

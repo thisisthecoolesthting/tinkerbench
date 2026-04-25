@@ -5,6 +5,9 @@ topic: '21. Scope probes: why the 10 dollar ones lie about bandwidth'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "21. Scope Probes: Why the $10 Ones Lie About Bandwidth"
+publishedAt: 2026-04-22
+excerpt: "21. Scope Probes: Why the $10 Ones Lie About Bandwidth"
 ---
 
 ## 21. Scope Probes: Why the $10 Ones Lie About Bandwidth

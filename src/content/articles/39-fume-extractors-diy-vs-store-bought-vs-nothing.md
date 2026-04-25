@@ -5,6 +5,9 @@ topic: '39. Fume extractors: DIY vs store-bought vs nothing'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Fume Extractors: DIY vs Store Bought vs Nothing"
+publishedAt: 2026-04-22
+excerpt: "Fume Extractors: DIY vs Store Bought vs Nothing"
 ---
 
 ## Fume Extractors: DIY vs Store-Bought vs Nothing

@@ -5,6 +5,9 @@ topic: '25. Resin vs FDM for the hobby bench: not what you think'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Resin vs FDM for the Hobby Bench: Not What You Think"
+publishedAt: 2026-04-22
+excerpt: "Resin vs FDM for the Hobby Bench: Not What You Think"
 ---
 
 ## Resin vs FDM for the Hobby Bench: Not What You Think

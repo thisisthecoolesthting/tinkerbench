@@ -5,6 +5,9 @@ topic: 8. Through-hole vs surface-mount soldering for beginners
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Through Hole vs Surface Mount Soldering for Beginners"
+publishedAt: 2026-04-22
+excerpt: "Through Hole vs Surface Mount Soldering for Beginners"
 ---
 
 ## Through-Hole vs Surface-Mount Soldering for Beginners

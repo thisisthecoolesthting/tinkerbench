@@ -5,6 +5,9 @@ topic: 15. Continuity beeper lag and why it matters for ESD-sensitive work
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "15. Continuity Beeper Lag and Why It Matters for ESD Sensitive Work"
+publishedAt: 2026-04-22
+excerpt: "15. Continuity Beeper Lag and Why It Matters for ESD Sensitive Work"
 ---
 
 ## 15. Continuity Beeper Lag and Why It Matters for ESD-Sensitive Work

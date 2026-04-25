@@ -5,6 +5,9 @@ topic: '32. Kit brands ranked: Elegoo vs SunFounder vs Osoyoo'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Kit Brands Ranked: Elegoo vs SunFounder vs Osoyoo"
+publishedAt: 2026-04-22
+excerpt: "Kit Brands Ranked: Elegoo vs SunFounder vs Osoyoo"
 ---
 
 ## Kit Brands Ranked: Elegoo vs SunFounder vs Osoyoo

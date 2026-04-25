@@ -5,6 +5,9 @@ topic: '27. Filament storage: dry boxes vs vacuum sealing'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Filament Storage: Dry Boxes vs Vacuum Sealing"
+publishedAt: 2026-04-22
+excerpt: "Filament Storage: Dry Boxes vs Vacuum Sealing"
 ---
 
 ## Filament Storage: Dry Boxes vs Vacuum Sealing

@@ -5,6 +5,9 @@ topic: '35. FPGA dev boards for beginners: iCE40 vs ECP5 vs Artix'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "FPGA Dev Boards for Beginners: iCE40 vs ECP5 vs Artix"
+publishedAt: 2026-04-22
+excerpt: "FPGA Dev Boards for Beginners: iCE40 vs ECP5 vs Artix"
 ---
 
 ## FPGA Dev Boards for Beginners: iCE40 vs ECP5 vs Artix

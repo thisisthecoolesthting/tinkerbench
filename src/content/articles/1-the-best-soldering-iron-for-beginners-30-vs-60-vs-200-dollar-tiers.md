@@ -5,6 +5,9 @@ topic: '1. The best soldering iron for beginners: 30 vs 60 vs 200 dollar tiers'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "The Best Soldering Iron for Beginners: $30 vs $60 vs $200 Tiers"
+publishedAt: 2026-04-22
+excerpt: "The Best Soldering Iron for Beginners: $30 vs $60 vs $200 Tiers"
 ---
 
 ## The Best Soldering Iron for Beginners: $30 vs $60 vs $200 Tiers

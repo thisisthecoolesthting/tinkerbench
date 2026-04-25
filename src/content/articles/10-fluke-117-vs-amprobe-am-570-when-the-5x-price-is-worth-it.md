@@ -5,6 +5,9 @@ topic: '10. Fluke 117 vs Amprobe AM-570: when the 5x price is worth it'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Fluke 117 vs Amprobe AM 570: When the 5x Price is Worth It"
+publishedAt: 2026-04-22
+excerpt: "Fluke 117 vs Amprobe AM 570: When the 5x Price is Worth It"
 ---
 
 ## Fluke 117 vs Amprobe AM-570: When the 5x Price is Worth It

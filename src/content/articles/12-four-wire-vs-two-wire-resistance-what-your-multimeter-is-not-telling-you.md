@@ -7,6 +7,9 @@ topic: '12. Four-wire vs two-wire resistance: what your multimeter is not tellin
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "Four Wire vs Two Wire Resistance: What Your Multimeter Is Not Telling You"
+publishedAt: 2026-04-22
+excerpt: "Four Wire vs Two Wire Resistance: What Your Multimeter Is Not Telling You"
 ---
 
 ## Four-Wire vs Two-Wire Resistance: What Your Multimeter Is Not Telling You

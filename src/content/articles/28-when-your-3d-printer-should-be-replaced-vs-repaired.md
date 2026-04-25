@@ -5,6 +5,9 @@ topic: 28. When your 3D printer should be replaced vs repaired
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "When Your 3D Printer Should Be Replaced vs Repaired"
+publishedAt: 2026-04-22
+excerpt: "When Your 3D Printer Should Be Replaced vs Repaired"
 ---
 
 ## When Your 3D Printer Should Be Replaced vs Repaired

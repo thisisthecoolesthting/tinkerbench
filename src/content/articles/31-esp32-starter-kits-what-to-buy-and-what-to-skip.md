@@ -5,6 +5,9 @@ topic: '31. ESP32 starter kits: what to buy and what to skip'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "31. ESP32 Starter Kits: What to Buy and What to Skip"
+publishedAt: 2026-04-22
+excerpt: "31. ESP32 Starter Kits: What to Buy and What to Skip"
 ---
 
 ## 31. ESP32 Starter Kits: What to Buy and What to Skip

@@ -5,6 +5,9 @@ topic: 9. The best multimeter under 50 dollars reviewed across 8 models
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "The Best Multimeter Under $50 Reviewed Across 8 Models"
+publishedAt: 2026-04-22
+excerpt: "The Best Multimeter Under $50 Reviewed Across 8 Models"
 ---
 
 ## The Best Multimeter Under $50 Reviewed Across 8 Models

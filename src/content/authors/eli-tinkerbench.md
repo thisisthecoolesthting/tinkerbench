@@ -3,7 +3,10 @@ name: Eli Brooks
 slug: eli-tinkerbench
 role: Senior Editor
 site: TinkerBench
+photoUrl: "/authors/eli-tinkerbench.svg"
+shortBio: "Eli — TinkerBench"
 ---
+
 # Eli — TinkerBench
 
 We test gear and read specs so you can shortlist with confidence.

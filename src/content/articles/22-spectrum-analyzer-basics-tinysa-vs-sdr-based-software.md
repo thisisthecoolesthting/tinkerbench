@@ -5,6 +5,9 @@ topic: '22. Spectrum analyzer basics: tinySA vs SDR-based software'
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "22. Spectrum Analyzer Basics: TinySA vs SDR Based Software"
+publishedAt: 2026-04-22
+excerpt: "22. Spectrum Analyzer Basics: TinySA vs SDR Based Software"
 ---
 
 ## 22. Spectrum Analyzer Basics: TinySA vs SDR-Based Software

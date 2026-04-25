@@ -5,6 +5,9 @@ topic: 34. 555 timer projects that still teach well in 2026
 tier: mvp
 relatedProducts: []
 status: published
+metaDescription: "34. 555 Timer Projects That Still Teach Well in 2026"
+publishedAt: 2026-04-22
+excerpt: "34. 555 Timer Projects That Still Teach Well in 2026"
 ---
 
 ## 34. 555 Timer Projects That Still Teach Well in 2026
