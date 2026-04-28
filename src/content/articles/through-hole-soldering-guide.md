@@ -14,7 +14,7 @@ relatedProducts:
 - B0GF25F12C
 - B0F54TYKF9
 - B00063RWT8
-status: draft
+status: published
 tags:
 - through-hole soldering
 - soldering tutorial

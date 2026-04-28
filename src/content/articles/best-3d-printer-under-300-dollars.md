@@ -15,7 +15,7 @@ relatedProducts:
 - B0G3BYYZN2
 - B0GKFZ9SRL
 - B0C7SX1H6J
-status: draft
+status: published
 tags:
 - 3d-printing
 - beginners

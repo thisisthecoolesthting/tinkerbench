@@ -7,7 +7,7 @@ excerpt: The Hakko FX-888D is a proven workhorse; the Pinecil offers USB-C porta
   at a fraction of the cost. We tested both irons through 30+ days of real projects
   to help you pick the right tool for your bench.
 pillarSlug: essential-bench-tools
-status: draft
+status: published
 tags:
 - soldering-irons
 - hakko

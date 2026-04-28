@@ -15,7 +15,7 @@ relatedProducts:
 - B0GF25F12C
 - B0F54TYKF9
 - B085VZPR2Y
-status: draft
+status: published
 tags:
 - multimeter
 - bench-tools

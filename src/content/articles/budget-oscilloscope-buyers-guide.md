@@ -7,7 +7,7 @@ excerpt: Cut through the marketing hype with our hands-on testing of affordable 
   We compare bandwidth, sample rates, and durability to find tools that won't fail
   your bench projects.
 pillarSlug: measurement-and-analysis
-status: draft
+status: published
 tags:
 - oscilloscope
 - budget-electronics

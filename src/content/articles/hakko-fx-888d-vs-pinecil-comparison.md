@@ -15,7 +15,7 @@ relatedProducts:
 - B09N9SR36W
 - B0GF25F12C
 - B0846GFNCQ
-status: draft
+status: published
 tags:
 - soldering-iron
 - hakko-fx-888d

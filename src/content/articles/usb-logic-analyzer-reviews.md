@@ -8,7 +8,7 @@ excerpt: From 8-channel workhorses to 24MHz sampling beasts, we bench-test seven
   logic analyzers under $200. Learn which models handle I2C debugging best, which
   software won't crash mid-capture, and when to step up to a professional tool.
 pillarSlug: measurement-and-analysis
-status: draft
+status: published
 tags:
 - logic analyzer
 - digital debugging

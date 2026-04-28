@@ -9,7 +9,7 @@ excerpt: Through-hole soldering is the foundation of reliable electronics work. 
   wreck pads—so you can build circuits that last decades instead of failing during
   debugging.
 pillarSlug: getting-started
-status: draft
+status: published
 tags:
 - soldering
 - through-hole

@@ -8,7 +8,7 @@ excerpt: Choosing your first soldering iron? We tested 8 models under $100 for t
   stability, tip longevity, and ease of use. Here’s how the Hakko FX-888D, Pinecil,
   and budget options stack up for hobbyists.
 pillarSlug: soldering-essentials
-status: draft
+status: published
 tags:
 - soldering
 - beginner electronics

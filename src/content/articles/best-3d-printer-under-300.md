@@ -11,7 +11,7 @@ excerpt: After 120 hours of test prints across seven sub-$300  3D printers, we r
   which ones to avoid.
 publishedAt: '2026-04-28'
 pillarSlug: advanced-maker-tech
-status: draft
+status: published
 tags:
 - 3d-printing
 - budget-tech

@@ -8,7 +8,7 @@ excerpt: Selecting the right benchtop power supply can make or break your electr
   projects. We compare top models, analyze performance, and break down costs to help
   you find the perfect fit for your workbench.
 pillarSlug: measurement-and-analysis
-status: draft
+status: published
 tags:
 - benchtop power supply
 - electronics tools

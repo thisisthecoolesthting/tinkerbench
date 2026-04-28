@@ -15,7 +15,7 @@ relatedProducts:
 - B0GF25F12C
 - B0F4X2YBP1
 - B00063RWT8
-status: draft
+status: published
 tags:
 - soldering
 - through-hole

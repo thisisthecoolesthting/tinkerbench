@@ -10,7 +10,7 @@ excerpt: Arduino starter kits promise an easy entry into electronics, but are th
   makers, measured component durability, and mapped exactly when each kit pays for
   itself.
 pillarSlug: getting-started
-status: draft
+status: published
 tags:
 - arduino
 - starter-kits

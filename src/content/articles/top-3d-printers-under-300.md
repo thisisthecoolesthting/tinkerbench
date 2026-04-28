@@ -15,7 +15,7 @@ relatedProducts:
 - B0CGW2TFSV
 - B0CGW48C3G
 - B0C7SX1H6J
-status: draft
+status: published
 tags:
 - 3d-printing
 - beginners-guide

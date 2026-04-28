@@ -15,7 +15,7 @@ relatedProducts:
 - B0GF25F12C
 - B0846GFNCQ
 - B0F54TYKF9
-status: draft
+status: published
 tags:
 - soldering
 - hakko

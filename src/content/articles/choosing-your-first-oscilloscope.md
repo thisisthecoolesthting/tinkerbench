@@ -7,7 +7,7 @@ excerpt: Picking your first oscilloscope doesn't have to be overwhelming. This g
   compares key models, explains real-world performance tradeoffs, and helps you avoid
   common beginner mistakes.
 pillarSlug: measurement-and-analysis
-status: draft
+status: published
 tags:
 - oscilloscope
 - electronics tools

@@ -9,7 +9,7 @@ excerpt: Most budget oscilloscopes lie about bandwidth. We tested six models und
   toys—with hard data on which three actually work for Arduino, power supplies, and
   protocol decoding.
 pillarSlug: precision-measurement
-status: draft
+status: published
 tags:
 - oscilloscope
 - bench-tools

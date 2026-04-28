@@ -17,7 +17,7 @@ relatedProducts:
 - B0846GFNCQ
 - B0C7ZTV376
 - B099NZC4PB
-status: draft
+status: published
 tags:
 - raspberry-pi-5
 - beginner-projects

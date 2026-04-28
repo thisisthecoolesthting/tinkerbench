@@ -8,7 +8,7 @@ excerpt: Choosing your first Arduino kit is overwhelming. We tested 12 popular k
   for 30+ days each, evaluating component quality, documentation, and real project
   viability. Here’s what actually works for hobbyists.
 pillarSlug: prototyping-and-fabrication
-status: draft
+status: published
 tags:
 - arduino
 - starter-kit

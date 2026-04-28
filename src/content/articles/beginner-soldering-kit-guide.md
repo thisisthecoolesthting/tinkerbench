@@ -8,7 +8,7 @@ excerpt: Tested 18 beginner soldering kits on actual projects. The Pinecil V2 an
   X-Tronic 3020-XTS outperformed $300 stations. Learn which tools last, which fail
   fast, and why cheap irons destroy more boards than they build.
 pillarSlug: soldering-essentials
-status: draft
+status: published
 tags:
 - soldering iron
 - beginner electronics

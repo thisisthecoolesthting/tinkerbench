@@ -8,7 +8,7 @@ excerpt: Choosing between a bench multimeter and a handheld depends on your work
   budget, and measurement precision needs. We break down the real differences, costs,
   and best use cases for each type.
 pillarSlug: essential-bench-tools
-status: draft
+status: published
 tags:
 - multimeters
 - bench-tools

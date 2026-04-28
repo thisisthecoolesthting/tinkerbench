@@ -7,7 +7,7 @@ excerpt: We tested six 24MHz USB logic analyzers for signal accuracy, software c
   and durability across 30+ projects. Here’s how they stack up for Arduino, Raspberry
   Pi, and FPGA debugging.
 pillarSlug: measurement-and-analysis
-status: draft
+status: published
 tags:
 - logic analyzer
 - digital debugging

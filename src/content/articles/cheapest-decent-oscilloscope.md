@@ -9,7 +9,7 @@ excerpt: Budget oscilloscopes range from $89 USB dongles to $400 four-channel un
   PWM, switch-mode supplies, I2C debugging—to find where the sweet spot between price
   and usability actually sits.
 pillarSlug: essential-bench-tools
-status: draft
+status: published
 tags:
 - oscilloscopes
 - budget-electronics

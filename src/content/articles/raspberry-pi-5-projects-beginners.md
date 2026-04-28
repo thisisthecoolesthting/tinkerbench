@@ -9,7 +9,7 @@ excerpt: 'The Raspberry Pi 5 is the most capable—and beginner-friendly—singl
   ad blocker, home automation hub, weather station, and media server. Each includes
   component lists, performance benchmarks, and three budget tiers starting at $89.'
 pillarSlug: getting-started
-status: draft
+status: published
 tags:
 - raspberry-pi-5
 - beginner-projects
