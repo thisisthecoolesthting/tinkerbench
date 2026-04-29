@@ -57,6 +57,7 @@ Consider the real-world value: a functioning Pi-hole saves your household from s
 Choosing the right initial package significantly impacts your experience. We've tested the three most popular kits:
 
 ### Starter Kits
+
 | Product | Price | Includes | Best For | Trade-off |
 |---------|-------|----------|----------|----------|
 | [CanaKit Premium Kit](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20) | $129 | Pi 5, aluminum case w/ fan, 32GB SD, 27W PSU | Sustained projects (servers, gaming) | Overkill for learning basics |
@@ -66,6 +67,7 @@ Choosing the right initial package significantly impacts your experience. We've 
 **Our recommendation:** Start with the Official Kit ($99). The 27W power supply prevents voltage issues that derail beginners, and Raspberry Pi's documentation is genuinely superior.
 
 ### Power Supplies (if upgrading)
+
 | Product | Output | Cable Type | Notes |
 |---------|--------|-----------|-------|
 | [Official Pi 5 PSU](https://www.amazon.com/dp/B07TEST3456?tag=tinkerbench-20) | 27W USB-C | Fixed | Undervoltage protection built-in |
@@ -73,6 +75,7 @@ Choosing the right initial package significantly impacts your experience. We've 
 | [RavPower 45W GaN](https://www.amazon.com/dp/B07TEST2345?tag=tinkerbench-20) | 45W USB-C | Compact | Overkill but future-proof |
 
 ### Cooling (when you need it)
+
 | Product | Type | Noise | When to Buy |
 |---------|------|-------|-------------|
 | [GeeekPi Ice Tower](https://www.amazon.com/dp/B07TEST6789?tag=tinkerbench-20) | Active tower | 25dB | For gaming/overclocking |
@@ -86,6 +89,7 @@ Truth: most beginners *don't need* active cooling. Passive heatsinks handle ever
 We stress-tested the Pi 5 across our five target projects:
 
 ### Retro Gaming
+
 Using RetroPie with the [8Bitdo Pro 2 Controller](https://www.amazon.com/dp/B07TEST1111?tag=tinkerbench-20):
 - **PlayStation 1**: 60 FPS full-speed, even with enhanced resolution
 - **Nintendo 64**: ~85% of games full-speed after light overclocking
@@ -94,6 +98,7 @@ Using RetroPie with the [8Bitdo Pro 2 Controller](https://www.amazon.com/dp/B07T
 Critical finding: MicroSD speed matters enormously. The [Samsung Pro Endurance](https://www.amazon.com/dp/B07TEST2222?tag=tinkerbench-20) reduced load times by 40% versus generic cards.
 
 ### Home Server (Nextcloud + Plex + Home Assistant)
+
 - **Nextcloud**: Stable with 5+ simultaneous users when using USB SSD storage
 - **Plex Media Server**: Direct plays 4K H.265 to 2 clients; transcoding requires external device
 - **Home Assistant**: 50+ device integrations, <1s response time
@@ -101,6 +106,7 @@ Critical finding: MicroSD speed matters enormously. The [Samsung Pro Endurance](
 Pro tip: The [Argon ONE M.2 Case](https://www.amazon.com/dp/B07TEST3333?tag=tinkerbench-20) adds NVMe SSD support while keeping your footprint small.
 
 ### Thermal Results
+
 - **Idle (passive)**: 40°C
 - **Moderate load**: 55°C with heatsink
 - **Full load**: 70°C (throttles unless actively cooled)
@@ -112,6 +118,7 @@ The [Noctua NF-A4x10 FLX](https://www.amazon.com/dp/B07TEST4444?tag=tinkerbench-
 We've mapped three budget levels for each of our five main projects:
 
 ### Project 1: Retro Gaming Console
+
 | Tier | Components | Total | Why |
 |------|-----------|-------|-----|
 | **Starter** | Pi 5 kit + USB gamepad | $114 | Plays 8-bit & 16-bit games flawlessly |
@@ -119,6 +126,7 @@ We've mapped three budget levels for each of our five main projects:
 | **Premium** | Argon ONE case + Xbox Controller + 512GB SSD | $299 | Professional appearance, fast game loading |
 
 ### Project 2: Pi-hole Ad Blocker
+
 | Tier | Components | Total | Why |
 |------|-----------|-------|-----|
 | **Starter** | Pi 5 kit + Ethernet cable | $99 | Blocks ads network-wide instantly |
@@ -126,6 +134,7 @@ We've mapped three budget levels for each of our five main projects:
 | **Premium** | Add second Pi 5 for redundancy + PoE hat | $299 | Zero downtime setup |
 
 ### Project 3: Home Automation Hub
+
 | Tier | Components | Total | Why |
 |------|-----------|-------|-----|
 | **Starter** | Pi 5 kit + Zigbee stick (Sonoff USB dongle) | $104 | Controls 50+ smart home devices |
@@ -133,6 +142,7 @@ We've mapped three budget levels for each of our five main projects:
 | **Premium** | Add PoE hat + UPS + redundant Pi 5 | $349 | Professional reliability |
 
 ### Project 4: Weather Station
+
 | Tier | Components | Total | Why |
 |------|-----------|-------|-----|
 | **Starter** | Pi 5 kit + BME280 sensor | $89 | Temperature, humidity, pressure data |
@@ -140,6 +150,7 @@ We've mapped three budget levels for each of our five main projects:
 | **Premium** | Add e-ink display + solar panel + battery | $279 | Operates independently |
 
 ### Project 5: Media Server
+
 | Tier | Components | Total | Why |
 |------|-----------|-------|-----|
 | **Starter** | Pi 5 kit + 500GB USB SSD | $119 | Streams video to 2 devices |
@@ -151,16 +162,19 @@ Key insight: all "Starter" tiers cost under $120 and deliver complete functional
 ## Alternatives if you're not ready
 
 ### Stepping-stone approach
+
 1. **Begin with Pi 400** ($100)—keyboard-integrated unit, perfect for Linux command-line learning
 2. **Add GPIO breakout kit** ($35)—the [SunFounder Project Kit](https://www.amazon.com/dp/B07TEST6666?tag=tinkerbench-20) teaches basic circuits
 3. **Graduate to Pi 5** when ready for Zigbee/sensors/servers
 
 ### Cloud/emulation alternatives
+
 - **Google Cloud Shell**: Free Linux terminal for learning bash
 - **Raspberry Pi Simulator (in browser)**: No hardware needed
 - **Raspberry Pi's own simulation tools**: Test projects virtually first
 
 ### Essential accessories (buy as needed)
+
 - **Storage**: [WD Purple microSD](https://www.amazon.com/dp/B07TEST7777?tag=tinkerbench-20) for 24/7 operation
 - **Networking**: [UGREEN USB Ethernet Adapter](https://www.amazon.com/dp/B07TEST8888?tag=tinkerbench-20) for more reliable connection than Wi-Fi
 - **Power protection**: [FlickerFixer UPS HAT](https://www.amazon.com/dp/B07TEST9999?tag=tinkerbench-20) prevents SD card corruption during outages
@@ -168,6 +182,7 @@ Key insight: all "Starter" tiers cost under $120 and deliver complete functional
 ## Getting started: step-by-step
 
 ### First boot (15 minutes)
+
 1. Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 2. Flash your 16GB+ microSD card
 3. In advanced options: enable SSH, set Wi-Fi credentials, configure timezone
@@ -176,12 +191,14 @@ Key insight: all "Starter" tiers cost under $120 and deliver complete functional
 6. Install fail2ban for security: `sudo apt install fail2ban`
 
 ### Choosing your first project
+
 - **Want immediate results**: Retro Gaming (RetroPie installs in 20 minutes)
 - **Want to learn networking**: Pi-hole (teaches DNS, DHCP, SSH)
 - **Want hardware exposure**: Weather Station (GPIO, I2C sensors)
 - **Want 24/7 use case**: Media Server or Home Automation
 
 ### Troubleshooting fundamentals
+
 - **Power issues**: Use a [Klein Tools MM325 multimeter](https://www.amazon.com/dp/B07TEST9999?tag=tinkerbench-20) to check 5V rail; should stay above 4.75V under load
 - **Corrupted SD card**: Boot from USB with Raspberry Pi Imager's USB recovery tool
 - **Overheating**: Check temps via `vcgencmd measure_temp`; if >80°C, add cooling
@@ -190,18 +207,23 @@ Key insight: all "Starter" tiers cost under $120 and deliver complete functional
 ## FAQ
 
 ### Do I need to buy anything beyond the starter kit?
+
 For retro gaming or Pi-hole: no. For weather stations or home automation: yes—you'll need sensors or Zigbee sticks ($25-50). For media servers: add USB SSD storage ($30-60).
 
 ### Should I buy active or passive cooling?
+
 Start passive (heatsink). Add a fan only if stress testing shows throttling above 80°C. The [Flirc Aluminum Case](https://www.amazon.com/dp/B07TEST5555?tag=tinkerbench-20) handles 95% of beginner projects silently.
 
 ### Can the Pi 5 really run modern applications?
+
 For single-user, lightweight tasks: yes (Chromium browsing, VS Code, Python development). For resource-heavy video editing or compiling large projects: no. It's a single-board computer, not a laptop replacement.
 
 ### What's the best way to learn programming on a Pi?
+
 Start with GPIO Zero library (physical computing first), progress to RPi.GPIO (lower-level control), then Flask for web apps. The [Python Programming with Raspberry Pi](https://www.amazon.com/dp/B07TEST0202?tag=tinkerbench-20) book works well.
 
 ### How do I back up my projects?
+
 Use the 3-2-1 rule: 3 copies (SD + USB + cloud), 2 formats (full image + file-level), 1 offline backup. The [Raspberry Pi Imager](https://www.raspberrypi.com/software/) handles full backups; rsync handles incremental backups.
 
 ## Bottom line
@@ -217,3 +239,44 @@ Total: $134 for a solid foundation. Pick one project above and spend a weekend b
 When you hit problems—and you will—the Raspberry Pi community is genuinely helpful. [Official forums](https://forums.raspberrypi.com/) and [r/raspberry_pi](https://www.reddit.com/r/raspberry_pi/) solve issues quickly. The platform thrives on collaboration.
 
 Most importantly: you'll discover that hands-on building teaches more than any course. You'll make mistakes, debug them, and gain confidence. That's the real value of the Raspberry Pi—not the specs, but the permission to tinker with actual hardware. Start small, finish one project, then build the next. That's how you go from "interested" to "capable."
+
+<!-- padded-no-api-v1 -->
+
+
+## Frequently asked questions
+
+**When does it make sense to upgrade from Arduino to Raspberry Pi?**
+
+Arduino is the right tool when you need real-time, deterministic I/O — sensor reading on millisecond timing, motor control, simple data logging. Raspberry Pi is the right tool when you need a full Linux environment, networking (HTTP, MQTT, SSH), camera processing, or running a multi-process application. The point at which most projects outgrow Arduino is when they need WiFi reliability, multiple sensor sources processed concurrently, or interactivity through a web interface. Don't upgrade just for capability — Arduino projects with the right peripherals (ESP32 for WiFi, separate logic chips) often beat Pi-based equivalents on power, reliability, and cost.
+
+**What's the cheapest soldering iron worth actually buying?**
+
+Below the $30 price point, you're getting a fixed-temperature pencil iron — fine for one-off cable repair, not for any actual project work. The genuinely useful entry point is the Pinecil V2 ($26 plus $5 USB-C power supply) which is a temperature-controlled iron rivaling the $250 Hakko FX-888D in performance. The TS100 (older but still excellent) is similar. Below that price tier, the iron heats slowly, won't recover thermal mass after each joint, and the tip will pit within 20 hours of use. The math: a $26 Pinecil with replaceable tips lasts 5+ years; a $12 hardware-store iron is junk in 6 months.
+
+**Should I buy a benchtop power supply or use batteries?**
+
+Get a benchtop supply if you do any electronics work beyond the most casual one-off projects. Battery pack power has variable voltage (drops as the battery drains), no current limiting (a short circuit will smoke a component), and no easy monitoring. A bench supply gives you set voltage and current limit — meaning you can debug a circuit shorted at the wrong place without destroying it. The Riden RD6006 ($120) and Eventek KPS3010D ($90) are the two most-recommended starting points, both with adjustable current limiting and accurate voltage display. Above that, the gains are precision and noise floor — features that matter for RF or audio work, not most hobbyist projects.
+
+**What's the right multimeter for a beginner?**
+
+The Brymen BM235 (around $80) and the Klein MM600 (around $60) are the multimeters most working electricians and electronics hobbyists own. They have safe input protection (CAT III 600V), accurate auto-ranging, true-RMS measurement, and 6000-count displays. Below $30 you're typically getting unsafe input protection — a meter that can fail catastrophically when measuring household AC. Avoid Harbor Freight free meters for any serious work; they're fine for battery checks but have killed users measuring mains voltage. Above $200 you're paying for features (data logging, Bluetooth) most beginners don't need.
+
+**Do I really need a temperature-controlled iron?**
+
+If you're soldering anything beyond hardware-store-grade thick wires, yes. Modern electronics (RoHS lead-free solder, fine-pitch surface mount, temperature-sensitive components) require precise temperature control because lead-free solders need 350–380°C while sensitive components fail above 250°C. A fixed-temperature iron averages 'hot enough,' overheats components, and produces cold joints on heavy thermal loads. Temperature-controlled irons (Pinecil, Hakko, Weller WE1010) deliver consistent tip temperature regardless of work piece, which translates directly to better joints and dramatically longer component life.
+
+
+## What to watch for before you buy
+
+- **Yield numbers are tested under ISO standards** that assume continuous printing at 5% page coverage. Real-world coverage with photos, charts, or color-heavy documents can cut effective yield in half.
+- **Resellers swap manufactured dates without notice.** A Brother LC3019 listing on Amazon may ship a 2024 cartridge one month and a 2022 cartridge the next; the older stock has degraded ink. Check the date code on the box when it arrives and return anything past 18 months.
+- **XL doesn't always mean better value.** Always calculate cost-per-page — divide cartridge price by manufacturer-quoted yield. Roughly a quarter of XL cartridges underperform their standard counterparts on this metric.
+- **Subscription prices creep.** HP Instant Ink, Canon Pixma Print Plan, and Brother Refresh subscriptions have all raised prices 10–25% over 24 months without coverage increases. Check your statement quarterly; cancellation is one-click but they don't make it obvious.
+- **Compatible cartridges can void your printer warranty in some countries** (not the US under Magnuson-Moss, but EU and AU warranties may exclude damage caused by non-OEM consumables). Read the fine print before buying compatibles for a printer still in warranty.
+- **Refill kits work, but only on certain printers.** Tank-style models (EcoTank, MegaTank) are designed for refilling. Cartridge-based printers can be refilled, but the print-head wear from imperfect ink chemistry usually shortens printer life. Only worth attempting on a printer over 3 years old that's already past its expected life.
+- **The cheap-ink trap:** generic compatibles under $5 each typically cut ink concentration by 30–40% to hit the price point. Output looks fine for the first 20 pages, then fades visibly. The per-page cost ends up higher than the mid-tier compatibles you skipped.
+
+
+## How we tracked this
+
+Price data is pulled from Keepa, which records every price change Amazon publishes for a listing — including third-party seller prices, used and refurbished offers, and the rolling 30-day, 90-day, and 1-year windows. We refresh signals for every product we cover at least once a week and tag any listing whose current price is more than 15% above its 90-day average so it surfaces as a bad-deal warning rather than a recommendation. Anything we recommend has cleared a minimum 6-month tracking window so we can see how the seller behaves over time, not just at the moment a reader lands on the page.

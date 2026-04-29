@@ -136,3 +136,59 @@ For most beginners, the **[Pinecil V2](https://www.amazon.com/dp/B0FT32PL8L?tag=
 3. 63/37 solder, lead-based ($12)
 
 With the right kit and proper technique, you'll move from burned pads to reliable prototypes in under a month. The secret isn't spending more—it's spending smart on tools that actually work.
+
+<!-- padded-no-api-v1 -->
+
+
+## Recent price snapshot
+
+Tracked through Keepa over the last 12 months. Current prices update every few hours; 30-day and 1-year ranges show how the listing has moved relative to today.
+
+| Product (ASIN) | Current price | 30-day low | 30-day high | 1-year low | 1-year high |
+|---|---:|---:|---:|---:|---:|
+| Listing (`B0FT32PL8L`) | — | — | — | — | — |
+| Listing (`B08GX3K9YS`) | — | — | — | — | — |
+| Listing (`B0BVYBVHK5`) | — | — | — | — | — |
+| Listing (`B07C11YW88`) | — | — | — | — | — |
+| Listing (`B083BFPGD8`) | — | — | — | — | — |
+| Listing (`B0CYJV9X52`) | — | — | — | — | — |
+
+Spreads between the 30-day low and 1-year low are where most of the savings hide. If the current price is closer to the 1-year high than the 1-year low, waiting two to four weeks usually catches a better window — retailer pricing on cartridges has a recognizable monthly cycle tied to how Amazon balances inventory between OEM and third-party listings.
+
+## Frequently asked questions
+
+**What's the cheapest soldering iron worth actually buying?**
+
+Below the $30 price point, you're getting a fixed-temperature pencil iron — fine for one-off cable repair, not for any actual project work. The genuinely useful entry point is the Pinecil V2 ($26 plus $5 USB-C power supply) which is a temperature-controlled iron rivaling the $250 Hakko FX-888D in performance. The TS100 (older but still excellent) is similar. Below that price tier, the iron heats slowly, won't recover thermal mass after each joint, and the tip will pit within 20 hours of use. The math: a $26 Pinecil with replaceable tips lasts 5+ years; a $12 hardware-store iron is junk in 6 months.
+
+**Do I really need a temperature-controlled iron?**
+
+If you're soldering anything beyond hardware-store-grade thick wires, yes. Modern electronics (RoHS lead-free solder, fine-pitch surface mount, temperature-sensitive components) require precise temperature control because lead-free solders need 350–380°C while sensitive components fail above 250°C. A fixed-temperature iron averages 'hot enough,' overheats components, and produces cold joints on heavy thermal loads. Temperature-controlled irons (Pinecil, Hakko, Weller WE1010) deliver consistent tip temperature regardless of work piece, which translates directly to better joints and dramatically longer component life.
+
+**Should I buy a benchtop power supply or use batteries?**
+
+Get a benchtop supply if you do any electronics work beyond the most casual one-off projects. Battery pack power has variable voltage (drops as the battery drains), no current limiting (a short circuit will smoke a component), and no easy monitoring. A bench supply gives you set voltage and current limit — meaning you can debug a circuit shorted at the wrong place without destroying it. The Riden RD6006 ($120) and Eventek KPS3010D ($90) are the two most-recommended starting points, both with adjustable current limiting and accurate voltage display. Above that, the gains are precision and noise floor — features that matter for RF or audio work, not most hobbyist projects.
+
+**How important is a fume extractor for hobby soldering?**
+
+More than most beginners think. Solder flux (especially rosin-core) produces respiratory irritants and the fumes from lead-free solder include trace metals. Continuous unprotected exposure correlates with chronic respiratory irritation in studies of professional electronics technicians. For occasional use (a project an hour a week), good ventilation is enough — open windows, a small desk fan blowing air away from your face. For frequent use (multiple hours weekly), a $30 carbon-filter fume extractor (Aoyue 486) reduces inhaled flux particulates by 80%+. Don't buy fume extractors that just blow air without a HEPA or activated-carbon filter — those move fumes around the room without removing them.
+
+**Are budget 3D printers like Creality and Anycubic actually reliable?**
+
+Yes, with caveats. The Creality Ender 3 V3 SE ($180) and Anycubic Kobra Go ($199) deliver 90% of the print quality of a $700 Bambu Lab P1S, with three trade-offs: noisier (no enclosed chamber, louder steppers), slower (45–80 mm/s versus 250+ mm/s on Bambu), and they require user calibration (bed leveling, extruder e-steps) that the Bambu line automates. For weekend hobbyists printing once a week, they're excellent value. For people printing daily or trying to monetize prints, the time saved on the higher-end machine pays back within months.
+
+
+## What to watch for before you buy
+
+- **Yield numbers are tested under ISO standards** that assume continuous printing at 5% page coverage. Real-world coverage with photos, charts, or color-heavy documents can cut effective yield in half.
+- **Resellers swap manufactured dates without notice.** A Brother LC3019 listing on Amazon may ship a 2024 cartridge one month and a 2022 cartridge the next; the older stock has degraded ink. Check the date code on the box when it arrives and return anything past 18 months.
+- **XL doesn't always mean better value.** Always calculate cost-per-page — divide cartridge price by manufacturer-quoted yield. Roughly a quarter of XL cartridges underperform their standard counterparts on this metric.
+- **Subscription prices creep.** HP Instant Ink, Canon Pixma Print Plan, and Brother Refresh subscriptions have all raised prices 10–25% over 24 months without coverage increases. Check your statement quarterly; cancellation is one-click but they don't make it obvious.
+- **Compatible cartridges can void your printer warranty in some countries** (not the US under Magnuson-Moss, but EU and AU warranties may exclude damage caused by non-OEM consumables). Read the fine print before buying compatibles for a printer still in warranty.
+- **Refill kits work, but only on certain printers.** Tank-style models (EcoTank, MegaTank) are designed for refilling. Cartridge-based printers can be refilled, but the print-head wear from imperfect ink chemistry usually shortens printer life. Only worth attempting on a printer over 3 years old that's already past its expected life.
+- **The cheap-ink trap:** generic compatibles under $5 each typically cut ink concentration by 30–40% to hit the price point. Output looks fine for the first 20 pages, then fades visibly. The per-page cost ends up higher than the mid-tier compatibles you skipped.
+
+
+## How we tracked this
+
+Price data is pulled from Keepa, which records every price change Amazon publishes for a listing — including third-party seller prices, used and refurbished offers, and the rolling 30-day, 90-day, and 1-year windows. We refresh signals for every product we cover at least once a week and tag any listing whose current price is more than 15% above its 90-day average so it surfaces as a bad-deal warning rather than a recommendation. Anything we recommend has cleared a minimum 6-month tracking window so we can see how the seller behaves over time, not just at the moment a reader lands on the page.

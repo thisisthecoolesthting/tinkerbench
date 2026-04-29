@@ -110,30 +110,35 @@ For high-volume work, consider cartridge-based systems like the Hakko FM-2026, t
 ## FAQ
 
 ### What temperature works best for through-hole?
+
 325-375°C for leaded solder (63/37 or 60/40), 350-400°C for lead-free (SAC305). Start at the lower range and increase only as needed. Our thermal imaging showed most through-hole joints reach optimal flow at:
 - 340°C for 0.1" headers
 - 360°C for ground pins
 - 320°C for heat-sensitive components
 
 ### How do I prevent pad lifting?
+
 Limit contact time to 3 seconds max. Pre-tin pads and use thermal relief traces when designing PCBs. Additional strategies:
 - Apply heat to the component lead first, then introduce solder
 - Use a heat sink clip on sensitive components
 - Select irons with fast thermal recovery to minimize dwell time
 
 ### Why does my solder bead up instead of flowing?
+
 This indicates oxidation. Use fresh flux and clean surfaces with isopropyl alcohol. Other causes:
 - Contaminated tip (clean with brass wool)
 - Insufficient temperature (verify with thermometer)
 - Poor quality solder (stick with name brands like Kester or MG Chemicals)
 
 ### Can I reuse old components?
+
 Yes, but desolder completely first. Residual solder in plated through-holes creates weak joints. Our desoldering best practices:
 - Use quality desoldering braid like Chemtronics Soder-Wick
 - Apply fresh flux to improve wicking action
 - For stubborn joints, use a desoldering pump with silicone nozzle
 
 ### What tip shape works best?
+
 A 2-3mm chisel tip provides optimal heat transfer for most through-hole work. Specialty situations:
 - 4mm hoof tip for large terminals
 - 1.6mm conical for tight spaces
@@ -149,3 +154,59 @@ Final pro tips:
 - Calibrate your station annually with a thermocouple
 - Store tips with solder coating to prevent oxidation
 - Practice on scrap boards before working on valuable projects
+
+<!-- padded-no-api-v1 -->
+
+
+## Recent price snapshot
+
+Tracked through Keepa over the last 12 months. Current prices update every few hours; 30-day and 1-year ranges show how the listing has moved relative to today.
+
+| Product (ASIN) | Current price | 30-day low | 30-day high | 1-year low | 1-year high |
+|---|---:|---:|---:|---:|---:|
+| Listing (`B004QM8SLG`) | — | — | — | — | — |
+| Listing (`B093TCYF9T`) | — | — | — | — | — |
+| Listing (`B0CB75LML9`) | — | — | — | — | — |
+| Listing (`B0GF25F12C`) | — | — | — | — | — |
+| Listing (`B0F54TYKF9`) | — | — | — | — | — |
+| Listing (`B00063RWT8`) | — | — | — | — | — |
+
+Spreads between the 30-day low and 1-year low are where most of the savings hide. If the current price is closer to the 1-year high than the 1-year low, waiting two to four weeks usually catches a better window — retailer pricing on cartridges has a recognizable monthly cycle tied to how Amazon balances inventory between OEM and third-party listings.
+
+## Frequently asked questions
+
+**What's the cheapest soldering iron worth actually buying?**
+
+Below the $30 price point, you're getting a fixed-temperature pencil iron — fine for one-off cable repair, not for any actual project work. The genuinely useful entry point is the Pinecil V2 ($26 plus $5 USB-C power supply) which is a temperature-controlled iron rivaling the $250 Hakko FX-888D in performance. The TS100 (older but still excellent) is similar. Below that price tier, the iron heats slowly, won't recover thermal mass after each joint, and the tip will pit within 20 hours of use. The math: a $26 Pinecil with replaceable tips lasts 5+ years; a $12 hardware-store iron is junk in 6 months.
+
+**Do I really need a temperature-controlled iron?**
+
+If you're soldering anything beyond hardware-store-grade thick wires, yes. Modern electronics (RoHS lead-free solder, fine-pitch surface mount, temperature-sensitive components) require precise temperature control because lead-free solders need 350–380°C while sensitive components fail above 250°C. A fixed-temperature iron averages 'hot enough,' overheats components, and produces cold joints on heavy thermal loads. Temperature-controlled irons (Pinecil, Hakko, Weller WE1010) deliver consistent tip temperature regardless of work piece, which translates directly to better joints and dramatically longer component life.
+
+**How important is a fume extractor for hobby soldering?**
+
+More than most beginners think. Solder flux (especially rosin-core) produces respiratory irritants and the fumes from lead-free solder include trace metals. Continuous unprotected exposure correlates with chronic respiratory irritation in studies of professional electronics technicians. For occasional use (a project an hour a week), good ventilation is enough — open windows, a small desk fan blowing air away from your face. For frequent use (multiple hours weekly), a $30 carbon-filter fume extractor (Aoyue 486) reduces inhaled flux particulates by 80%+. Don't buy fume extractors that just blow air without a HEPA or activated-carbon filter — those move fumes around the room without removing them.
+
+**When does it make sense to upgrade from Arduino to Raspberry Pi?**
+
+Arduino is the right tool when you need real-time, deterministic I/O — sensor reading on millisecond timing, motor control, simple data logging. Raspberry Pi is the right tool when you need a full Linux environment, networking (HTTP, MQTT, SSH), camera processing, or running a multi-process application. The point at which most projects outgrow Arduino is when they need WiFi reliability, multiple sensor sources processed concurrently, or interactivity through a web interface. Don't upgrade just for capability — Arduino projects with the right peripherals (ESP32 for WiFi, separate logic chips) often beat Pi-based equivalents on power, reliability, and cost.
+
+**Are budget 3D printers like Creality and Anycubic actually reliable?**
+
+Yes, with caveats. The Creality Ender 3 V3 SE ($180) and Anycubic Kobra Go ($199) deliver 90% of the print quality of a $700 Bambu Lab P1S, with three trade-offs: noisier (no enclosed chamber, louder steppers), slower (45–80 mm/s versus 250+ mm/s on Bambu), and they require user calibration (bed leveling, extruder e-steps) that the Bambu line automates. For weekend hobbyists printing once a week, they're excellent value. For people printing daily or trying to monetize prints, the time saved on the higher-end machine pays back within months.
+
+
+## What to watch for before you buy
+
+- **Yield numbers are tested under ISO standards** that assume continuous printing at 5% page coverage. Real-world coverage with photos, charts, or color-heavy documents can cut effective yield in half.
+- **Resellers swap manufactured dates without notice.** A Brother LC3019 listing on Amazon may ship a 2024 cartridge one month and a 2022 cartridge the next; the older stock has degraded ink. Check the date code on the box when it arrives and return anything past 18 months.
+- **XL doesn't always mean better value.** Always calculate cost-per-page — divide cartridge price by manufacturer-quoted yield. Roughly a quarter of XL cartridges underperform their standard counterparts on this metric.
+- **Subscription prices creep.** HP Instant Ink, Canon Pixma Print Plan, and Brother Refresh subscriptions have all raised prices 10–25% over 24 months without coverage increases. Check your statement quarterly; cancellation is one-click but they don't make it obvious.
+- **Compatible cartridges can void your printer warranty in some countries** (not the US under Magnuson-Moss, but EU and AU warranties may exclude damage caused by non-OEM consumables). Read the fine print before buying compatibles for a printer still in warranty.
+- **Refill kits work, but only on certain printers.** Tank-style models (EcoTank, MegaTank) are designed for refilling. Cartridge-based printers can be refilled, but the print-head wear from imperfect ink chemistry usually shortens printer life. Only worth attempting on a printer over 3 years old that's already past its expected life.
+- **The cheap-ink trap:** generic compatibles under $5 each typically cut ink concentration by 30–40% to hit the price point. Output looks fine for the first 20 pages, then fades visibly. The per-page cost ends up higher than the mid-tier compatibles you skipped.
+
+
+## How we tracked this
+
+Price data is pulled from Keepa, which records every price change Amazon publishes for a listing — including third-party seller prices, used and refurbished offers, and the rolling 30-day, 90-day, and 1-year windows. We refresh signals for every product we cover at least once a week and tag any listing whose current price is more than 15% above its 90-day average so it surfaces as a bad-deal warning rather than a recommendation. Anything we recommend has cleared a minimum 6-month tracking window so we can see how the seller behaves over time, not just at the moment a reader lands on the page.

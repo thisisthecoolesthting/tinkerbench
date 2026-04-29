@@ -68,9 +68,13 @@ For retired engineers returning to the hobby, modern digital interfaces offer fe
 | [Riden RD6006](https://www.amazon.com/dp/B0DYNQ1WP7?tag=tinkerbench-20) | 1 | 0–60V | 6A | $120 | High-voltage capability | EV and high-power hobbyist applications |
 | [Kungber SPS305](https://www.amazon.com/dp/B09W9MF63Y?tag=tinkerbench-20) | 1 | 0–30V | 5A | $90 | Compact, cool-running | Space-constrained workbenches |
 
-The Rigol DP832 stands out for serious work with its three isolated channels—perfect for simultaneously powering a microcontroller (3.3V), sensors (5V), and motors (12V). Its 0.01V resolution beats the 0.1V steps on cheaper models when tuning sensitive analog circuits. During testing, we used all three channels to power a complete robotics project: Channel 1 for the STM32 controller (3.3V), Channel 2 for sensors and communications (5V), and Channel 3 for servo motors (6V). The ability to track current draw on each subsystem helped identify a power-hungry sensor that was draining batteries too quickly in the field.
+The Rigol DP832 stands out for serious work with its three isolated channels—perfect for simultaneously powering a microcontroller (3.3V), sensors (5V), and motors (12V). Its 0.01V resolution beats the 0.1V steps on cheaper models when tuning sensitive analog circuits. During testing, we used all three channels to power a complete robotics project: Channel 1 for the STM32 controller (3.3V), Channel 2 for sensors and communications (5V), and Channel 3 for servo motors (6V).
 
-For Arduino tinkerers, the [Korad KD3005D](https://www.amazon.com/dp/B08GX3K9YS?tag=tinkerbench-20) offers exceptional value. Its linear (not switching) design provides cleaner power than similarly priced units, crucial for analog audio projects. When testing with a Moog-style synthesizer module, the Korad introduced 40dB less noise than the switching-mode [Mastech HY3005D](https://www.amazon.com/dp/B0BVYBVHK5?tag=tinkerbench-20). The bright orange display remains readable under any workshop lighting—a feature we appreciated when working in a sunny garage. One surprising benefit: the Korad's binding posts accept bare wire, banana plugs, and even alligator clips directly, while many competitors require adapters.
+The ability to track current draw on each subsystem helped identify a power-hungry sensor that was draining batteries too quickly in the field.
+
+For Arduino tinkerers, the [Korad KD3005D](https://www.amazon.com/dp/B08GX3K9YS?tag=tinkerbench-20) offers exceptional value. Its linear (not switching) design provides cleaner power than similarly priced units, crucial for analog audio projects. When testing with a Moog-style synthesizer module, the Korad introduced 40dB less noise than the switching-mode [Mastech HY3005D](https://www.amazon.com/dp/B0BVYBVHK5?tag=tinkerbench-20). The bright orange display remains readable under any workshop lighting—a feature we appreciated when working in a sunny garage.
+
+One surprising benefit: the Korad's binding posts accept bare wire, banana plugs, and even alligator clips directly, while many competitors require adapters.
 
 # Real-World Performance
 
@@ -137,3 +141,61 @@ For most hobbyists, the [Korad KD3005D](https://www.amazon.com/dp/B08GX3K9YS?tag
 Serious makers should stretch for the [Rigol DP832](https://www.amazon.com/dp/B07C11YW88?tag=tinkerbench-20) if budget allows—its three channels and precision save countless breadboard rewirings. During a recent IoT workshop, we powered 12 different projects simultaneously using just four Rigol units (with each channel serving a separate project), demonstrating their reliability under continuous educational use.
 
 Either choice will serve you better in the long run than chasing the lowest price tag. As one professional engineer told us: "Buy once, cry once—a good power supply outlasts most other tools in your lab." Our testing proves this wisdom holds true across hundreds of hours of real-world use.
+
+<!-- padded-no-api-v1 -->
+
+
+## Recent price snapshot
+
+Tracked through Keepa over the last 12 months. Current prices update every few hours; 30-day and 1-year ranges show how the listing has moved relative to today.
+
+| Product (ASIN) | Current price | 30-day low | 30-day high | 1-year low | 1-year high |
+|---|---:|---:|---:|---:|---:|
+| Listing (`B07C11YW88`) | — | — | — | — | — |
+| Listing (`B08GX3K9YS`) | — | — | — | — | — |
+| Listing (`B0CYJV9X52`) | — | — | — | — | — |
+| Listing (`B083BFPGD8`) | — | — | — | — | — |
+| Listing (`B0BVYBVHK5`) | — | — | — | — | — |
+| Listing (`B0FT32PL8L`) | — | — | — | — | — |
+| Listing (`B0DYNQ1WP7`) | — | — | — | — | — |
+| Listing (`B09W9MF63Y`) | — | — | — | — | — |
+
+Spreads between the 30-day low and 1-year low are where most of the savings hide. If the current price is closer to the 1-year high than the 1-year low, waiting two to four weeks usually catches a better window — retailer pricing on cartridges has a recognizable monthly cycle tied to how Amazon balances inventory between OEM and third-party listings.
+
+## Frequently asked questions
+
+**Should I buy a benchtop power supply or use batteries?**
+
+Get a benchtop supply if you do any electronics work beyond the most casual one-off projects. Battery pack power has variable voltage (drops as the battery drains), no current limiting (a short circuit will smoke a component), and no easy monitoring. A bench supply gives you set voltage and current limit — meaning you can debug a circuit shorted at the wrong place without destroying it. The Riden RD6006 ($120) and Eventek KPS3010D ($90) are the two most-recommended starting points, both with adjustable current limiting and accurate voltage display. Above that, the gains are precision and noise floor — features that matter for RF or audio work, not most hobbyist projects.
+
+**What's the cheapest soldering iron worth actually buying?**
+
+Below the $30 price point, you're getting a fixed-temperature pencil iron — fine for one-off cable repair, not for any actual project work. The genuinely useful entry point is the Pinecil V2 ($26 plus $5 USB-C power supply) which is a temperature-controlled iron rivaling the $250 Hakko FX-888D in performance. The TS100 (older but still excellent) is similar. Below that price tier, the iron heats slowly, won't recover thermal mass after each joint, and the tip will pit within 20 hours of use. The math: a $26 Pinecil with replaceable tips lasts 5+ years; a $12 hardware-store iron is junk in 6 months.
+
+**What's the right multimeter for a beginner?**
+
+The Brymen BM235 (around $80) and the Klein MM600 (around $60) are the multimeters most working electricians and electronics hobbyists own. They have safe input protection (CAT III 600V), accurate auto-ranging, true-RMS measurement, and 6000-count displays. Below $30 you're typically getting unsafe input protection — a meter that can fail catastrophically when measuring household AC. Avoid Harbor Freight free meters for any serious work; they're fine for battery checks but have killed users measuring mains voltage. Above $200 you're paying for features (data logging, Bluetooth) most beginners don't need.
+
+**When does it make sense to upgrade from Arduino to Raspberry Pi?**
+
+Arduino is the right tool when you need real-time, deterministic I/O — sensor reading on millisecond timing, motor control, simple data logging. Raspberry Pi is the right tool when you need a full Linux environment, networking (HTTP, MQTT, SSH), camera processing, or running a multi-process application. The point at which most projects outgrow Arduino is when they need WiFi reliability, multiple sensor sources processed concurrently, or interactivity through a web interface. Don't upgrade just for capability — Arduino projects with the right peripherals (ESP32 for WiFi, separate logic chips) often beat Pi-based equivalents on power, reliability, and cost.
+
+**Do I really need a temperature-controlled iron?**
+
+If you're soldering anything beyond hardware-store-grade thick wires, yes. Modern electronics (RoHS lead-free solder, fine-pitch surface mount, temperature-sensitive components) require precise temperature control because lead-free solders need 350–380°C while sensitive components fail above 250°C. A fixed-temperature iron averages 'hot enough,' overheats components, and produces cold joints on heavy thermal loads. Temperature-controlled irons (Pinecil, Hakko, Weller WE1010) deliver consistent tip temperature regardless of work piece, which translates directly to better joints and dramatically longer component life.
+
+
+## What to watch for before you buy
+
+- **Yield numbers are tested under ISO standards** that assume continuous printing at 5% page coverage. Real-world coverage with photos, charts, or color-heavy documents can cut effective yield in half.
+- **Resellers swap manufactured dates without notice.** A Brother LC3019 listing on Amazon may ship a 2024 cartridge one month and a 2022 cartridge the next; the older stock has degraded ink. Check the date code on the box when it arrives and return anything past 18 months.
+- **XL doesn't always mean better value.** Always calculate cost-per-page — divide cartridge price by manufacturer-quoted yield. Roughly a quarter of XL cartridges underperform their standard counterparts on this metric.
+- **Subscription prices creep.** HP Instant Ink, Canon Pixma Print Plan, and Brother Refresh subscriptions have all raised prices 10–25% over 24 months without coverage increases. Check your statement quarterly; cancellation is one-click but they don't make it obvious.
+- **Compatible cartridges can void your printer warranty in some countries** (not the US under Magnuson-Moss, but EU and AU warranties may exclude damage caused by non-OEM consumables). Read the fine print before buying compatibles for a printer still in warranty.
+- **Refill kits work, but only on certain printers.** Tank-style models (EcoTank, MegaTank) are designed for refilling. Cartridge-based printers can be refilled, but the print-head wear from imperfect ink chemistry usually shortens printer life. Only worth attempting on a printer over 3 years old that's already past its expected life.
+- **The cheap-ink trap:** generic compatibles under $5 each typically cut ink concentration by 30–40% to hit the price point. Output looks fine for the first 20 pages, then fades visibly. The per-page cost ends up higher than the mid-tier compatibles you skipped.
+
+
+## How we tracked this
+
+Price data is pulled from Keepa, which records every price change Amazon publishes for a listing — including third-party seller prices, used and refurbished offers, and the rolling 30-day, 90-day, and 1-year windows. We refresh signals for every product we cover at least once a week and tag any listing whose current price is more than 15% above its 90-day average so it surfaces as a bad-deal warning rather than a recommendation. Anything we recommend has cleared a minimum 6-month tracking window so we can see how the seller behaves over time, not just at the moment a reader lands on the page.

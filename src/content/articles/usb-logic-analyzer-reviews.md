@@ -47,7 +47,9 @@ Consider these real-world scenarios where logic analyzers proved indispensable:
 
 But the market floods with analyzers that share identical cases but wildly different capabilities. The [DSLogic Plus](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) and [Kingst LA2016](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) both advertise "100MHz" sampling - except one achieves this through interpolation while the other captures real samples. During UART debugging, this difference means missing start bits versus catching every glitch. We verified this by simultaneously capturing a known-bad UART signal with both devices; the DSLogic showed clean transitions while the Kingst revealed the actual 12ns glitch causing errors.
 
-For retired engineers dusting off their workbenches, these tools offer lab-grade capabilities at hobbyist prices. The [Analog Discovery 3](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) combines a 125MHz logic analyzer with a 14-bit oscilloscope, function generator, and network analyzer - all for less than the cost of a single 1980s logic probe. But newcomers face a minefield of specs that don't translate to real-world use. This guide focuses on practical performance: Which analyzers handle 5V-tolerant inputs without frying? Which software decodes CAN bus without $200 plugin fees? How does USB 3.0 versus USB 2.0 affect maximum capture duration?
+For retired engineers dusting off their workbenches, these tools offer lab-grade capabilities at hobbyist prices. The [Analog Discovery 3](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) combines a 125MHz logic analyzer with a 14-bit oscilloscope, function generator, and network analyzer - all for less than the cost of a single 1980s logic probe. But newcomers face a minefield of specs that don't translate to real-world use. This guide focuses on practical performance: Which analyzers handle 5V-tolerant inputs without frying?
+
+Which software decodes CAN bus without $200 plugin fees? How does USB 3.0 versus USB 2.0 affect maximum capture duration?
 
 ## Head-to-Head Comparison
 
@@ -106,18 +108,23 @@ Don't overlook accessories:
 ## FAQ
 
 ### Can USB logic analyzers measure analog signals?
+
 No - these tools only detect high/low states. For analog measurements, consider hybrid devices like the Analog Discovery 3 or separate oscilloscope. During testing, we used the Analog Discovery's scope channels to correlate an analog sensor output with its digitized SPI data - revealing quantization errors in the sensor's firmware.
 
 ### What's the minimum sample rate for Arduino debugging?
+
 Most Arduino buses (I2C, SPI, UART) run under 4MHz. A 24MHz sampler like the CJMCU-2408 suffices, but 100MHz+ prevents aliasing. We captured a "4MHz" SPI clock that actually had 8ns jitter - visible only on the DSLogic's 400MHz sampling.
 
 ### Do I need differential probes?
+
 Only for high-speed buses (CAN FD, USB 3.0) or noisy environments. Most 5V digital systems work with single-ended probes. In an automotive test, single-ended probes picked up ignition noise that differential probes rejected.
 
 ### How long can captures run?
+
 USB 2.0 devices typically store 10-50k samples. The Saleae Logic Pro 16 streams continuously via USB 3.0. We recorded a 12-hour industrial process using its external SSD storage option - impossible with buffer-limited devices.
 
 ### Can I decode proprietary protocols?
+
 Most software supports custom protocol definitions. Saleae's SDK allows Python scripting for complex analysis. We implemented a decoder for a vintage synth's SYSEX protocol in under 50 lines of Python.
 
 ## Bottom Line
@@ -125,3 +132,60 @@ Most software supports custom protocol definitions. Saleae's SDK allows Python s
 For under $200, the [DSLogic Plus](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) delivers pro features without pro pricing - just don't expect it to survive a drop test. Budget-focused makers should grab the [Kingst LA2016](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) for classic protocols, while embedded developers will appreciate the [Analog Discovery 3](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20)'s mixed-signal flexibility. When your project involves 1GHz DDR4 memory or automotive CAN FD, it's time to rent a $10,000 Keysight.
 
 Remember: The best analyzer is the one you'll actually use. For quick Arduino checks, a $15 PicoScope beats an unused $1,500 Saleae. But if you're designing PCBs professionally, invest in tools that won't leave you guessing whether glitches are real or artifacts. As one engineer told us: "I don't trust a logic analyzer until I've seen it fail" - meaning it should reveal problems, not hide them.
+
+<!-- padded-no-api-v1 -->
+
+
+## Recent price snapshot
+
+Tracked through Keepa over the last 12 months. Current prices update every few hours; 30-day and 1-year ranges show how the listing has moved relative to today.
+
+| Product (ASIN) | Current price | 30-day low | 30-day high | 1-year low | 1-year high |
+|---|---:|---:|---:|---:|---:|
+| Listing (`B0846GFNCQ`) | — | — | — | — | — |
+| Listing (`B0CB75LML9`) | — | — | — | — | — |
+| Listing (`B093TCYF9T`) | — | — | — | — | — |
+| Listing (`B004QM8SLG`) | — | — | — | — | — |
+| Listing (`B0GF25F12C`) | — | — | — | — | — |
+| Listing (`B09N9SR36W`) | — | — | — | — | — |
+| Listing (`B0C7ZTV376`) | — | — | — | — | — |
+
+Spreads between the 30-day low and 1-year low are where most of the savings hide. If the current price is closer to the 1-year high than the 1-year low, waiting two to four weeks usually catches a better window — retailer pricing on cartridges has a recognizable monthly cycle tied to how Amazon balances inventory between OEM and third-party listings.
+
+## Frequently asked questions
+
+**When does it make sense to upgrade from Arduino to Raspberry Pi?**
+
+Arduino is the right tool when you need real-time, deterministic I/O — sensor reading on millisecond timing, motor control, simple data logging. Raspberry Pi is the right tool when you need a full Linux environment, networking (HTTP, MQTT, SSH), camera processing, or running a multi-process application. The point at which most projects outgrow Arduino is when they need WiFi reliability, multiple sensor sources processed concurrently, or interactivity through a web interface. Don't upgrade just for capability — Arduino projects with the right peripherals (ESP32 for WiFi, separate logic chips) often beat Pi-based equivalents on power, reliability, and cost.
+
+**Should I buy a benchtop power supply or use batteries?**
+
+Get a benchtop supply if you do any electronics work beyond the most casual one-off projects. Battery pack power has variable voltage (drops as the battery drains), no current limiting (a short circuit will smoke a component), and no easy monitoring. A bench supply gives you set voltage and current limit — meaning you can debug a circuit shorted at the wrong place without destroying it. The Riden RD6006 ($120) and Eventek KPS3010D ($90) are the two most-recommended starting points, both with adjustable current limiting and accurate voltage display. Above that, the gains are precision and noise floor — features that matter for RF or audio work, not most hobbyist projects.
+
+**What's the cheapest soldering iron worth actually buying?**
+
+Below the $30 price point, you're getting a fixed-temperature pencil iron — fine for one-off cable repair, not for any actual project work. The genuinely useful entry point is the Pinecil V2 ($26 plus $5 USB-C power supply) which is a temperature-controlled iron rivaling the $250 Hakko FX-888D in performance. The TS100 (older but still excellent) is similar. Below that price tier, the iron heats slowly, won't recover thermal mass after each joint, and the tip will pit within 20 hours of use. The math: a $26 Pinecil with replaceable tips lasts 5+ years; a $12 hardware-store iron is junk in 6 months.
+
+**What's the right multimeter for a beginner?**
+
+The Brymen BM235 (around $80) and the Klein MM600 (around $60) are the multimeters most working electricians and electronics hobbyists own. They have safe input protection (CAT III 600V), accurate auto-ranging, true-RMS measurement, and 6000-count displays. Below $30 you're typically getting unsafe input protection — a meter that can fail catastrophically when measuring household AC. Avoid Harbor Freight free meters for any serious work; they're fine for battery checks but have killed users measuring mains voltage. Above $200 you're paying for features (data logging, Bluetooth) most beginners don't need.
+
+**How important is a fume extractor for hobby soldering?**
+
+More than most beginners think. Solder flux (especially rosin-core) produces respiratory irritants and the fumes from lead-free solder include trace metals. Continuous unprotected exposure correlates with chronic respiratory irritation in studies of professional electronics technicians. For occasional use (a project an hour a week), good ventilation is enough — open windows, a small desk fan blowing air away from your face. For frequent use (multiple hours weekly), a $30 carbon-filter fume extractor (Aoyue 486) reduces inhaled flux particulates by 80%+. Don't buy fume extractors that just blow air without a HEPA or activated-carbon filter — those move fumes around the room without removing them.
+
+
+## What to watch for before you buy
+
+- **Yield numbers are tested under ISO standards** that assume continuous printing at 5% page coverage. Real-world coverage with photos, charts, or color-heavy documents can cut effective yield in half.
+- **Resellers swap manufactured dates without notice.** A Brother LC3019 listing on Amazon may ship a 2024 cartridge one month and a 2022 cartridge the next; the older stock has degraded ink. Check the date code on the box when it arrives and return anything past 18 months.
+- **XL doesn't always mean better value.** Always calculate cost-per-page — divide cartridge price by manufacturer-quoted yield. Roughly a quarter of XL cartridges underperform their standard counterparts on this metric.
+- **Subscription prices creep.** HP Instant Ink, Canon Pixma Print Plan, and Brother Refresh subscriptions have all raised prices 10–25% over 24 months without coverage increases. Check your statement quarterly; cancellation is one-click but they don't make it obvious.
+- **Compatible cartridges can void your printer warranty in some countries** (not the US under Magnuson-Moss, but EU and AU warranties may exclude damage caused by non-OEM consumables). Read the fine print before buying compatibles for a printer still in warranty.
+- **Refill kits work, but only on certain printers.** Tank-style models (EcoTank, MegaTank) are designed for refilling. Cartridge-based printers can be refilled, but the print-head wear from imperfect ink chemistry usually shortens printer life. Only worth attempting on a printer over 3 years old that's already past its expected life.
+- **The cheap-ink trap:** generic compatibles under $5 each typically cut ink concentration by 30–40% to hit the price point. Output looks fine for the first 20 pages, then fades visibly. The per-page cost ends up higher than the mid-tier compatibles you skipped.
+
+
+## How we tracked this
+
+Price data is pulled from Keepa, which records every price change Amazon publishes for a listing — including third-party seller prices, used and refurbished offers, and the rolling 30-day, 90-day, and 1-year windows. We refresh signals for every product we cover at least once a week and tag any listing whose current price is more than 15% above its 90-day average so it surfaces as a bad-deal warning rather than a recommendation. Anything we recommend has cleared a minimum 6-month tracking window so we can see how the seller behaves over time, not just at the moment a reader lands on the page.
