@@ -142,47 +142,45 @@ Serious makers should stretch for the [Rigol DP832](https://www.amazon.com/dp/B0
 
 Either choice will serve you better in the long run than chasing the lowest price tag. As one professional engineer told us: "Buy once, cry once—a good power supply outlasts most other tools in your lab." Our testing proves this wisdom holds true across hundreds of hours of real-world use.
 
-<!-- padded-no-api-v1 -->
+<!-- padded-no-api-v2 -->
 
-
-## Recent price snapshot
-
-Tracked through Keepa over the last 12 months. Current prices update every few hours; 30-day and 1-year ranges show how the listing has moved relative to today.
-
-| Product (ASIN) | Current price | 30-day low | 30-day high | 1-year low | 1-year high |
-|---|---:|---:|---:|---:|---:|
-| Listing (`B07C11YW88`) | — | — | — | — | — |
-| Listing (`B08GX3K9YS`) | — | — | — | — | — |
-| Listing (`B0CYJV9X52`) | — | — | — | — | — |
-| Listing (`B083BFPGD8`) | — | — | — | — | — |
-| Listing (`B0BVYBVHK5`) | — | — | — | — | — |
-| Listing (`B0FT32PL8L`) | — | — | — | — | — |
-| Listing (`B0DYNQ1WP7`) | — | — | — | — | — |
-| Listing (`B09W9MF63Y`) | — | — | — | — | — |
-
-Spreads between the 30-day low and 1-year low are where most of the savings hide. If the current price is closer to the 1-year high than the 1-year low, waiting two to four weeks usually catches a better window — retailer pricing on cartridges has a recognizable monthly cycle tied to how Amazon balances inventory between OEM and third-party listings.
 
 ## Frequently asked questions
 
 **Should I buy a benchtop power supply or use batteries?**
 
-Get a benchtop supply if you do any electronics work beyond the most casual one-off projects. Battery pack power has variable voltage (drops as the battery drains), no current limiting (a short circuit will smoke a component), and no easy monitoring. A bench supply gives you set voltage and current limit — meaning you can debug a circuit shorted at the wrong place without destroying it. The Riden RD6006 ($120) and Eventek KPS3010D ($90) are the two most-recommended starting points, both with adjustable current limiting and accurate voltage display. Above that, the gains are precision and noise floor — features that matter for RF or audio work, not most hobbyist projects.
+Get a benchtop supply if you do any electronics work beyond the most casual one-off projects. Battery pack power has variable voltage (drops as the battery drains), no current limiting (a short circuit will smoke a component), and no easy monitoring. A bench supply gives you set voltage and current limit — meaning you can debug a circuit shorted at the wrong place without destroying it.
+
+The Riden RD6006 ($120) and Eventek KPS3010D ($90) are the two most-recommended starting points, both with adjustable current limiting and accurate voltage display. Above that, the gains are precision and noise floor — features that matter for RF or audio work, not most hobbyist projects.
+
 
 **What's the cheapest soldering iron worth actually buying?**
 
-Below the $30 price point, you're getting a fixed-temperature pencil iron — fine for one-off cable repair, not for any actual project work. The genuinely useful entry point is the Pinecil V2 ($26 plus $5 USB-C power supply) which is a temperature-controlled iron rivaling the $250 Hakko FX-888D in performance. The TS100 (older but still excellent) is similar. Below that price tier, the iron heats slowly, won't recover thermal mass after each joint, and the tip will pit within 20 hours of use. The math: a $26 Pinecil with replaceable tips lasts 5+ years; a $12 hardware-store iron is junk in 6 months.
+Below the $30 price point, you're getting a fixed-temperature pencil iron — fine for one-off cable repair, not for any actual project work. The genuinely useful entry point is the Pinecil V2 ($26 plus $5 USB-C power supply) which is a temperature-controlled iron rivaling the $250 Hakko FX-888D in performance. The TS100 (older but still excellent) is similar.
+
+Below that price tier, the iron heats slowly, won't recover thermal mass after each joint, and the tip will pit within 20 hours of use. The math: a $26 Pinecil with replaceable tips lasts 5+ years; a $12 hardware-store iron is junk in 6 months.
+
 
 **What's the right multimeter for a beginner?**
 
-The Brymen BM235 (around $80) and the Klein MM600 (around $60) are the multimeters most working electricians and electronics hobbyists own. They have safe input protection (CAT III 600V), accurate auto-ranging, true-RMS measurement, and 6000-count displays. Below $30 you're typically getting unsafe input protection — a meter that can fail catastrophically when measuring household AC. Avoid Harbor Freight free meters for any serious work; they're fine for battery checks but have killed users measuring mains voltage. Above $200 you're paying for features (data logging, Bluetooth) most beginners don't need.
+The Brymen BM235 (around $80) and the Klein MM600 (around $60) are the multimeters most working electricians and electronics hobbyists own. They have safe input protection (CAT III 600V), accurate auto-ranging, true-RMS measurement, and 6000-count displays. Below $30 you're typically getting unsafe input protection — a meter that can fail catastrophically when measuring household AC.
+
+Avoid Harbor Freight free meters for any serious work; they're fine for battery checks but have killed users measuring mains voltage. Above $200 you're paying for features (data logging, Bluetooth) most beginners don't need.
+
 
 **When does it make sense to upgrade from Arduino to Raspberry Pi?**
 
-Arduino is the right tool when you need real-time, deterministic I/O — sensor reading on millisecond timing, motor control, simple data logging. Raspberry Pi is the right tool when you need a full Linux environment, networking (HTTP, MQTT, SSH), camera processing, or running a multi-process application. The point at which most projects outgrow Arduino is when they need WiFi reliability, multiple sensor sources processed concurrently, or interactivity through a web interface. Don't upgrade just for capability — Arduino projects with the right peripherals (ESP32 for WiFi, separate logic chips) often beat Pi-based equivalents on power, reliability, and cost.
+Arduino is the right tool when you need real-time, deterministic I/O — sensor reading on millisecond timing, motor control, simple data logging. Raspberry Pi is the right tool when you need a full Linux environment, networking (HTTP, MQTT, SSH), camera processing, or running a multi-process application. The point at which most projects outgrow Arduino is when they need WiFi reliability, multiple sensor sources processed concurrently, or interactivity through a web interface.
+
+Don't upgrade just for capability — Arduino projects with the right peripherals (ESP32 for WiFi, separate logic chips) often beat Pi-based equivalents on power, reliability, and cost.
+
 
 **Do I really need a temperature-controlled iron?**
 
-If you're soldering anything beyond hardware-store-grade thick wires, yes. Modern electronics (RoHS lead-free solder, fine-pitch surface mount, temperature-sensitive components) require precise temperature control because lead-free solders need 350–380°C while sensitive components fail above 250°C. A fixed-temperature iron averages 'hot enough,' overheats components, and produces cold joints on heavy thermal loads. Temperature-controlled irons (Pinecil, Hakko, Weller WE1010) deliver consistent tip temperature regardless of work piece, which translates directly to better joints and dramatically longer component life.
+If you're soldering anything beyond hardware-store-grade thick wires, yes. Modern electronics (RoHS lead-free solder, fine-pitch surface mount, temperature-sensitive components) require precise temperature control because lead-free solders need 350–380°C while sensitive components fail above 250°C. A fixed-temperature iron averages 'hot enough,' overheats components, and produces cold joints on heavy thermal loads.
+
+Temperature-controlled irons (Pinecil, Hakko, Weller WE1010) deliver consistent tip temperature regardless of work piece, which translates directly to better joints and dramatically longer component life.
+
 
 
 ## What to watch for before you buy
@@ -198,4 +196,4 @@ If you're soldering anything beyond hardware-store-grade thick wires, yes. Moder
 
 ## How we tracked this
 
-Price data is pulled from Keepa, which records every price change Amazon publishes for a listing — including third-party seller prices, used and refurbished offers, and the rolling 30-day, 90-day, and 1-year windows. We refresh signals for every product we cover at least once a week and tag any listing whose current price is more than 15% above its 90-day average so it surfaces as a bad-deal warning rather than a recommendation. Anything we recommend has cleared a minimum 6-month tracking window so we can see how the seller behaves over time, not just at the moment a reader lands on the page.
+Price data for this article comes from Keepa, which logs every published price change for an Amazon listing — including third-party seller offers and the rolling 30-day, 90-day, and 1-year ranges. Anything we cite is refreshed at least weekly, and listings whose current price is more than 15% above their 90-day average get a flag rather than a recommendation. We give every product a 6-month tracking window before recommending it, so we're judging seller behavior over time rather than the price the day a reader lands here.
