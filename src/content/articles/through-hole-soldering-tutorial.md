@@ -1,12 +1,8 @@
 ---
 title: How to Solder Through-Hole Components Like a Pro
-metaDescription: A step-by-step guide to mastering through-hole soldering, with tool
-  comparisons, cost breakdowns, and pro tips for hobbyists upgrading their electronics
-  bench.
+metaDescription: A step-by-step guide to mastering through-hole soldering, with tool comparisons, cost breakdowns, and pro tips for hobbyists upgrading their electronics bench.
 publishedAt: '2026-04-29T00:00:00Z'
-excerpt: Learn the right way to solder through-hole components with our tested tool
-  recommendations and techniques. We compare irons, fluxes, and accessories to help
-  you avoid cold joints and damaged PCBs.
+excerpt: Learn the right way to solder through-hole components with our tested tool recommendations and techniques. We compare irons, fluxes, and accessories to help you avoid cold joints and damaged PCBs.
 pillarSlug: soldering-essentials
 relatedProducts:
 - B0DHV8SCLS
@@ -25,8 +21,7 @@ tags:
 - hobbyist soldering
 - beginner soldering
 - soldering station
-heroImage: https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80
----
+heroImage: /images/hero/through-hole-soldering-tutorial.jpg---
 
 ## Introduction
 

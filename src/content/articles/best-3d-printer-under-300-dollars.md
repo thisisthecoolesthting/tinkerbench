@@ -1,12 +1,8 @@
 ---
 title: 'Top 3D Printers Under $300: Affordable Entry into Fabrication'
-metaDescription: We tested 6 budget 3D printers under $300 for print quality, reliability,
-  and hidden costs. Here’s which models deliver for hobbyists and which cut too many
-  corners.
+metaDescription: We tested 6 budget 3D printers under $300 for print quality, reliability, and hidden costs. Here’s which models deliver for hobbyists and which cut too many corners.
 publishedAt: '2026-04-28T00:00:00.000Z'
-excerpt: After 90 days testing budget 3D printers, we found the Creality Ender 3 V3
-  SE balances price and performance best — but the Anycubic Kobra 2 Neo wins for speed.
-  See print samples and cost breakdowns.
+excerpt: After 90 days testing budget 3D printers, we found the Creality Ender 3 V3 SE balances price and performance best — but the Anycubic Kobra 2 Neo wins for speed. See print samples and cost breakdowns.
 pillarSlug: prototyping-and-fabrication
 relatedProducts:
 - B0CB75LML9
@@ -22,8 +18,7 @@ tags:
 - budget-tools
 - rapid-prototyping
 - maker-gear
-heroImage: https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80
----
+heroImage: /images/hero/best-3d-printer-under-300-dollars.jpg---
 
 # Introduction
 

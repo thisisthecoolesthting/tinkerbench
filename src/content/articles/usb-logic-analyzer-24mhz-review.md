@@ -1,11 +1,8 @@
 ---
 title: 'Unlocking Digital Signals: Review of a 24MHz USB Logic Analyzer'
-metaDescription: A hands-on comparison of 24MHz USB logic analyzers for hobbyists
-  and engineers, covering performance, cost efficiency, and real-world debugging scenarios.
+metaDescription: A hands-on comparison of 24MHz USB logic analyzers for hobbyists and engineers, covering performance, cost efficiency, and real-world debugging scenarios.
 publishedAt: '2026-04-28'
-excerpt: We tested six 24MHz USB logic analyzers for signal accuracy, software compatibility,
-  and durability across 30+ projects. Here’s how they stack up for Arduino, Raspberry
-  Pi, and FPGA debugging.
+excerpt: We tested six 24MHz USB logic analyzers for signal accuracy, software compatibility, and durability across 30+ projects. Here’s how they stack up for Arduino, Raspberry Pi, and FPGA debugging.
 pillarSlug: measurement-and-analysis
 status: published
 tags:
@@ -23,8 +20,7 @@ relatedProducts:
 - B09N9SR36W
 - B0GF25F12C
 - B0846GFNCQ
-heroImage: https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80
----
+heroImage: /images/hero/usb-logic-analyzer-24mhz-review.jpg---
 
 ## Introduction
 

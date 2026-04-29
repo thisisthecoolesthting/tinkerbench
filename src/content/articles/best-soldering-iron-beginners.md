@@ -1,12 +1,8 @@
 ---
 title: 'The Best Soldering Irons for Beginners: A Comprehensive Guide'
-metaDescription: Discover the best soldering irons for beginners with our in-depth
-  comparison of features, performance, and value. Perfect for hobbyists and makers
-  starting their electronics journey.
+metaDescription: Discover the best soldering irons for beginners with our in-depth comparison of features, performance, and value. Perfect for hobbyists and makers starting their electronics journey.
 publishedAt: '2026-04-28T00:00:00.000Z'
-excerpt: Choosing the right soldering iron as a beginner can be overwhelming. We compare
-  the top models for ease of use, durability, and cost to help you make an informed
-  decision.
+excerpt: Choosing the right soldering iron as a beginner can be overwhelming. We compare the top models for ease of use, durability, and cost to help you make an informed decision.
 pillarSlug: soldering-essentials
 relatedProducts:
 - B0CB75LML9
@@ -24,11 +20,9 @@ tags:
 - DIY
 - makers
 - hobbyists
-heroImage: https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80
+heroImage: /images/hero/best-soldering-iron-beginners.jpg
 cardTitle: 'Best Soldering Irons for Beginners: Complete Gear Guide'
-cardPick: Hantek DSO5102P oscilloscope pairs perfectly with soldering work, letting
-  you verify circuits and troubleshoot projects with confidence.
----
+cardPick: Hantek DSO5102P oscilloscope pairs perfectly with soldering work, letting you verify circuits and troubleshoot projects with confidence.---
 
 ## Introduction
 

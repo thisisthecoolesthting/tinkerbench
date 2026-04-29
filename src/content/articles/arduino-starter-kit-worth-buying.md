@@ -1,12 +1,8 @@
 ---
 title: Is That Arduino Starter Kit Worth Buying? Our Top Picks
-metaDescription: We tested 12 Arduino starter kits for beginners and returning makers.
-  Here’s which kits deliver real value, which cut corners, and what you should buy
-  instead.
+metaDescription: We tested 12 Arduino starter kits for beginners and returning makers. Here’s which kits deliver real value, which cut corners, and what you should buy instead.
 publishedAt: '2026-04-28T00:00:00.000Z'
-excerpt: Choosing your first Arduino kit is overwhelming. We tested 12 popular kits
-  for 30+ days each, evaluating component quality, documentation, and real project
-  viability. Here’s what actually works for hobbyists.
+excerpt: Choosing your first Arduino kit is overwhelming. We tested 12 popular kits for 30+ days each, evaluating component quality, documentation, and real project viability. Here’s what actually works for hobbyists.
 pillarSlug: prototyping-and-fabrication
 status: published
 tags:
@@ -26,8 +22,7 @@ relatedProducts:
 - B0846GFNCQ
 - B0C7ZTV376
 - B099NZC4PB
-heroImage: https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80
----
+heroImage: /images/hero/arduino-starter-kit-worth-buying.jpg---
 
 ## Introduction
 

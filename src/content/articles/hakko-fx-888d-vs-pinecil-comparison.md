@@ -1,12 +1,8 @@
 ---
 title: 'Hakko FX-888D vs. Pinecil: Which Soldering Iron is Right for You?'
-metaDescription: Detailed comparison of Hakko FX-888D and Pinecil soldering irons
-  for hobbyists and professionals. Covers performance, cost, longevity, and real-world
-  use cases to help you choose the right tool.
+metaDescription: Detailed comparison of Hakko FX-888D and Pinecil soldering irons for hobbyists and professionals. Covers performance, cost, longevity, and real-world use cases to help you choose the right tool.
 publishedAt: '2026-04-28T00:00:00.000Z'
-excerpt: Choosing between the Hakko FX-888D and Pinecil soldering irons? We compare
-  performance, cost, and real-world usability to help you decide which tool fits your
-  electronics projects best.
+excerpt: Choosing between the Hakko FX-888D and Pinecil soldering irons? We compare performance, cost, and real-world usability to help you decide which tool fits your electronics projects best.
 pillarSlug: soldering-essentials
 relatedProducts:
 - B004QM8SLG
@@ -22,11 +18,9 @@ tags:
 - pinecil
 - electronics-tools
 - diy-electronics
-heroImage: https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80
+heroImage: /images/hero/hakko-fx-888d-vs-pinecil-comparison.jpg
 cardTitle: 'Best Soldering Iron for Serious Hobbyists: Weller vs. Hakko vs. Pinecil'
-cardPick: Weller WLC100 delivers professional-grade temperature control and reliability
-  that justifies investment for long-term weekend makers.
----
+cardPick: Weller WLC100 delivers professional-grade temperature control and reliability that justifies investment for long-term weekend makers.---
 
 ## Introduction
 

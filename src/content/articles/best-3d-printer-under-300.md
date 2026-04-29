@@ -1,14 +1,7 @@
 ---
 title: 'Best 3D Printer Under $300: Seven Budget Models Tested for Real-World Use'
-metaDescription: We tested 7 budget 3D printers under $300 with 120+ hours of PLA,
-  PETG, and TPU prints. The Creality Ender 3 V3 SE wins for most hobbyists—here's
-  why, plus detailed comparisons with the Anycubic Kobra Go, Elegoo Neptune 4, and
-  others.
-excerpt: After 120 hours of test prints across seven sub-$300  3D printers, we recommend
-  the Creality Ender 3 V3 SE for most hobbyists and retired engineers building custom
-  enclosures and prototypes. We also tested the Anycubic Kobra Go, Elegoo Neptune
-  4, and Sovol SV01 to show you which budget printer works best for your projects—and
-  which ones to avoid.
+metaDescription: We tested 7 budget 3D printers under $300 with 120+ hours of PLA, PETG, and TPU prints. The Creality Ender 3 V3 SE wins for most hobbyists—here's why, plus detailed comparisons with the Anycubic Kobra Go, Elegoo Neptune 4, and others.
+excerpt: After 120 hours of test prints across seven sub-$300  3D printers, we recommend the Creality Ender 3 V3 SE for most hobbyists and retired engineers building custom enclosures and prototypes. We also tested the Anycubic Kobra Go, Elegoo Neptune 4, and Sovol SV01 to show you which budget printer works best for your projects—and which ones to avoid.
 publishedAt: '2026-04-28'
 pillarSlug: advanced-maker-tech
 status: published
@@ -26,8 +19,7 @@ relatedProducts:
 - B07TEST3456
 - B07TEST7890
 - B07TEST2345
-heroImage: https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80
----
+heroImage: /images/hero/best-3d-printer-under-300.jpg---
 
 # Introduction
 

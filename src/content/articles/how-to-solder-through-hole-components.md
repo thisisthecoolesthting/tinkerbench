@@ -1,12 +1,8 @@
 ---
 title: 'Mastering Through-Hole Soldering: A Step-by-Step Tutorial'
-metaDescription: Learn the essential tools, techniques, and best practices for perfect
-  through-hole soldering joints every time, with comparisons of top-rated irons and
-  accessories.
+metaDescription: Learn the essential tools, techniques, and best practices for perfect through-hole soldering joints every time, with comparisons of top-rated irons and accessories.
 publishedAt: '2026-04-28T00:00:00Z'
-excerpt: This comprehensive guide walks through selecting the right soldering iron,
-  proper technique for through-hole components, common mistakes to avoid, and maintenance
-  tips to keep your tools in top shape.
+excerpt: This comprehensive guide walks through selecting the right soldering iron, proper technique for through-hole components, common mistakes to avoid, and maintenance tips to keep your tools in top shape.
 pillarSlug: soldering-essentials
 relatedProducts:
 - B004QM8SLG
@@ -24,8 +20,7 @@ tags:
 - tools
 - diy
 - repair
-heroImage: https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80
----
+heroImage: /images/hero/how-to-solder-through-hole-components.jpg---
 
 ## Introduction
 

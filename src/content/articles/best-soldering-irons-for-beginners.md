@@ -1,12 +1,8 @@
 ---
 title: 'The Best Soldering Irons for Beginners: Your First Step into Electronics'
-metaDescription: Compare the top soldering irons for beginners with real-world testing
-  data. We break down performance, cost, and alternatives to help you start soldering
-  right.
+metaDescription: Compare the top soldering irons for beginners with real-world testing data. We break down performance, cost, and alternatives to help you start soldering right.
 publishedAt: '2026-04-28T00:00:00Z'
-excerpt: Choosing your first soldering iron? We tested 8 models under $100 for temperature
-  stability, tip longevity, and ease of use. Here’s how the Hakko FX-888D, Pinecil,
-  and budget options stack up for hobbyists.
+excerpt: Choosing your first soldering iron? We tested 8 models under $100 for temperature stability, tip longevity, and ease of use. Here’s how the Hakko FX-888D, Pinecil, and budget options stack up for hobbyists.
 pillarSlug: soldering-essentials
 status: published
 tags:
@@ -23,11 +19,9 @@ relatedProducts:
 - B0GF25F12C
 - B0846GFNCQ
 - B0C7ZTV376
-heroImage: https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80
+heroImage: /images/hero/best-soldering-irons-for-beginners.jpg
 cardTitle: 'Best Beginner Soldering Iron: Weller WLC100 Station Review'
-cardPick: Weller WLC100 delivers reliable temperature control and comfortable handling,
-  perfect for rusty engineers returning to hands-on projects.
----
+cardPick: Weller WLC100 delivers reliable temperature control and comfortable handling, perfect for rusty engineers returning to hands-on projects.---
 
 ## Introduction
 

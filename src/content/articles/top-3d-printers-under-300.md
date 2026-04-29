@@ -1,12 +1,8 @@
 ---
 title: 'The Best 3D Printers Under $300: Affordable Entry into Additive Manufacturing'
-metaDescription: We tested 12 budget 3D printers under $300 to find which deliver
-  reliable prints without breaking the bank. See performance data, filament costs,
-  and hidden tradeoffs for hobbyists.
+metaDescription: We tested 12 budget 3D printers under $300 to find which deliver reliable prints without breaking the bank. See performance data, filament costs, and hidden tradeoffs for hobbyists.
 publishedAt: '2026-04-28T00:00:00Z'
-excerpt: After 90 days of testing, the Creality Ender 3 V2 emerged as the best sub-$300
-  3D printer for beginners, balancing print quality and upgradability. But three other
-  models deserve consideration depending on your workspace and tinkering tolerance.
+excerpt: After 90 days of testing, the Creality Ender 3 V2 emerged as the best sub-$300 3D printer for beginners, balancing print quality and upgradability. But three other models deserve consideration depending on your workspace and tinkering tolerance.
 pillarSlug: prototyping-and-fabrication
 relatedProducts:
 - B07Z6TV9Y7
@@ -23,8 +19,7 @@ tags:
 - rapid-prototyping
 - maker-tools
 - filament-comparison
-heroImage: https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80
----
+heroImage: /images/hero/top-3d-printers-under-300.jpg---
 
 ## Introduction
 

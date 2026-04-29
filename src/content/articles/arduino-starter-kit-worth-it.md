@@ -1,12 +1,8 @@
 ---
 title: Is an Arduino Starter Kit Worth Buying in 2024?
-metaDescription: A detailed comparison of Arduino starter kits for hobbyists and educators,
-  analyzing cost, components, and real-world usability to determine if they're worth
-  the investment.
+metaDescription: A detailed comparison of Arduino starter kits for hobbyists and educators, analyzing cost, components, and real-world usability to determine if they're worth the investment.
 publishedAt: '2026-04-29T00:00:00.000Z'
-excerpt: We tested seven Arduino starter kits over 90 days to determine which provide
-  real value for makers versus overpriced bundles. Here's the breakdown of components,
-  hidden costs, and alternatives.
+excerpt: We tested seven Arduino starter kits over 90 days to determine which provide real value for makers versus overpriced bundles. Here's the breakdown of components, hidden costs, and alternatives.
 pillarSlug: prototyping-and-fabrication
 relatedProducts:
 - B0DHV8SCLS
@@ -25,8 +21,7 @@ tags:
 - prototyping
 - maker-tools
 - diy-electronics
-heroImage: https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80
----
+heroImage: /images/hero/arduino-starter-kit-worth-it.jpg---
 
 ## Introduction
 

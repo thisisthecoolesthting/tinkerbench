@@ -1,12 +1,8 @@
 ---
 title: 'Best Soldering Kits for Beginners: 30-Day Bench Test Results'
-metaDescription: We tested 18 beginner soldering kits for temperature stability, tip
-  life, and real-world reliability. Find the best kit for your budget—from USB-C portables
-  to benchtop stations.
+metaDescription: We tested 18 beginner soldering kits for temperature stability, tip life, and real-world reliability. Find the best kit for your budget—from USB-C portables to benchtop stations.
 publishedAt: '2026-04-28T00:00:00Z'
-excerpt: Tested 18 beginner soldering kits on actual projects. The Pinecil V2 and
-  X-Tronic 3020-XTS outperformed $300 stations. Learn which tools last, which fail
-  fast, and why cheap irons destroy more boards than they build.
+excerpt: Tested 18 beginner soldering kits on actual projects. The Pinecil V2 and X-Tronic 3020-XTS outperformed $300 stations. Learn which tools last, which fail fast, and why cheap irons destroy more boards than they build.
 pillarSlug: soldering-essentials
 status: published
 tags:
@@ -24,11 +20,9 @@ relatedProducts:
 - B07C11YW88
 - B083BFPGD8
 - B0CYJV9X52
-heroImage: https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80
+heroImage: /images/hero/beginner-soldering-kit-guide.jpg
 cardTitle: 'Best Soldering Kits for Beginners: 30-Day Hands-On Test Results'
-cardPick: KSGER T12 wins with precise temperature control, fast heating, and reliable
-  performance that matches professional-grade tools at hobbyist prices.
----
+cardPick: KSGER T12 wins with precise temperature control, fast heating, and reliable performance that matches professional-grade tools at hobbyist prices.---
 
 ## Introduction
 

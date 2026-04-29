@@ -1,12 +1,8 @@
 ---
 title: 'Best 3D Printer Under $300: Our Top Picks for Hobbyists'
-metaDescription: We tested 12 budget 3D printers for 90 days to find the best models
-  under $300 for hobbyists. See performance data, cost breakdowns, and real-world
-  reliability comparisons.
+metaDescription: We tested 12 budget 3D printers for 90 days to find the best models under $300 for hobbyists. See performance data, cost breakdowns, and real-world reliability comparisons.
 publishedAt: '2026-04-29T00:00:00Z'
-excerpt: After 3 months of testing 12 budget 3D printers, we recommend the Creality
-  Ender 3 V2 for beginners and the Anycubic Kobra Go for faster printing. See filament
-  costs, failure rates, and upgrade paths.
+excerpt: After 3 months of testing 12 budget 3D printers, we recommend the Creality Ender 3 V2 for beginners and the Anycubic Kobra Go for faster printing. See filament costs, failure rates, and upgrade paths.
 pillarSlug: prototyping-and-fabrication
 relatedProducts:
 - B0DHV8SCLS
@@ -25,8 +21,7 @@ tags:
 - filament cost
 - pla printing
 - hobbyist tools
-heroImage: https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80
----
+heroImage: /images/hero/affordable-3d-printers.jpg---
 
 ## Introduction
 

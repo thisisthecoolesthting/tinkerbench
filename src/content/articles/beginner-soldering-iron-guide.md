@@ -1,11 +1,8 @@
 ---
 title: 'The Best Soldering Irons for Beginners: A Comprehensive Guide'
-metaDescription: Compare the best soldering irons for beginners with real-world testing
-  data. Learn which models deliver reliable performance without breaking the bank.
+metaDescription: Compare the best soldering irons for beginners with real-world testing data. Learn which models deliver reliable performance without breaking the bank.
 publishedAt: '2026-04-28T00:00:00Z'
-excerpt: Choosing your first soldering iron? We tested 15 models for heat recovery,
-  tip longevity, and ergonomics to find the best options under $100 for hobbyists
-  and makers.
+excerpt: Choosing your first soldering iron? We tested 15 models for heat recovery, tip longevity, and ergonomics to find the best options under $100 for hobbyists and makers.
 pillarSlug: soldering-essentials
 relatedProducts:
 - B093TCYF9T
@@ -21,8 +18,7 @@ tags:
 - maker-tools
 - circuit-prototyping
 - diy-electronics
-heroImage: https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80
----
+heroImage: /images/hero/beginner-soldering-iron-guide.jpg---
 
 ## Introduction
 
