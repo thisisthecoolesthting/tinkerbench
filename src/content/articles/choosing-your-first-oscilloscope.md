@@ -1,8 +1,11 @@
 ---
 title: 'Choosing Your First Oscilloscope: A Beginner''s Guide'
-metaDescription: Learn how to select the right oscilloscope for your electronics projects, with comparisons of top models, cost analysis, and practical buying advice.
+metaDescription: Learn how to select the right oscilloscope for your electronics projects,
+  with comparisons of top models, cost analysis, and practical buying advice.
 publishedAt: '2026-04-28T00:00:00.000Z'
-excerpt: Picking your first oscilloscope doesn't have to be overwhelming. This guide compares key models, explains real-world performance tradeoffs, and helps you avoid common beginner mistakes.
+excerpt: Picking your first oscilloscope doesn't have to be overwhelming. This guide
+  compares key models, explains real-world performance tradeoffs, and helps you avoid
+  common beginner mistakes.
 pillarSlug: measurement-and-analysis
 status: published
 tags:
@@ -24,7 +27,9 @@ relatedProducts:
 - B099NZC4PB
 heroImage: /images/hero/choosing-your-first-oscilloscope.jpg
 cardTitle: Perfect First Oscilloscope for Weekend Makers and Hobbyists
-cardPick: Pinecil delivers professional-grade performance in a compact, affordable package ideal for learning electronics after years away.---
+cardPick: Pinecil delivers professional-grade performance in a compact, affordable
+  package ideal for learning electronics after years away.
+---
 
 ## Introduction
 

@@ -1,8 +1,11 @@
 ---
 title: 'Finding the Cheapest Decent Oscilloscope: A Buyer''s Guide'
-metaDescription: A practical comparison of budget oscilloscopes for hobbyists, with real-world testing data on performance, longevity, and cost efficiency.
+metaDescription: A practical comparison of budget oscilloscopes for hobbyists, with
+  real-world testing data on performance, longevity, and cost efficiency.
 publishedAt: '2026-04-28T00:00:00.000Z'
-excerpt: Cut through the marketing hype with our hands-on testing of affordable oscilloscopes. We compare bandwidth, sample rates, and durability to find tools that won't fail your bench projects.
+excerpt: Cut through the marketing hype with our hands-on testing of affordable oscilloscopes.
+  We compare bandwidth, sample rates, and durability to find tools that won't fail
+  your bench projects.
 pillarSlug: measurement-and-analysis
 status: published
 tags:
@@ -20,7 +23,9 @@ relatedProducts:
 - B0CGW2TFSV
 heroImage: /images/hero/budget-oscilloscope-buyers-guide.jpg
 cardTitle: Best Budget Soldering Iron for Weekend Electronics Makers
-cardPick: Pinecil delivers professional-grade performance at half the price, perfect for hobbyists rebuilding skills after years away.---
+cardPick: Pinecil delivers professional-grade performance at half the price, perfect
+  for hobbyists rebuilding skills after years away.
+---
 
 ## Introduction
 

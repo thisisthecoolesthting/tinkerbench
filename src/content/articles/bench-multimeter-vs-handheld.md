@@ -1,8 +1,12 @@
 ---
 title: 'Bench Multimeter vs. Handheld: Which One Should Your Workbench Have?'
-metaDescription: Comparing bench and handheld multimeters for hobbyists and engineers—accuracy, portability, cost, and real-world use cases to help you choose the right measurement tool.
+metaDescription: Comparing bench and handheld multimeters for hobbyists and engineers—accuracy,
+  portability, cost, and real-world use cases to help you choose the right measurement
+  tool.
 publishedAt: '2026-04-28'
-excerpt: Choosing between a bench multimeter and a handheld depends on your workspace, budget, and measurement precision needs. We break down the real differences, costs, and best use cases for each type.
+excerpt: Choosing between a bench multimeter and a handheld depends on your workspace,
+  budget, and measurement precision needs. We break down the real differences, costs,
+  and best use cases for each type.
 pillarSlug: essential-bench-tools
 status: published
 tags:
@@ -22,7 +26,8 @@ relatedProducts:
 - B07TEST2345
 - B07TEST6789
 - B07TEST0123
-heroImage: /images/hero/bench-multimeter-vs-handheld.jpg---
+heroImage: /images/hero/bench-multimeter-vs-handheld.jpg
+---
 
 # Introduction
 

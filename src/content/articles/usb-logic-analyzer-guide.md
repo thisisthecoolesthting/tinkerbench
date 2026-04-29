@@ -1,8 +1,12 @@
 ---
 title: 'Unlocking Your Circuits: A Guide to USB Logic Analyzers (24MHz)'
-metaDescription: Compare USB logic analyzers for hobby electronics. We tested 8 models for signal integrity, software compatibility, and durability to find the best 24MHz analyzer for your bench.
+metaDescription: Compare USB logic analyzers for hobby electronics. We tested 8 models
+  for signal integrity, software compatibility, and durability to find the best 24MHz
+  analyzer for your bench.
 publishedAt: '2026-04-29T00:00:00.000Z'
-excerpt: Choosing a USB logic analyzer involves more than just sampling rate. We tested 8 models for signal integrity, software compatibility, and durability to help you find the right 24MHz analyzer for debugging Arduino, Raspberry Pi, and FPGA projects.
+excerpt: Choosing a USB logic analyzer involves more than just sampling rate. We tested
+  8 models for signal integrity, software compatibility, and durability to help you
+  find the right 24MHz analyzer for debugging Arduino, Raspberry Pi, and FPGA projects.
 pillarSlug: measurement-tools
 relatedProducts:
 - B0DHV8SCLS
@@ -23,7 +27,8 @@ tags:
 - fpga debugging
 - arduino tools
 - raspberry pi accessories
-heroImage: /images/hero/usb-logic-analyzer-guide.jpg---
+heroImage: /images/hero/usb-logic-analyzer-guide.jpg
+---
 
 # Introduction
 

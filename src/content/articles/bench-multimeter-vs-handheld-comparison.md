@@ -1,8 +1,12 @@
 ---
 title: 'Bench Multimeter vs. Handheld: Which One Do You Need?'
-metaDescription: A detailed comparison of bench and handheld multimeters for hobbyists and engineers, covering performance, cost, and real-world use cases to help you choose the right tool.
+metaDescription: A detailed comparison of bench and handheld multimeters for hobbyists
+  and engineers, covering performance, cost, and real-world use cases to help you
+  choose the right tool.
 publishedAt: '2026-04-28T00:00:00.000Z'
-excerpt: Choosing between a bench multimeter and a handheld model? This guide breaks down the key differences in accuracy, durability, and cost to help you make an informed decision for your electronics projects.
+excerpt: Choosing between a bench multimeter and a handheld model? This guide breaks
+  down the key differences in accuracy, durability, and cost to help you make an informed
+  decision for your electronics projects.
 pillarSlug: measurement-and-analysis
 relatedProducts:
 - B004QM8SLG
@@ -21,7 +25,9 @@ tags:
 - engineering
 heroImage: /images/hero/bench-multimeter-vs-handheld-comparison.jpg
 cardTitle: 'Bench vs. Handheld Multimeters: Pick the Right Tool'
-cardPick: Pinecil's compact design lets hobbyists test circuits anywhere without sacrificing professional-grade accuracy or temperature control.---
+cardPick: Pinecil's compact design lets hobbyists test circuits anywhere without sacrificing
+  professional-grade accuracy or temperature control.
+---
 
 ## Introduction
 

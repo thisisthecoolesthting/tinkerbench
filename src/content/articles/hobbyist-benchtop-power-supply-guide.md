@@ -1,8 +1,12 @@
 ---
 title: Choosing the Best Benchtop Power Supply for Your Hobby Bench
-metaDescription: A detailed comparison of benchtop power supplies for electronics hobbyists, covering performance, cost, and real-world use cases to help you make an informed decision.
+metaDescription: A detailed comparison of benchtop power supplies for electronics
+  hobbyists, covering performance, cost, and real-world use cases to help you make
+  an informed decision.
 publishedAt: '2026-04-28T00:00:00.000Z'
-excerpt: Selecting the right benchtop power supply can make or break your electronics projects. We compare top models, analyze performance, and break down costs to help you find the perfect fit for your workbench.
+excerpt: Selecting the right benchtop power supply can make or break your electronics
+  projects. We compare top models, analyze performance, and break down costs to help
+  you find the perfect fit for your workbench.
 pillarSlug: measurement-and-analysis
 status: published
 tags:
@@ -23,7 +27,8 @@ relatedProducts:
 - B085VZPR2Y
 - B0CGW2TFSV
 - B0CGW48C3G
-heroImage: /images/hero/hobbyist-benchtop-power-supply-guide.jpg---
+heroImage: /images/hero/hobbyist-benchtop-power-supply-guide.jpg
+---
 
 # Introduction
 

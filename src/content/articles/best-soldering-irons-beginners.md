@@ -1,7 +1,12 @@
 ---
-title: 'Best Soldering Irons for Beginners: 30-Hour Bench Tests of the Hakko, Pinecil, and Budget Models'
-metaDescription: Honest comparison of beginner soldering irons tested 30+ hours each on real projects. Hakko FX-888D vs. Pinecil V2 vs. budget alternatives—thermal recovery, tip life, and long-term reliability data.
-excerpt: Choosing your first soldering iron? We tested four models for 30+ hours each on Arduino boards, guitar pedals, and vintage radios. Here's what maintains temperature, what fails first, and what's worth the extra cost.
+title: 'Best Soldering Irons for Beginners: 30-Hour Bench Tests of the Hakko, Pinecil,
+  and Budget Models'
+metaDescription: Honest comparison of beginner soldering irons tested 30+ hours each
+  on real projects. Hakko FX-888D vs. Pinecil V2 vs. budget alternatives—thermal recovery,
+  tip life, and long-term reliability data.
+excerpt: Choosing your first soldering iron? We tested four models for 30+ hours each
+  on Arduino boards, guitar pedals, and vintage radios. Here's what maintains temperature,
+  what fails first, and what's worth the extra cost.
 publishedAt: '2026-04-28'
 pillarSlug: getting-started
 status: published
@@ -20,7 +25,8 @@ relatedProducts:
 - B07TEST3456
 - B07TEST7890
 - B07TEST2345
-heroImage: /images/hero/best-soldering-irons-beginners.jpg---
+heroImage: /images/hero/best-soldering-irons-beginners.jpg
+---
 
 # Introduction
 

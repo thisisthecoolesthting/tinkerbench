@@ -1,8 +1,13 @@
 ---
 title: 'How to Solder Through-Hole Components: Master the Essential Technique'
-metaDescription: Learn to solder through-hole components like a pro. Step-by-step techniques, tool recommendations, troubleshooting cold joints, and why it matters for reliable circuits. For hobbyists and returning engineers.
+metaDescription: Learn to solder through-hole components like a pro. Step-by-step
+  techniques, tool recommendations, troubleshooting cold joints, and why it matters
+  for reliable circuits. For hobbyists and returning engineers.
 publishedAt: '2026-04-28'
-excerpt: Through-hole soldering is the foundation of reliable electronics work. This practical guide covers tool selection, proven techniques, and the mistakes that wreck pads—so you can build circuits that last decades instead of failing during debugging.
+excerpt: Through-hole soldering is the foundation of reliable electronics work. This
+  practical guide covers tool selection, proven techniques, and the mistakes that
+  wreck pads—so you can build circuits that last decades instead of failing during
+  debugging.
 pillarSlug: getting-started
 status: published
 tags:
@@ -22,7 +27,8 @@ relatedProducts:
 - B07TEST2345
 - B07TEST6789
 - B07TEST0123
-heroImage: /images/hero/how-to-solder-through-hole.jpg---
+heroImage: /images/hero/how-to-solder-through-hole.jpg
+---
 
 ## Introduction
 

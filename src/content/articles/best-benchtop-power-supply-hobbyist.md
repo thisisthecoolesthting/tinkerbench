@@ -1,8 +1,12 @@
 ---
 title: 'Best Benchtop Power Supply for Hobbyists: Clean Power for Your Projects'
-metaDescription: Honest reviews of benchtop power supplies for electronics hobbyists. We compare linear vs. switching regulation, test real-world performance, and help you choose between budget, mid-range, and lab-grade models.
+metaDescription: Honest reviews of benchtop power supplies for electronics hobbyists.
+  We compare linear vs. switching regulation, test real-world performance, and help
+  you choose between budget, mid-range, and lab-grade models.
 publishedAt: '2026-04-28'
-excerpt: A proper benchtop power supply is the foundation of any electronics workbench. We've tested the top models—from the budget Mastech to the lab-grade Rigol—and show you which one matches your projects and budget.
+excerpt: A proper benchtop power supply is the foundation of any electronics workbench.
+  We've tested the top models—from the budget Mastech to the lab-grade Rigol—and show
+  you which one matches your projects and budget.
 pillarSlug: essential-bench-tools
 status: published
 tags:
@@ -19,7 +23,8 @@ relatedProducts:
 - B07TEST9012
 - B07TEST3456
 - B07TEST7890
-heroImage: /images/hero/best-benchtop-power-supply-hobbyist.jpg---
+heroImage: /images/hero/best-benchtop-power-supply-hobbyist.jpg
+---
 
 # Introduction
 

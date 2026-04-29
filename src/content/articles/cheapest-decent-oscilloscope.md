@@ -1,8 +1,13 @@
 ---
 title: 'The Cheapest Decent Oscilloscope for Your Bench: Tested Under $300'
-metaDescription: We tested six budget oscilloscopes under $300 in real projects—power supplies, Arduino PWM, I2C debugging. Find which one delivers actual performance and which are false savings.
+metaDescription: We tested six budget oscilloscopes under $300 in real projects—power
+  supplies, Arduino PWM, I2C debugging. Find which one delivers actual performance
+  and which are false savings.
 publishedAt: '2026-04-28'
-excerpt: Budget oscilloscopes range from $89 USB dongles to $400 four-channel units. We burned through 200+ hours testing six popular models on real hobbyist projects—Arduino PWM, switch-mode supplies, I2C debugging—to find where the sweet spot between price and usability actually sits.
+excerpt: Budget oscilloscopes range from $89 USB dongles to $400 four-channel units.
+  We burned through 200+ hours testing six popular models on real hobbyist projects—Arduino
+  PWM, switch-mode supplies, I2C debugging—to find where the sweet spot between price
+  and usability actually sits.
 pillarSlug: essential-bench-tools
 status: published
 tags:
@@ -19,7 +24,8 @@ relatedProducts:
 - B07TEST3456
 - B07TEST7890
 - B07TEST2345
-heroImage: /images/hero/cheapest-decent-oscilloscope.jpg---
+heroImage: /images/hero/cheapest-decent-oscilloscope.jpg
+---
 
 ## Introduction
 

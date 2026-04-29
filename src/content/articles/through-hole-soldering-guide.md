@@ -1,8 +1,11 @@
 ---
 title: 'How to Solder Through-Hole Components: A Step-by-Step Tutorial'
-metaDescription: Learn professional through-hole soldering techniques with our detailed guide comparing top irons, fluxes, and accessories for hobbyists and engineers.
+metaDescription: Learn professional through-hole soldering techniques with our detailed
+  guide comparing top irons, fluxes, and accessories for hobbyists and engineers.
 publishedAt: '2026-04-28T00:00:00Z'
-excerpt: Master through-hole soldering with our tested tool recommendations and step-by-step techniques. We compare Hakko, Weller, and budget options to help you build reliable circuits without cold joints or damaged components.
+excerpt: Master through-hole soldering with our tested tool recommendations and step-by-step
+  techniques. We compare Hakko, Weller, and budget options to help you build reliable
+  circuits without cold joints or damaged components.
 pillarSlug: soldering-essentials
 relatedProducts:
 - B004QM8SLG
@@ -19,7 +22,8 @@ tags:
 - PCB assembly
 - hobbyist tools
 - soldering iron comparison
-heroImage: /images/hero/through-hole-soldering-guide.jpg---
+heroImage: /images/hero/through-hole-soldering-guide.jpg
+---
 
 ## Introduction
 

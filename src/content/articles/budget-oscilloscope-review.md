@@ -1,8 +1,11 @@
 ---
 title: 'Finding the Cheapest Decent Oscilloscope: Reviews and Recommendations'
-metaDescription: We tested 8 budget oscilloscopes under $500 to find which ones deliver usable performance for hobbyists. See real bench tests, cost breakdowns, and alternatives.
+metaDescription: We tested 8 budget oscilloscopes under $500 to find which ones deliver
+  usable performance for hobbyists. See real bench tests, cost breakdowns, and alternatives.
 publishedAt: '2026-04-28T00:00:00.000Z'
-excerpt: After burning through three cheap oscilloscopes in 18 months, I tested eight models under $500 to find which actually work for hobby electronics. Here's what survives bench testing without breaking the bank.
+excerpt: After burning through three cheap oscilloscopes in 18 months, I tested eight
+  models under $500 to find which actually work for hobby electronics. Here's what
+  survives bench testing without breaking the bank.
 pillarSlug: measurement-and-analysis
 relatedProducts:
 - B093TCYF9T
@@ -18,7 +21,8 @@ tags:
 - bench-testing
 - signal-analysis
 - hobbyist-tools
-heroImage: /images/hero/budget-oscilloscope-review.jpg---
+heroImage: /images/hero/budget-oscilloscope-review.jpg
+---
 
 ## Introduction
 

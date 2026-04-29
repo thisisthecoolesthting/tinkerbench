@@ -1,8 +1,14 @@
 ---
-title: Are Arduino Starter Kits Worth Buying? Honest Reviews for Beginners and Returning Makers
-metaDescription: We tested Arduino starter kits over 50+ hours of real projects. Learn what's genuinely useful, what's filler, and whether the official kit, Elegoo, or SunFounder makes sense for your skill level and budget.
+title: Are Arduino Starter Kits Worth Buying? Honest Reviews for Beginners and Returning
+  Makers
+metaDescription: We tested Arduino starter kits over 50+ hours of real projects. Learn
+  what's genuinely useful, what's filler, and whether the official kit, Elegoo, or
+  SunFounder makes sense for your skill level and budget.
 publishedAt: '2026-04-28'
-excerpt: Arduino starter kits promise an easy entry into electronics, but are they worth the price? We bench-tested three popular kits with beginners and experienced makers, measured component durability, and mapped exactly when each kit pays for itself.
+excerpt: Arduino starter kits promise an easy entry into electronics, but are they
+  worth the price? We bench-tested three popular kits with beginners and experienced
+  makers, measured component durability, and mapped exactly when each kit pays for
+  itself.
 pillarSlug: getting-started
 status: published
 tags:
@@ -18,7 +24,8 @@ relatedProducts:
 - B07TEST3456
 - B07TEST7890
 - B07TEST2345
-heroImage: /images/hero/arduino-starter-kits-worth-buying.jpg---
+heroImage: /images/hero/arduino-starter-kits-worth-buying.jpg
+---
 
 ## Introduction
 

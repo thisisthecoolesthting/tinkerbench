@@ -1,8 +1,13 @@
 ---
 title: 'Best Budget Oscilloscope Under $500: Real Bandwidth, Real Results'
-metaDescription: We tested 6 oscilloscopes under $500 against calibrated reference equipment. Find verified bandwidth specs, honest performance data, and which model actually works for circuit debugging.
+metaDescription: We tested 6 oscilloscopes under $500 against calibrated reference
+  equipment. Find verified bandwidth specs, honest performance data, and which model
+  actually works for circuit debugging.
 publishedAt: '2026-04-28T00:00:00Z'
-excerpt: Most budget oscilloscopes lie about bandwidth. We tested six models under $500 with calibrated RF equipment to separate real measurement tools from spec-inflated toys—with hard data on which three actually work for Arduino, power supplies, and protocol decoding.
+excerpt: Most budget oscilloscopes lie about bandwidth. We tested six models under
+  $500 with calibrated RF equipment to separate real measurement tools from spec-inflated
+  toys—with hard data on which three actually work for Arduino, power supplies, and
+  protocol decoding.
 pillarSlug: precision-measurement
 status: published
 tags:
@@ -22,7 +27,9 @@ relatedProducts:
 - B0CYJV9X52
 heroImage: /images/hero/budget-oscilloscope-showdown.jpg
 cardTitle: 'Budget Oscilloscope Under $500: Real Bandwidth, Real Results'
-cardPick: KSGER T12 delivers professional-grade soldering precision at hobbyist pricing, perfect for weekend projects without breaking the bank.---
+cardPick: KSGER T12 delivers professional-grade soldering precision at hobbyist pricing,
+  perfect for weekend projects without breaking the bank.
+---
 
 ## Introduction
 

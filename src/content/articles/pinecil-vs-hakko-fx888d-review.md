@@ -1,8 +1,12 @@
 ---
 title: 'Pinecil vs. Hakko FX-888D: Which Soldering Iron is Right for You?'
-metaDescription: Detailed comparison of the portable Pinecil and benchtop Hakko FX-888D soldering irons for hobbyists and professionals, including real-world performance tests and cost analysis.
+metaDescription: Detailed comparison of the portable Pinecil and benchtop Hakko FX-888D
+  soldering irons for hobbyists and professionals, including real-world performance
+  tests and cost analysis.
 publishedAt: '2026-04-28T00:00:00.000Z'
-excerpt: Choosing between the portable Pinecil and benchtop Hakko FX-888D? We tested both for 60+ hours of soldering to compare temperature control, tip options, durability, and total cost of ownership for different use cases.
+excerpt: Choosing between the portable Pinecil and benchtop Hakko FX-888D? We tested
+  both for 60+ hours of soldering to compare temperature control, tip options, durability,
+  and total cost of ownership for different use cases.
 pillarSlug: soldering-essentials
 relatedProducts:
 - B0CB75LML9
@@ -21,7 +25,9 @@ tags:
 - bench-tools
 heroImage: /images/hero/pinecil-vs-hakko-fx888d-review.jpg
 cardTitle: 'Budget Soldering Iron Showdown: Pinecil vs. Hakko FX-888D'
-cardPick: Pinecil wins with precise temperature control, affordability, and open-source firmware—perfect for weekend makers returning to electronics.---
+cardPick: Pinecil wins with precise temperature control, affordability, and open-source
+  firmware—perfect for weekend makers returning to electronics.
+---
 
 ## Introduction
 

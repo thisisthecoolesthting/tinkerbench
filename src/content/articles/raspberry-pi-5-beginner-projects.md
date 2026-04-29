@@ -1,8 +1,12 @@
 ---
 title: 'Kickstart Your Projects: Raspberry Pi 5 Ideas for Beginners'
-metaDescription: Discover practical Raspberry Pi 5 projects for beginners, from retro gaming consoles to smart home hubs. Compare hardware kits, calculate costs, and avoid common pitfalls in this comprehensive guide.
+metaDescription: Discover practical Raspberry Pi 5 projects for beginners, from retro
+  gaming consoles to smart home hubs. Compare hardware kits, calculate costs, and
+  avoid common pitfalls in this comprehensive guide.
 publishedAt: '2026-04-28T00:00:00Z'
-excerpt: The Raspberry Pi 5 opens up a world of possibilities for hobbyists. We compare starter kits, break down real project costs, and share hard-won lessons from building 12 beginner projects over 90 days.
+excerpt: The Raspberry Pi 5 opens up a world of possibilities for hobbyists. We compare
+  starter kits, break down real project costs, and share hard-won lessons from building
+  12 beginner projects over 90 days.
 pillarSlug: prototyping-and-fabrication
 relatedProducts:
 - B0CB75LML9
@@ -23,7 +27,8 @@ tags:
 - iot-projects
 - coding-for-beginners
 - maker-community
-heroImage: /images/hero/raspberry-pi-5-beginner-projects.jpg---
+heroImage: /images/hero/raspberry-pi-5-beginner-projects.jpg
+---
 
 ## Introduction
 

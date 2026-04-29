@@ -1,8 +1,13 @@
 ---
 title: 'Best Raspberry Pi 5 Projects for Beginners: From Retro Gaming to Home Automation'
-metaDescription: Beginner-friendly Raspberry Pi 5 projects with step-by-step guides, component recommendations, and cost breakdowns. Learn retro gaming setup, home automation, and Python coding.
+metaDescription: Beginner-friendly Raspberry Pi 5 projects with step-by-step guides,
+  component recommendations, and cost breakdowns. Learn retro gaming setup, home automation,
+  and Python coding.
 publishedAt: '2026-04-28'
-excerpt: 'The Raspberry Pi 5 is the most capable—and beginner-friendly—single-board computer yet. We''ve tested five complete projects: retro gaming console, Pi-hole ad blocker, home automation hub, weather station, and media server. Each includes component lists, performance benchmarks, and three budget tiers starting at $89.'
+excerpt: 'The Raspberry Pi 5 is the most capable—and beginner-friendly—single-board
+  computer yet. We''ve tested five complete projects: retro gaming console, Pi-hole
+  ad blocker, home automation hub, weather station, and media server. Each includes
+  component lists, performance benchmarks, and three budget tiers starting at $89.'
 pillarSlug: getting-started
 status: published
 tags:
@@ -22,7 +27,8 @@ relatedProducts:
 - B07TEST2345
 - B07TEST6789
 - B07TEST0123
-heroImage: /images/hero/raspberry-pi-5-projects-beginners.jpg---
+heroImage: /images/hero/raspberry-pi-5-projects-beginners.jpg
+---
 
 ## Introduction
 

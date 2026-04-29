@@ -1,8 +1,14 @@
 ---
-title: 'Best Benchtop Power Supply for Hobbyists: Lab-Grade Precision Without the Lab-Grade Price'
-metaDescription: Compare 8 benchtop power supplies tested on real projects. We break down which units deliver clean power for Arduino, synthesizers, and robotics—and which ones fry components.
+title: 'Best Benchtop Power Supply for Hobbyists: Lab-Grade Precision Without the
+  Lab-Grade Price'
+metaDescription: Compare 8 benchtop power supplies tested on real projects. We break
+  down which units deliver clean power for Arduino, synthesizers, and robotics—and
+  which ones fry components.
 publishedAt: '2026-04-28T00:00:00.000Z'
-excerpt: When wall adapters stop cutting it, you need a real benchtop power supply. We tested eight models across 30+ projects—from IoT prototypes to vintage synth repairs—to show you which deliver lab-grade precision and which waste money on noise and drift.
+excerpt: When wall adapters stop cutting it, you need a real benchtop power supply.
+  We tested eight models across 30+ projects—from IoT prototypes to vintage synth
+  repairs—to show you which deliver lab-grade precision and which waste money on noise
+  and drift.
 pillarSlug: precision-measurement
 relatedProducts:
 - B0FT32PL8L
@@ -24,7 +30,9 @@ tags:
 - precision measurement
 heroImage: /images/hero/hobbyist-benchtop-power-supply.jpg
 cardTitle: Lab-Quality Soldering Station Without Breaking the Bank
-cardPick: KSGER T12 delivers precise temperature control and rapid heat-up that rivals expensive equipment at half the cost.---
+cardPick: KSGER T12 delivers precise temperature control and rapid heat-up that rivals
+  expensive equipment at half the cost.
+---
 
 # Introduction
 
