@@ -44,7 +44,7 @@ Environmental factors also play a role. The Pinecil's digital temperature contro
 
 ## Head-to-head comparison
 
-| Feature               | Pinecil (B0CB75LML9) | Hakko FX-888D (B004QM8SLG) |
+| Feature               | Pinecil | Hakko FX-888D |
 |-----------------------|----------------------|----------------------------|
 | Price                 | $25-$40              | $100-$150                  |
 | Power Source          | USB-C or DC          | AC                         |

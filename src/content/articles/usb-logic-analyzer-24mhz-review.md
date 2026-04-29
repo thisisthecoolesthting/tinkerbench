@@ -42,9 +42,9 @@ In one FPGA project, I was debugging a timing issue in a DDR3 memory controller.
 
 | Model                  | Channels | Max Sample Rate | Input Protection | Software           | Price  |
 |------------------------|----------|-----------------|------------------|--------------------|--------|
-| Hantek 24MHz (B0CB75LML9) | 8        | 24MHz           | ±15V             | Open-source        | $59    |
-| Saleae Clone Pro (B093TCYF9T) | 16       | 24MHz           | ±25V             | Modified Logic     | $129   |
-| Digilent Digital Discovery (B004QM8SLG) | 32       | 100MHz          | ±50V             | WaveForms          | $199   |
+| Hantek 24MHz | 8        | 24MHz           | ±15V             | Open-source        | $59    |
+| Saleae Clone Pro | 16       | 24MHz           | ±25V             | Modified Logic     | $129   |
+| Digilent Digital Discovery | 32       | 100MHz          | ±50V             | WaveForms          | $199   |
 
 Key findings:
 - The [Hantek](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) struggles with noisy 3.3V signals but excels at 5V Arduino work

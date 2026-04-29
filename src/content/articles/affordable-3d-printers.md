@@ -42,7 +42,7 @@ A bad $300 printer can cost you $800 in wasted filament and replacement parts. W
 
 1. **Thermal runaway**: Cheap hotends can't maintain temperature during long prints, causing layer separation. Our thermal camera showed the Anycubic Kobra Go held ±2°C while the $199 Creality Ender 3 Neo fluctuated ±8°C.
 
-2. **Z-axis wobble**: Loose lead screws on the Sovol SV01 (B0DHV8SCLS) caused visible layer shifts after 200 hours, while the dual-Z-axis Artillery Genius (B00WSAXBQ0) showed no degradation.
+2. **Z-axis wobble**: Loose lead screws on the Sovol SV01 caused visible layer shifts after 200 hours, while the dual-Z-axis Artillery Genius showed no degradation.
 
 3. **Bed adhesion**: The magnetic PEI sheet on the [Anycubic Kobra Go](https://www.amazon.com/dp/B0G63G9LRJ?tag=tinkerbench-20) required zero glue sticks, whereas the basic Ender 3's glass bed needed hairspray for PLA adhesion.
 
@@ -73,7 +73,7 @@ After 30 consecutive 6-hour prints of benchy boats:
 
 2. The Ender 3 V2's PTFE tube degraded at the hotend, requiring replacement after 400 hours (common to all PTFE-lined hotends)
 
-3. The Artillery Genius (B00WSAXBQ0) showed no measurable wear but consumed 22% more power due to its always-on bed heater
+3. The Artillery Genius showed no measurable wear but consumed 22% more power due to its always-on bed heater
 
 For functional parts, the [Sovol SV01](https://www.amazon.com/dp/B0DHV8SCLS?tag=tinkerbench-20) produced the strongest layer adhesion (63MPa vs 58MPa on others) thanks to its dual-gear extruder, but only when using premium PLA.
 
