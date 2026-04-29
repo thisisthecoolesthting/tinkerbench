@@ -14,7 +14,7 @@ relatedProducts:
 - B085VZPR2Y
 - B0848Q34F8
 - B084YQW46L
-status: draft
+status: published
 tags:
 - oscilloscope
 - budget-electronics

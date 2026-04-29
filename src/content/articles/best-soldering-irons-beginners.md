@@ -9,7 +9,7 @@ excerpt: Choosing your first soldering iron? We tested four models for 30+ hours
   what fails first, and what's worth the extra cost.
 publishedAt: '2026-04-28'
 pillarSlug: getting-started
-status: draft
+status: published
 tags:
 - soldering
 - beginner-electronics
