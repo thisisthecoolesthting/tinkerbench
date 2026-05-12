@@ -25,15 +25,17 @@ relatedProducts:
 - B07TEST7890
 - B07TEST2345
 heroImage: /images/hero/cheapest-decent-oscilloscope.jpg
+subtopic: test-gear
+updatedAt: 2026-05-12
 ---
 
 ## Introduction
 
-You've hit that moment in the hobby electronics journey where a multimeter's static voltage readings no longer cut it. Whether you're diagnosing timing glitches in a 555 timer circuit, analyzing PWM signals from an ESP32, or debugging I2C communication between sensors, you need to see how voltages actually change over time—not just their resting value.
+You've hit that moment in the hobby electronics journey where a multimeter's static voltage readings no longer cut it. Whether you're diagnosing timing glitches in a 555 timer circuit, analyzing PWM signals from an ESP32, or debugging I2C communication between sensors, you need to see how voltages actually change over time—not just their resting value. For more context, see our [article on bench multimeter vs. handheld:](/articles/bench-multimeter-vs-handheld).
 
-The market floods you with options: $20 USB dongles, $150 handheld units, $400 benchtop scopes, $3,000 lab instruments. Finding the sweet spot between affordability and real-world performance requires actual testing, not marketing specs.
+The market floods you with options: $20 USB dongles, $150 handheld units, $400 benchtop scopes, $3,000 lab instruments. Finding the sweet spot between affordability and real-world performance requires actual testing, not marketing specs. For more context, see our [article on benchtop power supply](/articles/best-benchtop-power-supply-hobbyist).
 
-We spent three months putting six popular budget oscilloscopes through real projects: measuring crystal oscillator stability in retrocomputing builds, capturing servo control signals in robotics, and debugging serial communications in industrial control systems. Over 200+ hours of bench time revealed that while all sub-$300 scopes can display basic waveforms, their performance diverges dramatically when you push beyond simple demo circuits. This guide walks you through the decision factors, hidden limitations, and cost-saving opportunities we uncovered.
+We spent three months putting six popular budget oscilloscopes through real projects: measuring crystal oscillator stability in retrocomputing builds, capturing servo control signals in robotics, and debugging serial communications in industrial control systems. Over 200+ hours of bench time revealed that while all sub-$300 scopes can display basic waveforms, their performance diverges dramatically when you push beyond simple demo circuits.  For more context, see our [article on hakko fx-888d vs. pinecil:](/articles/hakko-fx-888d-vs-pinecil).This guide walks you through the decision factors, hidden limitations, and cost-saving opportunities we uncovered.
 
 ## Why an oscilloscope matters
 

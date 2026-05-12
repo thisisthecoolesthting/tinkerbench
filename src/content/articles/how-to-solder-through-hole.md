@@ -28,17 +28,19 @@ relatedProducts:
 - B07TEST6789
 - B07TEST0123
 heroImage: /images/hero/how-to-solder-through-hole.jpg
+subtopic: soldering
+updatedAt: 2026-05-12
 ---
 
 ## Introduction
 
-If you've stared at a circuit board wondering how to attach those little metal-legged components securely, you're not alone. Through-hole soldering is one of the most fundamental skills in electronics—and one of the easiest to botch. Whether you're assembling an Arduino project, repairing a vintage radio, or building a custom PCB, mastering this skill will save you hours of frustration and ruined components.
+If you've stared at a circuit board wondering how to attach those little metal-legged components securely, you're not alone. Through-hole soldering is one of the most fundamental skills in electronics—and one of the easiest to botch.  For more context, see our [article on raspberry pi 5 projects](/articles/raspberry-pi-5-projects-beginners).Whether you're assembling an Arduino project, repairing a vintage radio, or building a custom PCB, mastering this skill will save you hours of frustration and ruined components.
 
-This guide walks you through the tools you actually need, techniques that work reliably, and the specific mistakes that burn pads and create cold joints. By the end, you'll be able to solder through-hole components confidently, whether you're using a [Hakko FX-888D](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20) or a budget-friendly [Pine64 Pinecil](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20).
+This guide walks you through the tools you actually need, techniques that work reliably, and the specific mistakes that burn pads and create cold joints. By the end, you'll be able to solder through-hole components confidently, whether you're using a [Hakko FX-888D](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20) or a budget-friendly [Pine64 Pinecil](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20). For more context, see our [article on are arduino starter kits](/articles/arduino-starter-kits-worth-buying).
 
 ### What you'll need
 
-A good soldering iron is crucial, but quality solder, flux, and a reliable workspace matter just as much. For consistent results, choose an iron with adjustable temperature control—it lets you dial in heat for different components and solder types. A magnifying lamp or precision tweezers will save your eyesight and steady your hands when working with small components.
+A good soldering iron is crucial, but quality solder, flux, and a reliable workspace matter just as much. For consistent results, choose an iron with adjustable temperature control—it lets you dial in heat for different components and solder types.  For more context, see our [article on soldering irons](/articles/best-soldering-irons-beginners).A magnifying lamp or precision tweezers will save your eyesight and steady your hands when working with small components.
 
 ## Why this matters
 

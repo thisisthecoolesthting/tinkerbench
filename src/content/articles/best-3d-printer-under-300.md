@@ -27,11 +27,13 @@ relatedProducts:
 - B07TEST7890
 - B07TEST2345
 heroImage: /images/hero/best-3d-printer-under-300.jpg
+subtopic: soldering
+updatedAt: 2026-05-12
 ---
 
 # Introduction
 
-"Can you really get a decent 3D printer for under $300?" That's the question we hear most from retired engineers dusting off their CAD skills and parents buying a first printer for their STEM-obsessed teen. The market has changed dramatically since 2020, when sub-$300 machines were glorified fire hazards. Today's budget printers offer auto-leveling, direct-drive extruders, and print speeds that would have cost $1,200 just five years ago.
+"Can you really get a decent 3D printer for under $300?" That's the question we hear most from retired engineers dusting off their CAD skills and parents buying a first printer for their STEM-obsessed teen. The market has changed dramatically since 2020, when sub-$300 machines were glorified fire hazards.  For more context, see our [article on 24mhz usb logic analyzers](/articles/usb-logic-analyzer-24mhz).Today's budget printers offer auto-leveling, direct-drive extruders, and print speeds that would have cost $1,200 just five years ago.
 
 But not all cheap 3D printers are created equal. A failed first layer will cost you 50 grams of filament and two hours of frustration. We purchased seven popular models priced between $189 and $299, ran them through 30 days of continuous printing (PLA, PETG, and TPU), and disassembled key components to assess long-term durability.
 
@@ -173,3 +175,5 @@ Don't upgrade just for capability — Arduino projects with the right peripheral
 ## How we tracked this
 
 Price data for this article comes from Keepa, which logs every published price change for an Amazon listing — including third-party seller offers and the rolling 30-day, 90-day, and 1-year ranges. Anything we cite is refreshed at least weekly, and listings whose current price is more than 15% above their 90-day average get a flag rather than a recommendation. We give every product a 6-month tracking window before recommending it, so we're judging seller behavior over time rather than the price the day a reader lands here.
+
+For more on the 5 best ergonomic chairs under $500: comfort on a budget, see [our coverage at chairwise.app](https://chairwise.app/articles/best-ergonomic-chairs-under-500/).

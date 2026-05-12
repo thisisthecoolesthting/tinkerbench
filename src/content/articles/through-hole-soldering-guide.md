@@ -23,19 +23,21 @@ tags:
 - hobbyist tools
 - soldering iron comparison
 heroImage: /images/hero/through-hole-soldering-guide.jpg
+subtopic: soldering
+updatedAt: 2026-05-12
 ---
 
 ## Introduction
 
-"Why do my solder joints keep cracking?" This frustrated question from a TinkerBench reader captures the universal struggle of through-hole soldering. Unlike surface-mount work, through-hole components demand precise heat control and technique to create durable connections without damaging the board or part. After testing 14 soldering stations across 78 hours of prototyping, we've identified the key variables that separate reliable joints from cold solder failures.
+"Why do my solder joints keep cracking?" This frustrated question from a TinkerBench reader captures the universal struggle of through-hole soldering. Unlike surface-mount work, through-hole components demand precise heat control and technique to create durable connections without damaging the board or part.  For more context, see our [article on mastering through-hole soldering: step-by-step](/articles/how-to-solder-through-hole-components).After testing 14 soldering stations across 78 hours of prototyping, we've identified the key variables that separate reliable joints from cold solder failures.
 
-Through-hole soldering remains essential for DIY electronics, repair work, and educational kits despite the rise of SMD components. The tactile feedback of inserting leads through plated holes provides reassurance for beginners, but introduces unique challenges: thermal stress on components, pad lifting from excessive heat, and the dreaded 'tombstoning' of axial parts. This guide focuses on the tools and techniques that actually work based on our bench testing, not manufacturer claims.
+Through-hole soldering remains essential for DIY electronics, repair work, and educational kits despite the rise of SMD components. The tactile feedback of inserting leads through plated holes provides reassurance for beginners, but introduces unique challenges: thermal stress on components, pad lifting from excessive heat, and the dreaded 'tombstoning' of axial parts.  For more context, see our [article on how to solder through-hole](/articles/through-hole-soldering-tutorial).This guide focuses on the tools and techniques that actually work based on our bench testing, not manufacturer claims.
 
-Our testing methodology involved controlled experiments with multiple PCB types - from single-layer phenolic boards to multilayer FR4 designs. We measured joint strength with a digital force gauge, analyzed thermal profiles with FLIR imaging, and conducted accelerated aging tests with vibration tables. The results revealed surprising insights about tip geometry's impact on heat transfer efficiency and how flux chemistry affects joint reliability over time.
+Our testing methodology involved controlled experiments with multiple PCB types - from single-layer phenolic boards to multilayer FR4 designs. We measured joint strength with a digital force gauge, analyzed thermal profiles with FLIR imaging, and conducted accelerated aging tests with vibration tables.  For more context, see our [article on pinecil vs. hakko fx-888d:](/articles/pinecil-vs-hakko-fx888d).The results revealed surprising insights about tip geometry's impact on heat transfer efficiency and how flux chemistry affects joint reliability over time.
 
 ## Why This Matters
 
-Poor through-hole soldering causes 43% of prototype failures according to a 2025 IEEE study. The visible nature of through-hole joints creates a false sense of security - what looks acceptable may contain hidden flaws like:
+Poor through-hole soldering causes 43% of prototype failures according to a 2025 IEEE study. The visible nature of through-hole joints creates a false sense of security - what looks acceptable may contain hidden flaws like: For more context, see our [article on soldering irons](/articles/best-soldering-irons-for-beginners).
 
 - **Cold joints**: Insufficient heat creates brittle intermetallic layers that fail under vibration. Our testing showed cold joints fail at just 30% of the shear strength of proper joints after 100 thermal cycles.
 - **Pad damage**: Overheated copper traces separate from the fiberglass substrate. This often occurs when soldering ground pins to large copper pours without adequate thermal relief.

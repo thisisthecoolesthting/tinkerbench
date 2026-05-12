@@ -25,19 +25,21 @@ tags:
 - diy
 - repair
 heroImage: /images/hero/how-to-solder-through-hole-components.jpg
+subtopic: soldering
+updatedAt: 2026-05-12
 ---
 
 ## Introduction
 
-"Why do my solder joints keep looking like blobs of chewing gum?" If you've ever struggled with through-hole soldering, you're not alone. Through-hole technology (THT) remains the foundation of circuit board assembly, with over 60% of hobbyist projects still relying on these sturdy, beginner-friendly components according to a 2025 Maker Industry Report. But between cold joints, bridged connections, and damaged pads, what should be a simple process can quickly become frustrating.
+"Why do my solder joints keep looking like blobs of chewing gum?" If you've ever struggled with through-hole soldering, you're not alone. Through-hole technology (THT) remains the foundation of circuit board assembly, with over 60% of hobbyist projects still relying on these sturdy, beginner-friendly components according to a 2025 Maker Industry Report.  For more context, see our [article on how to solder through-hole](/articles/through-hole-soldering-tutorial).But between cold joints, bridged connections, and damaged pads, what should be a simple process can quickly become frustrating.
 
-This guide cuts through the confusion with a microscope-level examination of through-hole soldering. We'll start with the fundamental physics of solder flow (the critical 300-350°F window where lead-free solder transitions from paste to liquid), then move through tool selection, technique refinement, and advanced troubleshooting. After testing 14 soldering irons on actual PCBs over three months, we've identified the key variables that separate professional-grade joints from amateur globs - and more importantly, how to achieve them consistently.
+This guide cuts through the confusion with a microscope-level examination of through-hole soldering. We'll start with the fundamental physics of solder flow (the critical 300-350°F window where lead-free solder transitions from paste to liquid), then move through tool selection, technique refinement, and advanced troubleshooting.  For more context, see our [article on pinecil vs. hakko fx-888d:](/articles/pinecil-vs-hakko-fx888d).After testing 14 soldering irons on actual PCBs over three months, we've identified the key variables that separate professional-grade joints from amateur globs - and more importantly, how to achieve them consistently.
 
-For absolute beginners, let's clarify what makes through-hole different: these components have long leads that pass completely through pre-drilled holes in the PCB, creating mechanical bonds before soldering even begins. This contrasts with surface-mount devices (SMDs) that sit directly on pads. The extra material provides forgiveness during learning, but also introduces unique challenges like proper lead trimming and hole fill techniques we'll cover in depth.
+For absolute beginners, let's clarify what makes through-hole different: these components have long leads that pass completely through pre-drilled holes in the PCB, creating mechanical bonds before soldering even begins. This contrasts with surface-mount devices (SMDs) that sit directly on pads.  For more context, see our [article on soldering irons](/articles/best-soldering-irons-for-beginners).The extra material provides forgiveness during learning, but also introduces unique challenges like proper lead trimming and hole fill techniques we'll cover in depth.
 
 ## Why This Matters
 
-Through-hole components dominate educational kits, vintage electronics repairs, and high-reliability applications because they offer three unbeatable advantages: mechanical strength (10-15x more resistant to shear forces than SMD), visual verifiability (you can literally see the solder fillet), and forgiveness during rework. NASA's Johnson Space Center still specifies through-hole connectors for flight hardware due to their vibration resistance - a single poorly soldered joint could mean the difference between a successful satellite deployment and a $200 million orbital paperweight.
+Through-hole components dominate educational kits, vintage electronics repairs, and high-reliability applications because they offer three unbeatable advantages: mechanical strength (10-15x more resistant to shear forces than SMD), visual verifiability (you can literally see the solder fillet), and forgiveness during rework. NASA's Johnson Space Center still specifies through-hole connectors for flight hardware due to their vibration resistance - a single poorly soldered joint could mean the difference between a successful satellite deployment and a $200 million orbital paperweight. For more context, see our [article on how to solder through-hole](/articles/through-hole-soldering-guide).
 
 Modern applications where through-hole shines include:
 

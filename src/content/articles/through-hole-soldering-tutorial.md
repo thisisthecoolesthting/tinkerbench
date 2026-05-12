@@ -26,17 +26,19 @@ tags:
 - beginner soldering
 - soldering station
 heroImage: /images/hero/through-hole-soldering-tutorial.jpg
+subtopic: soldering
+updatedAt: 2026-05-12
 ---
 
 ## Introduction
 
-"Why do my solder joints look dull and brittle?" If you've asked this after assembling a circuit board, you're not alone. Through-hole soldering seems simple - melt some metal, make a connection - but the difference between a reliable joint and a future failure comes down to technique and tools. After testing 14 soldering irons and 3,200 joints across prototype boards, we've identified the exact methods that separate hobbyist results from professional-grade connections.
+"Why do my solder joints look dull and brittle?" If you've asked this after assembling a circuit board, you're not alone. Through-hole soldering seems simple - melt some metal, make a connection - but the difference between a reliable joint and a future failure comes down to technique and tools.  For more context, see our [article on mastering through-hole soldering: step-by-step](/articles/how-to-solder-through-hole-components).After testing 14 soldering irons and 3,200 joints across prototype boards, we've identified the exact methods that separate hobbyist results from professional-grade connections.
 
-Through-hole soldering remains essential for DIY electronics despite surface-mount dominance. It's the foundation for Arduino shields, amplifier builds, and retro computer repairs. But most tutorials skip critical details: the 5°C window where leaded solder flows perfectly, why conical tips fail for through-hole work, and how to select a $30 iron that outperforms $200 stations. We'll show you how to avoid the "cold joint" trap that plagues 68% of beginner projects according to our PCB teardowns.
+Through-hole soldering remains essential for DIY electronics despite surface-mount dominance. It's the foundation for Arduino shields, amplifier builds, and retro computer repairs.  For more context, see our [article on pinecil vs. hakko fx-888d:](/articles/pinecil-vs-hakko-fx888d).But most tutorials skip critical details: the 5°C window where leaded solder flows perfectly, why conical tips fail for through-hole work, and how to select a $30 iron that outperforms $200 stations. We'll show you how to avoid the "cold joint" trap that plagues 68% of beginner projects according to our PCB teardowns.
 
-**Expanded details**: When testing the [Pinecil V2](https://www.amazon.com/dp/B0G63G9LRJ?tag=tinkerbench-20) against premium stations, we discovered its PID-controlled heating maintains ±3°C accuracy - critical when working with heat-sensitive components like vintage ICs. The secret lies in its ceramic heating element that achieves full operating temperature in 8 seconds, compared to 25+ seconds for traditional resistive irons.
+**Expanded details**: When testing the [Pinecil V2](https://www.amazon.com/dp/B0G63G9LRJ?tag=tinkerbench-20) against premium stations, we discovered its PID-controlled heating maintains ±3°C accuracy - critical when working with heat-sensitive components like vintage ICs. The secret lies in its ceramic heating element that achieves full operating temperature in 8 seconds, compared to 25+ seconds for traditional resistive irons. For more context, see our [article on soldering irons](/articles/best-soldering-irons-for-beginners).
 
-For through-hole work on double-sided PCBs, we recommend pairing it with a 3.2mm chisel tip (T12-D24 compatible) which provides 40% better heat transfer than conical tips when soldering to ground planes.
+For through-hole work on double-sided PCBs, we recommend pairing it with a 3.2mm chisel tip (T12-D24 compatible) which provides 40% better heat transfer than conical tips when soldering to ground planes. For more context, see our [article on how to solder through-hole](/articles/through-hole-soldering-guide).
 
 ## Why this matters
 

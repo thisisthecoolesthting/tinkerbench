@@ -28,6 +28,8 @@ tags:
 - arduino tools
 - raspberry pi accessories
 heroImage: /images/hero/usb-logic-analyzer-guide.jpg
+subtopic: test-gear
+updatedAt: 2026-05-12
 ---
 
 # Introduction

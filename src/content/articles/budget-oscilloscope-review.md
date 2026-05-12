@@ -22,21 +22,23 @@ tags:
 - signal-analysis
 - hobbyist-tools
 heroImage: /images/hero/budget-oscilloscope-review.jpg
+subtopic: test-gear
+updatedAt: 2026-05-12
 ---
 
 ## Introduction
 
-When I asked on r/AskElectronics last year whether a $150 oscilloscope could actually work, the answers ranged from "absolutely not" to "maybe, if you enjoy pain." Yet as a retired engineer getting back into hobby electronics, I couldn't justify spending $800+ on a Tektronix. After burning through three budget models (including one that literally smoked during its first PWM measurement), I decided to systematically test eight oscilloscopes under $500 to find which ones deliver usable performance without catastrophic failure.
+When I asked on r/AskElectronics last year whether a $150 oscilloscope could actually work, the answers ranged from "absolutely not" to "maybe, if you enjoy pain." Yet as a retired engineer getting back into hobby electronics, I couldn't justify spending $800+ on a Tektronix. After burning through three budget models (including one that literally smoked during its first PWM measurement), I decided to systematically test eight oscilloscopes under $500 to find which ones deliver usable performance without catastrophic failure. For more context, see our [article on benchtop power supply](/articles/hobbyist-benchtop-power-supply-guide).
 
-This review focuses on scopes priced between $100-$400 - the no-man's-land between toy-grade USB dongles and professional gear. Over 90 days, I evaluated each unit across multiple real-world scenarios: debugging Arduino PWM signals with varying duty cycles, validating Raspberry Pi GPIO signal integrity under different load conditions, tracing audio signal paths in vintage synthesizers, and diagnosing switch-mode power supply noise.
+This review focuses on scopes priced between $100-$400 - the no-man's-land between toy-grade USB dongles and professional gear. Over 90 days, I evaluated each unit across multiple real-world scenarios: debugging Arduino PWM signals with varying duty cycles, validating Raspberry Pi GPIO signal integrity under different load conditions, tracing audio signal paths in vintage synthesizers, and diagnosing switch-mode power supply noise. For more context, see our [article on usb logic analyzers: affordable](/articles/usb-logic-analyzer-reviews).
 
 The [OWON SDS1102](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) surprised me most with its consistent performance, while the popular [Hantek DSO5102P](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) revealed hidden limitations when pushed beyond basic measurements.
 
-To ensure fair testing, I developed a standardized evaluation protocol: each scope underwent 24-hour burn-in, frequency response verification using a calibrated signal generator, input impedance measurement at multiple frequencies, and thermal performance monitoring during extended capture sessions. All tests were conducted in a controlled 22°C environment with proper grounding to eliminate external interference.
+To ensure fair testing, I developed a standardized evaluation protocol: each scope underwent 24-hour burn-in, frequency response verification using a calibrated signal generator, input impedance measurement at multiple frequencies, and thermal performance monitoring during extended capture sessions. All tests were conducted in a controlled 22°C environment with proper grounding to eliminate external interference. For more context, see our [article on bench multimeter vs. handheld:](/articles/bench-multimeter-vs-handheld-comparison).
 
 ## Why this matters
 
-A decent oscilloscope is the single most diagnostic tool for electronics troubleshooting, yet most hobbyists buy the wrong one twice. The market is flooded with devices that claim 100MHz bandwidth but can't actually resolve a 10MHz square wave properly. Through my testing, I discovered that many budget models use aggressive digital filtering to mask their analog front-end limitations, resulting in misleading waveform displays.
+A decent oscilloscope is the single most diagnostic tool for electronics troubleshooting, yet most hobbyists buy the wrong one twice. The market is flooded with devices that claim 100MHz bandwidth but can't actually resolve a 10MHz square wave properly.  For more context, see our [article on choosing first oscilloscope: beginner](/articles/choosing-your-first-oscilloscope).Through my testing, I discovered that many budget models use aggressive digital filtering to mask their analog front-end limitations, resulting in misleading waveform displays.
 
 I've seen $200 scopes with 1MΩ inputs that actually present 800kΩ impedance at higher frequencies - enough to load circuits and distort measurements significantly.
 

@@ -27,19 +27,21 @@ heroImage: /images/hero/pinecil-vs-hakko-fx888d-review.jpg
 cardTitle: 'Budget Soldering Iron Showdown: Pinecil vs. Hakko FX-888D'
 cardPick: Pinecil wins with precise temperature control, affordability, and open-source
   firmware—perfect for weekend makers returning to electronics.
+subtopic: soldering
+updatedAt: 2026-05-12
 ---
 
 ## Introduction
 
-Every maker faces the soldering iron dilemma: portable convenience or bench-station precision? The [Pinecil](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) and [Hakko FX-888D](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) represent opposite ends of this spectrum. As a retired electrical engineer who's burned through seven irons in a decade, I conducted a 60-hour stress test across six project categories: SMD rework (0201 to QFP-100), through-hole PCB assembly (single-sided to 4-layer), automotive wiring (22AWG to 10AWG), jewelry soldering, vintage radio repair, and thermal load simulations.
+Every maker faces the soldering iron dilemma: portable convenience or bench-station precision? The [Pinecil](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) and [Hakko FX-888D](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) represent opposite ends of this spectrum.  For more context, see our [article on mastering through-hole soldering: step-by-step](/articles/how-to-solder-through-hole-components).As a retired electrical engineer who's burned through seven irons in a decade, I conducted a 60-hour stress test across six project categories: SMD rework (0201 to QFP-100), through-hole PCB assembly (single-sided to 4-layer), automotive wiring (22AWG to 10AWG), jewelry soldering, vintage radio repair, and thermal load simulations.
 
-The Hakko's ceramic heater maintained ±5°C stability during continuous 14AWG wire splicing, while the Pinecil surprised us by successfully reflowing 0.5mm pitch QFN packages when paired with a [100W PD power bank](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20). This review goes beyond specs to reveal which tool actually prevents cold joints in your specific use case.
+The Hakko's ceramic heater maintained ±5°C stability during continuous 14AWG wire splicing, while the Pinecil surprised us by successfully reflowing 0.5mm pitch QFN packages when paired with a [100W PD power bank](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20). This review goes beyond specs to reveal which tool actually prevents cold joints in your specific use case. For more context, see our [article on how to solder through-hole](/articles/through-hole-soldering-tutorial).
 
 ## Why This Matters
 
-Soldering performance directly impacts project success rates. IPC-A-610 Class 3 standards show cold solder defects increase 320% when using underpowered irons for through-hole work. The Hakko FX-888D's 70W ceramic heater delivers professional-grade thermal recovery - maintaining ±9°F accuracy even when soldering 10AWG ground wires, a task that caused the Pinecil's temperature to drop 48°C during testing. However, the Pinecil's ultra-portable design enabled field repairs that would require a $300+ portable station otherwise.
+Soldering performance directly impacts project success rates. IPC-A-610 Class 3 standards show cold solder defects increase 320% when using underpowered irons for through-hole work.  For more context, see our [article on pinecil vs. hakko fx-888d:](/articles/pinecil-vs-hakko-fx888d).The Hakko FX-888D's 70W ceramic heater delivers professional-grade thermal recovery - maintaining ±9°F accuracy even when soldering 10AWG ground wires, a task that caused the Pinecil's temperature to drop 48°C during testing. However, the Pinecil's ultra-portable design enabled field repairs that would require a $300+ portable station otherwise.
 
-During a rooftop solar array installation, we used the Pinecil with a [65W car charger](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) to repair junction boxes without climbing down. For makers working with temperature-sensitive components, the Hakko's calibrated temperature control prevents PCB delamination - our infrared measurements showed 5°C lower board temperatures versus the Pinecil at identical tip settings.
+During a rooftop solar array installation, we used the Pinecil with a [65W car charger](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) to repair junction boxes without climbing down. For makers working with temperature-sensitive components, the Hakko's calibrated temperature control prevents PCB delamination - our infrared measurements showed 5°C lower board temperatures versus the Pinecil at identical tip settings. For more context, see our [article on soldering irons](/articles/best-soldering-irons-for-beginners).
 
 ## Head-to-Head Comparison
 

@@ -29,13 +29,15 @@ heroImage: /images/hero/budget-oscilloscope-showdown.jpg
 cardTitle: 'Budget Oscilloscope Under $500: Real Bandwidth, Real Results'
 cardPick: KSGER T12 delivers professional-grade soldering precision at hobbyist pricing,
   perfect for weekend projects without breaking the bank.
+subtopic: test-gear
+updatedAt: 2026-05-12
 ---
 
 ## Introduction
 
 "How cheap can I actually go on an oscilloscope before it becomes useless?" That's the question I hear most from makers stepping up from multimeters to real signal analysis.
 
-After testing 12 models under $500 over 18 months across three different workbenches, I can confirm: there are exactly three scopes in this price range that deliver trustworthy measurements without dangerous spec inflation.
+After testing 12 models under $500 over 18 months across three different workbenches, I can confirm: there are exactly three scopes in this price range that deliver trustworthy measurements without dangerous spec inflation. For more context, see our [article on benchtop power supply](/articles/hobbyist-benchtop-power-supply).
 
 The painful truth I've documented? Most sub-$300 units are glorified signal tracers with misleading bandwidth claims. I've tested $199 oscilloscopes advertising 100MHz bandwidth while actually attenuating signals above 20MHz—a critical flaw when debugging modern microcontrollers.
 
@@ -90,6 +92,8 @@ After 6 months of continuous testing, here's the definitive performance comparis
 - For pure analog work, the OWON's isolated inputs provide shockingly good noise rejection compared to similarly priced models.
 - FNIRSI's touchscreen interface, while innovative, proves less reliable than physical knobs for intensive measurement sessions.
 
+
+For more on the 5 best ergonomic chairs under $500: comfort on a budget, see [our coverage at chairwise.app](https://chairwise.app/articles/best-ergonomic-chairs-under-500/).
 ## Real-World Performance
 
 **Testing methodology:** All scopes were subjected to identical signal sources through calibrated 50Ω terminators, with measurements verified against a Keysight DSOX1102G reference oscilloscope.

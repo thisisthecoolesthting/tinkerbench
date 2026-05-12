@@ -28,15 +28,17 @@ relatedProducts:
 - B0CGW2TFSV
 - B0CGW48C3G
 heroImage: /images/hero/hobbyist-benchtop-power-supply-guide.jpg
+subtopic: test-gear
+updatedAt: 2026-05-12
 ---
 
 # Introduction
 
-Every electronics hobbyist reaches a point where wall adapters and USB power banks no longer cut it. Whether you're debugging an Arduino project, testing a custom PCB, or powering a vintage radio restoration, a proper benchtop power supply becomes essential. But with prices ranging from $50 to $500, how do you choose without overspending or ending up with inadequate performance?
+Every electronics hobbyist reaches a point where wall adapters and USB power banks no longer cut it. Whether you're debugging an Arduino project, testing a custom PCB, or powering a vintage radio restoration, a proper benchtop power supply becomes essential.  For more context, see our [article on usb logic analyzers: affordable](/articles/usb-logic-analyzer-reviews).But with prices ranging from $50 to $500, how do you choose without overspending or ending up with inadequate performance?
 
-I've burned out three power supplies in the past decade - from a $60 unit that couldn't handle ripple to a $300 model that died after a minor short circuit. Through trial and error (and several replacement fuses), I've learned what separates hobbyist-grade from professional equipment, and where the sweet spot lies for weekend tinkerers.
+I've burned out three power supplies in the past decade - from a $60 unit that couldn't handle ripple to a $300 model that died after a minor short circuit. Through trial and error (and several replacement fuses), I've learned what separates hobbyist-grade from professional equipment, and where the sweet spot lies for weekend tinkerers. For more context, see our [article on bench multimeter vs. handheld:](/articles/bench-multimeter-vs-handheld-comparison).
 
-This guide compares 8 top-rated benchtop power supplies tested across 30+ projects, from simple LED circuits to Raspberry Pi clusters. We'll examine key specs that matter in real use, hidden costs, and which features actually justify premium prices.
+This guide compares 8 top-rated benchtop power supplies tested across 30+ projects, from simple LED circuits to Raspberry Pi clusters. We'll examine key specs that matter in real use, hidden costs, and which features actually justify premium prices. For more context, see our [article on choosing first oscilloscope: beginner](/articles/choosing-your-first-oscilloscope).
 
 # Why this matters
 
@@ -47,7 +49,7 @@ A benchtop power supply is the foundation of any serious electronics workspace. 
 - **Clean power**: Low noise and ripple for analog circuits and microcontrollers. I measured just 2mVpp ripple on the [Siglent SPD3303X-E](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) versus 200mV on a cheap $80 unit - the difference between stable ADC readings and erratic behavior.
 - **Dual channels**: Essential for testing communication between devices at different voltages. Powering an ESP32 (3.3V) while simultaneously testing a 5V relay module becomes trivial with the Siglent's independent channels.
 
-Cheap units often fail under sustained load or introduce noise that corrupts sensor readings. I once spent weeks debugging a "faulty" temperature sensor only to discover my $80 power supply was injecting 200mV of noise. A proper bench unit eliminates these variables, letting you trust your measurements.
+Cheap units often fail under sustained load or introduce noise that corrupts sensor readings. I once spent weeks debugging a "faulty" temperature sensor only to discover my $80 power supply was injecting 200mV of noise.  For more context, see our [article on finding cheapest decent oscilloscope:](/articles/budget-oscilloscope-buyers-guide).A proper bench unit eliminates these variables, letting you trust your measurements.
 
 For retired engineers returning to the hobby, modern switching supplies like the [Rigol DP832](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) offer performance rivaling old linear units at half the weight. Beginners will appreciate safety features like overload protection when experimenting with motor drivers or power MOSFETs. Everyone benefits from not having to juggle multiple wall warts - I've consolidated seven different adapters into a single benchtop unit that handles everything from 3.3V logic to 24V actuator testing.
 
