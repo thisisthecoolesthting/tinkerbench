@@ -42,6 +42,10 @@ This guide walks you through the tools you actually need, techniques that work r
 
 A good soldering iron is crucial, but quality solder, flux, and a reliable workspace matter just as much. For consistent results, choose an iron with adjustable temperature control—it lets you dial in heat for different components and solder types.  For more context, see our [article on soldering irons](/articles/best-soldering-irons-beginners).A magnifying lamp or precision tweezers will save your eyesight and steady your hands when working with small components.
 
+
+
+> **See also:** [How to Solder Through-Hole Components Like a Pro](https://tinkerbench.co/articles/through-hole-soldering-tutorial/)
+
 ## Why this matters
 
 Poor soldering doesn't just look bad—it creates circuits that fail months later, leading to maddening debugging sessions. A bad solder joint can cause intermittent connections that vanish the moment you start troubleshooting. A well-executed joint is mechanically strong, electrically sound, and can last for decades.
@@ -178,3 +182,17 @@ Don't upgrade just for capability — Arduino projects with the right peripheral
 ## How we tracked this
 
 Price data for this article comes from Keepa, which logs every published price change for an Amazon listing — including third-party seller offers and the rolling 30-day, 90-day, and 1-year ranges. Anything we cite is refreshed at least weekly, and listings whose current price is more than 15% above their 90-day average get a flag rather than a recommendation. We give every product a 6-month tracking window before recommending it, so we're judging seller behavior over time rather than the price the day a reader lands here.
+
+## FAQ
+
+**Q: What type of solder should I use for through-hole components?**  
+A: Use rosin-core solder with a 60/40 tin-lead alloy or lead-free alternatives like SAC305 for a reliable and clean connection.
+
+**Q: How do I prevent cold solder joints?**  
+A: Ensure both the component lead and pad are heated evenly before applying solder, and avoid moving the joint until the solder has fully cooled.
+
+**Q: Can I use a soldering iron with a fine tip for through-hole components?**  
+A: While fine tips work for small components, a medium or chisel tip is better for through-hole soldering as it transfers heat more efficiently.
+
+**Q: How do I remove excess solder from a through-hole joint?**  
+A: Use a desoldering pump or solder wick to suction or absorb the excess solder, ensuring a clean and functional connection.

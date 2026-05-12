@@ -18,6 +18,10 @@ Lead-based solder has long been the standard for DIY electronics, but environmen
 
 **Lead-free solder** usually replaces lead with a combination of metals—most commonly tin blended with silver, copper, bismuth, or indium—in varied ratios (e.g., Sn96.5Ag3.0Cu0.5). These are mandated in commercial electronics by regulations like RoHS, but in hobbyist circles, they appear due to health or legal concerns and environmental awareness.
 
+
+
+> **See also:** [41. ESD mats and straps: who needs them and who is fine without](https://tinkerbench.co/articles/41-esd-mats-and-straps-who-needs-them-and-who-is-fine-without/)
+
 ## How They Differ Practically for Hobbyists
 
 ### Melting Temperature and Working Range

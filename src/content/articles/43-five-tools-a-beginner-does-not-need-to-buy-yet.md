@@ -18,6 +18,10 @@ Here, we’ll go through five tools that many beginners think they “need” ea
 
 ---
 
+
+
+> **See also:** [9. The best multimeter under 50 dollars reviewed across 8 models](https://tinkerbench.co/articles/9-the-best-multimeter-under-50-dollars-reviewed-across-8-models/)
+
 ## 1. Hot Air Rework Station
 
 ### What It Is

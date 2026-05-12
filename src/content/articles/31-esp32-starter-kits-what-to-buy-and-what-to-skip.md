@@ -26,6 +26,10 @@ Think of it as a jump-start package that lets you experiment with wireless commu
 
 ---
 
+
+
+> **See also:** [29. The best Arduino starter kit for a 12 year old](https://tinkerbench.co/articles/29-the-best-arduino-starter-kit-for-a-12-year-old/)
+
 ## How ESP32 Starter Kits Work: What to Expect
 
 When you open a typical ESP32 starter kit, you’ll usually find:

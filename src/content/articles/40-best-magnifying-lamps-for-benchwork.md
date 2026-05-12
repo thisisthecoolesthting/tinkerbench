@@ -24,6 +24,10 @@ Key benefits include:
 
 Magnifying lamps come in a variety of designs: clamp or weighted base mount, adjustable arm, ring light or LED bulbs, and optical glass or acrylic lenses.
 
+
+
+> **See also:** [Pinecil vs. Hakko FX-888D: Which Soldering Iron is Right for You?](https://tinkerbench.co/articles/pinecil-vs-hakko-fx888d/)
+
 ## How Magnifying Lamps Work
 
 Magnifying lamps work by placing an illuminated magnifying lens very close to the work surface. Here are the essential components:

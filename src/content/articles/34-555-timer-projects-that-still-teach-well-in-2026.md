@@ -23,6 +23,10 @@ The 555 timer is a simple, affordable, and highly versatile integrated circuit u
 
 Despite the rise of microcontrollers and digital timing ICs, the 555 timer remains relevant because it teaches analog timing concepts in a hands-on way, without writing code or complex configuration.
 
+
+
+> **See also:** [36. Ham radio for the electronics hobbyist: a 10-hour starter path](https://tinkerbench.co/articles/36-ham-radio-for-the-electronics-hobbyist-a-10-hour-starter-path/)
+
 ## How the 555 Timer Works: The Basics
 
 At its core, the 555 timer consists of two voltage comparators, an SR latch, a discharge transistor, and a resistor divider that sets fixed reference voltages at 1/3 and 2/3 of the supply voltage. Depending on its configuration, it operates in one of three main modes:

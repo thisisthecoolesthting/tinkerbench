@@ -27,6 +27,10 @@ Core features to evaluate include:
 - Real-time or near real-time responsiveness
 - Portability and interface quality
 
+
+
+> **See also:** [18. Handheld scopes vs bench scopes: real-world verdict](https://tinkerbench.co/articles/18-handheld-scopes-vs-bench-scopes-real-world-verdict/)
+
 ## How TinySA and SDR-Based Spectrum Analysis Work
 
 ### TinySA

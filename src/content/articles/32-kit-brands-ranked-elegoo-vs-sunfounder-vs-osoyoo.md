@@ -32,6 +32,10 @@ Elegoo boards often feature stable voltage regulators and consistent microcontro
 
 Osoyoo’s kits emphasize connectivity, so the focus is less on raw board precision and more on compatibility with wireless modules. That said, some users report needing to re-solder header pins or upgrade power supplies for consistent operation.
 
+
+
+> **See also:** [8. Through-hole vs surface-mount soldering for beginners](https://tinkerbench.co/articles/8-through-hole-vs-surface-mount-soldering-for-beginners/)
+
 ## Comparison Table: Elegoo vs SunFounder vs Osoyoo Kits
 
 | Feature                 | Elegoo                              | SunFounder                         | Osoyoo                              |

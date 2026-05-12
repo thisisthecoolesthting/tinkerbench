@@ -47,6 +47,10 @@ When starting out, consider these fundamental measurements you'll need to make:
 
 A common beginner mistake is buying a scope with insufficient bandwidth. For example, a 20MHz scope might show a 10MHz square wave as a distorted sine wave because it can't capture the higher harmonics that give the wave its square shape.  For more context, see our [article on finding cheapest decent oscilloscope:](/articles/budget-oscilloscope-buyers-guide).This leads to misdiagnosing problems that don't actually exist.
 
+
+
+> **See also:** [Best Budget Oscilloscope Under $500: Real Bandwidth, Real Results](https://tinkerbench.co/articles/budget-oscilloscope-showdown/)
+
 ## Why This Matters
 
 An oscilloscope is the stethoscope of electronics work. While multimeters tell you "what," scopes show you "when" and "how" - critical for diagnosing intermittent faults or communication errors between components. Consider these real scenarios:
@@ -249,3 +253,17 @@ For weekend hobbyists printing once a week, they're excellent value. For people 
 ## How we tracked this
 
 Price data for this article comes from Keepa, which logs every published price change for an Amazon listing — including third-party seller offers and the rolling 30-day, 90-day, and 1-year ranges. Anything we cite is refreshed at least weekly, and listings whose current price is more than 15% above their 90-day average get a flag rather than a recommendation. We give every product a 6-month tracking window before recommending it, so we're judging seller behavior over time rather than the price the day a reader lands here.
+
+## FAQ
+
+**Q: What bandwidth should I look for in my first oscilloscope?**  
+A: For most hobbyist projects, a bandwidth of 50-100 MHz is sufficient. If you work with higher-frequency signals (like RF or fast digital circuits), consider 200 MHz or more.  
+
+**Q: Are analog oscilloscopes still worth buying for beginners?**  
+A: Analog scopes can be cheaper and simpler for basic waveforms, but digital oscilloscopes offer more features like storage, measurements, and triggering. Digital is generally recommended for beginners.  
+
+**Q: How many channels do I need for hobby electronics?**  
+A: Two channels are ideal for most tasks, like comparing signals or debugging circuits. Four channels are useful for more advanced projects, like analyzing serial protocols or power electronics.  
+
+**Q: What’s the difference between sampling rate and bandwidth?**  
+A: Bandwidth determines the highest frequency signal you can measure, while sampling rate affects how accurately fast signals are captured. Aim for a sampling rate at least 5x the bandwidth for reliable results.

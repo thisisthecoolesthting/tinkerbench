@@ -34,6 +34,10 @@ If you're working with microcontrollers, Raspberry Pi projects, or any circuit t
 
 A 24MHz USB logic analyzer hits the sweet spot for hobbyists. It's fast enough to capture the protocols most of us actually use—I2C at 100kHz or 400kHz, SPI at several megahertz, UART up to 115.2kbps—without the $500+ price tag of a bench oscilloscope. Most connect via USB, so data lands straight on your laptop or desktop for analysis.
 
+
+
+> **See also:** [Unlocking Digital Signals: Review of a 24MHz USB Logic Analyzer](https://tinkerbench.co/articles/usb-logic-analyzer-24mhz-review/)
+
 ## What we tested
 
 We purchased three popular 24MHz models at retail and ran them through a month of real bench projects: Arduino shield debugging, Raspberry Pi I2C sensor verification, and UART protocol capture. Here's what we found:

@@ -44,6 +44,10 @@ Key findings include:
 - USB-powered models like the [OWON VDS1022I](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) showed significant noise when powered from laptop USB ports
 - Memory depth varied wildly, with some 100MHz scopes having just 10kpts while others offered 1Mpts For more context, see our [article on bench multimeter vs. handheld:](/articles/bench-multimeter-vs-handheld-comparison).
 
+
+
+> **See also:** [Best Benchtop Power Supply for Hobbyists: Lab-Grade Precision Without the](https://tinkerbench.co/articles/hobbyist-benchtop-power-supply/)
+
 ## Why This Matters
 
 A scope isn't like buying a multimeter. While a $20 meter measures static values adequately, oscilloscopes live or die by their ability to capture transient events.  For more context, see our [article on choosing first oscilloscope: beginner](/articles/choosing-your-first-oscilloscope).Consider a common scenario: debugging I2C glitches on a homemade PCB. A cheap scope with poor memory depth might miss the faulty transaction entirely, sending you down hours of false trails. We found the [OWON VDS1022I](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) struggles with signals faster than 10MHz despite its claimed 25MHz bandwidth, while the [Hantek DSO2C10](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) handles 50MHz reliably.
@@ -267,3 +271,17 @@ For weekend hobbyists printing once a week, they're excellent value. For people 
 ## How we tracked this
 
 Price data for this article comes from Keepa, which logs every published price change for an Amazon listing — including third-party seller offers and the rolling 30-day, 90-day, and 1-year ranges. Anything we cite is refreshed at least weekly, and listings whose current price is more than 15% above their 90-day average get a flag rather than a recommendation. We give every product a 6-month tracking window before recommending it, so we're judging seller behavior over time rather than the price the day a reader lands here.
+
+## FAQ
+
+**Q: What is the most important feature to look for in a budget oscilloscope?**  
+A: Bandwidth is the most critical feature, as it determines the range of signals the oscilloscope can accurately measure. Aim for at least 50 MHz for most hobbyist projects.  
+
+**Q: Are used oscilloscopes a good option for saving money?**  
+A: Yes, used oscilloscopes can be a great value, but ensure they are from reputable brands and sellers, and test them for functionality before purchasing.  
+
+**Q: Can I find a decent oscilloscope under $200?**  
+A: Yes, several entry-level models from brands like Rigol and Siglent offer reliable performance and essential features for under $200.  
+
+**Q: What are some common pitfalls when buying a cheap oscilloscope?**  
+A: Avoid models with poor build quality, limited bandwidth, or missing key features like waveform capture and storage, as they may hinder your projects.

@@ -35,6 +35,10 @@ Through-hole soldering remains essential for DIY electronics, repair work, and e
 
 Our testing methodology involved controlled experiments with multiple PCB types - from single-layer phenolic boards to multilayer FR4 designs. We measured joint strength with a digital force gauge, analyzed thermal profiles with FLIR imaging, and conducted accelerated aging tests with vibration tables.  For more context, see our [article on pinecil vs. hakko fx-888d:](/articles/pinecil-vs-hakko-fx888d).The results revealed surprising insights about tip geometry's impact on heat transfer efficiency and how flux chemistry affects joint reliability over time.
 
+
+
+> **See also:** [How to Solder Through-Hole Components Like a Pro](https://tinkerbench.co/articles/through-hole-soldering-tutorial/)
+
 ## Why This Matters
 
 Poor through-hole soldering causes 43% of prototype failures according to a 2025 IEEE study. The visible nature of through-hole joints creates a false sense of security - what looks acceptable may contain hidden flaws like: For more context, see our [article on soldering irons](/articles/best-soldering-irons-for-beginners).
@@ -212,3 +216,17 @@ For weekend hobbyists printing once a week, they're excellent value. For people 
 ## How we tracked this
 
 Price data for this article comes from Keepa, which logs every published price change for an Amazon listing — including third-party seller offers and the rolling 30-day, 90-day, and 1-year ranges. Anything we cite is refreshed at least weekly, and listings whose current price is more than 15% above their 90-day average get a flag rather than a recommendation. We give every product a 6-month tracking window before recommending it, so we're judging seller behavior over time rather than the price the day a reader lands here.
+
+## FAQ
+
+**Q: What temperature should I set my soldering iron for through-hole components?**  
+A: For most through-hole soldering, set your iron to 300–350°C (570–660°F). This range provides enough heat for good solder flow without damaging components or the PCB.
+
+**Q: How do I know if I’ve applied enough solder to a joint?**  
+A: A good solder joint should form a smooth, shiny cone around the lead and pad. If it looks dull, lumpy, or incomplete, you may need more solder or better heat distribution.
+
+**Q: Can I use lead-free solder for through-hole components?**  
+A: Yes, but lead-free solder requires higher temperatures (340–380°C) and flows less smoothly than leaded solder. Beginners may find leaded solder (60/40 or 63/37) easier to work with.
+
+**Q: What should I do if the solder won’t stick to the component or pad?**  
+A: Clean the surfaces with isopropyl alcohol and ensure they’re free of oxidation. If the issue persists, apply a small amount of fresh flux to improve solder adhesion.

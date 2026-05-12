@@ -18,6 +18,10 @@ This article breaks down what desoldering pumps and braid are, how they work, th
 
 ---
 
+
+
+> **See also:** [How to Solder Through-Hole Components: Master the Essential Technique](https://tinkerbench.co/articles/how-to-solder-through-hole/)
+
 ## What Are Desoldering Pumps and Desoldering Braid?
 
 ### Desoldering Pump (Solder Sucker)

@@ -18,6 +18,10 @@ If you’ve ever measured a low-value resistor, a length of wire, or a PCB trace
 
 ---
 
+
+
+> **See also:** [14. Capacitor testing: why most multimeter cap modes lie](https://tinkerbench.co/articles/14-capacitor-testing-why-most-multimeter-cap-modes-lie/)
+
 ## What Is Two-Wire Resistance Measurement?
 
 Two-wire resistance measurement is the most common and straightforward method used by most handheld and bench multimeters. In this method, the meter applies a small current through the resistor or component via two test leads and measures the voltage drop across the same leads to calculate resistance using Ohm’s law.

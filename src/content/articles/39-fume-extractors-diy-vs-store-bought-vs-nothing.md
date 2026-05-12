@@ -18,6 +18,10 @@ A fume extractor is a device designed to capture and filter harmful smoke and pa
 
 Basic fume extraction setups consist of a fan that draws in smoke and a filter element that traps contaminants before releasing cleaner air back into your workspace. More advanced or commercial units often include HEPA and activated carbon filters, adjustable fan speeds, and replaceable cartridges.
 
+
+
+> **See also:** [4. Lead-free vs leaded solder: practical differences for hobbyists](https://tinkerbench.co/articles/4-lead-free-vs-leaded-solder-practical-differences-for-hobbyists/)
+
 ## How Fume Extractors Work
 
 When soldering, flux chemicals vaporize and generate smoke, which contains a mix of gases and fine particulate matter. Fume extractors pull this smoke into their intake vents using a low-noise fan. The flowing air passes through filters:

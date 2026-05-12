@@ -14,6 +14,10 @@ subtopic: components
 
 If you’ve been banging your head against unexpected circuit failures, intermittent connections, or flaky signal readings during prototyping, the culprit might be your breadboard—and not your circuit design. Many hobbyists and even experienced bench technicians underestimate how crucial breadboard quality is to smooth, accurate, and reliable electronics work. This article digs into why breadboard quality matters more than you might think, how to identify good vs. problematic breadboards, and what to look for whether you’re buying new or using an older board.
 
+
+
+> **See also:** [37. Best benchtop power supply under 150 dollars across six models](https://tinkerbench.co/articles/37-best-benchtop-power-supply-under-150-dollars-across-six-models/)
+
 ## What is a Breadboard and Why Does Quality Matter?
 
 A breadboard is a reusable solderless platform used to build and test circuits quickly. It consists of an array of spring clips beneath a plastic shell that hold leads from components and jumper wires, allowing temporary connections without soldering.

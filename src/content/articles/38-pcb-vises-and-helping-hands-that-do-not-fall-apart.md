@@ -21,6 +21,10 @@ PCB vises and helping hands are mechanical tools designed to hold printed circui
 
 These tools are staples in any electronics bindery, from hobbyists assembling kits to technicians troubleshooting or modifying circuits.
 
+
+
+> **See also:** [39. Fume extractors: DIY vs store-bought vs nothing](https://tinkerbench.co/articles/39-fume-extractors-diy-vs-store-bought-vs-nothing/)
+
 ## How Do They Work?
 
 The core function is simple: prevent movement of the workpiece so you can solder, inspect, or test without errors caused by shaky hands. Good models provide:

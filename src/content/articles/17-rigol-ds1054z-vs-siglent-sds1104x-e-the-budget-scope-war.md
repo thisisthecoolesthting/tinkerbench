@@ -20,6 +20,10 @@ The Rigol DS1054Z is a 4-channel, 50MHz bandwidth digital oscilloscope—with an
 ### Siglent SDS1104X-E
 The Siglent SDS1104X-E is a 4-channel, 100MHz bandwidth digital oscilloscope that competes directly with the Rigol DS1054Z. It comes from a newer generation of budget scopes offering more bandwidth out of the box, a crisp display, higher sample rate, and updated firmware. Siglent focused on improving waveform capture and analysis features while keeping the price competitive.
 
+
+
+> **See also:** [18. Handheld scopes vs bench scopes: real-world verdict](https://tinkerbench.co/articles/18-handheld-scopes-vs-bench-scopes-real-world-verdict/)
+
 ## How They Work
 
 Both scopes digitize analog waveforms through analog-to-digital converters and display the signals on bright color LCD screens. They include real-time acquisition modes, advanced triggering, and signal measurement utilities. Inputs are typically via BNC connectors on the front, with capable probes included or sold separately.

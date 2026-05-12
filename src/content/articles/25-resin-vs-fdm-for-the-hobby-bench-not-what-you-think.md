@@ -14,6 +14,10 @@ subtopic: soldering
 
 If you're setting up a hobby electronics bench, you might be wrestling with whether to add a resin or FDM 3D printer to your toolkit. Both printing technologies promise great value for making custom enclosures, brackets, and even delicate tools or fixtures. But the decision is often muddled by hype or misconceptions: resin is just for tiny, detailed models; FDM is clunky and low-res; or that one is always more expensive to run. This article peels back the assumptions and compares resin vs FDM printing from a practical, bench-ready perspective focused on what matters to makers and technicians — precision, reliability, maintenance, and cost-effectiveness.
 
+
+
+> **See also:** [28. When your 3D printer should be replaced vs repaired](https://tinkerbench.co/articles/28-when-your-3d-printer-should-be-replaced-vs-repaired/)
+
 ## What Are Resin and FDM 3D Printing?
 
 ### How FDM Printing Works

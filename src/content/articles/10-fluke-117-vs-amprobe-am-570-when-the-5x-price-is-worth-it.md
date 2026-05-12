@@ -22,6 +22,10 @@ The Fluke 117 is a compact, high-quality True RMS multimeter designed primarily 
 
 The Amprobe AM-570 is a more budget-friendly True RMS meter offering a broad feature set aimed at electrical hobbyists, small maintenance teams, and educators. It covers most common electrical measurement needs with decent accuracy but without some of the professional conveniences or ruggedness.
 
+
+
+> **See also:** [2. Pine64 Pinecil V2 vs Hakko FX-888D: the 25 vs 125 dollar showdown](https://tinkerbench.co/articles/2-pine64-pinecil-v2-vs-hakko-fx-888d-the-25-vs-125-dollar-showdown/)
+
 ## Key Differences and What They Mean for Your Work
 
 The 5x cost difference isn’t just about brand prestige. Each meter’s build quality, measurement accuracy and range, ease of use, and safety specifications will impact how you work and the reliability of your results.

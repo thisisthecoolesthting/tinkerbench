@@ -26,6 +26,10 @@ An ESD wrist strap is a wearable device that grounds your body to the same groun
 
 This is critical because you are the biggest source of electrostatic charge in the workspace—walking, moving your hands, or rubbing your clothes can generate thousands of volts without you realizing it.
 
+
+
+> **See also:** [4. Lead-free vs leaded solder: practical differences for hobbyists](https://tinkerbench.co/articles/4-lead-free-vs-leaded-solder-practical-differences-for-hobbyists/)
+
 ## How ESD Mats and Straps Work Together
 
 The mat provides a static-dissipative surface for your tools, boards, and components, while the wrist strap grounds your own body, preventing you from becoming a static charge source. The mat alone helps avoid electrostatic buildup on your workstation, but without grounding yourself directly, you can still discharge static into devices when you touch them.

@@ -20,6 +20,10 @@ A bench multimeter is a larger, stationary instrument designed primarily for use
 ### Handheld Multimeter
 A handheld multimeter is portable, battery-powered, and optimized for field use, quick diagnostics, and simple troubleshooting. They are compact, rugged, and typically include only the most essential functions to keep the price and complexity down. Though handheld meters are incredibly convenient on the move, they usually come with fewer advanced features and lower measurement accuracy compared to bench units.
 
+
+
+> **See also:** [18. Handheld scopes vs bench scopes: real-world verdict](https://tinkerbench.co/articles/18-handheld-scopes-vs-bench-scopes-real-world-verdict/)
+
 ## How Do They Differ in Practice?
 
 | Feature                   | Bench Multimeter                       | Handheld Multimeter                 |

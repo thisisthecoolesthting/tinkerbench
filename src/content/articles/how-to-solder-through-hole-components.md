@@ -37,6 +37,10 @@ This guide cuts through the confusion with a microscope-level examination of thr
 
 For absolute beginners, let's clarify what makes through-hole different: these components have long leads that pass completely through pre-drilled holes in the PCB, creating mechanical bonds before soldering even begins. This contrasts with surface-mount devices (SMDs) that sit directly on pads.  For more context, see our [article on soldering irons](/articles/best-soldering-irons-for-beginners).The extra material provides forgiveness during learning, but also introduces unique challenges like proper lead trimming and hole fill techniques we'll cover in depth.
 
+
+
+> **See also:** [How to Solder Through-Hole Components Like a Pro](https://tinkerbench.co/articles/through-hole-soldering-tutorial/)
+
 ## Why This Matters
 
 Through-hole components dominate educational kits, vintage electronics repairs, and high-reliability applications because they offer three unbeatable advantages: mechanical strength (10-15x more resistant to shear forces than SMD), visual verifiability (you can literally see the solder fillet), and forgiveness during rework. NASA's Johnson Space Center still specifies through-hole connectors for flight hardware due to their vibration resistance - a single poorly soldered joint could mean the difference between a successful satellite deployment and a $200 million orbital paperweight. For more context, see our [article on how to solder through-hole](/articles/through-hole-soldering-guide).
@@ -330,3 +334,17 @@ The Riden RD6006 ($120) and Eventek KPS3010D ($90) are the two most-recommended 
 ## How we tracked this
 
 Price data for this article comes from Keepa, which logs every published price change for an Amazon listing — including third-party seller offers and the rolling 30-day, 90-day, and 1-year ranges. Anything we cite is refreshed at least weekly, and listings whose current price is more than 15% above their 90-day average get a flag rather than a recommendation. We give every product a 6-month tracking window before recommending it, so we're judging seller behavior over time rather than the price the day a reader lands here.
+
+## FAQ
+
+**Q: What type of solder should I use for through-hole soldering?**  
+A: Use rosin-core solder with a 60/40 or 63/37 tin-lead ratio for reliable joints, or lead-free solder if environmental concerns are a priority.  
+
+**Q: How do I prevent cold solder joints when working with through-hole components?**  
+A: Ensure the soldering iron tip is clean and properly tinned, and heat both the pad and the component lead simultaneously before applying solder.  
+
+**Q: What temperature should I set my soldering iron for through-hole soldering?**  
+A: Set your soldering iron to around 350°C (660°F) for most through-hole soldering tasks, adjusting slightly based on the solder type and component size.  
+
+**Q: How can I remove excess solder from a through-hole joint?**  
+A: Use a desoldering pump or solder wick to remove excess solder, ensuring the joint is clean and free of bridges before reworking.

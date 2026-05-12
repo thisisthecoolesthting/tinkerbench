@@ -25,6 +25,10 @@ Before diving into the models, let's clarify the key performance and feature cri
 - **Size and build quality:** Compact footprints save bench space; a metal chassis tends to last longer.
 - **Extras:** USB ports or multiple outputs are nice but rarely critical at this price point.
 
+
+
+> **See also:** [9. The best multimeter under 50 dollars reviewed across 8 models](https://tinkerbench.co/articles/9-the-best-multimeter-under-50-dollars-reviewed-across-8-models/)
+
 ## 6 Best Benchtop Power Supplies Under $150
 
 Here are six power supplies ranked and compared according to the above priorities.

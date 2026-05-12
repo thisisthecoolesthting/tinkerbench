@@ -24,6 +24,10 @@ Choosing your first 3D printer in 2026 can be confusing, especially with standou
 
 ---
 
+
+
+> **See also:** [32. Kit brands ranked: Elegoo vs SunFounder vs Osoyoo](https://tinkerbench.co/articles/32-kit-brands-ranked-elegoo-vs-sunfounder-vs-osoyoo/)
+
 ## How They Work & What Makes Them Stand Out
 
 | Feature                    | Bambu A1                           | Prusa MK4                          | Creality K1                        |

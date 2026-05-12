@@ -18,6 +18,10 @@ An FPGA (Field Programmable Gate Array) dev board is a printed circuit board fea
 
 For beginners, an FPGA dev board is an entry point to learning hardware description languages (like Verilog or VHDL), digital logic design principles, and hardware debugging. The choice of FPGA family and board influences how easy it is to set up your toolchain, how much documentation and community support you’ll find, and the kind of projects you can realistically undertake without frustration.
 
+
+
+> **See also:** [17. Rigol DS1054Z vs Siglent SDS1104X-E: the budget scope war](https://tinkerbench.co/articles/17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war/)
+
 ## Overview of iCE40, ECP5, and Artix FPGA Families
 
 Before diving into the boards, here’s a quick summary of each FPGA family you’ll often find in beginner-friendly dev boards:

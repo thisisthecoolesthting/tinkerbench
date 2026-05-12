@@ -16,6 +16,10 @@ When testing circuit continuity with a multimeter or dedicated continuity tester
 
 ---
 
+
+
+> **See also:** [41. ESD mats and straps: who needs them and who is fine without](https://tinkerbench.co/articles/41-esd-mats-and-straps-who-needs-them-and-who-is-fine-without/)
+
 ## What Is Continuity Beeper Lag?
 
 Continuity beeper lag is the delay between the moment a circuit connection is completed and the audible confirmation (beep) signaling a good connection. When you touch two points with test leads, a low-resistance path forms, and a multimeter set to continuity mode beeps to let you know the circuit is closed. The lag is the time it takes for this system to detect the connection and signal it audibly.

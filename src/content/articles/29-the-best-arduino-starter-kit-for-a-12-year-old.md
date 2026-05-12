@@ -22,6 +22,10 @@ When choosing a starter kit for a young beginner, the goal is to combine simplic
 - **Compatibility and Expandability:** Using widely compatible Arduino Uno-type boards ensures access to a massive ecosystem of tutorials and add-ons.
 - **Safe for Beginners:** No complex or dangerous parts, such as high-voltage modules.
 
+
+
+> **See also:** [31. ESP32 starter kits: what to buy and what to skip](https://tinkerbench.co/articles/31-esp32-starter-kits-what-to-buy-and-what-to-skip/)
+
 ## Key Components in a Kid-Friendly Arduino Starter Kit
 
 A solid beginner kit typically includes:

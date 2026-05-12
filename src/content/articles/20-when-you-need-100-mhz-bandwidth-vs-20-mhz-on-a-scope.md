@@ -22,6 +22,10 @@ A scope’s bandwidth affects several aspects of your signal visibility:
 - **Signal fidelity:** Lower bandwidth scopes may distort or miss high-frequency components.
 - **Measurement reliability:** Critical when dealing with fast switching electronics or RF signals.
 
+
+
+> **See also:** [11. Bench multimeter vs handheld: who needs which](https://tinkerbench.co/articles/11-bench-multimeter-vs-handheld-who-needs-which/)
+
 ## How Bandwidth Affects Signal Quality
 
 Electronic signals, especially digital waveforms, aren’t just about their fundamental frequency. Their shape depends on the harmonics—the higher frequency components. Narrow bandwidth scopes effectively act as low-pass filters, trimming off these harmonics and rounding signal edges.

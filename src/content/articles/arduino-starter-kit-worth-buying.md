@@ -39,6 +39,10 @@ The truth is, not all Arduino kits are created equal. The [Official Arduino Star
 
 When I first started with Arduino, I made the mistake of buying a $25 kit from a no-name brand. Within a week, the jumper wires were fraying, the breadboard connections were loose, and the LEDs were burning out.  For more context, see our [article on kickstart projects: raspberry pi](/articles/raspberry-pi-5-beginner-projects).It was a frustrating experience that almost made me quit the hobby altogether. That's why I'm passionate about helping others avoid the same pitfalls.
 
+
+
+> **See also:** [Is an Arduino Starter Kit Worth Buying in 2024?](https://tinkerbench.co/articles/arduino-starter-kit-worth-it/)
+
 ## Why This Matters
 
 Choosing the wrong starter kit can derail a hobby before it begins. I've seen three common failure modes:

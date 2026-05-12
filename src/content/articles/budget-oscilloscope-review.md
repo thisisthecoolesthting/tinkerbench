@@ -36,6 +36,10 @@ The [OWON SDS1102](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) surp
 
 To ensure fair testing, I developed a standardized evaluation protocol: each scope underwent 24-hour burn-in, frequency response verification using a calibrated signal generator, input impedance measurement at multiple frequencies, and thermal performance monitoring during extended capture sessions. All tests were conducted in a controlled 22°C environment with proper grounding to eliminate external interference. For more context, see our [article on bench multimeter vs. handheld:](/articles/bench-multimeter-vs-handheld-comparison).
 
+
+
+> **See also:** [The Cheapest Decent Oscilloscope for Your Bench: Tested Under $300](https://tinkerbench.co/articles/cheapest-decent-oscilloscope/)
+
 ## Why this matters
 
 A decent oscilloscope is the single most diagnostic tool for electronics troubleshooting, yet most hobbyists buy the wrong one twice. The market is flooded with devices that claim 100MHz bandwidth but can't actually resolve a 10MHz square wave properly.  For more context, see our [article on choosing first oscilloscope: beginner](/articles/choosing-your-first-oscilloscope).Through my testing, I discovered that many budget models use aggressive digital filtering to mask their analog front-end limitations, resulting in misleading waveform displays.
@@ -190,3 +194,17 @@ For weekend hobbyists printing once a week, they're excellent value. For people 
 ## How we tracked this
 
 Price data for this article comes from Keepa, which logs every published price change for an Amazon listing — including third-party seller offers and the rolling 30-day, 90-day, and 1-year ranges. Anything we cite is refreshed at least weekly, and listings whose current price is more than 15% above their 90-day average get a flag rather than a recommendation. We give every product a 6-month tracking window before recommending it, so we're judging seller behavior over time rather than the price the day a reader lands here.
+
+## FAQ
+
+**Q: What features should I prioritize when looking for a cheap oscilloscope?**  
+A: Focus on bandwidth, sample rate, and the number of channels, as these are critical for most hobbyist projects.  
+
+**Q: Are USB oscilloscopes a good budget option?**  
+A: Yes, USB oscilloscopes are often affordable and portable, but ensure they have sufficient bandwidth and compatibility with your software.  
+
+**Q: Can I trust used oscilloscopes for hobby electronics?**  
+A: Used oscilloscopes can be reliable if purchased from reputable sellers and tested for functionality before buying.  
+
+**Q: What’s the cheapest oscilloscope you recommend for beginners?**  
+A: The Hantek DSO5102P offers excellent value with 100MHz bandwidth and two channels, making it ideal for beginners.

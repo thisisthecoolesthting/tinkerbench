@@ -23,6 +23,10 @@ Capacitors store and release electrical charge, so the key parameters we want to
 
 Typical multimeter capacitance or “capacitance check” modes only measure capacitance and do so at a single, low or medium test frequency with a small test signal. This leads to issues when dealing with real capacitors in circuit or those with complex failure modes.
 
+
+
+> **See also:** [Best Benchtop Power Supply for Hobbyists: Clean Power for Your Projects](https://tinkerbench.co/articles/best-benchtop-power-supply-hobbyist/)
+
 ## How Multimeter Capacitance Modes Work—and Why They Lie
 
 ### Basic Principle: Measuring Charge Time or Frequency Response

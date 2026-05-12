@@ -22,6 +22,10 @@ First, a quick primer on what to expect at this price point. Multimeters under $
 - **Battery life and power type**: Most use standard AA or AAA batteries; some offer auto-off to save battery.
 - **Additional functions**: Non-contact voltage detection (NCV), diode test, and continuity buzzer sound are good bonuses for convenience.
 
+
+
+> **See also:** [37. Best benchtop power supply under 150 dollars across six models](https://tinkerbench.co/articles/37-best-benchtop-power-supply-under-150-dollars-across-six-models/)
+
 ## The Eight Multimeters Reviewed
 
 The models selected represent well-reviewed and commonly available units around or under the $50 mark. None are “pro-grade,” but all aim to offer solid usability for electronics makers.

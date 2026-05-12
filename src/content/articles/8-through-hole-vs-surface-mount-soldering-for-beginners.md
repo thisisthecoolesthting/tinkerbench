@@ -20,6 +20,10 @@ Through-hole soldering involves placing electronic components with wire leads in
 
 This method has been the standard for decades and is often used in kits, hobby projects, and devices requiring rugged connections. Components like resistors, capacitors, and connectors with thick leads are typical candidates for through-hole mounting.
 
+
+
+> **See also:** [32. Kit brands ranked: Elegoo vs SunFounder vs Osoyoo](https://tinkerbench.co/articles/32-kit-brands-ranked-elegoo-vs-sunfounder-vs-osoyoo/)
+
 ## What Is Surface-Mount Soldering?
 
 Surface-mount technology (SMT) mounts components directly onto the surface of the PCB without leads passing through holes. These components are significantly smaller — often just a few millimeters in size — and are soldered to pads on the board, usually using solder paste and precise heat application methods like reflow ovens or hot air stations.

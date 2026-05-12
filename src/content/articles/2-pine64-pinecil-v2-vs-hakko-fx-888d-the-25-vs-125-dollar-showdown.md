@@ -18,6 +18,10 @@ If you’ve been soldering for a while or just getting started and are looking t
 
 - **Hakko FX-888D**: A proven, mid-range desktop soldering station favored by electronics professionals, repair technicians, and serious hobbyists. It’s recognized for its reliable temperature control, solid build quality, and extensive range of compatible, long-life proprietary tips.
 
+
+
+> **See also:** [Pinecil vs. Hakko FX-888D: Which Soldering Iron is Right for You?](https://tinkerbench.co/articles/pinecil-vs-hakko-fx888d/)
+
 ## How They Work
 
 ### Pinecil V2

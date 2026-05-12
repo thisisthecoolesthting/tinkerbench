@@ -18,6 +18,10 @@ Repairing a 3D printer typically involves fixing or swapping out malfunctioning 
 
 Knowing the difference helps you make an informed decision based on cost, downtime, available parts, and the printer’s overall condition.
 
+
+
+> **See also:** [8. Through-hole vs surface-mount soldering for beginners](https://tinkerbench.co/articles/8-through-hole-vs-surface-mount-soldering-for-beginners/)
+
 ## How It Works: Assessing Repair or Replacement
 
 Before deciding, conduct a thorough assessment of your printer’s condition:

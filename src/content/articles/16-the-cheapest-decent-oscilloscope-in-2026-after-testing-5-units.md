@@ -26,6 +26,10 @@ Unlike professional labs that might demand gigahertz-level bandwidth and billion
 
 The cost needs to be low enough that makers can feel comfortable snagging upgrades or multiple units without breaking their budget.
 
+
+
+> **See also:** [24. Best budget 3D printer under 300 dollars tested for 90 days](https://tinkerbench.co/articles/24-best-budget-3d-printer-under-300-dollars-tested-for-90-days/)
+
 ## How We Tested the Five Oscilloscopes
 
 We acquired five currently popular budget oscilloscopes ranging from $100 to $400 and evaluated them on the following:

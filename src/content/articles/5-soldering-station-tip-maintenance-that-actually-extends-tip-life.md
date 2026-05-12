@@ -16,6 +16,10 @@ Soldering iron tips are the heart of your soldering station, and their condition
 
 Soldering tip maintenance refers to the regular care routine that helps keep your soldering iron tip in good working condition. The goal is to avoid oxidation, corrosion, and physical damage that reduce thermal conductivity and shorten the tip’s effective lifespan. Maintenance involves cleaning, proper storage, using the right solder and flux, and employing techniques that prevent overheating.
 
+
+
+> **See also:** [7. Reflow soldering with a cheap toaster oven: does it actually work?](https://tinkerbench.co/articles/7-reflow-soldering-with-a-cheap-toaster-oven-does-it-actually-work/)
+
 ## Why Does Tip Maintenance Matter?
 
 Poor tip maintenance causes:

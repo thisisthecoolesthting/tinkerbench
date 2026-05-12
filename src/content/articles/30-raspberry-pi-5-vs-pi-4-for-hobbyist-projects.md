@@ -31,6 +31,10 @@ The Raspberry Pi 5 is the latest iteration in the popular single-board computer 
 - Redesigned power delivery supporting USB-C PD for more stable and efficient power.
 - Maintains 40-pin GPIO compatibility.
 
+
+
+> **See also:** [16. The cheapest decent oscilloscope in 2026 after testing 5 units](https://tinkerbench.co/articles/16-the-cheapest-decent-oscilloscope-in-2026-after-testing-5-units/)
+
 ## Key Improvements and What They Mean for Hobbyists
 
 | Feature               | Raspberry Pi 4                    | Raspberry Pi 5                                         | Practical Impact for Hobbyists                        |

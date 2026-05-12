@@ -18,6 +18,10 @@ Reflow soldering is a process in which surface-mount solder paste (a flux and so
 
 Professional reflow ovens use controlled convection, infrared, or vapor phase heating with programmable temperature profiles and accurate thermocouples positioned on the PCB to ensure consistent, repeatable solder joints. The goal is to minimize thermal stress while making sure the solder fully melts (“reflows”) and bonds components without damaging thermal-sensitive parts or causing dry joints.
 
+
+
+> **See also:** [33. Breadboard quality matters more than you think](https://tinkerbench.co/articles/33-breadboard-quality-matters-more-than-you-think/)
+
 ## How Does Reflow Soldering With a Cheap Toaster Oven Work?
 
 At a basic level, a cheap kitchen toaster oven can approximate the temperature profile needed for reflow by cycling the heating elements on and off controlled by a manual or crude external controller (e.g., a simple timer or a DIY temperature sensor with a relay). It reaches the needed peak temperature (around 230°C for common lead-free solder paste, or around 190°C for leaded) over a ramp-up period, holds it for the appropriate time, then cools down.

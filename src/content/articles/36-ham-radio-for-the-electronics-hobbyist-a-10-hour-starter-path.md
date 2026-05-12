@@ -18,6 +18,10 @@ Ham radio (amateur radio) is a popular way for electronics enthusiasts to experi
 
 Unlike commercial or licensed communication systems requiring specialized infrastructure, ham radio lets you build, customize, and operate your own radio stations. It’s especially appealing for those who enjoy kit-building, DIY antenna construction, and tinkering with microcontrollers or SDR (Software Defined Radio).
 
+
+
+> **See also:** [34. 555 timer projects that still teach well in 2026](https://tinkerbench.co/articles/34-555-timer-projects-that-still-teach-well-in-2026/)
+
 ## How Ham Radio Works in a Nutshell
 
 At its core, ham radio involves forming two-way radio communication links over various frequencies and modes. Operators use transceivers (combined transmit/receive radios) to send and receive signals—voice, Morse code, digital data, or even images.

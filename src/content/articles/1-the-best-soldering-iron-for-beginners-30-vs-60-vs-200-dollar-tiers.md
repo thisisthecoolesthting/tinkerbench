@@ -44,6 +44,10 @@ The $200+ irons are designed for technicians and serious hobbyists who expect pr
 - Superior thermal and electrical insulation for safety
 - Longer warranties and better support
 
+
+
+> **See also:** [2. Pine64 Pinecil V2 vs Hakko FX-888D: the 25 vs 125 dollar showdown](https://tinkerbench.co/articles/2-pine64-pinecil-v2-vs-hakko-fx-888d-the-25-vs-125-dollar-showdown/)
+
 ## How the Price Differences Impact Your Soldering Experience
 
 | Feature                      | $30 Tier                   | $60 Tier                       | $200 Tier                          |

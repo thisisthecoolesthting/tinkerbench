@@ -40,6 +40,10 @@ Through-hole soldering remains essential for DIY electronics despite surface-mou
 
 For through-hole work on double-sided PCBs, we recommend pairing it with a 3.2mm chisel tip (T12-D24 compatible) which provides 40% better heat transfer than conical tips when soldering to ground planes. For more context, see our [article on how to solder through-hole](/articles/through-hole-soldering-guide).
 
+
+
+> **See also:** [Mastering Through-Hole Soldering: A Step-by-Step Tutorial](https://tinkerbench.co/articles/how-to-solder-through-hole-components/)
+
 ## Why this matters
 
 Poor soldering causes 42% of electronics project failures in our lab tests. A marginal joint might work initially but fail when subjected to temperature swings or vibration - exactly what happens inside guitar pedals or automotive projects. The right technique matters for:
@@ -239,3 +243,17 @@ Don't upgrade just for capability — Arduino projects with the right peripheral
 ## How we tracked this
 
 Price data for this article comes from Keepa, which logs every published price change for an Amazon listing — including third-party seller offers and the rolling 30-day, 90-day, and 1-year ranges. Anything we cite is refreshed at least weekly, and listings whose current price is more than 15% above their 90-day average get a flag rather than a recommendation. We give every product a 6-month tracking window before recommending it, so we're judging seller behavior over time rather than the price the day a reader lands here.
+
+## FAQ  
+
+**Q: What type of solder should I use for through-hole components?**  
+A: A rosin-core 60/40 (tin/lead) or 63/37 solder is ideal for beginners because it flows easily and creates reliable joints. Lead-free alternatives like SAC305 work but require higher temperatures and better technique.  
+
+**Q: How do I prevent cold solder joints when working with through-hole parts?**  
+A: Ensure both the component lead and pad are heated sufficiently before applying solder, and hold the iron in place until the solder flows smoothly. Avoid moving the component until the joint cools to prevent cracks.  
+
+**Q: What’s the best way to trim excess leads after soldering?**  
+A: Use flush cutters to trim the leads as close to the solder joint as possible without damaging the joint itself. Hold the lead steady while cutting to avoid stressing the connection.  
+
+**Q: How can I fix a solder bridge between two adjacent pins?**  
+A: Use solder wick or a desoldering pump to remove excess solder, then reheat the pins individually to ensure proper separation. A fine-tip iron helps with precision in tight spaces.

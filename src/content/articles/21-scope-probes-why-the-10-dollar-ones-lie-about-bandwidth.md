@@ -18,6 +18,10 @@ Oscilloscope probes are the interface between your device under test and your os
 
 Bandwidth is a fundamental limiting factor. A 100 MHz bandwidth probe should pass signals up to about 100 MHz with less than 3 dB attenuation, preserving sharp edges in digital signals and the shape of analog waveforms. Probe bandwidth needs to be at least as high as your scope’s bandwidth, or it becomes the weakest link in the measurement chain.
 
+
+
+> **See also:** [20. When you need 100 MHz bandwidth vs 20 MHz on a scope](https://tinkerbench.co/articles/20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope/)
+
 ## How Bandwidth is Specified and Why Low-Cost Probes Lie
 
 Probe bandwidth ratings are often given according to where the signal amplitude falls to 70.7% (–3 dB) of its low-frequency value. However, the test conditions and "marketing" specifications are frequently optimistic, if not outright misleading:

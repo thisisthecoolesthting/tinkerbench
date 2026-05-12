@@ -14,6 +14,10 @@ subtopic: components
 
 If you’re a hobbyist, electronics technician, or kit builder trying to decide between a handheld oscilloscope and a benchtop model, you’ve probably faced the dilemma: which scope suits your actual workflow, tool budget, and accuracy needs better? The choice impacts your daily troubleshooting, measurements precision, portability, and even how often you replace worn parts like soldering tips or probe accessories. This article unpacks the practical differences between handheld and bench oscilloscopes, focusing on precision, bandwidth-for-price, usability, and real-world scenarios to help you pick the right tool for your bench—or your backpack.
 
+
+
+> **See also:** [11. Bench multimeter vs handheld: who needs which](https://tinkerbench.co/articles/11-bench-multimeter-vs-handheld-who-needs-which/)
+
 ## What Are Handheld and Bench Oscilloscopes?
 
 ### Handheld Oscilloscopes

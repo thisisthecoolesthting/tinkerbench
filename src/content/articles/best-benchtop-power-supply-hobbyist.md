@@ -104,6 +104,10 @@ Don't overlook accessories: A $20 set of silicone test leads with right-angle ba
 
 # FAQ
 
+
+
+> **See also:** [Choosing the Best Benchtop Power Supply for Your Hobby Bench](https://tinkerbench.co/articles/hobbyist-benchtop-power-supply-guide/)
+
 ## What's the difference between linear and switching power supplies?
 
 Linear supplies like the Tekpower use transformers and analog regulation to provide exceptionally clean output (<5mV ripple) but are less efficient (50–60%), generating noticeable heat at higher currents. Switching supplies use high-frequency conversion that's 80–90% efficient and compact, but introduce 50–100mV of high-frequency noise problematic for sensitive analog circuits. The [Siglent SPD3303X-E](https://www.amazon.com/dp/B07TEST7890?tag=tinkerbench-20) uses hybrid design: switching for bulk conversion followed by linear post-regulation, balancing efficiency and cleanliness.
@@ -187,3 +191,17 @@ Temperature-controlled irons (Pinecil, Hakko, Weller WE1010) deliver consistent 
 ## How we tracked this
 
 Price data for this article comes from Keepa, which logs every published price change for an Amazon listing — including third-party seller offers and the rolling 30-day, 90-day, and 1-year ranges. Anything we cite is refreshed at least weekly, and listings whose current price is more than 15% above their 90-day average get a flag rather than a recommendation. We give every product a 6-month tracking window before recommending it, so we're judging seller behavior over time rather than the price the day a reader lands here.
+
+## FAQ  
+
+**Q: What features should I look for in a benchtop power supply for hobbyist projects?**  
+A: Look for adjustable voltage and current limits, multiple output channels, and clean (low-noise) power delivery. Digital displays and built-in safety protections (like overcurrent and overvoltage) are also useful.  
+
+**Q: Can I use a computer power supply instead of a benchtop unit?**  
+A: While possible, computer PSUs lack precision adjustments and can introduce electrical noise, which may interfere with sensitive circuits. A dedicated benchtop supply offers better control and reliability.  
+
+**Q: How important is linear vs. switching regulation in a hobbyist power supply?**  
+A: Linear regulators provide cleaner power with less noise, ideal for analog circuits, while switching regulators are more efficient for high-current applications. Choose based on your project needs.  
+
+**Q: Are budget benchtop power supplies reliable for DIY electronics?**  
+A: Many affordable models work well for basic projects, but check reviews for stability and ripple performance. Investing in a mid-range unit often pays off in longevity and precision.

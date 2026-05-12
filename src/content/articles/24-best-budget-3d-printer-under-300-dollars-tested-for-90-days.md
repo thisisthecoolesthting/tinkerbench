@@ -24,6 +24,10 @@ At this price point, you’re working within obvious constraints. Don’t expect
 
 The trade-off is often in finer resolution, speed, and longevity of parts—especially the mechanical components like belts, rods, and extruders. This is also a good opportunity to learn routine maintenance, which plays a huge role in print quality and tool life.
 
+
+
+> **See also:** [16. The cheapest decent oscilloscope in 2026 after testing 5 units](https://tinkerbench.co/articles/16-the-cheapest-decent-oscilloscope-in-2026-after-testing-5-units/)
+
 ## Top 3 Budget 3D Printers Under $300 Tested for 90 Days
 
 We tested these three printers extensively on various print tasks, including prototyping parts, figurines, and functional tools. All were run through a standard maintenance schedule.
