@@ -5,19 +5,19 @@
     "taglineShort": "The toolkit for the weekend tinkerer.",
     "identity": {
       "palette": {
-        "primary": "#1E293B",
-        "accent": "#B45309",
-        "cream": "#FAF7F0",
-        "ink": "#1C1917"
+        "primary": "#374151",
+        "accent": "#8B4513",
+        "cream": "#F3EFE8",
+        "ink": "#0B1120"
       },
       "fonts": {
-        "display": "IBM Plex Serif",
-        "body": "IBM Plex Sans",
+        "display": "Roboto Slab",
+        "body": "Barlow",
         "mono": "IBM Plex Mono"
       },
       "mark": {
-        "svgPath": "brand/tinkerbench.svg",
-        "svgPublicPath": "/brand/tinkerbench.svg",
+        "svgPath": "brand/tinkerbench-mark.png",
+        "svgPublicPath": "/brand/tinkerbench-mark.png",
         "sizeRem": 1.75,
         "position": "left-of-wordmark"
       },
@@ -28,7 +28,7 @@
       },
       "headerVariant": "minimal",
       "eyebrowText": "HOBBY ELECTRONICS LAB",
-      "fontCssHref": "https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600;700&display=swap"
+      "fontCssHref": "https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&family=Barlow:wght@400;500;600;700&display=swap"
     }
   },
   "persona": {
@@ -65,7 +65,7 @@
     "ctaSecondaryLabel": "Start here (beginners)",
     "ctaSecondaryHref": "/pillars/first-kit",
     "trustLine": "Every tool bought with our own money. Every test run on our own bench. No manufacturer gifts. Not sponsored by Amazon or anyone.",
-    "heroImageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=85"
+    "heroImageUrl": "/images/hero-tinkerbench.webp"
   },
   "about": {
     "headline": "Why TinkerBench exists",
