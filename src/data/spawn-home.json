@@ -70,5 +70,27 @@
   "about": {
     "headline": "Why TinkerBench exists",
     "body": "The hobby electronics world is flooded with $30 garbage soldering stations with five-star reviews and real $200 stations that outlive their owners. Sorting the two takes either 40 years of experience or an honest site to read. We are the second one. Every review clearly states who the tool is for, who it is not for, and what you should actually buy first."
-  }
+  },
+  "navigation": [
+    {
+      "href": "/",
+      "label": "Home"
+    },
+    {
+      "href": "/pillars",
+      "label": "Guides"
+    },
+    {
+      "href": "/articles",
+      "label": "Articles"
+    },
+    {
+      "href": "/products",
+      "label": "Reviews"
+    },
+    {
+      "href": "/about",
+      "label": "About"
+    }
+  ]
 }
