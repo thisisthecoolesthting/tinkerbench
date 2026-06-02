@@ -65,7 +65,7 @@
     "ctaSecondaryLabel": "Start here (beginners)",
     "ctaSecondaryHref": "/pillars/first-kit",
     "trustLine": "Every tool bought with our own money. Every test run on our own bench. No manufacturer gifts. Not sponsored by Amazon or anyone.",
-    "heroImageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=85"
+    "heroImageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=85"
   },
   "about": {
     "headline": "Why TinkerBench exists",

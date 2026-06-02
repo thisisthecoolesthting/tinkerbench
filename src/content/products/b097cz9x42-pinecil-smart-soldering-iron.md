@@ -13,6 +13,7 @@ reviewCount: 5640
 bsr: 95
 commissionPerSale: 0.0
 score: 47.6
+imageUrl: "/images/amazon-picks/B097CZ9X42.jpg"
 affiliateUrl: "https://www.amazon.com/dp/B097CZ9X42?tag=tinkerbench-20&linkCode=ll1&language=en_US"
 isPrime: false
 status: "published"
