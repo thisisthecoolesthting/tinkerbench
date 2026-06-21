@@ -10,7 +10,7 @@ bsr: 47
 commissionPerSale: 0
 score: 0
 imageUrl: "https://m.media-amazon.com/images/I/41mT2G0xOOL.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B0CXHP2V6C?tag=viclabaggerguide-20"
+affiliateUrl: "https://www.amazon.com/dp/B0CXHP2V6C?tag=tinkerbench-20"
 isPrime: false
 status: published
 firstSeen: "2026-06-02"

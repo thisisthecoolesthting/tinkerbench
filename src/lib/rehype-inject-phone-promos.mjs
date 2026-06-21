@@ -1,34 +1,49 @@
 /**
- * Inserts lightweight text phone-case promos after selected h2s (no image ad weight).
+ * Inserts in-article ad slots after selected h2s.
+ * Emits [data-ad-slot="in-article-text"] divs that inject.js fills at runtime.
+ * The slug is derived from spawn-home.json at build time for the SSR fallback only —
+ * inject.js always uses window.__AD_SITE_SLUG__ (never the baked fallback slug).
  */
-import { CASE_AD_STORES } from '../data/case-ad-stores.ts';
+import homeData from '../data/spawn-home.json' assert { type: 'json' };
 
-const AFF = 'tinkerbench-20';
+// Derive slug for SSR fallback (safe — same logic as BaseLayout)
+const rawBrand =
+  homeData?.brand?.shortName ||
+  homeData?.brand?.fullName ||
+  homeData?.siteSlug ||
+  'tinkerbench';
+const ssrSlug = rawBrand.toLowerCase().replace(/[^a-z0-9-]/g, '');
 
 /** After the 2nd, 4th, and 6th h2 (skip title-area noise). */
 const INJECT_ON_H2 = new Set([2, 4, 6]);
 
-function miniPromoElement(slot) {
-  const store = CASE_AD_STORES[slot % CASE_AD_STORES.length];
-  const href = `https://${store.domain}/?utm_source=${AFF}&utm_medium=cross_promo_text&utm_campaign=15off&utm_content=longform-mid-${slot}_${store.slug}`;
+function inArticleSlotElement(slotIndex) {
+  // SSR fallback: first store (phonecasesforall), correct slug, no hardcoded affiliate tag
+  const fallbackHref =
+    'https://phonecasesforall.com/?utm_source=' + ssrSlug +
+    '&utm_medium=cross_promo_text&utm_campaign=15off&utm_content=in-article-' + slotIndex;
 
   return {
     type: 'element',
     tagName: 'div',
-    properties: { className: ['article-mid-phone-promo', 'not-prose'] },
+    properties: {
+      'data-ad-slot': 'in-article-text',
+      className: ['not-prose'],
+      'aria-label': 'Sponsored',
+    },
     children: [
       {
         type: 'element',
         tagName: 'p',
-        properties: { className: ['article-mid-phone-promo__eyebrow'] },
-        children: [{ type: 'text', value: 'Phone cases · 15% off first order' }],
+        properties: { className: ['adn-eyebrow'] },
+        children: [{ type: 'text', value: 'Phone cases · Sponsored' }],
       },
       {
         type: 'element',
         tagName: 'a',
         properties: {
-          href,
-          className: ['article-mid-phone-promo__link'],
+          href: fallbackHref,
+          className: ['adn-text-link'],
           rel: ['noopener', 'sponsored'],
           target: '_blank',
         },
@@ -36,14 +51,14 @@ function miniPromoElement(slot) {
           {
             type: 'element',
             tagName: 'span',
-            properties: { className: ['article-mid-phone-promo__name'] },
-            children: [{ type: 'text', value: store.name }],
+            properties: { className: ['adn-text-name'] },
+            children: [{ type: 'text', value: 'Phone Cases For All' }],
           },
           {
             type: 'element',
             tagName: 'span',
-            properties: { className: ['article-mid-phone-promo__tag'] },
-            children: [{ type: 'text', value: `${store.tagline} Code ${store.code}` }],
+            properties: { className: ['adn-text-tag'] },
+            children: [{ type: 'text', value: ' — 50,000+ designs. 15% off code FIRST15ALL' }],
           },
         ],
       },
@@ -64,7 +79,7 @@ function walkInsert(node) {
     if (child?.type === 'element' && child.tagName === 'h2') {
       h2Count += 1;
       if (INJECT_ON_H2.has(h2Count)) {
-        next.push(miniPromoElement(h2Count));
+        next.push(inArticleSlotElement(h2Count));
       }
     }
   }

@@ -171,7 +171,7 @@ Roll counts are meaningless. A "6-pack" of paper towels can have 200 square feet
 When we track price creep, we use these specific products as our "anchor" benchmarks. If these prices move, the whole category is moving.
 
 <div class="amazon-inline-card not-prose">
-<a class="amazon-inline-card__link" href="https://www.amazon.com/dp/B00HHQX0BQ?tag=refillwatch-20" rel="nofollow sponsored noopener" target="_blank" data-card-title="Folgers Classic Roast Coffee 48oz" data-card-pick="The benchmark for coffee unit pricing—track this to see where the floor of the market is.">
+<a class="amazon-inline-card__link" href="https://www.amazon.com/dp/B00HHQX0BQ?tag=tinkerbench-20" rel="nofollow sponsored noopener" target="_blank" data-card-title="Folgers Classic Roast Coffee 48oz" data-card-pick="The benchmark for coffee unit pricing—track this to see where the floor of the market is.">
 <img class="amazon-inline-card__img" src="https://m.media-amazon.com/images/I/81HHqX0BQ.jpg" alt="Folgers Classic Roast Coffee 48oz" width="80" height="80" loading="lazy" decoding="async">
 <div class="amazon-inline-card__body">
 <strong class="amazon-inline-card__title">Folgers Classic Roast Coffee 48oz</strong>
@@ -182,7 +182,7 @@ When we track price creep, we use these specific products as our "anchor" benchm
 </div>
 
 <div class="amazon-inline-card not-prose">
-<a class="amazon-inline-card__link" href="https://www.amazon.com/dp/B07QR6Z1JB?tag=refillwatch-20" rel="nofollow sponsored noopener" target="_blank" data-card-title="Tide PODS Laundry Detergent — 112 Count" data-card-pick="Family-size tub — compare $/load before shrinkflation shrinks the count.">
+<a class="amazon-inline-card__link" href="https://www.amazon.com/dp/B07QR6Z1JB?tag=tinkerbench-20" rel="nofollow sponsored noopener" target="_blank" data-card-title="Tide PODS Laundry Detergent — 112 Count" data-card-pick="Family-size tub — compare $/load before shrinkflation shrinks the count.">
 <img class="amazon-inline-card__img" src="https://m.media-amazon.com/images/I/51OpfxMruwL.jpg" alt="Tide PODS Laundry Detergent — 112 Count" width="80" height="80" loading="lazy" decoding="async">
 <div class="amazon-inline-card__body">
 <strong class="amazon-inline-card__title">Tide PODS Laundry Detergent — 112 Count</strong>
@@ -193,7 +193,7 @@ When we track price creep, we use these specific products as our "anchor" benchm
 </div>
 
 <div class="amazon-inline-card not-prose">
-<a class="amazon-inline-card__link" href="https://www.amazon.com/dp/B00C2O7C7O?tag=refillwatch-20" rel="nofollow sponsored noopener" target="_blank" data-card-title="Scott 1000 Sheets Per Roll — 36 Rolls" data-card-pick="Bulk toilet paper — track cost-per-sheet vs. “mega” 2-ply packs.">
+<a class="amazon-inline-card__link" href="https://www.amazon.com/dp/B00C2O7C7O?tag=tinkerbench-20" rel="nofollow sponsored noopener" target="_blank" data-card-title="Scott 1000 Sheets Per Roll — 36 Rolls" data-card-pick="Bulk toilet paper — track cost-per-sheet vs. “mega” 2-ply packs.">
 <img class="amazon-inline-card__img" src="https://m.media-amazon.com/images/I/515nKDNSU5L.jpg" alt="Scott 1000 Sheets Per Roll — 36 Rolls" width="80" height="80" loading="lazy" decoding="async">
 <div class="amazon-inline-card__body">
 <strong class="amazon-inline-card__title">Scott 1000 Sheets Per Roll — 36 Rolls</strong>
