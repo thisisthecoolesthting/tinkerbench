@@ -1,0 +1,135 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v4.16.19"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&family=Barlow:wght@400;500;600;700&display=swap"><title>20. When you need 100 MHz bandwidth vs 20 MHz on a scope | TinkerBench</title><meta name="description" content=""><link rel="canonical" href="https://tinkerbench.co/articles/20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope"><meta property="og:type" content="article"><meta property="og:title" content="20. When you need 100 MHz bandwidth vs 20 MHz on a scope | TinkerBench"><meta property="og:description" content=""><meta property="og:image" content="https://tinkerbench.co/heroes/20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope.webp"><meta property="og:url" content="https://tinkerbench.co/articles/20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope"><meta property="og:site_name" content="TinkerBench"><meta property="article:published_time" content="2026-05-12T11:09:08.000Z"><meta property="article:modified_time" content="2026-05-12T11:09:08.000Z"><meta property="article:author" content="Eli Frost"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="20. When you need 100 MHz bandwidth vs 20 MHz on a scope | TinkerBench"><meta name="twitter:description" content=""><meta name="twitter:image" content="https://tinkerbench.co/heroes/20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope.webp"><link rel="alternate" type="application/rss+xml" title="TinkerBench" href="/rss.xml"><link rel="stylesheet" href="/_astro/about.CkVdAz3g.css"><script type="module" src="/_astro/hoisted.k7HZ-5pS.js"></script></head> <body class="min-h-screen flex flex-col"> <header class="bg-cream-50 relative z-30"> <div class="max-w-6xl mx-auto px-3 sm:px-5 pt-4 sm:pt-5"> <div id="site-nav-shell" class="bg-cream-100/85 backdrop-blur-sm rounded-[1.75rem] md:rounded-full shadow-soft transition-all duration-300">  <div class="px-5 sm:px-6 py-3 md:py-4 flex items-center justify-between gap-3"> <a href="/" class="no-underline flex items-baseline min-w-0 shrink"> <div class="brand-mark brand-mark--left-of-wordmark" data-astro-cid-hwn4xkzs> <img src="/brand/tinkerbench-mark.png" width="28" height="28" class="mark-svg" alt="" data-astro-cid-hwn4xkzs> <span class="wordmark font-display text-primary" style="font-weight:600;letter-spacing:-0.04em;text-transform:none;font-variant:normal" data-astro-cid-hwn4xkzs> TinkerBench </span> </div>  </a>  <nav class="hidden md:block"> <ul class="flex gap-5 md:gap-7 text-sm font-medium"> <li> <a href="/" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Home </a> </li><li> <a href="/pillars" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Guides </a> </li><li> <a href="/products" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Reviews </a> </li><li> <a href="/articles" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Articles </a> </li><li> <a href="/about" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> About </a> </li> </ul> </nav>  <button id="site-nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav-mobile" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/70 text-ink-900 shadow-soft
+                 hover:bg-white transition-colors duration-200 shrink-0"> <svg class="w-5 h-5 icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"> <line x1="4" y1="7" x2="20" y2="7"></line> <line x1="4" y1="12" x2="20" y2="12"></line> <line x1="4" y1="17" x2="20" y2="17"></line> </svg> <svg class="w-5 h-5 icon-close hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"> <line x1="6" y1="6" x2="18" y2="18"></line> <line x1="18" y1="6" x2="6" y2="18"></line> </svg> </button> </div>  <nav id="site-nav-mobile" class="md:hidden overflow-hidden max-h-0 transition-[max-height] duration-300 ease-out" aria-hidden="true"> <ul class="px-5 pb-4 pt-1 space-y-1 text-base font-medium"> <li> <a href="/" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Home </a> </li><li> <a href="/pillars" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Guides </a> </li><li> <a href="/products" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Reviews </a> </li><li> <a href="/articles" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Articles </a> </li><li> <a href="/about" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> About </a> </li> </ul> </nav> </div> </div> </header>  <aside class="bg-cream-50"> <div class="max-w-6xl mx-auto px-5 pt-3"> <div class="bg-cream-100/70 rounded-full px-5 py-2 text-center text-xs text-ink-700">
+Some links on this page are partner links. If you buy through them we may
+      earn a small commission at no extra cost to you. It helps keep the site free.
+<a href="/disclosure" class="underline underline-offset-4">Learn more.</a> </div> </div> </aside> <main class="flex-1">  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"20. When you need 100 MHz bandwidth vs 20 MHz on a scope","description":"","datePublished":"2026-05-12T11:09:08.000Z","dateModified":"2026-05-12T11:09:08.000Z","author":{"@type":"Person","@id":"https://tinkerbench.co/authors/eli-tinkerbench/#person","name":"Eli Frost","url":"https://tinkerbench.co/authors/eli-tinkerbench/","image":"https://tinkerbench.cohttps://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=85","jobTitle":"Senior Editor"},"publisher":{"@type":"Organization","name":"TinkerBench","url":"https://tinkerbench.co"},"image":["/heroes/20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope.webp"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://tinkerbench.co/articles/20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope/"}}</script> <article class="container-prose py-12 md:py-16 pb-28 md:pb-20">  <header class="mb-6"> <h1 class="font-display text-3xl md:text-4xl text-ink-900 mb-3 !mt-0 drop-shadow-sm">20. When you need 100 MHz bandwidth vs 20 MHz on a scope</h1> </header> <div class="flex items-center gap-4 py-5 border-y border-cream-200/70 my-6"> <a href="/authors/eli-tinkerbench/" class="block shrink-0 no-underline"> <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=85" alt="Eli Frost" loading="lazy" width="56" height="56" class="w-14 h-14 rounded-full object-cover ring-2 ring-cream-200/80 !my-0"> </a> <div class="flex-1 min-w-0 leading-snug"> <p class="text-sm text-ink-900 !mt-0 !mb-0.5">
+By
+<a href="/authors/eli-tinkerbench/" class="font-semibold text-ink-900 hover:text-terracotta-600 transition-colors no-underline">Eli Frost</a> <span class="text-ink-500 font-normal"> &middot; Senior Editor</span> </p> <p class="text-xs text-ink-500 !mt-0">
+Published May 12, 2026  &middot; Last reviewed May 12, 2026 </p> </div> </div>  <figure class="mb-10 -mx-4 md:mx-0"> <img src="/heroes/20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope.webp" alt="20. When you need 100 MHz bandwidth vs 20 MHz on a scope" loading="eager" class="w-full h-auto rounded-3xl object-cover aspect-[16/9] max-h-[480px] shadow-soft"> </figure>  <div class="prose prose-lg prose-ink max-w-none"> <p>When you pick up a new oscilloscope or upgrade your bench gear, one of the key specs you’ll encounter is bandwidth—often 20 MHz or 100 MHz and beyond. But what does that really mean for your practical electronics work? If you’re scratching your head on when you actually need 100 MHz bandwidth instead of settling for 20 MHz, this article will clear up the confusion. We’ll break down the types of signals each bandwidth can accurately capture, how it impacts your measurements, and when it’s worth investing in a higher-bandwidth scope.</p>
+<h2 id="what-is-oscilloscope-bandwidth">What Is Oscilloscope Bandwidth?</h2>
+<p>Bandwidth essentially defines the highest signal frequency your oscilloscope can measure accurately. It is typically referenced as the frequency at which the scope’s input signal amplitude is attenuated by 3 dB (about 70.7% of the true amplitude). This means a 20 MHz scope can reliably display signals up to roughly 20 MHz without significant distortion, while a 100 MHz scope can handle signals up to 100 MHz.</p>
+<p>A scope’s bandwidth affects several aspects of your signal visibility:</p>
+<ul>
+<li><strong>Rise time accuracy:</strong> Higher bandwidth scopes show faster transitions more faithfully.</li>
+<li><strong>Signal fidelity:</strong> Lower bandwidth scopes may distort or miss high-frequency components.</li>
+<li><strong>Measurement reliability:</strong> Critical when dealing with fast switching electronics or RF signals.</li>
+</ul>
+<blockquote>
+<p><strong>See also:</strong> <a href="https://tinkerbench.co/articles/11-bench-multimeter-vs-handheld-who-needs-which/">11. Bench multimeter vs handheld: who needs which</a></p>
+</blockquote>
+<h2 id="how-bandwidth-affects-signal-quality">How Bandwidth Affects Signal Quality</h2>
+<p>Electronic signals, especially digital waveforms, aren’t just about their fundamental frequency. Their shape depends on the harmonics—the higher frequency components. Narrow bandwidth scopes effectively act as low-pass filters, trimming off these harmonics and rounding signal edges.</p>
+<p>For example, a 1 MHz square wave includes significant frequency components well beyond 1 MHz. Viewing it on a 20 MHz scope captures some of those components but may underrepresent the highest harmonics, making edges appear less sharp. A 100 MHz scope can reveal those fast edges more precisely.</p>
+<p>This means:</p>
+<ul>
+<li><strong>Higher bandwidth scopes resolve sharp edges and fast pulses, important for digital and RF troubleshooting.</strong></li>
+<li><strong>Lower bandwidth scopes are often enough for audio signals, low-speed analog circuits, and general-purpose tests.</strong></li>
+</ul>
+<h2 id="when-you-actually-need-20-mhz-bandwidth">When You Actually Need 20 MHz Bandwidth</h2>
+<p>A 20 MHz scope is often the sweet spot for hobbyists, repair techs, and makers working on:</p>
+<ul>
+<li><strong>Audio Electronics:</strong> Most analog audio signals don’t exceed 20 kHz, often staying well below 1 MHz even with auxiliary signals.</li>
+<li><strong>Low-Speed Digital Logic:</strong> Classic microcontrollers running with clock speeds of a few MHz, like 8-bit Atmel or PIC chips, produce edges fully viewable on 20 MHz scopes.</li>
+<li><strong>Power Supply Testing:</strong> Slow switching power supplies (under 100 kHz PWM) or linear regulators don’t require high bandwidth.</li>
+<li><strong>Basic Analog Circuits:</strong> Amplifiers, filters, and sensor signals with bandwidths well within 20 MHz.</li>
+</ul>
+<p>The advantage here is lower cost, simpler operation, and often longer soldering tip life due to the scope’s lower-frequency probes and simpler compensation.</p>
+<h2 id="when-100-mhz-bandwidth-is-a-practical-necessity">When 100 MHz Bandwidth Is a Practical Necessity</h2>
+<p>A jump to 100 MHz bandwidth should be considered when your signals demand fidelity in fast edges, high-frequency components, or RF detail:</p>
+<ul>
+<li><strong>High-Speed Digital:</strong> Interfaces like SPI, I2C at higher frequencies, RMII Ethernet PHYs, or microcontrollers clocked at 50 MHz plus.</li>
+<li><strong>Switching Power Supplies:</strong> Modern SMPS with MOSFET switching frequencies above 100 kHz and fast edge transitions.</li>
+<li><strong>RF Circuits:</strong> VHF/UHF analog or mixed-signal systems generate signals in tens to hundreds of MHz.</li>
+<li><strong>Fast Edge Pulses:</strong> Debugging pulse-width modulators or digital signals with sub-10 ns rise times require bandwidths of 100 MHz or more.</li>
+<li><strong>Serial Communication Debugging:</strong> Protocols like USB Full speed, CAN bus, or higher frequency UARTs benefit from enhanced bandwidth for accurate waveform capture.</li>
+</ul>
+<p>Even if your fundamental frequency is low, the signal’s harmonics and switching speed dictate bandwidth. Consider the rule of thumb for rise time:<br>
+<strong>Bandwidth (Hz) = 0.35 / Rise Time (seconds)</strong><br>
+To measure a 5 ns rise time, you want about 70 MHz bandwidth, so 100 MHz gives some margin. This mathematical relationship helps translate your expected signal speeds into bandwidth requirements.</p>
+<h2 id="trade-offs-between-20-mhz-and-100-mhz-scopes">Trade-Offs Between 20 MHz and 100 MHz Scopes</h2>
+<p>The difference between 20 MHz and 100 MHz scopes is not just price or speed—it’s a balance of practical utility versus cost, noise, probe compatibility, and learning curve.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature / Scenario</th><th>20 MHz Scope</th><th>100 MHz Scope</th></tr></thead><tbody><tr><td><strong>Typical Price</strong></td><td>Lower</td><td>Higher</td></tr><tr><td><strong>Scope Input Bandwidth</strong></td><td>Up to 20 MHz</td><td>Up to 100 MHz</td></tr><tr><td><strong>Adequate For</strong></td><td>Audio circuits, slow digital lines</td><td>Fast digital, RF signals, SMPS debug</td></tr><tr><td><strong>Measurement Accuracy</strong></td><td>Good for low-frequency signals</td><td>High-fidelity fast edge capture</td></tr><tr><td><strong>Rise Time Capture</strong></td><td>> 17.5 ns</td><td>~3.5 ns or better</td></tr><tr><td><strong>Probe Cost and Complexity</strong></td><td>Inexpensive passive probes</td><td>More advanced probes recommended</td></tr><tr><td><strong>Learning Curve</strong></td><td>Beginner-friendly</td><td>More complex measurements</td></tr><tr><td><strong>Soldering Tip Life (Indirect)</strong></td><td>Lower-frequency operation can extend tip life</td><td>Higher bandwidth concerns may correlate with higher usage, affecting tip life indirectly</td></tr><tr><td><strong>Best For</strong></td><td>Hobbyists, beginners, repair techs</td><td>Advanced hobbyist and pros</td></tr></tbody></table>
+<h2 id="common-pitfalls-in-bandwidth-selection">Common Pitfalls in Bandwidth Selection</h2>
+<ul>
+<li><strong>Buying More Bandwidth Than Needed:</strong> High bandwidth scopes cost more and require careful probe usage; for audio or basic logic work, 100 MHz may be overkill and less cost-effective.</li>
+<li><strong>Ignoring Rise Time Requirements:</strong> Don’t pick bandwidth solely based on fundamental frequency. Look at signal rise/fall times to judge necessary scope bandwidth.</li>
+<li><strong>Underestimating Probe Quality:</strong> Even a 100 MHz scope will underperform if paired with cheap or incompatible probes.</li>
+<li><strong>Assuming Bandwidth Means Better Signal:</strong> Higher bandwidth scopes are more sensitive to noise. Without proper grounding and shielding, measurements can become noisier, requiring more skill.</li>
+</ul>
+<h2 id="how-to-choose-the-right-bandwidth-scope-for-your-bench">How to Choose the Right Bandwidth Scope for Your Bench</h2>
+<ol>
+<li><strong>Define Your Signals’ Frequency Profile:</strong> Identify the highest fundamental frequency and rise time you expect.</li>
+<li><strong>Calculate Required Bandwidth:</strong> Use the bandwidth-rise time formula to get theoretical minimum bandwidth.</li>
+<li><strong>Consider Protocols and Usage Scenarios:</strong> Are you measuring audio, microcontrollers, RF communication, or power electronics?</li>
+<li><strong>Factor in Budget and Upgrade Path:</strong> Buying a modest 20 MHz scope now and adding a 100 MHz one later can be practical.</li>
+<li><strong>Check Probe and Accessory Availability:</strong> Bandwidth increases often require better probes that may add cost.</li>
+<li><strong>Balance Portability and Features:</strong> Higher bandwidth scopes may be bench-bound or pricier, while 20 MHz scopes are often compact and user-friendly.</li>
+</ol>
+<h2 id="wrapping-it-up">Wrapping It Up</h2>
+<p>Choosing between 20 MHz and 100 MHz scope bandwidth comes down to the signals you actually work with and your future needs as a hobbyist or technician. Low-frequency audio, slow microcontroller signals, and general analog circuits are generally fine at 20 MHz, while high-speed digital, SMPS testing, and RF debug call for 100 MHz or more. Understanding the underlying signal characteristics, rise times, and practical trade-offs can save you money and headaches while ensuring your measurements are accurate and reliable.</p>
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<p><strong>Q: Can I use a 20 MHz oscilloscope for debugging a 16 MHz microcontroller?</strong><br>
+<strong>A:</strong> Yes, if your primary interest is monitoring clock frequency and logic states. However, very fast edges or sub-nanosecond transients won’t be accurately displayed.</p>
+<p><strong>Q: Will a 100 MHz scope improve soldering iron tip life?</strong><br>
+<strong>A:</strong> Oscilloscope bandwidth doesn’t directly affect soldering iron tip life, but more detailed measurements may lead to more frequent use and cleaning cycles, indirectly impacting tip wear.</p>
+<p><strong>Q: Are probes interchangeable between 20 MHz and 100 MHz scopes?</strong><br>
+<strong>A:</strong> Basic passive probes for 20 MHz scopes might work on 100 MHz scopes but may not preserve signal integrity. For 100 MHz scopes, higher-quality or compensated probes are recommended for accurate reading.</p> </div>      <aside class="my-10 p-6 md:p-8 bg-cream-100 rounded-[2rem] shadow-soft not-prose relative overflow-hidden"><span aria-hidden="true" class="absolute left-0 top-6 bottom-6 w-1.5 rounded-r-full bg-terracotta-500"></span><p class="text-terracotta-600 text-xs uppercase tracking-[0.18em] font-semibold mb-2">
+Stay in the loop
+</p><h3 class="font-display text-xl text-ink-900 !mt-0 mb-2">The TinkerBench weekly</h3><p class="text-ink-700 text-sm mb-4 leading-relaxed">Practical picks and straight answers from TinkerBench, once a week. No spam.</p><p class="text-sm text-ink-500 italic">Newsletter signup coming soon.</p></aside> </article>  </main> <footer class="mt-24 pb-8"> <div class="max-w-6xl mx-auto px-5"> <div class="bg-cream-100 rounded-[2.5rem] md:rounded-[3rem] shadow-soft px-6 md:px-10 py-12 md:py-14"> <div class="grid md:grid-cols-3 gap-10 md:gap-8 text-sm text-ink-700"> <div> <p class="font-display text-2xl text-rose-deep mb-3">TinkerBench</p> <p class="leading-relaxed"> Honest reviews of soldering stations, bench multimeters, entry-level oscilloscopes, starter kits, and the small-batch tools that actually matter. Written by someone who spent 40 years in electronics a </p> </div> <div> <p class="font-semibold mb-3 text-ink-900 uppercase tracking-[0.15em] text-xs">Read</p> <ul class="space-y-2"> <li><a href="/pillars" class="hover:text-terracotta-600 no-underline">Guides</a></li> <li><a href="/products" class="hover:text-terracotta-600 no-underline">Product reviews</a></li> <li><a href="/articles" class="hover:text-terracotta-600 no-underline">Articles</a></li> </ul> </div> <div> <p class="font-semibold mb-3 text-ink-900 uppercase tracking-[0.15em] text-xs">About</p> <ul class="space-y-2"> <li><a href="/about" class="hover:text-terracotta-600 no-underline">About us</a></li> <li><a href="/disclosure" class="hover:text-terracotta-600 no-underline">Disclosure</a></li> <li><a href="/privacy" class="hover:text-terracotta-600 no-underline">Privacy</a></li> <li><a href="/contact" class="hover:text-terracotta-600 no-underline">Contact</a></li> </ul> </div> </div> <div class="mt-10 pt-6 border-t border-cream-200/70 text-center text-xs text-ink-500">
+&copy; 2026 TinkerBench. We may earn a commission from qualifying purchases.
+</div> </div> </div> </footer> </body></html>

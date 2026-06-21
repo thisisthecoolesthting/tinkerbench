@@ -1,0 +1,196 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v4.16.19"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&family=Barlow:wght@400;500;600;700&display=swap"><title>25. Resin vs FDM for the hobby bench: not what you think | TinkerBench</title><meta name="description" content=""><link rel="canonical" href="https://tinkerbench.co/articles/25-resin-vs-fdm-for-the-hobby-bench-not-what-you-think"><meta property="og:type" content="article"><meta property="og:title" content="25. Resin vs FDM for the hobby bench: not what you think | TinkerBench"><meta property="og:description" content=""><meta property="og:image" content="https://tinkerbench.co/heroes/25-resin-vs-fdm-for-the-hobby-bench-not-what-you-think.webp"><meta property="og:url" content="https://tinkerbench.co/articles/25-resin-vs-fdm-for-the-hobby-bench-not-what-you-think"><meta property="og:site_name" content="TinkerBench"><meta property="article:published_time" content="2026-05-12T11:12:13.000Z"><meta property="article:modified_time" content="2026-05-12T11:12:13.000Z"><meta property="article:author" content="Eli Frost"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="25. Resin vs FDM for the hobby bench: not what you think | TinkerBench"><meta name="twitter:description" content=""><meta name="twitter:image" content="https://tinkerbench.co/heroes/25-resin-vs-fdm-for-the-hobby-bench-not-what-you-think.webp"><link rel="alternate" type="application/rss+xml" title="TinkerBench" href="/rss.xml"><link rel="stylesheet" href="/_astro/about.CkVdAz3g.css"><script type="module" src="/_astro/hoisted.k7HZ-5pS.js"></script></head> <body class="min-h-screen flex flex-col"> <header class="bg-cream-50 relative z-30"> <div class="max-w-6xl mx-auto px-3 sm:px-5 pt-4 sm:pt-5"> <div id="site-nav-shell" class="bg-cream-100/85 backdrop-blur-sm rounded-[1.75rem] md:rounded-full shadow-soft transition-all duration-300">  <div class="px-5 sm:px-6 py-3 md:py-4 flex items-center justify-between gap-3"> <a href="/" class="no-underline flex items-baseline min-w-0 shrink"> <div class="brand-mark brand-mark--left-of-wordmark" data-astro-cid-hwn4xkzs> <img src="/brand/tinkerbench-mark.png" width="28" height="28" class="mark-svg" alt="" data-astro-cid-hwn4xkzs> <span class="wordmark font-display text-primary" style="font-weight:600;letter-spacing:-0.04em;text-transform:none;font-variant:normal" data-astro-cid-hwn4xkzs> TinkerBench </span> </div>  </a>  <nav class="hidden md:block"> <ul class="flex gap-5 md:gap-7 text-sm font-medium"> <li> <a href="/" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Home </a> </li><li> <a href="/pillars" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Guides </a> </li><li> <a href="/products" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Reviews </a> </li><li> <a href="/articles" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Articles </a> </li><li> <a href="/about" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> About </a> </li> </ul> </nav>  <button id="site-nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav-mobile" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/70 text-ink-900 shadow-soft
+                 hover:bg-white transition-colors duration-200 shrink-0"> <svg class="w-5 h-5 icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"> <line x1="4" y1="7" x2="20" y2="7"></line> <line x1="4" y1="12" x2="20" y2="12"></line> <line x1="4" y1="17" x2="20" y2="17"></line> </svg> <svg class="w-5 h-5 icon-close hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"> <line x1="6" y1="6" x2="18" y2="18"></line> <line x1="18" y1="6" x2="6" y2="18"></line> </svg> </button> </div>  <nav id="site-nav-mobile" class="md:hidden overflow-hidden max-h-0 transition-[max-height] duration-300 ease-out" aria-hidden="true"> <ul class="px-5 pb-4 pt-1 space-y-1 text-base font-medium"> <li> <a href="/" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Home </a> </li><li> <a href="/pillars" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Guides </a> </li><li> <a href="/products" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Reviews </a> </li><li> <a href="/articles" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Articles </a> </li><li> <a href="/about" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> About </a> </li> </ul> </nav> </div> </div> </header>  <aside class="bg-cream-50"> <div class="max-w-6xl mx-auto px-5 pt-3"> <div class="bg-cream-100/70 rounded-full px-5 py-2 text-center text-xs text-ink-700">
+Some links on this page are partner links. If you buy through them we may
+      earn a small commission at no extra cost to you. It helps keep the site free.
+<a href="/disclosure" class="underline underline-offset-4">Learn more.</a> </div> </div> </aside> <main class="flex-1">  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"25. Resin vs FDM for the hobby bench: not what you think","description":"","datePublished":"2026-05-12T11:12:13.000Z","dateModified":"2026-05-12T11:12:13.000Z","author":{"@type":"Person","@id":"https://tinkerbench.co/authors/eli-tinkerbench/#person","name":"Eli Frost","url":"https://tinkerbench.co/authors/eli-tinkerbench/","image":"https://tinkerbench.cohttps://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=85","jobTitle":"Senior Editor"},"publisher":{"@type":"Organization","name":"TinkerBench","url":"https://tinkerbench.co"},"image":["/heroes/25-resin-vs-fdm-for-the-hobby-bench-not-what-you-think.webp"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://tinkerbench.co/articles/25-resin-vs-fdm-for-the-hobby-bench-not-what-you-think/"}}</script> <article class="container-prose py-12 md:py-16 pb-28 md:pb-20">  <header class="mb-6"> <h1 class="font-display text-3xl md:text-4xl text-ink-900 mb-3 !mt-0 drop-shadow-sm">25. Resin vs FDM for the hobby bench: not what you think</h1> </header> <div class="flex items-center gap-4 py-5 border-y border-cream-200/70 my-6"> <a href="/authors/eli-tinkerbench/" class="block shrink-0 no-underline"> <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=85" alt="Eli Frost" loading="lazy" width="56" height="56" class="w-14 h-14 rounded-full object-cover ring-2 ring-cream-200/80 !my-0"> </a> <div class="flex-1 min-w-0 leading-snug"> <p class="text-sm text-ink-900 !mt-0 !mb-0.5">
+By
+<a href="/authors/eli-tinkerbench/" class="font-semibold text-ink-900 hover:text-terracotta-600 transition-colors no-underline">Eli Frost</a> <span class="text-ink-500 font-normal"> &middot; Senior Editor</span> </p> <p class="text-xs text-ink-500 !mt-0">
+Published May 12, 2026  &middot; Last reviewed May 12, 2026 </p> </div> </div>  <figure class="mb-10 -mx-4 md:mx-0"> <img src="/heroes/25-resin-vs-fdm-for-the-hobby-bench-not-what-you-think.webp" alt="25. Resin vs FDM for the hobby bench: not what you think" loading="eager" class="w-full h-auto rounded-3xl object-cover aspect-[16/9] max-h-[480px] shadow-soft"> </figure>  <div class="prose prose-lg prose-ink max-w-none"> <h2 id="resin-vs-fdm-for-the-hobby-bench-not-what-you-think">Resin vs FDM for the Hobby Bench: Not What You Think</h2>
+<p>If you’re setting up a hobby electronics bench, you might be wrestling with whether to add a resin or FDM 3D printer to your toolkit. Both printing technologies promise great value for making custom enclosures, brackets, and even delicate tools or fixtures. But the decision is often muddled by hype or misconceptions: resin is just for tiny, detailed models; FDM is clunky and low-res; or that one is always more expensive to run. This article peels back the assumptions and compares resin vs FDM printing from a practical, bench-ready perspective focused on what matters to makers and technicians — precision, reliability, maintenance, and cost-effectiveness.</p>
+<blockquote>
+<p><strong>See also:</strong> <a href="https://tinkerbench.co/articles/28-when-your-3d-printer-should-be-replaced-vs-repaired/">28. When your 3D printer should be replaced vs repaired</a></p>
+</blockquote>
+<h2 id="what-are-resin-and-fdm-3d-printing">What Are Resin and FDM 3D Printing?</h2>
+<h3 id="how-fdm-printing-works">How FDM Printing Works</h3>
+<p>Fused Deposition Modeling (FDM) printers build parts by extruding thin layers of thermoplastic filament through a heated nozzle. The nozzle moves in XY coordinates while slowly building upwards layer by layer. Common filaments include PLA, ABS, PETG, and specialty blends with added strength or flexibility.</p>
+<ul>
+<li>Pros:
+<ul>
+<li>Generally larger build volumes</li>
+<li>Easier and cleaner post-processing (mostly removing support structures)</li>
+<li>Lower material costs and wider filament choices</li>
+</ul>
+</li>
+<li>Cons:
+<ul>
+<li>Surface finish has visible layer lines</li>
+<li>Limited fine detail especially on small or complex parts</li>
+<li>Heated beds and enclosures sometimes needed for dialed-in print quality</li>
+</ul>
+</li>
+</ul>
+<h3 id="how-resin-printing-works">How Resin Printing Works</h3>
+<p>Resin, or stereolithography (SLA) printers, cure liquid photopolymer resin with UV light, either via laser or masked LCD screen in layer patterns. This means layers are formed simultaneously across the XY plane, then the build platform lifts for the next layer.</p>
+<ul>
+<li>Pros:
+<ul>
+<li>Superior surface finish with near-photographic detail</li>
+<li>Extremely fine details achievable for intricate parts (e.g., tiny gears, buttons)</li>
+<li>Smooth edges and tight tolerances right off the printer</li>
+</ul>
+</li>
+<li>Cons:
+<ul>
+<li>Smaller build volume on most hobby printers</li>
+<li>Post-processing involves washing and curing, plus managing resin waste</li>
+<li>More expensive consumables and resin handling precautions</li>
+</ul>
+</li>
+</ul>
+<h2 id="when-to-use-each-technology-on-your-hobby-bench">When to Use Each Technology on Your Hobby Bench?</h2>
+<p>Your choice depends heavily on your actual needs, not just what “looks cool.” Let’s break down typical use cases and what aligns best:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Use Case</th><th>FDM Advantages</th><th>Resin Advantages</th><th>Notes</th></tr></thead><tbody><tr><td>Custom enclosures</td><td>Larger sizes, stronger mechanical parts</td><td>Smooth surfaces and fine snap-fits</td><td>FDM better for functional parts plus heat resistance if using proper filament; resin excels for small snap-fits or detailed labels</td></tr><tr><td>Small mechanical parts, gears</td><td>Functional, but layer lines reduce smoothness</td><td>Crisp, high-precision parts improve fit and function</td><td>Resin shines if your project needs smooth gears or finely detailed button pads</td></tr><tr><td>Visual prototypes or displays</td><td>Functional prototypes but visible layers</td><td>High detail with photo-quality surface finish</td><td>Resin preferred if aesthetics matter; FDM if speed and durability matter</td></tr><tr><td>Tooling and bench fixtures</td><td>Durable and impact resistant with right filament</td><td>May be brittle depending on resin</td><td>FDM generally more robust and practical for fixtures exposed to rough use</td></tr><tr><td>Replacement parts</td><td>Easy to modify, low cost</td><td>High-detail, tight tolerance replacements</td><td>FDM easier for rapid iteration; resin wins where fine detail or complex shape matter</td></tr></tbody></table>
+<h2 id="common-misconceptions-debunked">Common Misconceptions Debunked</h2>
+<h3 id="myth-1-resin-is-always-better-for-precision">Myth 1: Resin is always better for precision</h3>
+<p>While resin can deliver far better surface finish and finer features, the actual dimensional accuracy depends on calibration and resin formulation. Plus, resin parts can sometimes warp or shrink with improper curing. Meanwhile, high-quality FDM printers with fine nozzles and well-tuned slicer settings can produce parts within ±0.1 mm accuracy, which is sufficient for many bench uses.</p>
+<h3 id="myth-2-fdm-is-low-quality-and-only-good-for-rough-drafts">Myth 2: FDM is low-quality and only good for rough drafts</h3>
+<p>Modern FDM printers use smaller nozzle diameters (as low as 0.2 mm), advanced motion systems, and dynamically controlled extrusion to create surprisingly smooth and detailed prints. Combined with post-processing like sanding or vapor smoothing, FDM parts can sometimes rival resin in surface quality.</p>
+<h3 id="myth-3-resin-is-too-toxic-or-difficult-to-handle">Myth 3: Resin is too toxic or difficult to handle</h3>
+<p>Yes, resins require protective gloves, masks, and good ventilation, and produce waste that must be handled carefully. But modern “low-odor” resins and enclosed printing systems make this simpler. Additionally, proper post-processing tools like wash-and-cure stations streamline handling, making resin printing less daunting than many think.</p>
+<h3 id="myth-4-resin-is-more-expensive-overall">Myth 4: Resin is more expensive overall</h3>
+<p>While resin costs per liter are higher than filament, running costs depend on volume and usage frequency. For small parts, resin usage is minimal. FDM filament is cheaper gram-for-gram, but large prints consume more. Also, consider tip life with FDM nozzles and resin tank replacements with SLA printers.</p>
+<h2 id="bench-critical-factors-to-evaluate-when-choosing">Bench-Critical Factors to Evaluate When Choosing</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature</th><th>Resin Printing</th><th>FDM Printing</th><th>Notes / Considerations</th></tr></thead><tbody><tr><td>Precision &#x26; Finish</td><td>Excellent detail, smooth surfaces</td><td>Good with fine nozzles, visible layers</td><td>Finish matters on visual/fit parts</td></tr><tr><td>Build Volume</td><td>Smaller (typically up to ~7-8 L)</td><td>Larger (up to 30+ L on hobby models)</td><td>Larger parts favor FDM</td></tr><tr><td>Speed (per part)</td><td>Usually slower, depends on layer cure time</td><td>Often faster on larger components</td><td>SLA can be efficient on small parts</td></tr><tr><td>Material Cost</td><td>Higher (~$50-$100 per liter)</td><td>Lower (~$20-$40 per kg filament)</td><td>Depends on part size and print usage</td></tr><tr><td>Maintenance</td><td>Resin tank replacement &#x26; resin handling</td><td>Nozzle wear, filament jams</td><td>Both need regular upkeep</td></tr><tr><td>Environmental &#x26; Safety</td><td>Require gloves, ventilation, careful waste disposal</td><td>Generally safer, less odor</td><td>Important in small, enclosed bench setups</td></tr><tr><td>Part Strength</td><td>More brittle, good for rigid parts</td><td>Varies by filament; customizable by material</td><td>For load-bearing use, FDM filament with additives preferred</td></tr><tr><td>Post-Processing</td><td>Washing, UV curing required</td><td>Mostly support removal, minimal sanding</td><td>Resin adds an extra workflow step</td></tr></tbody></table>
+<h2 id="practical-tips-for-hobby-bench-makers-and-kit-builders">Practical Tips for Hobby Bench Makers and Kit Builders</h2>
+<ol>
+<li>
+<p><strong>Start with the print size</strong>: If your major goal is large, functional parts, an FDM printer is the safer bet. For miniature parts with intricate detail (e.g., buttons, small connectors, prototype enclosures with logos), resin pays off.</p>
+</li>
+<li>
+<p><strong>Consider your workspace</strong>: Resin printing needs a well-ventilated area and clean-up space with solvents handy. If bench space is limited or ventilation poor, FDM is more plug-and-play.</p>
+</li>
+<li>
+<p><strong>Budget for consumables and replacement parts</strong>: Resin tanks, build plates, and resin itself add ongoing costs. Conversely, FDM nozzles and belts wear but are usually cheaper and last longer under normal use.</p>
+</li>
+<li>
+<p><strong>Keep the end-use in mind</strong>: Bench tools, durable fixtures, and parts under mechanical stress nearly always favor tough FDM filaments like PETG or ABS variants. Resin parts are finer but more brittle.</p>
+</li>
+<li>
+<p><strong>Learn the post-processing workflows</strong>: Resin requires washing in isopropyl alcohol or similar solvent, and then curing under UV. Neglecting these leads to weak or sticky parts. FDM post-processing is simpler, mostly limited to support removal and sometimes minor sanding or acetone smoothing.</p>
+</li>
+</ol>
+<h2 id="when-mixing-both-makes-sense">When Mixing Both Makes Sense</h2>
+<p>For many hobbyists, combining both technologies is optimal. Use an FDM printer for functional parts demanding strength and size, and keep a desktop resin printer for prototypes requiring fine detail or smooth finishes. This gives the best of both worlds without compromise and expands your creative and practical toolkit.</p>
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<p><strong>Q: Can I use standard filament spool on any FDM printer?</strong><br>
+<strong>A:</strong> Mostly yes, but check printer specs for filament diameter (usually 1.75 mm or 2.85 mm) and material compatibility since some printers require specific types.</p>
+<p><strong>Q: How long does resin last after opening?</strong><br>
+<strong>A:</strong> Uncured resin can degrade over months to a year if exposed to light and air. Store it in opaque bottles, cool and dark places to extend shelf life.</p>
+<p><strong>Q: Which is better for making snap-fit parts?</strong><br>
+<strong>A:</strong> Resin printing provides fine detail and tight tolerances, allowing very precise snap-fits. FDM can make functional snaps, but layer lines can reduce fit quality.</p>
+<hr>
+<p>Balancing resin and FDM printing on your hobby bench requires understanding not just what the tech promises, but how their real-world precision, cost, and maintenance impact your workflow. Choose smartly for your bench’s needs and your projects’ true requirements — and you’ll get flawless, functional parts without wasted time or money.</p> </div>      <aside class="my-10 p-6 md:p-8 bg-cream-100 rounded-[2rem] shadow-soft not-prose relative overflow-hidden"><span aria-hidden="true" class="absolute left-0 top-6 bottom-6 w-1.5 rounded-r-full bg-terracotta-500"></span><p class="text-terracotta-600 text-xs uppercase tracking-[0.18em] font-semibold mb-2">
+Stay in the loop
+</p><h3 class="font-display text-xl text-ink-900 !mt-0 mb-2">The TinkerBench weekly</h3><p class="text-ink-700 text-sm mb-4 leading-relaxed">Practical picks and straight answers from TinkerBench, once a week. No spam.</p><p class="text-sm text-ink-500 italic">Newsletter signup coming soon.</p></aside> </article>  </main> <footer class="mt-24 pb-8"> <div class="max-w-6xl mx-auto px-5"> <div class="bg-cream-100 rounded-[2.5rem] md:rounded-[3rem] shadow-soft px-6 md:px-10 py-12 md:py-14"> <div class="grid md:grid-cols-3 gap-10 md:gap-8 text-sm text-ink-700"> <div> <p class="font-display text-2xl text-rose-deep mb-3">TinkerBench</p> <p class="leading-relaxed"> Honest reviews of soldering stations, bench multimeters, entry-level oscilloscopes, starter kits, and the small-batch tools that actually matter. Written by someone who spent 40 years in electronics a </p> </div> <div> <p class="font-semibold mb-3 text-ink-900 uppercase tracking-[0.15em] text-xs">Read</p> <ul class="space-y-2"> <li><a href="/pillars" class="hover:text-terracotta-600 no-underline">Guides</a></li> <li><a href="/products" class="hover:text-terracotta-600 no-underline">Product reviews</a></li> <li><a href="/articles" class="hover:text-terracotta-600 no-underline">Articles</a></li> </ul> </div> <div> <p class="font-semibold mb-3 text-ink-900 uppercase tracking-[0.15em] text-xs">About</p> <ul class="space-y-2"> <li><a href="/about" class="hover:text-terracotta-600 no-underline">About us</a></li> <li><a href="/disclosure" class="hover:text-terracotta-600 no-underline">Disclosure</a></li> <li><a href="/privacy" class="hover:text-terracotta-600 no-underline">Privacy</a></li> <li><a href="/contact" class="hover:text-terracotta-600 no-underline">Contact</a></li> </ul> </div> </div> <div class="mt-10 pt-6 border-t border-cream-200/70 text-center text-xs text-ink-500">
+&copy; 2026 TinkerBench. We may earn a commission from qualifying purchases.
+</div> </div> </div> </footer> </body></html>

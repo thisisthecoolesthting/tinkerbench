@@ -1,17 +1,27 @@
 ---
-title: 37. Best benchtop power supply under 150 dollars across six models
+title: "37-best-benchtop-power-supply-under-150-dollars-across-six-models"
 site: tinkerbench
-topic: 37. Best benchtop power supply under 150 dollars across six models
+topic: "household-staples"
 tier: mvp
-updatedAt: '2026-05-12T11:17:11Z'
+cardTitle: "37-best-benchtop-power-supply-under-150-dollars-across-six"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.095Z'
 relatedProducts: []
 status: published
-heroImage: /heroes/37-best-benchtop-power-supply-under-150-dollars-across-six-models.webp
-subtopic: test-gear
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.095Z'
+metaDescription: "37-best-benchtop-power-supply-under-150-dollars-across-six-models"
+excerpt: "37-best-benchtop-power-supply-under-150-dollars-across-six-models"
+heroImage: /images/heroes/37-best-benchtop-power-supply-under-150-dollars-across-six-models.webp
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
 
-If you're a hobbyist electronics maker or a bench technician on a budget, finding a reliable benchtop power supply under $150 can feel like a balancing act between features, precision, and build quality. You want something accurate enough for delicate circuit work, with stable output and decent current capabilities, but without emptying your wallet. This article reviews six solid benchtop power supplies priced under $150, focusing on what really matters: precision, durability, ease of use, and overall value for makers and kit builders.
 
+If you're a hobbyist electronics maker or a bench technician on a budget, finding a reliable benchtop power supply under $150 can feel like a balancing act between features, precision, and build quality. You want something accurate enough for delicate circuit work, with stable output and decent current capabilities, but without emptying your wallet. This article reviews six solid benchtop power supplies priced under $150, focusing on what really matters: precision, durability, ease of use, and overall value for makers and kit builders.
+---
 ## Criteria for Choosing a Benchtop Power Supply Under $150
 
 Before diving into the models, let's clarify the key performance and feature criteria for budget-friendly bench supplies:
@@ -24,8 +34,6 @@ Before diving into the models, let's clarify the key performance and feature cri
 - **User interface:** Knobs and buttons that feel smooth and precise are key for setting output without frustration.
 - **Size and build quality:** Compact footprints save bench space; a metal chassis tends to last longer.
 - **Extras:** USB ports or multiple outputs are nice but rarely critical at this price point.
-
-
 
 > **See also:** [9. The best multimeter under 50 dollars reviewed across 8 models](https://tinkerbench.co/articles/9-the-best-multimeter-under-50-dollars-reviewed-across-8-models/)
 
@@ -99,5 +107,4 @@ If you want the lowest price and a hands-on learning experience, an electronics 
 **A:** While "cartridges" are not common in power supplies, compatible accessories like test leads can vary in quality. Opt for well-made cables and connectors to maintain accuracy and avoid interference.
 
 ---
-
 Choosing a benchtop power supply under $150 requires weighing accuracy, current range, and durability against your practical needs. Hopefully, this review helps you find a workhorse power supply that fits your bench and budget without gimmicks or compromises that matter less than you think.

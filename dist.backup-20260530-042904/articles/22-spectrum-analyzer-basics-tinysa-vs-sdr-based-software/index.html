@@ -1,0 +1,199 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v4.16.19"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&family=Barlow:wght@400;500;600;700&display=swap"><title>22. Spectrum analyzer basics: tinySA vs SDR-based software | TinkerBench</title><meta name="description" content=""><link rel="canonical" href="https://tinkerbench.co/articles/22-spectrum-analyzer-basics-tinysa-vs-sdr-based-software"><meta property="og:type" content="article"><meta property="og:title" content="22. Spectrum analyzer basics: tinySA vs SDR-based software | TinkerBench"><meta property="og:description" content=""><meta property="og:image" content="https://tinkerbench.co/heroes/22-spectrum-analyzer-basics-tinysa-vs-sdr-based-software.webp"><meta property="og:url" content="https://tinkerbench.co/articles/22-spectrum-analyzer-basics-tinysa-vs-sdr-based-software"><meta property="og:site_name" content="TinkerBench"><meta property="article:published_time" content="2026-05-12T11:09:40.000Z"><meta property="article:modified_time" content="2026-05-12T11:09:40.000Z"><meta property="article:author" content="Eli Frost"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="22. Spectrum analyzer basics: tinySA vs SDR-based software | TinkerBench"><meta name="twitter:description" content=""><meta name="twitter:image" content="https://tinkerbench.co/heroes/22-spectrum-analyzer-basics-tinysa-vs-sdr-based-software.webp"><link rel="alternate" type="application/rss+xml" title="TinkerBench" href="/rss.xml"><link rel="stylesheet" href="/_astro/about.CkVdAz3g.css"><script type="module" src="/_astro/hoisted.k7HZ-5pS.js"></script></head> <body class="min-h-screen flex flex-col"> <header class="bg-cream-50 relative z-30"> <div class="max-w-6xl mx-auto px-3 sm:px-5 pt-4 sm:pt-5"> <div id="site-nav-shell" class="bg-cream-100/85 backdrop-blur-sm rounded-[1.75rem] md:rounded-full shadow-soft transition-all duration-300">  <div class="px-5 sm:px-6 py-3 md:py-4 flex items-center justify-between gap-3"> <a href="/" class="no-underline flex items-baseline min-w-0 shrink"> <div class="brand-mark brand-mark--left-of-wordmark" data-astro-cid-hwn4xkzs> <img src="/brand/tinkerbench-mark.png" width="28" height="28" class="mark-svg" alt="" data-astro-cid-hwn4xkzs> <span class="wordmark font-display text-primary" style="font-weight:600;letter-spacing:-0.04em;text-transform:none;font-variant:normal" data-astro-cid-hwn4xkzs> TinkerBench </span> </div>  </a>  <nav class="hidden md:block"> <ul class="flex gap-5 md:gap-7 text-sm font-medium"> <li> <a href="/" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Home </a> </li><li> <a href="/pillars" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Guides </a> </li><li> <a href="/products" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Reviews </a> </li><li> <a href="/articles" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Articles </a> </li><li> <a href="/about" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> About </a> </li> </ul> </nav>  <button id="site-nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav-mobile" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/70 text-ink-900 shadow-soft
+                 hover:bg-white transition-colors duration-200 shrink-0"> <svg class="w-5 h-5 icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"> <line x1="4" y1="7" x2="20" y2="7"></line> <line x1="4" y1="12" x2="20" y2="12"></line> <line x1="4" y1="17" x2="20" y2="17"></line> </svg> <svg class="w-5 h-5 icon-close hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"> <line x1="6" y1="6" x2="18" y2="18"></line> <line x1="18" y1="6" x2="6" y2="18"></line> </svg> </button> </div>  <nav id="site-nav-mobile" class="md:hidden overflow-hidden max-h-0 transition-[max-height] duration-300 ease-out" aria-hidden="true"> <ul class="px-5 pb-4 pt-1 space-y-1 text-base font-medium"> <li> <a href="/" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Home </a> </li><li> <a href="/pillars" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Guides </a> </li><li> <a href="/products" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Reviews </a> </li><li> <a href="/articles" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Articles </a> </li><li> <a href="/about" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> About </a> </li> </ul> </nav> </div> </div> </header>  <aside class="bg-cream-50"> <div class="max-w-6xl mx-auto px-5 pt-3"> <div class="bg-cream-100/70 rounded-full px-5 py-2 text-center text-xs text-ink-700">
+Some links on this page are partner links. If you buy through them we may
+      earn a small commission at no extra cost to you. It helps keep the site free.
+<a href="/disclosure" class="underline underline-offset-4">Learn more.</a> </div> </div> </aside> <main class="flex-1">  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"22. Spectrum analyzer basics: tinySA vs SDR-based software","description":"","datePublished":"2026-05-12T11:09:40.000Z","dateModified":"2026-05-12T11:09:40.000Z","author":{"@type":"Person","@id":"https://tinkerbench.co/authors/eli-tinkerbench/#person","name":"Eli Frost","url":"https://tinkerbench.co/authors/eli-tinkerbench/","image":"https://tinkerbench.cohttps://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=85","jobTitle":"Senior Editor"},"publisher":{"@type":"Organization","name":"TinkerBench","url":"https://tinkerbench.co"},"image":["/heroes/22-spectrum-analyzer-basics-tinysa-vs-sdr-based-software.webp"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://tinkerbench.co/articles/22-spectrum-analyzer-basics-tinysa-vs-sdr-based-software/"}}</script> <article class="container-prose py-12 md:py-16 pb-28 md:pb-20">  <header class="mb-6"> <h1 class="font-display text-3xl md:text-4xl text-ink-900 mb-3 !mt-0 drop-shadow-sm">22. Spectrum analyzer basics: tinySA vs SDR-based software</h1> </header> <div class="flex items-center gap-4 py-5 border-y border-cream-200/70 my-6"> <a href="/authors/eli-tinkerbench/" class="block shrink-0 no-underline"> <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=85" alt="Eli Frost" loading="lazy" width="56" height="56" class="w-14 h-14 rounded-full object-cover ring-2 ring-cream-200/80 !my-0"> </a> <div class="flex-1 min-w-0 leading-snug"> <p class="text-sm text-ink-900 !mt-0 !mb-0.5">
+By
+<a href="/authors/eli-tinkerbench/" class="font-semibold text-ink-900 hover:text-terracotta-600 transition-colors no-underline">Eli Frost</a> <span class="text-ink-500 font-normal"> &middot; Senior Editor</span> </p> <p class="text-xs text-ink-500 !mt-0">
+Published May 12, 2026  &middot; Last reviewed May 12, 2026 </p> </div> </div>  <figure class="mb-10 -mx-4 md:mx-0"> <img src="/heroes/22-spectrum-analyzer-basics-tinysa-vs-sdr-based-software.webp" alt="22. Spectrum analyzer basics: tinySA vs SDR-based software" loading="eager" class="w-full h-auto rounded-3xl object-cover aspect-[16/9] max-h-[480px] shadow-soft"> </figure>  <div class="prose prose-lg prose-ink max-w-none"> <h1 id="spectrum-analyzer-basics-tinysa-vs-sdr-based-software">Spectrum Analyzer Basics: TinySA vs SDR-Based Software</h1>
+<p>If you’re a hobbyist electronics maker or a bench technician trying to measure or visualize radio frequency (RF) signals, you might be weighing your options between a dedicated handheld device like the Tiny Spectrum Analyzer (TinySA) and software-based spectrum analysis using an SDR (Software Defined Radio) dongle connected to your PC. Both approaches let you peek into the RF world, but they have very different practical characteristics. This article breaks down what spectrum analyzers are, how these two popular entry-level approaches work, when one might suit your bench or fieldwork better, and the common trade-offs involved.</p>
+<h2 id="what-is-a-spectrum-analyzer">What Is a Spectrum Analyzer?</h2>
+<p>A spectrum analyzer measures the magnitude of an input signal versus frequency within a specified frequency range. Instead of viewing signal amplitude over time (like an oscilloscope), it shows the power spectrum — essentially, where, in frequency, your signal energy is concentrated. This makes it essential for RF troubleshooting, antenna tuning, interference hunting, and more.</p>
+<p>Core features to evaluate include:</p>
+<ul>
+<li>Frequency coverage and resolution</li>
+<li>Sensitivity and noise floor</li>
+<li>Dynamic range and accuracy</li>
+<li>Real-time or near real-time responsiveness</li>
+<li>Portability and interface quality</li>
+</ul>
+<blockquote>
+<p><strong>See also:</strong> <a href="https://tinkerbench.co/articles/18-handheld-scopes-vs-bench-scopes-real-world-verdict/">18. Handheld scopes vs bench scopes: real-world verdict</a></p>
+</blockquote>
+<h2 id="how-tinysa-and-sdr-based-spectrum-analysis-work">How TinySA and SDR-Based Spectrum Analysis Work</h2>
+<h3 id="tinysa">TinySA</h3>
+<p>The TinySA is a dedicated handheld frequency spectrum analyzer designed for hobbyists and technicians on the move. It combines all relevant hardware, including the frequency synthesizer, analog front-end, and display into a compact unit. Typically covering approximately 100 kHz to 960 MHz (and some models extend higher), it features onboard controls and a built-in display for immediate visualization without needing a PC.</p>
+<p>Key technical points:</p>
+<ul>
+<li>Uses a fixed analog front-end with internal mixers and filters.</li>
+<li>Digitizes signals with integrated ADCs and processes data in firmware.</li>
+<li>Provides pre-set measurement modes like spectrum, measurement markers, and modulation.</li>
+<li>Runs on rechargeable batteries and usually includes output test signals.</li>
+</ul>
+<h3 id="sdr-based-spectrum-analysis">SDR-Based Spectrum Analysis</h3>
+<p>Software Defined Radio (SDR) hardware is a general RF receiver/transmitter where much of the signal processing is handled by software on your PC or embedded device. A popular entry point is a low-cost USB SDR dongle that covers VHF/UHF bands (e.g., 25 MHz to 1.8 GHz or more).</p>
+<p>How the SDR route works for spectrum analysis:</p>
+<ul>
+<li>The SDR front-end digitizes RF signals and streams raw I/Q samples to your computer.</li>
+<li>You use spectrum analysis software (like SDR# or Gqrx) that applies Fast Fourier Transforms (FFT) to convert time-domain signals into frequency-domain displays.</li>
+<li>Frequency range and resolution are determined by hardware specs and software settings.</li>
+<li>The setup requires a PC, USB connection, and often antennas or preamps.</li>
+</ul>
+<h2 id="when-to-use-tinysa-vs-sdr-based-software">When to Use TinySA vs SDR-Based Software</h2>
+<p>Both options are accessible but different in their best use scenarios:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature / Scenario</th><th>TinySA</th><th>SDR-Based Spectrum Analysis</th></tr></thead><tbody><tr><td>Portability</td><td>Highly portable, handheld with battery</td><td>Requires PC or laptop, less portable</td></tr><tr><td>Setup Complexity</td><td>Ready out-of-the-box, minimal config</td><td>Requires installation, driver setup</td></tr><tr><td>Frequency Range</td><td>Typically up to ~960 MHz (depends on model)</td><td>Can cover wider ranges depending on SDR dongle</td></tr><tr><td>Real-Time Responsiveness</td><td>Limited real-time update rates</td><td>Better with powerful PCs/software</td></tr><tr><td>Signal Visualization</td><td>Basic onscreen display with limited features</td><td>Advanced visualization via software</td></tr><tr><td>Measurement Accuracy</td><td>Good for hobbyist-level accuracy</td><td>Can be improved with software calibration</td></tr><tr><td>Price</td><td>Generally low but stand-alone hardware cost</td><td>Very low initial dongle cost, existing PC required</td></tr><tr><td>Suitable For</td><td>Quick field checks, bench tool without PC</td><td>Deep analysis, protocol decoding, complex visualizations</td></tr></tbody></table>
+<h3 id="practical-examples">Practical Examples</h3>
+<ul>
+<li><em>Field use on antenna tuning or signal hunting</em>: TinySA’s portability and instant display makes it convenient.</li>
+<li><em>Lab-based frequency and bandwidth characterization</em>: SDR with better software tools offers flexible and detailed analysis.</li>
+<li><em>Learning and experimenting</em>: SDR software promotes in-depth exploration but requires longer setup and knowledge investment.</li>
+<li><em>Budget-conscious beginners</em>: SDR dongles can be cheaper if you already own a capable PC.</li>
+</ul>
+<h2 id="common-pitfalls-and-practical-advice">Common Pitfalls and Practical Advice</h2>
+<ol>
+<li>
+<p><strong>TinySA’s Limited Frequency Range</strong>
+Its maximum frequency of roughly 960 MHz misses many GHz-range signals like WiFi (2.4 GHz) or modern cellular bands. For those signals, an SDR with a compatible higher-frequency frontend is needed.</p>
+</li>
+<li>
+<p><strong>SDR Software Complexity</strong>
+While free and powerful, software-based analysis can overwhelm beginners. Choosing user-friendly programs or well-documented tutorials is key.</p>
+</li>
+<li>
+<p><strong>Calibration and Accuracy</strong>
+Neither option rivals high-end lab spectrum analyzers in measurement precision or dynamic range. For critical measurements (e.g., regulatory compliance), professional gear or careful calibration steps are required.</p>
+</li>
+<li>
+<p><strong>Soldering and Antenna Connectors</strong>
+Both tools often require coaxial cables, small connectors, and sometimes third-party antennas. Proper soldering and handling practices ensure minimal signal loss and extended tool life.</p>
+</li>
+<li>
+<p><strong>Soldering Iron Tips for Repairs</strong>
+If you opt to repair or modify your TinySA or SDR accessories, using the correct soldering iron tip size and quality improves joint integrity and extends the iron’s tip life. For small RF connectors, fine conical or chisel tips are preferable.</p>
+</li>
+</ol>
+<h2 id="summary-comparison-table">Summary Comparison Table</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Aspect</th><th>TinySA</th><th>SDR-Based Spectrum Analysis</th></tr></thead><tbody><tr><td>Hardware</td><td>Dedicated handheld device</td><td>USB dongle + PC software</td></tr><tr><td>Frequency Coverage</td><td>~100 kHz – 960 MHz</td><td>25 MHz – 1.8 GHz+ (depending on dongle)</td></tr><tr><td>Display</td><td>Built-in LCD, limited UI</td><td>PC monitor, flexible UI</td></tr><tr><td>Power Source</td><td>Battery-powered</td><td>PC powered</td></tr><tr><td>Ease of Use</td><td>Plug and play</td><td>Requires driver installation, setup</td></tr><tr><td>Resolution Bandwidth</td><td>Fixed, moderate</td><td>Variable (depends on sampling rate and FFT size)</td></tr><tr><td>Portability</td><td>Very portable</td><td>Less portable, depends on PC</td></tr><tr><td>Field Suitability</td><td>High</td><td>Low to moderate</td></tr><tr><td>Price (entry-level)</td><td>~$100-$150</td><td>&#x3C;$50 (dongle), plus PC</td></tr><tr><td>Best For</td><td>Quick spectrum sweeps, tuning, education</td><td>Detailed signal analysis, protocol work, wideband scanning</td></tr></tbody></table>
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<p><strong>Q:</strong> Can I use the TinySA to analyze WiFi signals?</p>
+<p><strong>A:</strong> Not effectively. TinySA’s frequency range typically maxes out below 1 GHz, whereas WiFi operates at 2.4 GHz and 5 GHz bands. For WiFi and other GHz signals, an SDR with suitable hardware is preferred.</p>
+<p><strong>Q:</strong> Do I need a powerful PC for SDR-based spectrum analysis?</p>
+<p><strong>A:</strong> A mid-range laptop or desktop is usually sufficient, but higher processing power improves real-time performance and display fluidity, especially when running complex signal decoding or wide bandwidths.</p>
+<p><strong>Q:</strong> How do I ensure long tip life on my soldering iron when working on RF connectors?</p>
+<p><strong>A:</strong> Use quality tips appropriate for fine RF work (small conical or chisel tips), avoid overheating, clean tips regularly, and use compatible solder wire and flux to maintain tip integrity and good solder joints.</p>
+<hr>
+<p>Choosing between a TinySA and SDR-based spectrum analyzer comes down to your use case, desired frequency coverage, budget, and convenience. TinySA offers straightforward portability and ease, while SDR tools provide wideband flexibility and richer software integration. Understanding your specific needs and workflows will guide you to the best option for your bench or travels.</p> </div>      <aside class="my-10 p-6 md:p-8 bg-cream-100 rounded-[2rem] shadow-soft not-prose relative overflow-hidden"><span aria-hidden="true" class="absolute left-0 top-6 bottom-6 w-1.5 rounded-r-full bg-terracotta-500"></span><p class="text-terracotta-600 text-xs uppercase tracking-[0.18em] font-semibold mb-2">
+Stay in the loop
+</p><h3 class="font-display text-xl text-ink-900 !mt-0 mb-2">The TinkerBench weekly</h3><p class="text-ink-700 text-sm mb-4 leading-relaxed">Practical picks and straight answers from TinkerBench, once a week. No spam.</p><p class="text-sm text-ink-500 italic">Newsletter signup coming soon.</p></aside> </article>  </main> <footer class="mt-24 pb-8"> <div class="max-w-6xl mx-auto px-5"> <div class="bg-cream-100 rounded-[2.5rem] md:rounded-[3rem] shadow-soft px-6 md:px-10 py-12 md:py-14"> <div class="grid md:grid-cols-3 gap-10 md:gap-8 text-sm text-ink-700"> <div> <p class="font-display text-2xl text-rose-deep mb-3">TinkerBench</p> <p class="leading-relaxed"> Honest reviews of soldering stations, bench multimeters, entry-level oscilloscopes, starter kits, and the small-batch tools that actually matter. Written by someone who spent 40 years in electronics a </p> </div> <div> <p class="font-semibold mb-3 text-ink-900 uppercase tracking-[0.15em] text-xs">Read</p> <ul class="space-y-2"> <li><a href="/pillars" class="hover:text-terracotta-600 no-underline">Guides</a></li> <li><a href="/products" class="hover:text-terracotta-600 no-underline">Product reviews</a></li> <li><a href="/articles" class="hover:text-terracotta-600 no-underline">Articles</a></li> </ul> </div> <div> <p class="font-semibold mb-3 text-ink-900 uppercase tracking-[0.15em] text-xs">About</p> <ul class="space-y-2"> <li><a href="/about" class="hover:text-terracotta-600 no-underline">About us</a></li> <li><a href="/disclosure" class="hover:text-terracotta-600 no-underline">Disclosure</a></li> <li><a href="/privacy" class="hover:text-terracotta-600 no-underline">Privacy</a></li> <li><a href="/contact" class="hover:text-terracotta-600 no-underline">Contact</a></li> </ul> </div> </div> <div class="mt-10 pt-6 border-t border-cream-200/70 text-center text-xs text-ink-500">
+&copy; 2026 TinkerBench. We may earn a commission from qualifying purchases.
+</div> </div> </div> </footer> </body></html>

@@ -1,17 +1,27 @@
 ---
-title: 20. When you need 100 MHz bandwidth vs 20 MHz on a scope
+title: "20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope"
 site: tinkerbench
-topic: 20. When you need 100 MHz bandwidth vs 20 MHz on a scope
+topic: "household-staples"
 tier: mvp
-updatedAt: '2026-05-12T11:09:08Z'
+cardTitle: "20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.069Z'
 relatedProducts: []
 status: published
-heroImage: /heroes/20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope.webp
-subtopic: soldering
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.069Z'
+metaDescription: "20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope"
+excerpt: "20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope"
+heroImage: /images/heroes/20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope.webp
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
 
-When you pick up a new oscilloscope or upgrade your bench gear, one of the key specs you'll encounter is bandwidth—often 20 MHz or 100 MHz and beyond. But what does that really mean for your practical electronics work? If you're scratching your head on when you actually need 100 MHz bandwidth instead of settling for 20 MHz, this article will clear up the confusion. We'll break down the types of signals each bandwidth can accurately capture, how it impacts your measurements, and when it's worth investing in a higher-bandwidth scope.
 
+When you pick up a new oscilloscope or upgrade your bench gear, one of the key specs you'll encounter is bandwidth—often 20 MHz or 100 MHz and beyond. But what does that really mean for your practical electronics work? If you're scratching your head on when you actually need 100 MHz bandwidth instead of settling for 20 MHz, this article will clear up the confusion. We'll break down the types of signals each bandwidth can accurately capture, how it impacts your measurements, and when it's worth investing in a higher-bandwidth scope.
+---
 ## What Is Oscilloscope Bandwidth?
 
 Bandwidth essentially defines the highest signal frequency your oscilloscope can measure accurately. It is typically referenced as the frequency at which the scope’s input signal amplitude is attenuated by 3 dB (about 70.7% of the true amplitude). This means a 20 MHz scope can reliably display signals up to roughly 20 MHz without significant distortion, while a 100 MHz scope can handle signals up to 100 MHz.
@@ -21,8 +31,6 @@ A scope’s bandwidth affects several aspects of your signal visibility:
 - **Rise time accuracy:** Higher bandwidth scopes show faster transitions more faithfully.
 - **Signal fidelity:** Lower bandwidth scopes may distort or miss high-frequency components.
 - **Measurement reliability:** Critical when dealing with fast switching electronics or RF signals.
-
-
 
 > **See also:** [11. Bench multimeter vs handheld: who needs which](https://tinkerbench.co/articles/11-bench-multimeter-vs-handheld-who-needs-which/)
 

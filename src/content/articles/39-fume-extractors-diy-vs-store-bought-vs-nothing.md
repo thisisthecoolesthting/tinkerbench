@@ -1,24 +1,32 @@
 ---
-title: '39. Fume extractors: DIY vs store-bought vs nothing'
+title: "39-fume-extractors-diy-vs-store-bought-vs-nothing"
 site: tinkerbench
-topic: '39. Fume extractors: DIY vs store-bought vs nothing'
+topic: "household-staples"
 tier: mvp
-updatedAt: '2026-05-12T11:17:56Z'
+cardTitle: "39-fume-extractors-diy-vs-store-bought-vs-nothing"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.098Z'
 relatedProducts: []
 status: published
-heroImage: /heroes/39-fume-extractors-diy-vs-store-bought-vs-nothing.webp
-subtopic: soldering
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.098Z'
+metaDescription: "39-fume-extractors-diy-vs-store-bought-vs-nothing"
+excerpt: "39-fume-extractors-diy-vs-store-bought-vs-nothing"
+heroImage: /images/heroes/39-fume-extractors-diy-vs-store-bought-vs-nothing.webp
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
 
-Fume extractors: DIY vs. store-bought vs. nothing are a constant question for electronics hobbyists and bench technicians who spend hours soldering. Breathing in solder smoke, which contains flux fumes and sometimes lead particles, can pose short- and long-term health risks. Should you invest in a commercial fume extractor, build a DIY rig, or just rely on natural ventilation? This article cuts through the noise and helps you decide based on practical factors like filtration quality, cost, maintenance, and real-world effectiveness.
 
+Fume extractors: DIY vs. store-bought vs. nothing are a constant question for electronics hobbyists and bench technicians who spend hours soldering. Breathing in solder smoke, which contains flux fumes and sometimes lead particles, can pose short- and long-term health risks. Should you invest in a commercial fume extractor, build a DIY rig, or just rely on natural ventilation? This article cuts through the noise and helps you decide based on practical factors like filtration quality, cost, maintenance, and real-world effectiveness.
+---
 ## What Is a Fume Extractor?
 
 A fume extractor is a device designed to capture and filter harmful smoke and particles released during soldering and similar electronics work processes. The main purpose is to protect your lungs from exposure to volatile organic compounds (VOCs), rosin flux fumes, and lead dust or other heavy metals commonly present in solder smoke.
 
 Basic fume extraction setups consist of a fan that draws in smoke and a filter element that traps contaminants before releasing cleaner air back into your workspace. More advanced or commercial units often include HEPA and activated carbon filters, adjustable fan speeds, and replaceable cartridges.
-
-
 
 > **See also:** [4. Lead-free vs leaded solder: practical differences for hobbyists](https://tinkerbench.co/articles/4-lead-free-vs-leaded-solder-practical-differences-for-hobbyists/)
 

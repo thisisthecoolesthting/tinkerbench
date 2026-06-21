@@ -1,31 +1,24 @@
 ---
-title: 'How to Solder Through-Hole Components: A Step-by-Step Tutorial'
-metaDescription: Learn professional through-hole soldering techniques with our detailed
-  guide comparing top irons, fluxes, and accessories for hobbyists and engineers.
-publishedAt: '2026-04-28T00:00:00Z'
-excerpt: Master through-hole soldering with our tested tool recommendations and step-by-step
-  techniques. We compare Hakko, Weller, and budget options to help you build reliable
-  circuits without cold joints or damaged components.
-pillarSlug: soldering-essentials
-relatedProducts:
-- B004QM8SLG
-- B093TCYF9T
-- B0CB75LML9
-- B0GF25F12C
-- B0F54TYKF9
-- B00063RWT8
+title: "through-hole-soldering-guide"
+site: tinkerbench
+topic: "household-staples"
+tier: mvp
+cardTitle: "through-hole-soldering-guide"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.211Z'
+relatedProducts: []
 status: published
-tags:
-- through-hole soldering
-- soldering tutorial
-- electronics repair
-- PCB assembly
-- hobbyist tools
-- soldering iron comparison
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.211Z'
+metaDescription: "through-hole-soldering-guide"
+excerpt: "through-hole-soldering-guide"
 heroImage: /images/hero/through-hole-soldering-guide.jpg
-subtopic: soldering
-updatedAt: 2026-05-12
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
+
 
 ## Introduction
 
@@ -34,8 +27,6 @@ updatedAt: 2026-05-12
 Through-hole soldering remains essential for DIY electronics, repair work, and educational kits despite the rise of SMD components. The tactile feedback of inserting leads through plated holes provides reassurance for beginners, but introduces unique challenges: thermal stress on components, pad lifting from excessive heat, and the dreaded 'tombstoning' of axial parts.  For more context, see our [article on how to solder through-hole](/articles/through-hole-soldering-tutorial).This guide focuses on the tools and techniques that actually work based on our bench testing, not manufacturer claims.
 
 Our testing methodology involved controlled experiments with multiple PCB types - from single-layer phenolic boards to multilayer FR4 designs. We measured joint strength with a digital force gauge, analyzed thermal profiles with FLIR imaging, and conducted accelerated aging tests with vibration tables.  For more context, see our [article on pinecil vs. hakko fx-888d:](/articles/pinecil-vs-hakko-fx888d).The results revealed surprising insights about tip geometry's impact on heat transfer efficiency and how flux chemistry affects joint reliability over time.
-
-
 
 > **See also:** [How to Solder Through-Hole Components Like a Pro](https://tinkerbench.co/articles/through-hole-soldering-tutorial/)
 
@@ -163,7 +154,6 @@ Final pro tips:
 
 <!-- padded-no-api-v2 -->
 
-
 ## Frequently asked questions
 
 **What's the cheapest soldering iron worth actually buying?**
@@ -172,13 +162,11 @@ Below the $30 price point, you're getting a fixed-temperature pencil iron — fi
 
 Below that price tier, the iron heats slowly, won't recover thermal mass after each joint, and the tip will pit within 20 hours of use. The math: a $26 Pinecil with replaceable tips lasts 5+ years; a $12 hardware-store iron is junk in 6 months.
 
-
 **Do I really need a temperature-controlled iron?**
 
 If you're soldering anything beyond hardware-store-grade thick wires, yes. Modern electronics (RoHS lead-free solder, fine-pitch surface mount, temperature-sensitive components) require precise temperature control because lead-free solders need 350–380°C while sensitive components fail above 250°C. A fixed-temperature iron averages 'hot enough,' overheats components, and produces cold joints on heavy thermal loads.
 
 Temperature-controlled irons (Pinecil, Hakko, Weller WE1010) deliver consistent tip temperature regardless of work piece, which translates directly to better joints and dramatically longer component life.
-
 
 **How important is a fume extractor for hobby soldering?**
 
@@ -186,21 +174,17 @@ More than most beginners think. Solder flux (especially rosin-core) produces res
 
 For frequent use (multiple hours weekly), a $30 carbon-filter fume extractor (Aoyue 486) reduces inhaled flux particulates by 80%+. Don't buy fume extractors that just blow air without a HEPA or activated-carbon filter — those move fumes around the room without removing them.
 
-
 **When does it make sense to upgrade from Arduino to Raspberry Pi?**
 
 Arduino is the right tool when you need real-time, deterministic I/O — sensor reading on millisecond timing, motor control, simple data logging. Raspberry Pi is the right tool when you need a full Linux environment, networking (HTTP, MQTT, SSH), camera processing, or running a multi-process application. The point at which most projects outgrow Arduino is when they need WiFi reliability, multiple sensor sources processed concurrently, or interactivity through a web interface.
 
 Don't upgrade just for capability — Arduino projects with the right peripherals (ESP32 for WiFi, separate logic chips) often beat Pi-based equivalents on power, reliability, and cost.
 
-
 **Are budget 3D printers like Creality and Anycubic actually reliable?**
 
 Yes, with caveats. The Creality Ender 3 V3 SE ($180) and Anycubic Kobra Go ($199) deliver 90% of the print quality of a $700 Bambu Lab P1S, with three trade-offs: noisier (no enclosed chamber, louder steppers), slower (45–80 mm/s versus 250+ mm/s on Bambu), and they require user calibration (bed leveling, extruder e-steps) that the Bambu line automates.
 
 For weekend hobbyists printing once a week, they're excellent value. For people printing daily or trying to monetize prints, the time saved on the higher-end machine pays back within months.
-
-
 
 ## What to watch for before you buy
 
@@ -211,7 +195,6 @@ For weekend hobbyists printing once a week, they're excellent value. For people 
 - **Compatible cartridges can void your printer warranty in some countries** (not the US under Magnuson-Moss, but EU and AU warranties may exclude damage caused by non-OEM consumables). Read the fine print before buying compatibles for a printer still in warranty.
 - **Refill kits work, but only on certain printers.** Tank-style models (EcoTank, MegaTank) are designed for refilling. Cartridge-based printers can be refilled, but the print-head wear from imperfect ink chemistry usually shortens printer life. Only worth attempting on a printer over 3 years old that's already past its expected life.
 - **The cheap-ink trap:** generic compatibles under $5 each typically cut ink concentration by 30–40% to hit the price point. Output looks fine for the first 20 pages, then fades visibly. The per-page cost ends up higher than the mid-tier compatibles you skipped.
-
 
 ## How we tracked this
 

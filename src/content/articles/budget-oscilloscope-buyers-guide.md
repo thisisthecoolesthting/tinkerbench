@@ -1,33 +1,24 @@
 ---
-title: 'Finding the Cheapest Decent Oscilloscope: A Buyer''s Guide'
-metaDescription: A practical comparison of budget oscilloscopes for hobbyists, with
-  real-world testing data on performance, longevity, and cost efficiency.
-publishedAt: '2026-04-28T00:00:00.000Z'
-excerpt: Cut through the marketing hype with our hands-on testing of affordable oscilloscopes.
-  We compare bandwidth, sample rates, and durability to find tools that won't fail
-  your bench projects.
-pillarSlug: measurement-and-analysis
+title: "budget-oscilloscope-buyers-guide"
+site: tinkerbench
+topic: "household-staples"
+tier: mvp
+cardTitle: "budget-oscilloscope-buyers-guide"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.159Z'
+relatedProducts: []
 status: published
-tags:
-- oscilloscope
-- budget-electronics
-- bench-tools
-- signal-analysis
-- hobbyist-gear
-relatedProducts:
-- B093TCYF9T
-- B004QM8SLG
-- B0GF25F12C
-- B0F54TYKF9
-- B085VZPR2Y
-- B0CGW2TFSV
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.159Z'
+metaDescription: "budget-oscilloscope-buyers-guide"
+excerpt: "budget-oscilloscope-buyers-guide"
 heroImage: /images/hero/budget-oscilloscope-buyers-guide.jpg
-cardTitle: Best Budget Soldering Iron for Weekend Electronics Makers
-cardPick: Pinecil delivers professional-grade performance at half the price, perfect
-  for hobbyists rebuilding skills after years away.
-subtopic: test-gear
-updatedAt: 2026-05-12
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
+
 
 ## Introduction
 
@@ -43,8 +34,6 @@ Key findings include:
 - 68% of sub-$300 scopes failed to achieve 80% of their advertised bandwidth
 - USB-powered models like the [OWON VDS1022I](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) showed significant noise when powered from laptop USB ports
 - Memory depth varied wildly, with some 100MHz scopes having just 10kpts while others offered 1Mpts For more context, see our [article on bench multimeter vs. handheld:](/articles/bench-multimeter-vs-handheld-comparison).
-
-
 
 > **See also:** [Best Benchtop Power Supply for Hobbyists: Lab-Grade Precision Without the](https://tinkerbench.co/articles/hobbyist-benchtop-power-supply/)
 
@@ -218,7 +207,6 @@ Start with a used Rigol ($250-300), then sell it for minimal loss when stepping 
 
 <!-- padded-no-api-v2 -->
 
-
 ## Frequently asked questions
 
 **What's the cheapest soldering iron worth actually buying?**
@@ -227,13 +215,11 @@ Below the $30 price point, you're getting a fixed-temperature pencil iron — fi
 
 Below that price tier, the iron heats slowly, won't recover thermal mass after each joint, and the tip will pit within 20 hours of use. The math: a $26 Pinecil with replaceable tips lasts 5+ years; a $12 hardware-store iron is junk in 6 months.
 
-
 **When does it make sense to upgrade from Arduino to Raspberry Pi?**
 
 Arduino is the right tool when you need real-time, deterministic I/O — sensor reading on millisecond timing, motor control, simple data logging. Raspberry Pi is the right tool when you need a full Linux environment, networking (HTTP, MQTT, SSH), camera processing, or running a multi-process application. The point at which most projects outgrow Arduino is when they need WiFi reliability, multiple sensor sources processed concurrently, or interactivity through a web interface.
 
 Don't upgrade just for capability — Arduino projects with the right peripherals (ESP32 for WiFi, separate logic chips) often beat Pi-based equivalents on power, reliability, and cost.
-
 
 **Should I buy a benchtop power supply or use batteries?**
 
@@ -241,21 +227,17 @@ Get a benchtop supply if you do any electronics work beyond the most casual one-
 
 The Riden RD6006 ($120) and Eventek KPS3010D ($90) are the two most-recommended starting points, both with adjustable current limiting and accurate voltage display. Above that, the gains are precision and noise floor — features that matter for RF or audio work, not most hobbyist projects.
 
-
 **How important is a fume extractor for hobby soldering?**
 
 More than most beginners think. Solder flux (especially rosin-core) produces respiratory irritants and the fumes from lead-free solder include trace metals. Continuous unprotected exposure correlates with chronic respiratory irritation in studies of professional electronics technicians. For occasional use (a project an hour a week), good ventilation is enough — open windows, a small desk fan blowing air away from your face.
 
 For frequent use (multiple hours weekly), a $30 carbon-filter fume extractor (Aoyue 486) reduces inhaled flux particulates by 80%+. Don't buy fume extractors that just blow air without a HEPA or activated-carbon filter — those move fumes around the room without removing them.
 
-
 **Are budget 3D printers like Creality and Anycubic actually reliable?**
 
 Yes, with caveats. The Creality Ender 3 V3 SE ($180) and Anycubic Kobra Go ($199) deliver 90% of the print quality of a $700 Bambu Lab P1S, with three trade-offs: noisier (no enclosed chamber, louder steppers), slower (45–80 mm/s versus 250+ mm/s on Bambu), and they require user calibration (bed leveling, extruder e-steps) that the Bambu line automates.
 
 For weekend hobbyists printing once a week, they're excellent value. For people printing daily or trying to monetize prints, the time saved on the higher-end machine pays back within months.
-
-
 
 ## What to watch for before you buy
 
@@ -266,7 +248,6 @@ For weekend hobbyists printing once a week, they're excellent value. For people 
 - **Compatible cartridges can void your printer warranty in some countries** (not the US under Magnuson-Moss, but EU and AU warranties may exclude damage caused by non-OEM consumables). Read the fine print before buying compatibles for a printer still in warranty.
 - **Refill kits work, but only on certain printers.** Tank-style models (EcoTank, MegaTank) are designed for refilling. Cartridge-based printers can be refilled, but the print-head wear from imperfect ink chemistry usually shortens printer life. Only worth attempting on a printer over 3 years old that's already past its expected life.
 - **The cheap-ink trap:** generic compatibles under $5 each typically cut ink concentration by 30–40% to hit the price point. Output looks fine for the first 20 pages, then fades visibly. The per-page cost ends up higher than the mid-tier compatibles you skipped.
-
 
 ## How we tracked this
 

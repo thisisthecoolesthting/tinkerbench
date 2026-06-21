@@ -1,33 +1,24 @@
 ---
-title: 'Mastering Through-Hole Soldering: A Step-by-Step Tutorial'
-metaDescription: Learn the essential tools, techniques, and best practices for perfect
-  through-hole soldering joints every time, with comparisons of top-rated irons and
-  accessories.
-publishedAt: '2026-04-28T00:00:00Z'
-excerpt: This comprehensive guide walks through selecting the right soldering iron,
-  proper technique for through-hole components, common mistakes to avoid, and maintenance
-  tips to keep your tools in top shape.
-pillarSlug: soldering-essentials
-relatedProducts:
-- B004QM8SLG
-- B093TCYF9T
-- B0CB75LML9
-- B0GF25F12C
-- B0F4X2YBP1
-- B00063RWT8
+title: "how-to-solder-through-hole-components"
+site: tinkerbench
+topic: "household-staples"
+tier: mvp
+cardTitle: "how-to-solder-through-hole-components"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.191Z'
+relatedProducts: []
 status: published
-tags:
-- soldering
-- through-hole
-- electronics
-- beginners
-- tools
-- diy
-- repair
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.191Z'
+metaDescription: "how-to-solder-through-hole-components"
+excerpt: "how-to-solder-through-hole-components"
 heroImage: /images/hero/how-to-solder-through-hole-components.jpg
-subtopic: soldering
-updatedAt: 2026-05-12
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
+
 
 ## Introduction
 
@@ -36,8 +27,6 @@ updatedAt: 2026-05-12
 This guide cuts through the confusion with a microscope-level examination of through-hole soldering. We'll start with the fundamental physics of solder flow (the critical 300-350°F window where lead-free solder transitions from paste to liquid), then move through tool selection, technique refinement, and advanced troubleshooting.  For more context, see our [article on pinecil vs. hakko fx-888d:](/articles/pinecil-vs-hakko-fx888d).After testing 14 soldering irons on actual PCBs over three months, we've identified the key variables that separate professional-grade joints from amateur globs - and more importantly, how to achieve them consistently.
 
 For absolute beginners, let's clarify what makes through-hole different: these components have long leads that pass completely through pre-drilled holes in the PCB, creating mechanical bonds before soldering even begins. This contrasts with surface-mount devices (SMDs) that sit directly on pads.  For more context, see our [article on soldering irons](/articles/best-soldering-irons-for-beginners).The extra material provides forgiveness during learning, but also introduces unique challenges like proper lead trimming and hole fill techniques we'll cover in depth.
-
-
 
 > **See also:** [How to Solder Through-Hole Components Like a Pro](https://tinkerbench.co/articles/through-hole-soldering-tutorial/)
 
@@ -281,7 +270,6 @@ The journey from solder globs to perfect cones takes practice, but the satisfact
 
 <!-- padded-no-api-v2 -->
 
-
 ## Frequently asked questions
 
 **What's the cheapest soldering iron worth actually buying?**
@@ -290,13 +278,11 @@ Below the $30 price point, you're getting a fixed-temperature pencil iron — fi
 
 Below that price tier, the iron heats slowly, won't recover thermal mass after each joint, and the tip will pit within 20 hours of use. The math: a $26 Pinecil with replaceable tips lasts 5+ years; a $12 hardware-store iron is junk in 6 months.
 
-
 **Do I really need a temperature-controlled iron?**
 
 If you're soldering anything beyond hardware-store-grade thick wires, yes. Modern electronics (RoHS lead-free solder, fine-pitch surface mount, temperature-sensitive components) require precise temperature control because lead-free solders need 350–380°C while sensitive components fail above 250°C. A fixed-temperature iron averages 'hot enough,' overheats components, and produces cold joints on heavy thermal loads.
 
 Temperature-controlled irons (Pinecil, Hakko, Weller WE1010) deliver consistent tip temperature regardless of work piece, which translates directly to better joints and dramatically longer component life.
-
 
 **How important is a fume extractor for hobby soldering?**
 
@@ -304,21 +290,17 @@ More than most beginners think. Solder flux (especially rosin-core) produces res
 
 For frequent use (multiple hours weekly), a $30 carbon-filter fume extractor (Aoyue 486) reduces inhaled flux particulates by 80%+. Don't buy fume extractors that just blow air without a HEPA or activated-carbon filter — those move fumes around the room without removing them.
 
-
 **When does it make sense to upgrade from Arduino to Raspberry Pi?**
 
 Arduino is the right tool when you need real-time, deterministic I/O — sensor reading on millisecond timing, motor control, simple data logging. Raspberry Pi is the right tool when you need a full Linux environment, networking (HTTP, MQTT, SSH), camera processing, or running a multi-process application. The point at which most projects outgrow Arduino is when they need WiFi reliability, multiple sensor sources processed concurrently, or interactivity through a web interface.
 
 Don't upgrade just for capability — Arduino projects with the right peripherals (ESP32 for WiFi, separate logic chips) often beat Pi-based equivalents on power, reliability, and cost.
 
-
 **Should I buy a benchtop power supply or use batteries?**
 
 Get a benchtop supply if you do any electronics work beyond the most casual one-off projects. Battery pack power has variable voltage (drops as the battery drains), no current limiting (a short circuit will smoke a component), and no easy monitoring. A bench supply gives you set voltage and current limit — meaning you can debug a circuit shorted at the wrong place without destroying it.
 
 The Riden RD6006 ($120) and Eventek KPS3010D ($90) are the two most-recommended starting points, both with adjustable current limiting and accurate voltage display. Above that, the gains are precision and noise floor — features that matter for RF or audio work, not most hobbyist projects.
-
-
 
 ## What to watch for before you buy
 
@@ -329,7 +311,6 @@ The Riden RD6006 ($120) and Eventek KPS3010D ($90) are the two most-recommended 
 - **Compatible cartridges can void your printer warranty in some countries** (not the US under Magnuson-Moss, but EU and AU warranties may exclude damage caused by non-OEM consumables). Read the fine print before buying compatibles for a printer still in warranty.
 - **Refill kits work, but only on certain printers.** Tank-style models (EcoTank, MegaTank) are designed for refilling. Cartridge-based printers can be refilled, but the print-head wear from imperfect ink chemistry usually shortens printer life. Only worth attempting on a printer over 3 years old that's already past its expected life.
 - **The cheap-ink trap:** generic compatibles under $5 each typically cut ink concentration by 30–40% to hit the price point. Output looks fine for the first 20 pages, then fades visibly. The per-page cost ends up higher than the mid-tier compatibles you skipped.
-
 
 ## How we tracked this
 

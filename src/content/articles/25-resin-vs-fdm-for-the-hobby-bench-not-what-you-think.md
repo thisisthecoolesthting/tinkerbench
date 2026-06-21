@@ -1,20 +1,28 @@
 ---
-title: '25. Resin vs FDM for the hobby bench: not what you think'
+title: "25-resin-vs-fdm-for-the-hobby-bench-not-what-you-think"
 site: tinkerbench
-topic: '25. Resin vs FDM for the hobby bench: not what you think'
+topic: "household-staples"
 tier: mvp
-updatedAt: '2026-05-12T11:12:13Z'
+cardTitle: "25-resin-vs-fdm-for-the-hobby-bench-not-what-you-think"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.076Z'
 relatedProducts: []
 status: published
-heroImage: /heroes/25-resin-vs-fdm-for-the-hobby-bench-not-what-you-think.webp
-subtopic: soldering
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.076Z'
+metaDescription: "25-resin-vs-fdm-for-the-hobby-bench-not-what-you-think"
+excerpt: "25-resin-vs-fdm-for-the-hobby-bench-not-what-you-think"
+heroImage: /images/heroes/25-resin-vs-fdm-for-the-hobby-bench-not-what-you-think.webp
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
+
 
 ## Resin vs FDM for the Hobby Bench: Not What You Think
 
 If you're setting up a hobby electronics bench, you might be wrestling with whether to add a resin or FDM 3D printer to your toolkit. Both printing technologies promise great value for making custom enclosures, brackets, and even delicate tools or fixtures. But the decision is often muddled by hype or misconceptions: resin is just for tiny, detailed models; FDM is clunky and low-res; or that one is always more expensive to run. This article peels back the assumptions and compares resin vs FDM printing from a practical, bench-ready perspective focused on what matters to makers and technicians — precision, reliability, maintenance, and cost-effectiveness.
-
-
 
 > **See also:** [28. When your 3D printer should be replaced vs repaired](https://tinkerbench.co/articles/28-when-your-3d-printer-should-be-replaced-vs-repaired/)
 
@@ -117,5 +125,4 @@ For many hobbyists, combining both technologies is optimal. Use an FDM printer f
 **A:** Resin printing provides fine detail and tight tolerances, allowing very precise snap-fits. FDM can make functional snaps, but layer lines can reduce fit quality.
 
 ---
-
 Balancing resin and FDM printing on your hobby bench requires understanding not just what the tech promises, but how their real-world precision, cost, and maintenance impact your workflow. Choose smartly for your bench’s needs and your projects' true requirements — and you’ll get flawless, functional parts without wasted time or money.

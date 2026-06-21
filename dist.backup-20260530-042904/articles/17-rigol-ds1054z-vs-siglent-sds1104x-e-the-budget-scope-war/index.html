@@ -1,0 +1,212 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v4.16.19"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&family=Barlow:wght@400;500;600;700&display=swap"><title>17. Rigol DS1054Z vs Siglent SDS1104X-E: the budget scope war | TinkerBench</title><meta name="description" content=""><link rel="canonical" href="https://tinkerbench.co/articles/17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war"><meta property="og:type" content="article"><meta property="og:title" content="17. Rigol DS1054Z vs Siglent SDS1104X-E: the budget scope war | TinkerBench"><meta property="og:description" content=""><meta property="og:image" content="https://tinkerbench.co/heroes/17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war.webp"><meta property="og:url" content="https://tinkerbench.co/articles/17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war"><meta property="og:site_name" content="TinkerBench"><meta property="article:published_time" content="2026-05-12T11:07:36.000Z"><meta property="article:modified_time" content="2026-05-12T11:07:36.000Z"><meta property="article:author" content="Eli Frost"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="17. Rigol DS1054Z vs Siglent SDS1104X-E: the budget scope war | TinkerBench"><meta name="twitter:description" content=""><meta name="twitter:image" content="https://tinkerbench.co/heroes/17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war.webp"><link rel="alternate" type="application/rss+xml" title="TinkerBench" href="/rss.xml"><link rel="stylesheet" href="/_astro/about.CkVdAz3g.css"><script type="module" src="/_astro/hoisted.k7HZ-5pS.js"></script></head> <body class="min-h-screen flex flex-col"> <header class="bg-cream-50 relative z-30"> <div class="max-w-6xl mx-auto px-3 sm:px-5 pt-4 sm:pt-5"> <div id="site-nav-shell" class="bg-cream-100/85 backdrop-blur-sm rounded-[1.75rem] md:rounded-full shadow-soft transition-all duration-300">  <div class="px-5 sm:px-6 py-3 md:py-4 flex items-center justify-between gap-3"> <a href="/" class="no-underline flex items-baseline min-w-0 shrink"> <div class="brand-mark brand-mark--left-of-wordmark" data-astro-cid-hwn4xkzs> <img src="/brand/tinkerbench-mark.png" width="28" height="28" class="mark-svg" alt="" data-astro-cid-hwn4xkzs> <span class="wordmark font-display text-primary" style="font-weight:600;letter-spacing:-0.04em;text-transform:none;font-variant:normal" data-astro-cid-hwn4xkzs> TinkerBench </span> </div>  </a>  <nav class="hidden md:block"> <ul class="flex gap-5 md:gap-7 text-sm font-medium"> <li> <a href="/" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Home </a> </li><li> <a href="/pillars" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Guides </a> </li><li> <a href="/products" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Reviews </a> </li><li> <a href="/articles" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Articles </a> </li><li> <a href="/about" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> About </a> </li> </ul> </nav>  <button id="site-nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav-mobile" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/70 text-ink-900 shadow-soft
+                 hover:bg-white transition-colors duration-200 shrink-0"> <svg class="w-5 h-5 icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"> <line x1="4" y1="7" x2="20" y2="7"></line> <line x1="4" y1="12" x2="20" y2="12"></line> <line x1="4" y1="17" x2="20" y2="17"></line> </svg> <svg class="w-5 h-5 icon-close hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"> <line x1="6" y1="6" x2="18" y2="18"></line> <line x1="18" y1="6" x2="6" y2="18"></line> </svg> </button> </div>  <nav id="site-nav-mobile" class="md:hidden overflow-hidden max-h-0 transition-[max-height] duration-300 ease-out" aria-hidden="true"> <ul class="px-5 pb-4 pt-1 space-y-1 text-base font-medium"> <li> <a href="/" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Home </a> </li><li> <a href="/pillars" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Guides </a> </li><li> <a href="/products" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Reviews </a> </li><li> <a href="/articles" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Articles </a> </li><li> <a href="/about" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> About </a> </li> </ul> </nav> </div> </div> </header>  <aside class="bg-cream-50"> <div class="max-w-6xl mx-auto px-5 pt-3"> <div class="bg-cream-100/70 rounded-full px-5 py-2 text-center text-xs text-ink-700">
+Some links on this page are partner links. If you buy through them we may
+      earn a small commission at no extra cost to you. It helps keep the site free.
+<a href="/disclosure" class="underline underline-offset-4">Learn more.</a> </div> </div> </aside> <main class="flex-1">  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"17. Rigol DS1054Z vs Siglent SDS1104X-E: the budget scope war","description":"","datePublished":"2026-05-12T11:07:36.000Z","dateModified":"2026-05-12T11:07:36.000Z","author":{"@type":"Person","@id":"https://tinkerbench.co/authors/eli-tinkerbench/#person","name":"Eli Frost","url":"https://tinkerbench.co/authors/eli-tinkerbench/","image":"https://tinkerbench.cohttps://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=85","jobTitle":"Senior Editor"},"publisher":{"@type":"Organization","name":"TinkerBench","url":"https://tinkerbench.co"},"image":["/heroes/17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war.webp"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://tinkerbench.co/articles/17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war/"}}</script> <article class="container-prose py-12 md:py-16 pb-28 md:pb-20">  <header class="mb-6"> <h1 class="font-display text-3xl md:text-4xl text-ink-900 mb-3 !mt-0 drop-shadow-sm">17. Rigol DS1054Z vs Siglent SDS1104X-E: the budget scope war</h1> </header> <div class="flex items-center gap-4 py-5 border-y border-cream-200/70 my-6"> <a href="/authors/eli-tinkerbench/" class="block shrink-0 no-underline"> <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=85" alt="Eli Frost" loading="lazy" width="56" height="56" class="w-14 h-14 rounded-full object-cover ring-2 ring-cream-200/80 !my-0"> </a> <div class="flex-1 min-w-0 leading-snug"> <p class="text-sm text-ink-900 !mt-0 !mb-0.5">
+By
+<a href="/authors/eli-tinkerbench/" class="font-semibold text-ink-900 hover:text-terracotta-600 transition-colors no-underline">Eli Frost</a> <span class="text-ink-500 font-normal"> &middot; Senior Editor</span> </p> <p class="text-xs text-ink-500 !mt-0">
+Published May 12, 2026  &middot; Last reviewed May 12, 2026 </p> </div> </div>  <figure class="mb-10 -mx-4 md:mx-0"> <img src="/heroes/17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war.webp" alt="17. Rigol DS1054Z vs Siglent SDS1104X-E: the budget scope war" loading="eager" class="w-full h-auto rounded-3xl object-cover aspect-[16/9] max-h-[480px] shadow-soft"> </figure>  <div class="prose prose-lg prose-ink max-w-none"> <p>The Rigol DS1054Z and the Siglent SDS1104X-E are two of the most talked-about budget digital oscilloscopes in the hobbyist and bench technician space. If you need a capable 4-channel scope without breaking the bank, choosing between these two models is a common dilemma. Both offer more bandwidth and features than typical entry-level scopes, but which one suits your actual needs better? This article cuts through the hype to compare them on performance, usability, tool precision, and value for electronic makers and kit builders.</p>
+<h2 id="what-are-these-scopes">What Are These Scopes?</h2>
+<h3 id="rigol-ds1054z">Rigol DS1054Z</h3>
+<p>The Rigol DS1054Z is a 4-channel, 50MHz bandwidth digital oscilloscope—with an option to unlock 100MHz via firmware hacks. It’s widely praised for its solid build, intuitive interface, and rich feature set that punches above its modest price. Rigol scopes gained popularity mainly because they deliver surprisingly good sample rates, deep memory, and a responsive user experience.</p>
+<h3 id="siglent-sds1104x-e">Siglent SDS1104X-E</h3>
+<p>The Siglent SDS1104X-E is a 4-channel, 100MHz bandwidth digital oscilloscope that competes directly with the Rigol DS1054Z. It comes from a newer generation of budget scopes offering more bandwidth out of the box, a crisp display, higher sample rate, and updated firmware. Siglent focused on improving waveform capture and analysis features while keeping the price competitive.</p>
+<blockquote>
+<p><strong>See also:</strong> <a href="https://tinkerbench.co/articles/18-handheld-scopes-vs-bench-scopes-real-world-verdict/">18. Handheld scopes vs bench scopes: real-world verdict</a></p>
+</blockquote>
+<h2 id="how-they-work">How They Work</h2>
+<p>Both scopes digitize analog waveforms through analog-to-digital converters and display the signals on bright color LCD screens. They include real-time acquisition modes, advanced triggering, and signal measurement utilities. Inputs are typically via BNC connectors on the front, with capable probes included or sold separately.</p>
+<ul>
+<li><strong>Channels</strong>: Both have 4 analog input channels, an essential feature for multi-signal diagnostics.</li>
+<li><strong>Sampling Rate</strong>: Siglent edges out with up to 1GSa/s (gigasample per second) on all channels simultaneously, compared to Rigol’s 1GSa/s in single channel mode and less on multiple channels.</li>
+<li><strong>Memory Depth</strong>: Both offer deep memory (Rigol up to 24Mpts, Siglent up to 14Mpts max), influencing how detailed and long captured waveforms can be.</li>
+</ul>
+<h2 id="key-comparisons">Key Comparisons</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature</th><th>Rigol DS1054Z</th><th>Siglent SDS1104X-E</th><th>Notes</th></tr></thead><tbody><tr><td>Bandwidth</td><td>50MHz (can unlock 100MHz)</td><td>100MHz</td><td>Siglent natively supports 100MHz.</td></tr><tr><td>Sample Rate</td><td>1GSa/s single channel</td><td>1GSa/s all channels</td><td>Siglent has an edge for multi-channel analysis.</td></tr><tr><td>Memory Depth</td><td>Up to 24Mpts</td><td>Up to 14Mpts</td><td>Rigol offers longer captures but Siglent’s lower depth is still plenty for most uses.</td></tr><tr><td>User Interface</td><td>Established, reliable</td><td>Modern, intuitive</td><td>Siglent offers touch response on some models and updated menus.</td></tr><tr><td>Display Resolution</td><td>800x480 pixels</td><td>800x480 pixels</td><td>Similar display quality.</td></tr><tr><td>Triggering Capabilities</td><td>Edge, Pulse, Video, Slope</td><td>Edge, Pulse, Video, Slope, Durations</td><td>Siglent adds duration triggering modes.</td></tr><tr><td>Connectivity</td><td>USB host, USB device, LAN (via adapter)</td><td>USB device, LAN, Wi-Fi (optional)</td><td>Siglent broadly supports remote control options.</td></tr><tr><td>Probe Included</td><td>Generic 1X/10X probes</td><td>Brand-compatible 1X/10X probes</td><td>Quality is similar; both support third-party probes.</td></tr><tr><td>Firmware Updates &#x26; Hacks</td><td>Significant community support, unofficial bandwidth unlock</td><td>Official firmware updates, no hacks needed</td><td>Rigol enthusiasts appreciate modifiability.</td></tr><tr><td>Price</td><td>Usually lower than Siglent</td><td>Slightly higher</td><td>Price difference fluctuates; depends on sales/promotions.</td></tr></tbody></table>
+<h2 id="when-to-use-each">When to Use Each</h2>
+<h3 id="use-the-rigol-ds1054z-if">Use the Rigol DS1054Z If…</h3>
+<ul>
+<li>Your work mostly involves signals under 50MHz and you want the option to unlock bandwidth later.</li>
+<li>You appreciate a mature ecosystem with lots of tutorials, hacks, and community help.</li>
+<li>You prefer a straightforward scope with a proven interface and don’t mind firmware tweaks.</li>
+<li>Budget is your absolute top priority; cheaper scope head and accessories are attractive.</li>
+</ul>
+<h3 id="use-the-siglent-sds1104x-e-if">Use the Siglent SDS1104X-E If…</h3>
+<ul>
+<li>You want 100MHz bandwidth out-of-the-box with minimal fuss.</li>
+<li>Multi-channel signals need simultaneous high sample rates for accurate analysis.</li>
+<li>Features like duration-triggering and Wi-Fi support matter for your workflow.</li>
+<li>You favor a slightly cleaner, modern user interface and official firmware updates.</li>
+</ul>
+<h2 id="tool-precision-and-measurement-accuracy">Tool Precision and Measurement Accuracy</h2>
+<p>Both scopes provide solid measurement precision typical of budget models—vertical resolution is 8 bits, which is standard for scopes in this price range. Neither is suitable for ultra-high accuracy lab measurements, but both are more than sufficient for debugging microcontrollers, RF front-ends up to their bandwidth, audio circuits, and hobby electronics.</p>
+<p>Tools like cursors, automatic measurements (frequency, peak-to-peak voltage, rise time), and FFT spectrum analysis are reliably accurate at these bandwidths, allowing practical troubleshooting and design validation.</p>
+<h2 id="considerations-on-probe-and-tip-life">Considerations on Probe and Tip Life</h2>
+<p>The included probes impact measurement precision and the long-term usability of your scope:</p>
+<ul>
+<li>Both scopes typically ship with generic 1X/10X passive probes that balance bandwidth and signal integrity.</li>
+<li>Consider investing in brand-compatible replacement or upgrade probes designed for the bandwidth you require—higher bandwidth scopes benefit from probes with low loading capacitance.</li>
+<li>Probes are subject to wear, particularly tips and compensation components; periodic calibration and tip replacement maintain signal quality.</li>
+<li>Using higher quality tip materials and including protective caps prolongs life.</li>
+</ul>
+<h2 id="practical-use-notes-for-beginners-and-kit-makers">Practical Use Notes for Beginners and Kit Makers</h2>
+<ul>
+<li>If you’re building kits or repairing vintage electronics, 50MHz bandwidth (Rigol stock) is usually enough.</li>
+<li>For experimenting with modern digital signals (like Arduino, ESP32, or simple RF circuits), 100MHz bandwidth and 4 channels of reliable sampling (Siglent) provide extra headroom.</li>
+<li>Be aware that bandwidth “unlocking” on the Rigol is not officially supported and may void warranty or complicate support.</li>
+<li>Both scopes offer USB support for waveform capture or updates, but Siglent’s network/Wi-Fi connectivity provides flexibility if you want remote monitoring.</li>
+<li>Test drives in a local electronics store or via simulator apps can help you get a feel for the interface.</li>
+</ul>
+<h2 id="summary-comparison-table">Summary Comparison Table</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Criteria</th><th>Rigol DS1054Z</th><th>Siglent SDS1104X-E</th><th>Recommended For</th></tr></thead><tbody><tr><td>Bandwidth</td><td>50MHz (unlockable to 100MHz)</td><td>100MHz</td><td>Older/Mid-speed signals vs. modern apps</td></tr><tr><td>Sample Rate</td><td>Up to 1GSa/s (single channel)</td><td>1GSa/s all channels</td><td>Single channel emphasis vs. multi-channel</td></tr><tr><td>Memory Depth</td><td>Up to 24Mpts</td><td>Up to 14Mpts</td><td>Longer captures vs balanced depth</td></tr><tr><td>Interface &#x26; UX</td><td>Established, hackable</td><td>Modern, official updates</td><td>Tinkerers vs out-of-the-box reliability</td></tr><tr><td>Price</td><td>Lower</td><td>Slightly higher</td><td>Budget strict vs value-focused buyers</td></tr><tr><td>Connectivity</td><td>USB, LAN adapter needed</td><td>USB, LAN, Wi-Fi optional</td><td>Basic remote vs advanced option</td></tr><tr><td>Triggering Modes</td><td>Basic + video/slope</td><td>Basic + duration triggers</td><td>Standard triggers vs specialized needs</td></tr><tr><td>Probe Quality &#x26; Support</td><td>Generic probes, good ecosystem</td><td>Brand-compatible probes</td><td>Standard kit vs planned upgrade path</td></tr></tbody></table>
+<h2 id="common-pitfalls-to-watch-out-for">Common Pitfalls to Watch Out For</h2>
+<ul>
+<li><strong>Firmware Hack Risks</strong>: Rigol bandwidth unlock needs the right USB dongle; procedurally tricky and may cause instability.</li>
+<li><strong>Underestimating Bandwidth Needs</strong>: Buying 50MHz scope for signals approaching 100MHz leads to misleading signal behavior.</li>
+<li><strong>Misjudging Probe Quality</strong>: Using a cheap third-party probe not rated for bandwidth can impair measurement accuracy.</li>
+<li><strong>Forgetting Trigger Modes</strong>: Wanting to capture rare glitch events? Check if duration or advanced triggers are essential for your project.</li>
+<li><strong>Overbudgeting Features</strong>: Features like Wi-Fi or touch screens may look cool but don’t add practical value for many beginners.</li>
+</ul>
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<p><strong>Q: Can I safely unlock the Rigol DS1054Z to 100MHz and expect stable operation?</strong><br>
+<strong>A:</strong> Many users successfully unlock bandwidth, but it’s unofficial, may void warranty, and could cause firmware instability. Consider your comfort with tinkering before proceeding.</p>
+<p><strong>Q: Does the higher memory depth in Rigol DS1054Z make a big difference for hobby projects?</strong><br>
+<strong>A:</strong> Usually not. Unless you capture long time periods at high sample rates regularly, 14Mpts memory on the Siglent is sufficient.</p>
+<p><strong>Q: Are the included probes on either scope good enough for general electronics work?</strong><br>
+<strong>A:</strong> Yes, both ship with decent passive 10X probes suitable for most low-frequency and moderate-speed signals, but upgrading may be needed for precision or high-frequency work.</p>
+<hr>
+<p>If you’re hunting for a budget oscilloscope to match hobbyist or technician needs, both the Rigol DS1054Z and Siglent SDS1104X-E are proven contenders. Choose based on your bandwidth needs, interface preferences, and willingness to tinker with unofficial hacks versus a ready-to-go solution. Either way, you’re getting a strong tool that offers impressive features and precision for under $500.</p> </div>      <aside class="my-10 p-6 md:p-8 bg-cream-100 rounded-[2rem] shadow-soft not-prose relative overflow-hidden"><span aria-hidden="true" class="absolute left-0 top-6 bottom-6 w-1.5 rounded-r-full bg-terracotta-500"></span><p class="text-terracotta-600 text-xs uppercase tracking-[0.18em] font-semibold mb-2">
+Stay in the loop
+</p><h3 class="font-display text-xl text-ink-900 !mt-0 mb-2">The TinkerBench weekly</h3><p class="text-ink-700 text-sm mb-4 leading-relaxed">Practical picks and straight answers from TinkerBench, once a week. No spam.</p><p class="text-sm text-ink-500 italic">Newsletter signup coming soon.</p></aside> </article>  </main> <footer class="mt-24 pb-8"> <div class="max-w-6xl mx-auto px-5"> <div class="bg-cream-100 rounded-[2.5rem] md:rounded-[3rem] shadow-soft px-6 md:px-10 py-12 md:py-14"> <div class="grid md:grid-cols-3 gap-10 md:gap-8 text-sm text-ink-700"> <div> <p class="font-display text-2xl text-rose-deep mb-3">TinkerBench</p> <p class="leading-relaxed"> Honest reviews of soldering stations, bench multimeters, entry-level oscilloscopes, starter kits, and the small-batch tools that actually matter. Written by someone who spent 40 years in electronics a </p> </div> <div> <p class="font-semibold mb-3 text-ink-900 uppercase tracking-[0.15em] text-xs">Read</p> <ul class="space-y-2"> <li><a href="/pillars" class="hover:text-terracotta-600 no-underline">Guides</a></li> <li><a href="/products" class="hover:text-terracotta-600 no-underline">Product reviews</a></li> <li><a href="/articles" class="hover:text-terracotta-600 no-underline">Articles</a></li> </ul> </div> <div> <p class="font-semibold mb-3 text-ink-900 uppercase tracking-[0.15em] text-xs">About</p> <ul class="space-y-2"> <li><a href="/about" class="hover:text-terracotta-600 no-underline">About us</a></li> <li><a href="/disclosure" class="hover:text-terracotta-600 no-underline">Disclosure</a></li> <li><a href="/privacy" class="hover:text-terracotta-600 no-underline">Privacy</a></li> <li><a href="/contact" class="hover:text-terracotta-600 no-underline">Contact</a></li> </ul> </div> </div> <div class="mt-10 pt-6 border-t border-cream-200/70 text-center text-xs text-ink-500">
+&copy; 2026 TinkerBench. We may earn a commission from qualifying purchases.
+</div> </div> </div> </footer> </body></html>

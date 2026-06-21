@@ -1,25 +1,30 @@
 ---
-title: '12. Four-wire vs two-wire resistance: what your multimeter is not telling
-  you'
+title: "12-four-wire-vs-two-wire-resistance-what-your-multimeter-is-not-telling-you"
 site: tinkerbench
-topic: '12. Four-wire vs two-wire resistance: what your multimeter is not telling
-  you'
+topic: "household-staples"
 tier: mvp
-updatedAt: '2026-05-12T11:03:38Z'
+cardTitle: "12-four-wire-vs-two-wire-resistance-what-your-multimeter-i"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.055Z'
 relatedProducts: []
 status: published
-heroImage: /heroes/12-four-wire-vs-two-wire-resistance-what-your-multimeter-is-not-telling-you.webp
-subtopic: test-gear
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.055Z'
+metaDescription: "12-four-wire-vs-two-wire-resistance-what-your-multimeter-is-not-telling-you"
+excerpt: "12-four-wire-vs-two-wire-resistance-what-your-multimeter-is-not-telling-you"
+heroImage: /images/heroes/12-four-wire-vs-two-wire-resistance-what-your-multimeter-is-not-telling-you.webp
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
+
 
 ## Four-wire vs Two-wire Resistance: What Your Multimeter Is Not Telling You
 
 If you’ve ever measured a low-value resistor, a length of wire, or a PCB trace and got a reading higher than expected, you’re not alone. The reason often comes down to how your multimeter measures resistance—specifically, whether it uses a two-wire or four-wire method. Many hobbyists and bench techs rely on basic two-wire measurements without realizing the errors introduced by lead and contact resistance. This article explains the difference between two-wire and four-wire resistance measurement methods, why it matters for precision work, and when each method is appropriate.
 
 ---
-
-
-
 > **See also:** [14. Capacitor testing: why most multimeter cap modes lie](https://tinkerbench.co/articles/14-capacitor-testing-why-most-multimeter-cap-modes-lie/)
 
 ## What Is Two-Wire Resistance Measurement?
@@ -35,7 +40,6 @@ Two-wire resistance measurement is the most common and straightforward method us
 - For low-value resistors (milliohms), lead and contact resistance can cause significant errors.
 
 ---
-
 ## What Is Four-Wire (Kelvin) Resistance Measurement?
 
 Four-wire resistance measurement, also called Kelvin sensing, is a method designed to eliminate errors caused by lead and contact resistance. It’s widely used in precision labs and industry for measuring low-value resistors, shunts, and PCB traces.
@@ -51,7 +55,6 @@ Four-wire resistance measurement, also called Kelvin sensing, is a method design
 - The meter calculates resistance using the sensed voltage and the known current through the force leads.
 
 ---
-
 ## Why Does This Matter?
 
 Resistance measurements at very low levels (under a few ohms) are often compromised by lead and contact resistances, which are additive in two-wire measurement. This can cause:
@@ -63,7 +66,6 @@ Resistance measurements at very low levels (under a few ohms) are often compromi
 Four-wire measurement effectively excludes lead and contact resistance, providing more accurate readings down to micro-ohm levels in professional setups.
 
 ---
-
 ## When to Use Two-Wire vs Four-Wire
 
 | Scenario                               | Recommended Method | Reason                                                             |
@@ -76,7 +78,6 @@ Four-wire measurement effectively excludes lead and contact resistance, providin
 | Quick approximate resistance checks    | Two-wire           | Sufficient where high precision isn't needed                       |
 
 ---
-
 ## Practical Tips for Using Each Method
 
 ### Two-Wire Measurement Tips
@@ -96,7 +97,6 @@ Four-wire measurement effectively excludes lead and contact resistance, providin
 5. **Verify meter support**: Not all multimeters have four-wire sensing capability; some require specific Kelvin resistance meters.
 
 ---
-
 ## How Much Lead Resistance Can Influence Your Measurement?
 
 Leads and probe tips typically add between 0.1 and 0.5 ohms each way, depending on length, diameter, and cleanliness. Consider measuring a 0.1-ohm resistor with your test leads adding 0.5 ohms in series. Your two-wire reading will be roughly 0.6 ohms—six times the actual resistor value!
@@ -111,7 +111,6 @@ Leads and probe tips typically add between 0.1 and 0.5 ohms each way, depending 
 | Cost                          | Meter + standard leads      | Meter + Kelvin leads/fixtures |
 
 ---
-
 ## Summary
 
 Two-wire resistance measurements are suitable and convenient for most beginner and intermediate electronics work involving moderate and high-value resistors. However, when dealing with low resistance components, PCB traces, or where precision is critical, the inherent lead and contact resistances in two-wire setups distort your readings. Four-wire (Kelvin) resistance measurement removes these errors by separating current sourcing and voltage sensing leads.
@@ -119,7 +118,6 @@ Two-wire resistance measurements are suitable and convenient for most beginner a
 Understanding when and why to use four-wire measurement allows hobbyists, kit builders, and bench techs to increase accuracy without guesswork, save test time, and prevent troubleshooting errors caused by false resistance readings.
 
 ---
-
 ## Frequently Asked Questions
 
 **Q: Can I retrofit my standard multimeter for four-wire resistance measurement?**  
@@ -132,5 +130,4 @@ Understanding when and why to use four-wire measurement allows hobbyists, kit bu
 **A:** No. Four-wire measurement requires special test leads with separate force and sense wires. Proper Kelvin clips or probes ensure consistent contact and minimal additional resistance in the sense leads.
 
 ---
-
 By using the correct measurement technique for your resistance range and precision needs, you’ll avoid frustrating inaccuracies and get closer to the true behavior of your circuits and components. Keep this guide in mind next time your multimeter reading doesn’t make sense!

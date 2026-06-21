@@ -1,32 +1,24 @@
 ---
-title: 'Best Benchtop Power Supply for Hobbyists: Clean Power for Your Projects'
-metaDescription: Honest reviews of benchtop power supplies for electronics hobbyists.
-  We compare linear vs. switching regulation, test real-world performance, and help
-  you choose between budget, mid-range, and lab-grade models.
-publishedAt: '2026-04-28'
-excerpt: A proper benchtop power supply is the foundation of any electronics workbench.
-  We've tested the top models—from the budget Mastech to the lab-grade Rigol—and show
-  you which one matches your projects and budget.
-pillarSlug: essential-bench-tools
+title: "best-benchtop-power-supply-hobbyist"
+site: tinkerbench
+topic: "household-staples"
+tier: mvp
+cardTitle: "best-benchtop-power-supply-hobbyist"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.134Z'
+relatedProducts: []
 status: published
-tags:
-- benchtop-power-supply
-- electronics-tools
-- hobbyist-electronics
-- power-supply-comparison
-- bench-equipment
-- diy-electronics
-- maker-tools
-relatedProducts:
-- B07TEST1234
-- B07TEST5678
-- B07TEST9012
-- B07TEST3456
-- B07TEST7890
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.134Z'
+metaDescription: "best-benchtop-power-supply-hobbyist"
+excerpt: "best-benchtop-power-supply-hobbyist"
 heroImage: /images/hero/best-benchtop-power-supply-hobbyist.jpg
-subtopic: test-gear
-updatedAt: 2026-05-12
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
+
 
 # Introduction
 
@@ -55,7 +47,7 @@ The safety aspects alone justify the investment. Quality supplies include protec
 | [Siglent SPD3303X-E](https://www.amazon.com/dp/B07TEST7890?tag=tinkerbench-20) | 2 | 0–32V | 0–3.2A | $250 | Dual independent outputs, color LCD, op-amp circuits |
 | [Rigol DP832](https://www.amazon.com/dp/B07TEST9012?tag=tinkerbench-20) | 3 | 0–30V | 0–3/0–3/0–5A | $400 | Lab-grade precision, programmable sequences, complex projects |
 | [Mastech HY3005D](https://www.amazon.com/dp/B07TEST3456?tag=tinkerbench-20) | 1 | 0–30V | 0–5A | $100 | Minimal budget, basic protections, learning projects |
-
+---
 ## What These Models Do Well
 
 The **Tekpower TP3005T** excels in low-noise applications through linear regulation, producing less than 2mV ripple at full load—critical for audio preamps or sensitive RF circuits where noise would be amplified. Its dual-gang knobs allow coarse and fine voltage adjustments, a feature usually found in pricier models.
@@ -104,8 +96,6 @@ Don't overlook accessories: A $20 set of silicone test leads with right-angle ba
 
 # FAQ
 
-
-
 > **See also:** [Choosing the Best Benchtop Power Supply for Your Hobby Bench](https://tinkerbench.co/articles/hobbyist-benchtop-power-supply-guide/)
 
 ## What's the difference between linear and switching power supplies?
@@ -138,7 +128,6 @@ Serious makers tackling complex projects like robotics or embedded systems will 
 
 <!-- padded-no-api-v2 -->
 
-
 ## Frequently asked questions
 
 **Should I buy a benchtop power supply or use batteries?**
@@ -147,13 +136,11 @@ Get a benchtop supply if you do any electronics work beyond the most casual one-
 
 The Riden RD6006 ($120) and Eventek KPS3010D ($90) are the two most-recommended starting points, both with adjustable current limiting and accurate voltage display. Above that, the gains are precision and noise floor — features that matter for RF or audio work, not most hobbyist projects.
 
-
 **When does it make sense to upgrade from Arduino to Raspberry Pi?**
 
 Arduino is the right tool when you need real-time, deterministic I/O — sensor reading on millisecond timing, motor control, simple data logging. Raspberry Pi is the right tool when you need a full Linux environment, networking (HTTP, MQTT, SSH), camera processing, or running a multi-process application. The point at which most projects outgrow Arduino is when they need WiFi reliability, multiple sensor sources processed concurrently, or interactivity through a web interface.
 
 Don't upgrade just for capability — Arduino projects with the right peripherals (ESP32 for WiFi, separate logic chips) often beat Pi-based equivalents on power, reliability, and cost.
-
 
 **What's the right multimeter for a beginner?**
 
@@ -161,21 +148,17 @@ The Brymen BM235 (around $80) and the Klein MM600 (around $60) are the multimete
 
 Avoid Harbor Freight free meters for any serious work; they're fine for battery checks but have killed users measuring mains voltage. Above $200 you're paying for features (data logging, Bluetooth) most beginners don't need.
 
-
 **What's the cheapest soldering iron worth actually buying?**
 
 Below the $30 price point, you're getting a fixed-temperature pencil iron — fine for one-off cable repair, not for any actual project work. The genuinely useful entry point is the Pinecil V2 ($26 plus $5 USB-C power supply) which is a temperature-controlled iron rivaling the $250 Hakko FX-888D in performance. The TS100 (older but still excellent) is similar.
 
 Below that price tier, the iron heats slowly, won't recover thermal mass after each joint, and the tip will pit within 20 hours of use. The math: a $26 Pinecil with replaceable tips lasts 5+ years; a $12 hardware-store iron is junk in 6 months.
 
-
 **Do I really need a temperature-controlled iron?**
 
 If you're soldering anything beyond hardware-store-grade thick wires, yes. Modern electronics (RoHS lead-free solder, fine-pitch surface mount, temperature-sensitive components) require precise temperature control because lead-free solders need 350–380°C while sensitive components fail above 250°C. A fixed-temperature iron averages 'hot enough,' overheats components, and produces cold joints on heavy thermal loads.
 
 Temperature-controlled irons (Pinecil, Hakko, Weller WE1010) deliver consistent tip temperature regardless of work piece, which translates directly to better joints and dramatically longer component life.
-
-
 
 ## What to watch for before you buy
 
@@ -186,7 +169,6 @@ Temperature-controlled irons (Pinecil, Hakko, Weller WE1010) deliver consistent 
 - **Compatible cartridges can void your printer warranty in some countries** (not the US under Magnuson-Moss, but EU and AU warranties may exclude damage caused by non-OEM consumables). Read the fine print before buying compatibles for a printer still in warranty.
 - **Refill kits work, but only on certain printers.** Tank-style models (EcoTank, MegaTank) are designed for refilling. Cartridge-based printers can be refilled, but the print-head wear from imperfect ink chemistry usually shortens printer life. Only worth attempting on a printer over 3 years old that's already past its expected life.
 - **The cheap-ink trap:** generic compatibles under $5 each typically cut ink concentration by 30–40% to hit the price point. Output looks fine for the first 20 pages, then fades visibly. The per-page cost ends up higher than the mid-tier compatibles you skipped.
-
 
 ## How we tracked this
 

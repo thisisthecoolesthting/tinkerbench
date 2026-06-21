@@ -1,26 +1,34 @@
 ---
-title: 8. Through-hole vs surface-mount soldering for beginners
+title: "8-through-hole-vs-surface-mount-soldering-for-beginners"
 site: tinkerbench
-topic: 8. Through-hole vs surface-mount soldering for beginners
+topic: "household-staples"
 tier: mvp
-updatedAt: '2026-05-12T06:01:18Z'
+cardTitle: "8-through-hole-vs-surface-mount-soldering-for-beginners"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.112Z'
 relatedProducts: []
 status: published
-heroImage: /heroes/8-through-hole-vs-surface-mount-soldering-for-beginners.webp
-subtopic: soldering
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.112Z'
+metaDescription: "8-through-hole-vs-surface-mount-soldering-for-beginners"
+excerpt: "8-through-hole-vs-surface-mount-soldering-for-beginners"
+heroImage: /images/heroes/8-through-hole-vs-surface-mount-soldering-for-beginners.webp
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
+
 
 Through-hole vs Surface-Mount Soldering for Beginners: What’s Right for You?
 
 If you’re new to electronics assembly or repair, one of the first challenges you’ll face is choosing between through-hole and surface-mount soldering techniques. Each method has its own learning curve, tooling requirements, and practical applications. Understanding these differences early can save you frustration, protect your components, and get your projects up and running faster.
-
+---
 ## What Is Through-Hole Soldering?
 
 Through-hole soldering involves placing electronic components with wire leads into pre-drilled holes on a printed circuit board (PCB). The leads are then soldered on the board’s opposite side, creating a strong mechanical and electrical connection.
 
 This method has been the standard for decades and is often used in kits, hobby projects, and devices requiring rugged connections. Components like resistors, capacitors, and connectors with thick leads are typical candidates for through-hole mounting.
-
-
 
 > **See also:** [32. Kit brands ranked: Elegoo vs SunFounder vs Osoyoo](https://tinkerbench.co/articles/32-kit-brands-ranked-elegoo-vs-sunfounder-vs-osoyoo/)
 
@@ -114,7 +122,6 @@ For most beginners, starting with through-hole soldering makes sense because the
 Remember, patience and practice are key. Don’t rush into SMT until you’ve nailed through-hole basics unless you specifically need the skill for repairing or building modern devices.
 
 ---
-
 ## Frequently Asked Questions
 
 **Q: Can I solder surface-mount components with a regular soldering iron?**  

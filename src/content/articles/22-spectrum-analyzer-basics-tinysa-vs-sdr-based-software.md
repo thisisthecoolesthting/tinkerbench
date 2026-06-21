@@ -1,20 +1,30 @@
 ---
-title: '22. Spectrum analyzer basics: tinySA vs SDR-based software'
+title: "22-spectrum-analyzer-basics-tinysa-vs-sdr-based-software"
 site: tinkerbench
-topic: '22. Spectrum analyzer basics: tinySA vs SDR-based software'
+topic: "household-staples"
 tier: mvp
-updatedAt: '2026-05-12T11:09:40Z'
+cardTitle: "22-spectrum-analyzer-basics-tinysa-vs-sdr-based-software"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.071Z'
 relatedProducts: []
 status: published
-heroImage: /heroes/22-spectrum-analyzer-basics-tinysa-vs-sdr-based-software.webp
-subtopic: test-gear
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.071Z'
+metaDescription: "22-spectrum-analyzer-basics-tinysa-vs-sdr-based-software"
+excerpt: "22-spectrum-analyzer-basics-tinysa-vs-sdr-based-software"
+heroImage: /images/heroes/22-spectrum-analyzer-basics-tinysa-vs-sdr-based-software.webp
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
+
 
 Spectrum Analyzer Basics: TinySA vs SDR-Based Software
 =======================================================
 
 If you're a hobbyist electronics maker or a bench technician trying to measure or visualize radio frequency (RF) signals, you might be weighing your options between a dedicated handheld device like the Tiny Spectrum Analyzer (TinySA) and software-based spectrum analysis using an SDR (Software Defined Radio) dongle connected to your PC. Both approaches let you peek into the RF world, but they have very different practical characteristics. This article breaks down what spectrum analyzers are, how these two popular entry-level approaches work, when one might suit your bench or fieldwork better, and the common trade-offs involved.
-
+---
 ## What Is a Spectrum Analyzer?
 
 A spectrum analyzer measures the magnitude of an input signal versus frequency within a specified frequency range. Instead of viewing signal amplitude over time (like an oscilloscope), it shows the power spectrum — essentially, where, in frequency, your signal energy is concentrated. This makes it essential for RF troubleshooting, antenna tuning, interference hunting, and more.
@@ -26,8 +36,6 @@ Core features to evaluate include:
 - Dynamic range and accuracy
 - Real-time or near real-time responsiveness
 - Portability and interface quality
-
-
 
 > **See also:** [18. Handheld scopes vs bench scopes: real-world verdict](https://tinkerbench.co/articles/18-handheld-scopes-vs-bench-scopes-real-world-verdict/)
 
@@ -124,5 +132,4 @@ Both options are accessible but different in their best use scenarios:
 **A:** Use quality tips appropriate for fine RF work (small conical or chisel tips), avoid overheating, clean tips regularly, and use compatible solder wire and flux to maintain tip integrity and good solder joints.
 
 ---
-
 Choosing between a TinySA and SDR-based spectrum analyzer comes down to your use case, desired frequency coverage, budget, and convenience. TinySA offers straightforward portability and ease, while SDR tools provide wideband flexibility and richer software integration. Understanding your specific needs and workflows will guide you to the best option for your bench or travels.

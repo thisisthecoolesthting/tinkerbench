@@ -1,24 +1,32 @@
 ---
-title: '21. Scope probes: why the 10 dollar ones lie about bandwidth'
+title: "21-scope-probes-why-the-10-dollar-ones-lie-about-bandwidth"
 site: tinkerbench
-topic: '21. Scope probes: why the 10 dollar ones lie about bandwidth'
+topic: "household-staples"
 tier: mvp
-updatedAt: '2026-05-12T11:09:41Z'
+cardTitle: "21-scope-probes-why-the-10-dollar-ones-lie-about-bandwidth"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.070Z'
 relatedProducts: []
 status: published
-heroImage: /heroes/21-scope-probes-why-the-10-dollar-ones-lie-about-bandwidth.webp
-subtopic: test-gear
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.070Z'
+metaDescription: "21-scope-probes-why-the-10-dollar-ones-lie-about-bandwidth"
+excerpt: "21-scope-probes-why-the-10-dollar-ones-lie-about-bandwidth"
+heroImage: /images/heroes/21-scope-probes-why-the-10-dollar-ones-lie-about-bandwidth.webp
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
 
-If you’ve bought inexpensive oscilloscope probes advertised with a certain bandwidth rating—often around 100 MHz or more—you might be frustratingly discovering that the “bandwidth” of these probes falls far short in real-world use. This mismatch can cause your oscilloscope measurements to miss high-frequency detail, misrepresent signals with distortion, or even create misleading confidence in your test results. Understanding why $10 scope probes often overstate their bandwidth and how to recognize what you really need is crucial for hobbyists and bench techs wanting accurate diagnostics without breaking the bank.
 
+If you’ve bought inexpensive oscilloscope probes advertised with a certain bandwidth rating—often around 100 MHz or more—you might be frustratingly discovering that the “bandwidth” of these probes falls far short in real-world use. This mismatch can cause your oscilloscope measurements to miss high-frequency detail, misrepresent signals with distortion, or even create misleading confidence in your test results. Understanding why $10 scope probes often overstate their bandwidth and how to recognize what you really need is crucial for hobbyists and bench techs wanting accurate diagnostics without breaking the bank.
+---
 ## What Are Oscilloscope Probes and Why Bandwidth Matters
 
 Oscilloscope probes are the interface between your device under test and your oscilloscope. Their key job is to faithfully transmit the electrical signals, ideally without altering the waveform. One critical parameter is bandwidth—the highest frequency the probe can measure accurately with minimal signal attenuation or distortion.
 
 Bandwidth is a fundamental limiting factor. A 100 MHz bandwidth probe should pass signals up to about 100 MHz with less than 3 dB attenuation, preserving sharp edges in digital signals and the shape of analog waveforms. Probe bandwidth needs to be at least as high as your scope’s bandwidth, or it becomes the weakest link in the measurement chain.
-
-
 
 > **See also:** [20. When you need 100 MHz bandwidth vs 20 MHz on a scope](https://tinkerbench.co/articles/20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope/)
 
@@ -90,7 +98,6 @@ Upgrading to a quality 10x passive probe with known input capacitance, proper co
 Chasing bandwidth ratings on $10 scope probes is a trap that leads to inaccurate diagnostics. Their design compromises often make their actual bandwidth far lower than advertised, which distorts your waveforms and hides vital signal features. For most hobbyist and technician use cases that involve higher frequency signals, investing in a proper 10x probe with a solid datasheet and compensation adjustment is essential. The upfront expense pays off in trustworthy measurements, better signal integrity, and ultimately faster troubleshooting.
 
 ---
-
 ## Frequently Asked Questions
 
 **Q: Can I improve a cheap $10 probe by adjusting compensation?**  

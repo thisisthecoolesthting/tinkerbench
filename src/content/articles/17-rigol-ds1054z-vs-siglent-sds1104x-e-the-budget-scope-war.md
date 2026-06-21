@@ -1,17 +1,27 @@
 ---
-title: '17. Rigol DS1054Z vs Siglent SDS1104X-E: the budget scope war'
+title: "17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war"
 site: tinkerbench
-topic: '17. Rigol DS1054Z vs Siglent SDS1104X-E: the budget scope war'
+topic: "household-staples"
 tier: mvp
-updatedAt: '2026-05-12T11:07:36Z'
+cardTitle: "17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-wa"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.063Z'
 relatedProducts: []
 status: published
-heroImage: /heroes/17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war.webp
-subtopic: soldering
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.063Z'
+metaDescription: "17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war"
+excerpt: "17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war"
+heroImage: /images/heroes/17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war.webp
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
 
-The Rigol DS1054Z and the Siglent SDS1104X-E are two of the most talked-about budget digital oscilloscopes in the hobbyist and bench technician space. If you need a capable 4-channel scope without breaking the bank, choosing between these two models is a common dilemma. Both offer more bandwidth and features than typical entry-level scopes, but which one suits your actual needs better? This article cuts through the hype to compare them on performance, usability, tool precision, and value for electronic makers and kit builders.
 
+The Rigol DS1054Z and the Siglent SDS1104X-E are two of the most talked-about budget digital oscilloscopes in the hobbyist and bench technician space. If you need a capable 4-channel scope without breaking the bank, choosing between these two models is a common dilemma. Both offer more bandwidth and features than typical entry-level scopes, but which one suits your actual needs better? This article cuts through the hype to compare them on performance, usability, tool precision, and value for electronic makers and kit builders.
+---
 ## What Are These Scopes?
 
 ### Rigol DS1054Z
@@ -19,8 +29,6 @@ The Rigol DS1054Z is a 4-channel, 50MHz bandwidth digital oscilloscope—with an
 
 ### Siglent SDS1104X-E
 The Siglent SDS1104X-E is a 4-channel, 100MHz bandwidth digital oscilloscope that competes directly with the Rigol DS1054Z. It comes from a newer generation of budget scopes offering more bandwidth out of the box, a crisp display, higher sample rate, and updated firmware. Siglent focused on improving waveform capture and analysis features while keeping the price competitive.
-
-
 
 > **See also:** [18. Handheld scopes vs bench scopes: real-world verdict](https://tinkerbench.co/articles/18-handheld-scopes-vs-bench-scopes-real-world-verdict/)
 
@@ -117,5 +125,4 @@ The included probes impact measurement precision and the long-term usability of 
 **A:** Yes, both ship with decent passive 10X probes suitable for most low-frequency and moderate-speed signals, but upgrading may be needed for precision or high-frequency work.
 
 ---
-
 If you're hunting for a budget oscilloscope to match hobbyist or technician needs, both the Rigol DS1054Z and Siglent SDS1104X-E are proven contenders. Choose based on your bandwidth needs, interface preferences, and willingness to tinker with unofficial hacks versus a ready-to-go solution. Either way, you’re getting a strong tool that offers impressive features and precision for under $500.

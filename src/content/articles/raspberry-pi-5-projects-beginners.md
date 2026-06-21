@@ -1,36 +1,24 @@
 ---
-title: 'Best Raspberry Pi 5 Projects for Beginners: From Retro Gaming to Home Automation'
-metaDescription: Beginner-friendly Raspberry Pi 5 projects with step-by-step guides,
-  component recommendations, and cost breakdowns. Learn retro gaming setup, home automation,
-  and Python coding.
-publishedAt: '2026-04-28'
-excerpt: 'The Raspberry Pi 5 is the most capable—and beginner-friendly—single-board
-  computer yet. We''ve tested five complete projects: retro gaming console, Pi-hole
-  ad blocker, home automation hub, weather station, and media server. Each includes
-  component lists, performance benchmarks, and three budget tiers starting at $89.'
-pillarSlug: getting-started
+title: "raspberry-pi-5-projects-beginners"
+site: tinkerbench
+topic: "household-staples"
+tier: mvp
+cardTitle: "raspberry-pi-5-projects-beginners"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.204Z'
+relatedProducts: []
 status: published
-tags:
-- raspberry-pi-5
-- beginner-projects
-- home-automation
-- retro-gaming
-- coding-for-beginners
-- diy-electronics
-- raspberry-pi-starter-kits
-relatedProducts:
-- B07TEST1234
-- B07TEST5678
-- B07TEST9012
-- B07TEST3456
-- B07TEST7890
-- B07TEST2345
-- B07TEST6789
-- B07TEST0123
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.204Z'
+metaDescription: "raspberry-pi-5-projects-beginners"
+excerpt: "raspberry-pi-5-projects-beginners"
 heroImage: /images/hero/raspberry-pi-5-projects-beginners.jpg
-subtopic: microcontrollers
-updatedAt: 2026-05-12
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
+
 
 ## Introduction
 
@@ -39,8 +27,6 @@ The Raspberry Pi 5 represents a genuine step forward in single-board computing�
 We've purchased and tested five starter projects that work *because* they're built for real learning, not just novelty. You'll progress from simple GPIO control through Python scripting to networked home automation.  For more context, see our [article on soldering irons](/articles/best-soldering-irons-beginners).Each project includes troubleshooting specifics—like using a [Klein Tools MM325 multimeter](https://www.amazon.com/dp/B07TEST9999?tag=tinkerbench-20) to diagnose power rail issues, or recovering from a corrupted SD card.
 
 For absolute newcomers, pair these projects with the [Official Raspberry Pi Beginner's Guide](https://www.amazon.com/dp/B07TEST8888?tag=tinkerbench-20). The combination of structured learning and hands-on tinkering works better than either alone.
-
-
 
 > **See also:** [Are Arduino Starter Kits Worth Buying? Honest Reviews for Beginners and Returning](https://tinkerbench.co/articles/arduino-starter-kits-worth-buying/)
 
@@ -248,7 +234,6 @@ Most importantly: you'll discover that hands-on building teaches more than any c
 
 <!-- padded-no-api-v2 -->
 
-
 ## Frequently asked questions
 
 **When does it make sense to upgrade from Arduino to Raspberry Pi?**
@@ -257,13 +242,11 @@ Arduino is the right tool when you need real-time, deterministic I/O — sensor 
 
 Don't upgrade just for capability — Arduino projects with the right peripherals (ESP32 for WiFi, separate logic chips) often beat Pi-based equivalents on power, reliability, and cost.
 
-
 **What's the cheapest soldering iron worth actually buying?**
 
 Below the $30 price point, you're getting a fixed-temperature pencil iron — fine for one-off cable repair, not for any actual project work. The genuinely useful entry point is the Pinecil V2 ($26 plus $5 USB-C power supply) which is a temperature-controlled iron rivaling the $250 Hakko FX-888D in performance. The TS100 (older but still excellent) is similar.
 
 Below that price tier, the iron heats slowly, won't recover thermal mass after each joint, and the tip will pit within 20 hours of use. The math: a $26 Pinecil with replaceable tips lasts 5+ years; a $12 hardware-store iron is junk in 6 months.
-
 
 **Should I buy a benchtop power supply or use batteries?**
 
@@ -271,21 +254,17 @@ Get a benchtop supply if you do any electronics work beyond the most casual one-
 
 The Riden RD6006 ($120) and Eventek KPS3010D ($90) are the two most-recommended starting points, both with adjustable current limiting and accurate voltage display. Above that, the gains are precision and noise floor — features that matter for RF or audio work, not most hobbyist projects.
 
-
 **What's the right multimeter for a beginner?**
 
 The Brymen BM235 (around $80) and the Klein MM600 (around $60) are the multimeters most working electricians and electronics hobbyists own. They have safe input protection (CAT III 600V), accurate auto-ranging, true-RMS measurement, and 6000-count displays. Below $30 you're typically getting unsafe input protection — a meter that can fail catastrophically when measuring household AC.
 
 Avoid Harbor Freight free meters for any serious work; they're fine for battery checks but have killed users measuring mains voltage. Above $200 you're paying for features (data logging, Bluetooth) most beginners don't need.
 
-
 **Do I really need a temperature-controlled iron?**
 
 If you're soldering anything beyond hardware-store-grade thick wires, yes. Modern electronics (RoHS lead-free solder, fine-pitch surface mount, temperature-sensitive components) require precise temperature control because lead-free solders need 350–380°C while sensitive components fail above 250°C. A fixed-temperature iron averages 'hot enough,' overheats components, and produces cold joints on heavy thermal loads.
 
 Temperature-controlled irons (Pinecil, Hakko, Weller WE1010) deliver consistent tip temperature regardless of work piece, which translates directly to better joints and dramatically longer component life.
-
-
 
 ## What to watch for before you buy
 
@@ -296,7 +275,6 @@ Temperature-controlled irons (Pinecil, Hakko, Weller WE1010) deliver consistent 
 - **Compatible cartridges can void your printer warranty in some countries** (not the US under Magnuson-Moss, but EU and AU warranties may exclude damage caused by non-OEM consumables). Read the fine print before buying compatibles for a printer still in warranty.
 - **Refill kits work, but only on certain printers.** Tank-style models (EcoTank, MegaTank) are designed for refilling. Cartridge-based printers can be refilled, but the print-head wear from imperfect ink chemistry usually shortens printer life. Only worth attempting on a printer over 3 years old that's already past its expected life.
 - **The cheap-ink trap:** generic compatibles under $5 each typically cut ink concentration by 30–40% to hit the price point. Output looks fine for the first 20 pages, then fades visibly. The per-page cost ends up higher than the mid-tier compatibles you skipped.
-
 
 ## How we tracked this
 

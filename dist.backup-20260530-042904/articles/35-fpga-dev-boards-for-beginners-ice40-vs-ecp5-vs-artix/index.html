@@ -1,0 +1,251 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v4.16.19"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&family=Barlow:wght@400;500;600;700&display=swap"><title>35. FPGA dev boards for beginners: iCE40 vs ECP5 vs Artix | TinkerBench</title><meta name="description" content=""><link rel="canonical" href="https://tinkerbench.co/articles/35-fpga-dev-boards-for-beginners-ice40-vs-ecp5-vs-artix"><meta property="og:type" content="article"><meta property="og:title" content="35. FPGA dev boards for beginners: iCE40 vs ECP5 vs Artix | TinkerBench"><meta property="og:description" content=""><meta property="og:image" content="https://tinkerbench.co/heroes/35-fpga-dev-boards-for-beginners-ice40-vs-ecp5-vs-artix.webp"><meta property="og:url" content="https://tinkerbench.co/articles/35-fpga-dev-boards-for-beginners-ice40-vs-ecp5-vs-artix"><meta property="og:site_name" content="TinkerBench"><meta property="article:published_time" content="2026-05-12T11:15:49.000Z"><meta property="article:modified_time" content="2026-05-12T11:15:49.000Z"><meta property="article:author" content="Eli Frost"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="35. FPGA dev boards for beginners: iCE40 vs ECP5 vs Artix | TinkerBench"><meta name="twitter:description" content=""><meta name="twitter:image" content="https://tinkerbench.co/heroes/35-fpga-dev-boards-for-beginners-ice40-vs-ecp5-vs-artix.webp"><link rel="alternate" type="application/rss+xml" title="TinkerBench" href="/rss.xml"><link rel="stylesheet" href="/_astro/about.CkVdAz3g.css"><script type="module" src="/_astro/hoisted.k7HZ-5pS.js"></script></head> <body class="min-h-screen flex flex-col"> <header class="bg-cream-50 relative z-30"> <div class="max-w-6xl mx-auto px-3 sm:px-5 pt-4 sm:pt-5"> <div id="site-nav-shell" class="bg-cream-100/85 backdrop-blur-sm rounded-[1.75rem] md:rounded-full shadow-soft transition-all duration-300">  <div class="px-5 sm:px-6 py-3 md:py-4 flex items-center justify-between gap-3"> <a href="/" class="no-underline flex items-baseline min-w-0 shrink"> <div class="brand-mark brand-mark--left-of-wordmark" data-astro-cid-hwn4xkzs> <img src="/brand/tinkerbench-mark.png" width="28" height="28" class="mark-svg" alt="" data-astro-cid-hwn4xkzs> <span class="wordmark font-display text-primary" style="font-weight:600;letter-spacing:-0.04em;text-transform:none;font-variant:normal" data-astro-cid-hwn4xkzs> TinkerBench </span> </div>  </a>  <nav class="hidden md:block"> <ul class="flex gap-5 md:gap-7 text-sm font-medium"> <li> <a href="/" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Home </a> </li><li> <a href="/pillars" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Guides </a> </li><li> <a href="/products" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Reviews </a> </li><li> <a href="/articles" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Articles </a> </li><li> <a href="/about" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> About </a> </li> </ul> </nav>  <button id="site-nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav-mobile" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/70 text-ink-900 shadow-soft
+                 hover:bg-white transition-colors duration-200 shrink-0"> <svg class="w-5 h-5 icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"> <line x1="4" y1="7" x2="20" y2="7"></line> <line x1="4" y1="12" x2="20" y2="12"></line> <line x1="4" y1="17" x2="20" y2="17"></line> </svg> <svg class="w-5 h-5 icon-close hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"> <line x1="6" y1="6" x2="18" y2="18"></line> <line x1="18" y1="6" x2="6" y2="18"></line> </svg> </button> </div>  <nav id="site-nav-mobile" class="md:hidden overflow-hidden max-h-0 transition-[max-height] duration-300 ease-out" aria-hidden="true"> <ul class="px-5 pb-4 pt-1 space-y-1 text-base font-medium"> <li> <a href="/" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Home </a> </li><li> <a href="/pillars" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Guides </a> </li><li> <a href="/products" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Reviews </a> </li><li> <a href="/articles" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Articles </a> </li><li> <a href="/about" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> About </a> </li> </ul> </nav> </div> </div> </header>  <aside class="bg-cream-50"> <div class="max-w-6xl mx-auto px-5 pt-3"> <div class="bg-cream-100/70 rounded-full px-5 py-2 text-center text-xs text-ink-700">
+Some links on this page are partner links. If you buy through them we may
+      earn a small commission at no extra cost to you. It helps keep the site free.
+<a href="/disclosure" class="underline underline-offset-4">Learn more.</a> </div> </div> </aside> <main class="flex-1">  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"35. FPGA dev boards for beginners: iCE40 vs ECP5 vs Artix","description":"","datePublished":"2026-05-12T11:15:49.000Z","dateModified":"2026-05-12T11:15:49.000Z","author":{"@type":"Person","@id":"https://tinkerbench.co/authors/eli-tinkerbench/#person","name":"Eli Frost","url":"https://tinkerbench.co/authors/eli-tinkerbench/","image":"https://tinkerbench.cohttps://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=85","jobTitle":"Senior Editor"},"publisher":{"@type":"Organization","name":"TinkerBench","url":"https://tinkerbench.co"},"image":["/heroes/35-fpga-dev-boards-for-beginners-ice40-vs-ecp5-vs-artix.webp"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://tinkerbench.co/articles/35-fpga-dev-boards-for-beginners-ice40-vs-ecp5-vs-artix/"}}</script> <article class="container-prose py-12 md:py-16 pb-28 md:pb-20">  <header class="mb-6"> <h1 class="font-display text-3xl md:text-4xl text-ink-900 mb-3 !mt-0 drop-shadow-sm">35. FPGA dev boards for beginners: iCE40 vs ECP5 vs Artix</h1> </header> <div class="flex items-center gap-4 py-5 border-y border-cream-200/70 my-6"> <a href="/authors/eli-tinkerbench/" class="block shrink-0 no-underline"> <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=85" alt="Eli Frost" loading="lazy" width="56" height="56" class="w-14 h-14 rounded-full object-cover ring-2 ring-cream-200/80 !my-0"> </a> <div class="flex-1 min-w-0 leading-snug"> <p class="text-sm text-ink-900 !mt-0 !mb-0.5">
+By
+<a href="/authors/eli-tinkerbench/" class="font-semibold text-ink-900 hover:text-terracotta-600 transition-colors no-underline">Eli Frost</a> <span class="text-ink-500 font-normal"> &middot; Senior Editor</span> </p> <p class="text-xs text-ink-500 !mt-0">
+Published May 12, 2026  &middot; Last reviewed May 12, 2026 </p> </div> </div>  <figure class="mb-10 -mx-4 md:mx-0"> <img src="/heroes/35-fpga-dev-boards-for-beginners-ice40-vs-ecp5-vs-artix.webp" alt="35. FPGA dev boards for beginners: iCE40 vs ECP5 vs Artix" loading="eager" class="w-full h-auto rounded-3xl object-cover aspect-[16/9] max-h-[480px] shadow-soft"> </figure>  <div class="prose prose-lg prose-ink max-w-none"> <p>FPGA development boards offer a powerful way to learn digital logic design and hardware description languages, but choosing the right one can be tricky—especially for beginners. If you’re deciding between popular entry-level FPGA families like iCE40, ECP5, and Artix, you need clear guidance on their relative strengths, typical use cases, development ecosystems, and affordability. Here’s an in-depth comparison to help you pick the right FPGA dev board for your first project without getting overwhelmed by hype or unnecessary complexity.</p>
+<h2 id="what-are-fpga-dev-boards-and-why-they-matter-for-beginners">What Are FPGA Dev Boards and Why They Matter for Beginners</h2>
+<p>An FPGA (Field Programmable Gate Array) dev board is a printed circuit board featuring an FPGA chip plus supporting components like voltage regulators, oscillators, memory, and I/O connectors. Unlike microcontrollers, which run software serially, FPGAs allow you to implement custom digital circuits at the hardware level. This enables parallelism, accelerated signal processing, and prototyping custom logic without fabric masks.</p>
+<p>For beginners, an FPGA dev board is an entry point to learning hardware description languages (like Verilog or VHDL), digital logic design principles, and hardware debugging. The choice of FPGA family and board influences how easy it is to set up your toolchain, how much documentation and community support you’ll find, and the kind of projects you can realistically undertake without frustration.</p>
+<blockquote>
+<p><strong>See also:</strong> <a href="https://tinkerbench.co/articles/17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war/">17. Rigol DS1054Z vs Siglent SDS1104X-E: the budget scope war</a></p>
+</blockquote>
+<h2 id="overview-of-ice40-ecp5-and-artix-fpga-families">Overview of iCE40, ECP5, and Artix FPGA Families</h2>
+<p>Before diving into the boards, here’s a quick summary of each FPGA family you’ll often find in beginner-friendly dev boards:</p>
+<ul>
+<li>
+<p><strong>iCE40 (from Lattice Semiconductor):</strong> Ultra low-power, small logic capacity, affordable, excellent open-source toolchain (Project IceStorm), and generally hobbyist-friendly. The smallest footprint and lowest cost, but limited in performance and I/O.</p>
+</li>
+<li>
+<p><strong>ECP5 (also from Lattice Semiconductor):</strong> A step up from iCE40, bigger capacity, better performance, still fairly affordable and supported by open-source tools (though less mature). Suitable for more complex projects requiring higher logic density and faster clocks.</p>
+</li>
+<li>
+<p><strong>Artix (from Xilinx):</strong> Larger FPGAs with high performance and rich feature sets. Great for complex projects but higher cost and steeper learning curve. Requires proprietary tools and license downloads, which can be onerous for absolute beginners.</p>
+</li>
+</ul>
+<h2 id="how-these-fpga-families-differ-in-key-areas">How These FPGA Families Differ in Key Areas</h2>
+<p>A beginner’s choice revolves around four main criteria:</p>
+<ol>
+<li><strong>Toolchain Accessibility and Openness:</strong> How easy is it to get started without costly software?</li>
+<li><strong>Available Logic Resources:</strong> Number of LUTs, flip-flops, DSP blocks, and RAM determine what you can build.</li>
+<li><strong>Performance:</strong> Max clock speed, IO standards supported, and speed grade impact your applications.</li>
+<li><strong>Board Ecosystem and Documentation:</strong> Community support, tutorials, included peripherals, and expansion options.</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature / Family</th><th>iCE40</th><th>ECP5</th><th>Artix</th></tr></thead><tbody><tr><td>Price Range</td><td>$10 - $30 (small dev boards)</td><td>$30 - $70</td><td>$50 - $150</td></tr><tr><td>Logic Cells</td><td>~7k to 33k LUTs</td><td>~20k to 85k LUTs</td><td>~30k to 80k LUTs</td></tr><tr><td>DSP Blocks</td><td>Very limited</td><td>Moderate</td><td>Rich DSP resources</td></tr><tr><td>RAM</td><td>Limited (tens of kbits)</td><td>Larger embedded RAM</td><td>Large internal block RAM</td></tr><tr><td>Clock Speed</td><td>up to ~100 MHz</td><td>up to ~200 MHz</td><td>up to ~300 MHz</td></tr><tr><td>Toolchain</td><td>Fully open-source (Project IceStorm, yosys)</td><td>Mostly open-source (nextpnr, prjtrellis)</td><td>Proprietary (Vivado)</td></tr><tr><td>Beginner Community</td><td>Very strong, lots of tutorials</td><td>Growing</td><td>Moderate, commercial focus</td></tr><tr><td>Example Board Peripherals</td><td>Basic LEDs, buttons, SPI, UART</td><td>USB, Ethernet, SDRAM options</td><td>Gigabit Ethernet, HDMI, advanced</td></tr><tr><td>Power Consumption</td><td>Low</td><td>Moderate</td><td>Higher</td></tr></tbody></table>
+<h2 id="when-to-use-each-fpga-family-and-board">When to Use Each FPGA Family and Board</h2>
+<h3 id="ice40--best-for-absolute-beginners-and-simple-projects">iCE40 – Best for Absolute Beginners and Simple Projects</h3>
+<ul>
+<li>If you’re new to FPGAs, don’t want to wrestle with complex proprietary tools, and want to start with simple blinking LEDs, SPI controllers, PWM generators, or basic UARTs, iCE40 boards are the natural starting point.</li>
+<li>The open-source toolchain eliminates expensive software licensing barriers.</li>
+<li>Common boards include small modules or puck-style form factors with only basic peripherals.</li>
+<li>Ideal for learning Verilog/VHDL basics, experimenting with soft processors (like open-source RISC-V cores), and building hardware peripherals for Raspberry Pi or Arduino.</li>
+</ul>
+<h3 id="ecp5--for-intermediate-users-needing-more-power--speed">ECP5 – For Intermediate Users Needing More Power &#x26; Speed</h3>
+<ul>
+<li>Users looking to step up from iCE40 but still prefer open-source or at least partially open toolchains will find ECP5 boards appealing.</li>
+<li>ECP5 supports more RAM, higher frequencies, more I/O standards (LVDS, DDR), and moderately complex designs.</li>
+<li>These boards often come with USB connectivity, SDRAM, and CPLD-like support.</li>
+<li>Great for intermediate FPGA projects like digital signal processing, soft CPU cores, moderate-speed video processing, or custom interfaces.</li>
+<li>Still affordable for hobbyists, but you’ll spend more time with installation and tool configuration than iCE40.</li>
+</ul>
+<h3 id="artix--when-you-need-high-performance-and-rich-features">Artix – When You Need High Performance and Rich Features</h3>
+<ul>
+<li>Artix FPGAs are aimed at users who need significant logic resources, DSP blocks, and fast I/O, typically in the $50+ board range.</li>
+<li>Require the vendor’s proprietary development environment, which is free but has a steep learning curve and a heavyweight install.</li>
+<li>Excellent for high-bandwidth applications like video processing, motor control, and advanced communications.</li>
+<li>Less beginner-friendly, but perfect for technically confident makers or technicians wanting to prototype professional-grade products.</li>
+</ul>
+<h2 id="board-completeness-tool-precision-and-practical-considerations">Board Completeness, Tool Precision, and Practical Considerations</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Aspect</th><th>iCE40</th><th>ECP5</th><th>Artix</th></tr></thead><tbody><tr><td>Included Peripherals</td><td>Basic (LEDs, buttons)</td><td>Moderate (USB, SDRAM)</td><td>Advanced (Ethernet, HDMI)</td></tr><tr><td>Soldering &#x26; Maintenance</td><td>Easy</td><td>Medium (some boards)</td><td>Moderate to Advanced</td></tr><tr><td>Soldering Iron Tips</td><td>Small, fine tips recommended to avoid damage to QFN/TQFP parts</td><td>Fine to medium tips for larger packages</td><td>Fine tips required due to BGA/larger packages</td></tr><tr><td>Oscilloscope Use</td><td>Limited signals due to simple peripherals</td><td>More I/O available for probing</td><td>Complex signals for high-speed debugging</td></tr><tr><td>Community Kits &#x26; Tutorials</td><td>Extensive beginner guides</td><td>Moderate but growing</td><td>Professional-level docs</td></tr></tbody></table>
+<p>Since FPGA development involves frequent soldering adjustments, ensure your soldering iron has precision temperature control and stable tips to avoid damaging delicate pins or trace pads, especially with smaller form factor boards.</p>
+<p>Oscilloscope bandwidth is crucial when working with faster signals on ECP5 and Artix boards: a minimum 100 MHz scope is useful when debugging clock domains beyond 50 MHz. iCE40 projects rarely require scopes beyond 20 MHz.</p>
+<h2 id="common-pitfalls-for-beginners-choosing-fpga-dev-boards">Common Pitfalls for Beginners Choosing FPGA Dev Boards</h2>
+<ul>
+<li><strong>Choosing an FPGA that is “too big”</strong>: Large FPGAs have more resources but introduce complexity in toolchains and debugging, potentially frustrating beginners.</li>
+<li><strong>Ignoring toolchain compatibility</strong>: Proprietary tools impose a workflow and configuration burden; open-source chains (like for iCE40) speed learning but limit you to simpler applications.</li>
+<li><strong>Underestimating peripheral complexity</strong>: Expensive boards with many peripherals can be intimidating if you just want to learn fundamental HDL concepts.</li>
+<li><strong>Soldering without proper tools</strong>: Packages like QFN or BGAs require fine soldering tips and temperature control. Beginners should prefer boards with through-hole or TQFP packages.</li>
+<li><strong>Not starting with known tool-supported boards</strong>: Some FPGA dev boards lack community support, making troubleshooting difficult.</li>
+</ul>
+<h2 id="summary-comparison-table--which-fpga-board-should-you-choose">Summary Comparison Table — Which FPGA Board Should You Choose?</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature/Factor</th><th>iCE40 Dev Boards</th><th>ECP5 Dev Boards</th><th>Artix Dev Boards</th></tr></thead><tbody><tr><td>Beginner Friendliness</td><td>High</td><td>Medium</td><td>Low</td></tr><tr><td>Cost</td><td>Very Affordable</td><td>Affordable</td><td>Expensive</td></tr><tr><td>Toolchain</td><td>Fully open-source, easy install</td><td>Mostly open-source, more setup</td><td>Proprietary, heavy install</td></tr><tr><td>Available Logic</td><td>Small (~7k-33k LUTs)</td><td>Medium (~20k-85k LUTs)</td><td>Large (~30k-80k LUTs)</td></tr><tr><td>Project Complexity</td><td>Simple (basic peripherals)</td><td>Intermediate (video, interfaces)</td><td>Advanced (high-speed comms)</td></tr><tr><td>Peripheral Support</td><td>Basic LEDs, UART, SPI</td><td>USB, SDRAM, Ethernet</td><td>Gigabit Ethernet, HDMI, FMC</td></tr><tr><td>Typical Use Cases</td><td>Learning HDL, clocking, soft CPU</td><td>DSP, video, embedded control</td><td>Complex DSP, advanced video</td></tr><tr><td>Community Support</td><td>Excellent</td><td>Growing</td><td>Professional forums only</td></tr></tbody></table>
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<p><strong>Q: Is the iCE40 suitable for real-world projects or just learning?</strong><br>
+<strong>A:</strong> While iCE40 boards are designed for learning and simple projects, some lightweight real-world applications like sensor interface and custom controllers benefit from their low power and open-source ecosystem.</p>
+<p><strong>Q: Can I use the same HDL code across all three FPGA families?</strong><br>
+<strong>A:</strong> The HDL syntax (Verilog/VHDL) is portable, but peripheral IP cores, timing constraints, and pin mappings vary, so adjustment is required per target FPGA and board.</p>
+<p><strong>Q: Do I need to buy expensive oscilloscopes to debug FPGA designs?</strong><br>
+<strong>A:</strong> Not initially. For basic iCE40 boards, a low-frequency logic analyzer or a cheap scope suffices. For ECP5 and Artix, investing in a 100+ MHz scope improves debugging capability.</p>
+<hr>
+<p>Selecting the right FPGA dev board for your level and project needs will make your learning curve smoother and your satisfaction higher. For starting out with low cost and open tools, go iCE40; for intermediate FPGA exploration, consider ECP5 boards; and if your goals demand heavy-lifting FPGA resources and advanced peripherals, consider Artix dev boards. Happy hacking!</p> </div>      <aside class="my-10 p-6 md:p-8 bg-cream-100 rounded-[2rem] shadow-soft not-prose relative overflow-hidden"><span aria-hidden="true" class="absolute left-0 top-6 bottom-6 w-1.5 rounded-r-full bg-terracotta-500"></span><p class="text-terracotta-600 text-xs uppercase tracking-[0.18em] font-semibold mb-2">
+Stay in the loop
+</p><h3 class="font-display text-xl text-ink-900 !mt-0 mb-2">The TinkerBench weekly</h3><p class="text-ink-700 text-sm mb-4 leading-relaxed">Practical picks and straight answers from TinkerBench, once a week. No spam.</p><p class="text-sm text-ink-500 italic">Newsletter signup coming soon.</p></aside> </article>  </main> <footer class="mt-24 pb-8"> <div class="max-w-6xl mx-auto px-5"> <div class="bg-cream-100 rounded-[2.5rem] md:rounded-[3rem] shadow-soft px-6 md:px-10 py-12 md:py-14"> <div class="grid md:grid-cols-3 gap-10 md:gap-8 text-sm text-ink-700"> <div> <p class="font-display text-2xl text-rose-deep mb-3">TinkerBench</p> <p class="leading-relaxed"> Honest reviews of soldering stations, bench multimeters, entry-level oscilloscopes, starter kits, and the small-batch tools that actually matter. Written by someone who spent 40 years in electronics a </p> </div> <div> <p class="font-semibold mb-3 text-ink-900 uppercase tracking-[0.15em] text-xs">Read</p> <ul class="space-y-2"> <li><a href="/pillars" class="hover:text-terracotta-600 no-underline">Guides</a></li> <li><a href="/products" class="hover:text-terracotta-600 no-underline">Product reviews</a></li> <li><a href="/articles" class="hover:text-terracotta-600 no-underline">Articles</a></li> </ul> </div> <div> <p class="font-semibold mb-3 text-ink-900 uppercase tracking-[0.15em] text-xs">About</p> <ul class="space-y-2"> <li><a href="/about" class="hover:text-terracotta-600 no-underline">About us</a></li> <li><a href="/disclosure" class="hover:text-terracotta-600 no-underline">Disclosure</a></li> <li><a href="/privacy" class="hover:text-terracotta-600 no-underline">Privacy</a></li> <li><a href="/contact" class="hover:text-terracotta-600 no-underline">Contact</a></li> </ul> </div> </div> <div class="mt-10 pt-6 border-t border-cream-200/70 text-center text-xs text-ink-500">
+&copy; 2026 TinkerBench. We may earn a commission from qualifying purchases.
+</div> </div> </div> </footer> </body></html>

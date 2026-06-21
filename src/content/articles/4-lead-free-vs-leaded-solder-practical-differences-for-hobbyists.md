@@ -1,24 +1,32 @@
 ---
-title: '4. Lead-free vs leaded solder: practical differences for hobbyists'
+title: "4-lead-free-vs-leaded-solder-practical-differences-for-hobbyists"
 site: tinkerbench
-topic: '4. Lead-free vs leaded solder: practical differences for hobbyists'
+topic: "household-staples"
 tier: mvp
-updatedAt: '2026-05-12T05:59:57Z'
+cardTitle: "4-lead-free-vs-leaded-solder-practical-differences-for-hob"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.100Z'
 relatedProducts: []
 status: published
-heroImage: /heroes/4-lead-free-vs-leaded-solder-practical-differences-for-hobbyists.webp
-subtopic: soldering
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.100Z'
+metaDescription: "4-lead-free-vs-leaded-solder-practical-differences-for-hobbyists"
+excerpt: "4-lead-free-vs-leaded-solder-practical-differences-for-hobbyists"
+heroImage: /images/heroes/4-lead-free-vs-leaded-solder-practical-differences-for-hobbyists.webp
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
 
-Lead-based solder has long been the standard for DIY electronics, but environmental and health concerns have pushed many hobbyists towards lead-free alternatives. If you’re building kits, repairing circuit boards, or just tinkering on your bench, choosing between lead-free and leaded solder affects everything from joint quality to tool life and health safety. This article breaks down the practical differences so you can make an informed choice that fits your needs without overhyping either option.
 
+Lead-based solder has long been the standard for DIY electronics, but environmental and health concerns have pushed many hobbyists towards lead-free alternatives. If you’re building kits, repairing circuit boards, or just tinkering on your bench, choosing between lead-free and leaded solder affects everything from joint quality to tool life and health safety. This article breaks down the practical differences so you can make an informed choice that fits your needs without overhyping either option.
+---
 ## What Leaded and Lead-free Solders Are
 
 **Leaded solder** typically contains around 60% tin and 40% lead (Sn60Pb40) and sometimes other ratios close to this. The lead lowers the melting point, makes the solder flow easily, and sets into a shiny, reliable joint. It's been the go-to for decades due to excellent wetting properties, mechanical strength, and user-friendliness.
 
 **Lead-free solder** usually replaces lead with a combination of metals—most commonly tin blended with silver, copper, bismuth, or indium—in varied ratios (e.g., Sn96.5Ag3.0Cu0.5). These are mandated in commercial electronics by regulations like RoHS, but in hobbyist circles, they appear due to health or legal concerns and environmental awareness.
-
-
 
 > **See also:** [41. ESD mats and straps: who needs them and who is fine without](https://tinkerbench.co/articles/41-esd-mats-and-straps-who-needs-them-and-who-is-fine-without/)
 

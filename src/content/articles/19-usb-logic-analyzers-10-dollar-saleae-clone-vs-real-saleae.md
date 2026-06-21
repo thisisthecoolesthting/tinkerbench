@@ -1,20 +1,28 @@
 ---
-title: '19. USB logic analyzers: 10 dollar Saleae clone vs real Saleae'
+title: "19-usb-logic-analyzers-10-dollar-saleae-clone-vs-real-saleae"
 site: tinkerbench
-topic: '19. USB logic analyzers: 10 dollar Saleae clone vs real Saleae'
+topic: "household-staples"
 tier: mvp
-updatedAt: '2026-05-12T11:08:25Z'
+cardTitle: "19-usb-logic-analyzers-10-dollar-saleae-clone-vs-real-sale"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.066Z'
 relatedProducts: []
 status: published
-heroImage: /heroes/19-usb-logic-analyzers-10-dollar-saleae-clone-vs-real-saleae.webp
-subtopic: test-gear
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.066Z'
+metaDescription: "19-usb-logic-analyzers-10-dollar-saleae-clone-vs-real-saleae"
+excerpt: "19-usb-logic-analyzers-10-dollar-saleae-clone-vs-real-saleae"
+heroImage: /images/heroes/19-usb-logic-analyzers-10-dollar-saleae-clone-vs-real-saleae.webp
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
+
 
 ## USB Logic Analyzers: $10 Saleae Clone vs Real Saleae – What You’re Really Getting
 
 If you’re a hobbyist or a bench tech looking to debug digital signals, you’ve probably noticed the stark price difference between a budget $10 USB logic analyzer clone and an official Saleae logic analyzer. The cheaper option looks tempting — same form factor, similar specs on paper — but is it really up to the task? This article dives into the differences, from actual hardware performance to software user experience, so you can decide what’s worth your money based on precision, signal integrity, and day-to-day usability.
-
-
 
 > **See also:** [Best 24MHz USB Logic Analyzers for Hobbyist Electronics Debugging](https://tinkerbench.co/articles/usb-logic-analyzer-24mhz/)
 

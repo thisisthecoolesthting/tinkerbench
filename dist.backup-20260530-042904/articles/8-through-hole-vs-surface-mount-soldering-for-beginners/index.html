@@ -1,0 +1,206 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v4.16.19"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&family=Barlow:wght@400;500;600;700&display=swap"><title>8. Through-hole vs surface-mount soldering for beginners | TinkerBench</title><meta name="description" content=""><link rel="canonical" href="https://tinkerbench.co/articles/8-through-hole-vs-surface-mount-soldering-for-beginners"><meta property="og:type" content="article"><meta property="og:title" content="8. Through-hole vs surface-mount soldering for beginners | TinkerBench"><meta property="og:description" content=""><meta property="og:image" content="https://tinkerbench.co/heroes/8-through-hole-vs-surface-mount-soldering-for-beginners.webp"><meta property="og:url" content="https://tinkerbench.co/articles/8-through-hole-vs-surface-mount-soldering-for-beginners"><meta property="og:site_name" content="TinkerBench"><meta property="article:published_time" content="2026-05-12T06:01:18.000Z"><meta property="article:modified_time" content="2026-05-12T06:01:18.000Z"><meta property="article:author" content="Eli Frost"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="8. Through-hole vs surface-mount soldering for beginners | TinkerBench"><meta name="twitter:description" content=""><meta name="twitter:image" content="https://tinkerbench.co/heroes/8-through-hole-vs-surface-mount-soldering-for-beginners.webp"><link rel="alternate" type="application/rss+xml" title="TinkerBench" href="/rss.xml"><link rel="stylesheet" href="/_astro/about.CkVdAz3g.css"><script type="module" src="/_astro/hoisted.k7HZ-5pS.js"></script></head> <body class="min-h-screen flex flex-col"> <header class="bg-cream-50 relative z-30"> <div class="max-w-6xl mx-auto px-3 sm:px-5 pt-4 sm:pt-5"> <div id="site-nav-shell" class="bg-cream-100/85 backdrop-blur-sm rounded-[1.75rem] md:rounded-full shadow-soft transition-all duration-300">  <div class="px-5 sm:px-6 py-3 md:py-4 flex items-center justify-between gap-3"> <a href="/" class="no-underline flex items-baseline min-w-0 shrink"> <div class="brand-mark brand-mark--left-of-wordmark" data-astro-cid-hwn4xkzs> <img src="/brand/tinkerbench-mark.png" width="28" height="28" class="mark-svg" alt="" data-astro-cid-hwn4xkzs> <span class="wordmark font-display text-primary" style="font-weight:600;letter-spacing:-0.04em;text-transform:none;font-variant:normal" data-astro-cid-hwn4xkzs> TinkerBench </span> </div>  </a>  <nav class="hidden md:block"> <ul class="flex gap-5 md:gap-7 text-sm font-medium"> <li> <a href="/" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Home </a> </li><li> <a href="/pillars" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Guides </a> </li><li> <a href="/products" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Reviews </a> </li><li> <a href="/articles" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> Articles </a> </li><li> <a href="/about" class="text-ink-700 hover:text-terracotta-500 no-underline transition-colors duration-200"> About </a> </li> </ul> </nav>  <button id="site-nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav-mobile" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/70 text-ink-900 shadow-soft
+                 hover:bg-white transition-colors duration-200 shrink-0"> <svg class="w-5 h-5 icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"> <line x1="4" y1="7" x2="20" y2="7"></line> <line x1="4" y1="12" x2="20" y2="12"></line> <line x1="4" y1="17" x2="20" y2="17"></line> </svg> <svg class="w-5 h-5 icon-close hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"> <line x1="6" y1="6" x2="18" y2="18"></line> <line x1="18" y1="6" x2="6" y2="18"></line> </svg> </button> </div>  <nav id="site-nav-mobile" class="md:hidden overflow-hidden max-h-0 transition-[max-height] duration-300 ease-out" aria-hidden="true"> <ul class="px-5 pb-4 pt-1 space-y-1 text-base font-medium"> <li> <a href="/" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Home </a> </li><li> <a href="/pillars" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Guides </a> </li><li> <a href="/products" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Reviews </a> </li><li> <a href="/articles" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> Articles </a> </li><li> <a href="/about" class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"> About </a> </li> </ul> </nav> </div> </div> </header>  <aside class="bg-cream-50"> <div class="max-w-6xl mx-auto px-5 pt-3"> <div class="bg-cream-100/70 rounded-full px-5 py-2 text-center text-xs text-ink-700">
+Some links on this page are partner links. If you buy through them we may
+      earn a small commission at no extra cost to you. It helps keep the site free.
+<a href="/disclosure" class="underline underline-offset-4">Learn more.</a> </div> </div> </aside> <main class="flex-1">  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"8. Through-hole vs surface-mount soldering for beginners","description":"","datePublished":"2026-05-12T06:01:18.000Z","dateModified":"2026-05-12T06:01:18.000Z","author":{"@type":"Person","@id":"https://tinkerbench.co/authors/eli-tinkerbench/#person","name":"Eli Frost","url":"https://tinkerbench.co/authors/eli-tinkerbench/","image":"https://tinkerbench.cohttps://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=85","jobTitle":"Senior Editor"},"publisher":{"@type":"Organization","name":"TinkerBench","url":"https://tinkerbench.co"},"image":["/heroes/8-through-hole-vs-surface-mount-soldering-for-beginners.webp"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://tinkerbench.co/articles/8-through-hole-vs-surface-mount-soldering-for-beginners/"}}</script> <article class="container-prose py-12 md:py-16 pb-28 md:pb-20">  <header class="mb-6"> <h1 class="font-display text-3xl md:text-4xl text-ink-900 mb-3 !mt-0 drop-shadow-sm">8. Through-hole vs surface-mount soldering for beginners</h1> </header> <div class="flex items-center gap-4 py-5 border-y border-cream-200/70 my-6"> <a href="/authors/eli-tinkerbench/" class="block shrink-0 no-underline"> <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=85" alt="Eli Frost" loading="lazy" width="56" height="56" class="w-14 h-14 rounded-full object-cover ring-2 ring-cream-200/80 !my-0"> </a> <div class="flex-1 min-w-0 leading-snug"> <p class="text-sm text-ink-900 !mt-0 !mb-0.5">
+By
+<a href="/authors/eli-tinkerbench/" class="font-semibold text-ink-900 hover:text-terracotta-600 transition-colors no-underline">Eli Frost</a> <span class="text-ink-500 font-normal"> &middot; Senior Editor</span> </p> <p class="text-xs text-ink-500 !mt-0">
+Published May 12, 2026  &middot; Last reviewed May 12, 2026 </p> </div> </div>  <figure class="mb-10 -mx-4 md:mx-0"> <img src="/heroes/8-through-hole-vs-surface-mount-soldering-for-beginners.webp" alt="8. Through-hole vs surface-mount soldering for beginners" loading="eager" class="w-full h-auto rounded-3xl object-cover aspect-[16/9] max-h-[480px] shadow-soft"> </figure>  <div class="prose prose-lg prose-ink max-w-none"> <p>Through-hole vs Surface-Mount Soldering for Beginners: What’s Right for You?</p>
+<p>If you’re new to electronics assembly or repair, one of the first challenges you’ll face is choosing between through-hole and surface-mount soldering techniques. Each method has its own learning curve, tooling requirements, and practical applications. Understanding these differences early can save you frustration, protect your components, and get your projects up and running faster.</p>
+<h2 id="what-is-through-hole-soldering">What Is Through-Hole Soldering?</h2>
+<p>Through-hole soldering involves placing electronic components with wire leads into pre-drilled holes on a printed circuit board (PCB). The leads are then soldered on the board’s opposite side, creating a strong mechanical and electrical connection.</p>
+<p>This method has been the standard for decades and is often used in kits, hobby projects, and devices requiring rugged connections. Components like resistors, capacitors, and connectors with thick leads are typical candidates for through-hole mounting.</p>
+<blockquote>
+<p><strong>See also:</strong> <a href="https://tinkerbench.co/articles/32-kit-brands-ranked-elegoo-vs-sunfounder-vs-osoyoo/">32. Kit brands ranked: Elegoo vs SunFounder vs Osoyoo</a></p>
+</blockquote>
+<h2 id="what-is-surface-mount-soldering">What Is Surface-Mount Soldering?</h2>
+<p>Surface-mount technology (SMT) mounts components directly onto the surface of the PCB without leads passing through holes. These components are significantly smaller — often just a few millimeters in size — and are soldered to pads on the board, usually using solder paste and precise heat application methods like reflow ovens or hot air stations.</p>
+<p>SMT is dominant in modern electronics manufacturing due to its space-saving advantages and suitability for automated assembly, but it can be trickier for beginners.</p>
+<h2 id="how-the-techniques-work-key-differences">How the Techniques Work: Key Differences</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Aspect</th><th>Through-Hole Soldering</th><th>Surface-Mount Soldering</th></tr></thead><tbody><tr><td>Component Type</td><td>Components with long leads (resistors, LEDs)</td><td>Small, leadless or short-lead chips (SMDs)</td></tr><tr><td>PCB Design</td><td>Requires drilled holes</td><td>Pads on PCB surface with no holes</td></tr><tr><td>Soldering Iron Use</td><td>Standard soldering iron with a conical tip</td><td>Fine-tipped soldering iron or hot air station</td></tr><tr><td>Tools &#x26; Equipment</td><td>Basic soldering iron, sponge, solder</td><td>Solder paste, tweezers, magnifier, hot air or reflow oven</td></tr><tr><td>Mechanical Strength</td><td>Strong joint, ideal for mechanical stress</td><td>Less mechanical robustness, suited for small currents</td></tr><tr><td>Skill Level for Beginners</td><td>Easier to learn, forgiving errors</td><td>Requires precision, steady hand, and patience</td></tr><tr><td>Reworking/Fixing</td><td>Easier to desolder and replace components</td><td>More complex due to small size and multiple pads</td></tr><tr><td>Common Applications</td><td>Prototyping, kits, repairs</td><td>Compact devices, high-density electronics</td></tr><tr><td>Costs</td><td>Lower tooling cost, cheaper components</td><td>More expensive tools and materials</td></tr></tbody></table>
+<h2 id="when-to-use-through-hole-soldering">When to Use Through-Hole Soldering</h2>
+<p>Through-hole soldering is particularly well-suited for:</p>
+<ul>
+<li><strong>Beginners and hobbyists:</strong> The larger component size and visible leads make placement easier.</li>
+<li><strong>Kits and prototyping:</strong> Many kits and hobby PCBs are designed for through-hole components because they make assembly straightforward and reduce frustration.</li>
+<li><strong>Mechanical stress areas:</strong> Components that might suffer bending, unplugging, or connector plugs benefit from stronger solder joints.</li>
+<li><strong>Repairs and modifications:</strong> Components can easily be desoldered and replaced without extensive heat exposure or risk of damaging adjacent parts.</li>
+</ul>
+<p>For example, if you’re assembling a DIY amplifier kit or a microcontroller breakout board designed for education, through-hole is often the path of least resistance.</p>
+<h2 id="when-to-use-surface-mount-soldering">When to Use Surface-Mount Soldering</h2>
+<p>Surface-mount soldering becomes advantageous when:</p>
+<ul>
+<li><strong>Space is a premium:</strong> SMT parts are tiny, allowing more connections and features on smaller PCBs.</li>
+<li><strong>Automated production:</strong> If you plan to make multiple units or more advanced PCBs, SMT is industry standard.</li>
+<li><strong>You want to develop precision soldering skills:</strong> While challenging for beginners, SMT helps develop hand-eye coordination and familiarizes you with processes used in commercial manufacturing.</li>
+<li><strong>Working with modern electronics:</strong> Most modern devices use SMT, so if repairing smartphones, laptops, or compact gadgets, learning SMT is essential.</li>
+</ul>
+<p>Beginners might try SMT slow and steady — practice on simple, larger-LEAD devices or with practice kits designed specifically for learning surface-mount soldering.</p>
+<h2 id="common-pitfalls-for-beginners">Common Pitfalls for Beginners</h2>
+<p>No matter the method, some common traps include:</p>
+<ul>
+<li><strong>Overheating components:</strong> Excessive heat damages parts; use the appropriate temperature soldering iron and short contact time.</li>
+<li><strong>Applying too much solder:</strong> This can cause shorts, especially in SMT where pads are closer together.</li>
+<li><strong>Poor soldering technique:</strong> A cold joint (dull, cracked, or incomplete solder) leads to unreliable connections.</li>
+<li><strong>Improper tool selection:</strong> Using a dull tip or inappropriate heat source will frustrate beginners and damage PCBs.</li>
+<li><strong>Inadequate workspace and lighting:</strong> Working under poor light or without magnification makes tiny SMT parts frustrating.</li>
+</ul>
+<h2 id="tips-for-success-with-both-methods">Tips for Success with Both Methods</h2>
+<ol>
+<li>
+<p><strong>Invest in good tools:</strong></p>
+<ul>
+<li>For through-hole, a decent temperature-controlled soldering iron with conical or chisel tips works best.</li>
+<li>For SMT, fine conical or needle tips plus quality tweezers and maybe a hot air station or reflow oven will make all the difference.</li>
+</ul>
+</li>
+<li>
+<p><strong>Use quality solder:</strong></p>
+<ul>
+<li>60/40 or 63/37 tin-lead solder (for hobby use only, respecting local laws) is easier to work with than lead-free, which requires higher heat.</li>
+<li>Thin solder wire (0.5mm or less) helps control solder quantity, especially for SMT.</li>
+</ul>
+</li>
+<li>
+<p><strong>Practice good technique:</strong></p>
+<ul>
+<li>Heat the joint (both pad and lead for through-hole) before applying solder to get good adhesion.</li>
+<li>For SMT, be patient and use just enough solder paste or wire. Reflow evenly.</li>
+</ul>
+</li>
+<li>
+<p><strong>Start with kits and practice boards:</strong></p>
+<ul>
+<li>Many beginner kits use through-hole parts.</li>
+<li>SMT practice kits allow you to build up confidence incrementally.</li>
+</ul>
+</li>
+<li>
+<p><strong>Work in a well-lit, ventilated area:</strong></p>
+<ul>
+<li>Use magnification tools (LED lamps with magnifiers or head-mounted lenses).</li>
+</ul>
+</li>
+</ol>
+<h2 id="comparison-table-beginner-considerations-for-through-hole-vs-surface-mount-soldering">Comparison Table: Beginner Considerations for Through-Hole vs Surface-Mount Soldering</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Criterion</th><th>Through-Hole</th><th>Surface-Mount</th></tr></thead><tbody><tr><td>Beginner Friendliness</td><td>High – easier to see and handle</td><td>Moderate to difficult – tiny parts</td></tr><tr><td>Tool Cost</td><td>Low</td><td>Moderate to high</td></tr><tr><td>Required Workspace</td><td>Basic bench or tabletop</td><td>Well-lit bench, magnification</td></tr><tr><td>Component Replacement</td><td>Easy – desolder leads</td><td>Challenging – multiple tiny pads</td></tr><tr><td>Solder Joint Strength</td><td>Strong mechanical support</td><td>Less mechanical support</td></tr><tr><td>Suitable Project Types</td><td>Kits, prototyping, repairs</td><td>Compact circuits, complex PCBs</td></tr><tr><td>Learning Curve</td><td>Shallow</td><td>Steeper</td></tr><tr><td>Repairability</td><td>High</td><td>Low</td></tr></tbody></table>
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>For most beginners, starting with through-hole soldering makes sense because the components are larger, the work area is less cramped, and mistakes are easier to fix. It’s the foundation for solid soldering skills. Once comfortable, you can progressively move on to surface-mount soldering, which will open up more possibilities, especially for compact and modern designs.</p>
+<p>Remember, patience and practice are key. Don’t rush into SMT until you’ve nailed through-hole basics unless you specifically need the skill for repairing or building modern devices.</p>
+<hr>
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<p><strong>Q: Can I solder surface-mount components with a regular soldering iron?</strong><br>
+<strong>A:</strong> Yes, with patience and a fine-tip soldering iron, you can solder larger SMT parts manually. For very small components, specialized tools like hot air stations or reflow ovens make the job easier and more reliable.</p>
+<p><strong>Q: Does through-hole soldering produce stronger joints than surface-mount?</strong><br>
+<strong>A:</strong> Generally, yes. The leads passing through the PCB create a mechanical connection that withstands physical stress better than SMT, which relies solely on solder pads.</p>
+<p><strong>Q: Which solder should beginners use for best results?</strong><br>
+<strong>A:</strong> For hobbyists, rosin-core solder with a 60/40 or 63/37 tin-lead ratio is easier to work with because it melts at lower temperatures and flows more smoothly. Lead-free solder requires higher heat and can be less forgiving for new users.</p> </div>      <aside class="my-10 p-6 md:p-8 bg-cream-100 rounded-[2rem] shadow-soft not-prose relative overflow-hidden"><span aria-hidden="true" class="absolute left-0 top-6 bottom-6 w-1.5 rounded-r-full bg-terracotta-500"></span><p class="text-terracotta-600 text-xs uppercase tracking-[0.18em] font-semibold mb-2">
+Stay in the loop
+</p><h3 class="font-display text-xl text-ink-900 !mt-0 mb-2">The TinkerBench weekly</h3><p class="text-ink-700 text-sm mb-4 leading-relaxed">Practical picks and straight answers from TinkerBench, once a week. No spam.</p><p class="text-sm text-ink-500 italic">Newsletter signup coming soon.</p></aside> </article>  </main> <footer class="mt-24 pb-8"> <div class="max-w-6xl mx-auto px-5"> <div class="bg-cream-100 rounded-[2.5rem] md:rounded-[3rem] shadow-soft px-6 md:px-10 py-12 md:py-14"> <div class="grid md:grid-cols-3 gap-10 md:gap-8 text-sm text-ink-700"> <div> <p class="font-display text-2xl text-rose-deep mb-3">TinkerBench</p> <p class="leading-relaxed"> Honest reviews of soldering stations, bench multimeters, entry-level oscilloscopes, starter kits, and the small-batch tools that actually matter. Written by someone who spent 40 years in electronics a </p> </div> <div> <p class="font-semibold mb-3 text-ink-900 uppercase tracking-[0.15em] text-xs">Read</p> <ul class="space-y-2"> <li><a href="/pillars" class="hover:text-terracotta-600 no-underline">Guides</a></li> <li><a href="/products" class="hover:text-terracotta-600 no-underline">Product reviews</a></li> <li><a href="/articles" class="hover:text-terracotta-600 no-underline">Articles</a></li> </ul> </div> <div> <p class="font-semibold mb-3 text-ink-900 uppercase tracking-[0.15em] text-xs">About</p> <ul class="space-y-2"> <li><a href="/about" class="hover:text-terracotta-600 no-underline">About us</a></li> <li><a href="/disclosure" class="hover:text-terracotta-600 no-underline">Disclosure</a></li> <li><a href="/privacy" class="hover:text-terracotta-600 no-underline">Privacy</a></li> <li><a href="/contact" class="hover:text-terracotta-600 no-underline">Contact</a></li> </ul> </div> </div> <div class="mt-10 pt-6 border-t border-cream-200/70 text-center text-xs text-ink-500">
+&copy; 2026 TinkerBench. We may earn a commission from qualifying purchases.
+</div> </div> </div> </footer> </body></html>

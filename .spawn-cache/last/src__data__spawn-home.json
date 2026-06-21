@@ -1,0 +1,74 @@
+{
+  "brand": {
+    "shortName": "TinkerBench",
+    "fullName": "TinkerBench",
+    "taglineShort": "The toolkit for the weekend tinkerer.",
+    "identity": {
+      "palette": {
+        "primary": "#1E293B",
+        "accent": "#B45309",
+        "cream": "#FAF7F0",
+        "ink": "#1C1917"
+      },
+      "fonts": {
+        "display": "IBM Plex Serif",
+        "body": "IBM Plex Sans",
+        "mono": "IBM Plex Mono"
+      },
+      "mark": {
+        "svgPath": "brand/tinkerbench.svg",
+        "svgPublicPath": "/brand/tinkerbench.svg",
+        "sizeRem": 1.75,
+        "position": "left-of-wordmark"
+      },
+      "wordmark": {
+        "weight": 600,
+        "tracking": "tight",
+        "case": "normal"
+      },
+      "headerVariant": "minimal",
+      "eyebrowText": "HOBBY ELECTRONICS LAB",
+      "fontCssHref": "https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600;700&display=swap"
+    }
+  },
+  "persona": {
+    "ymyl": false,
+    "tone": "enthusiast_technical"
+  },
+  "editorial": {
+    "authorSlug": "eli-rowe",
+    "author_slug": "eli-rowe",
+    "methodology": [
+      "Every tool is purchased at retail and tested on the home bench for at least 30 days of real projects \u2014 no factory samples and no influencer gift bags.",
+      "Reviews call out specifically who the tool is for (beginner / intermediate / pro) and who it is not for, with the cheaper or pricier alternative they should consider.",
+      "Multimeters, oscilloscopes, and power supplies are checked against a calibrated reference; any spec we publish is one we measured, not one we copied.",
+      "We tear down questionable hardware where safe and photograph the inside; price-vs-build-quality is rated on what we actually see.",
+      "Affiliate links are used where they exist, but we list the cheapest legitimate seller even when no commission is available.",
+      "Reader project reports and failures are folded into the article; if a tool dies in a reader's shop we follow up and update the verdict."
+    ],
+    "ymyl": false
+  },
+  "newsletter": {
+    "title": "The TinkerBench weekly",
+    "subtitle": "Practical picks and straight answers from TinkerBench, once a week. No spam.",
+    "kicker": "Stay in the loop"
+  },
+  "supportEmail": "hello@tinkerbench.co",
+  "defaultAuthorSlug": "eli-tinkerbench",
+  "defaultMetaDescription": "Honest reviews of soldering stations, bench multimeters, entry-level oscilloscopes, starter kits, and the small-batch tools that actually matter. Written by someone who spent 40 years in electronics a",
+  "homepage": {
+    "eyebrow": "Hobby electronics, tested in-shop",
+    "h1": "The toolkit for the weekend tinkerer.",
+    "subhead": "Honest reviews of soldering stations, bench multimeters, entry-level oscilloscopes, starter kits, and the small-batch tools that actually matter. Written by someone who spent 40 years in electronics and still tests everything on a cluttered home bench.",
+    "ctaPrimaryLabel": "See our picks",
+    "ctaPrimaryHref": "/pillars",
+    "ctaSecondaryLabel": "Start here (beginners)",
+    "ctaSecondaryHref": "/pillars/first-kit",
+    "trustLine": "Every tool bought with our own money. Every test run on our own bench. No manufacturer gifts. Not sponsored by Amazon or anyone.",
+    "heroImageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=85"
+  },
+  "about": {
+    "headline": "Why TinkerBench exists",
+    "body": "The hobby electronics world is flooded with $30 garbage soldering stations with five-star reviews and real $200 stations that outlive their owners. Sorting the two takes either 40 years of experience or an honest site to read. We are the second one. Every review clearly states who the tool is for, who it is not for, and what you should actually buy first."
+  }
+}

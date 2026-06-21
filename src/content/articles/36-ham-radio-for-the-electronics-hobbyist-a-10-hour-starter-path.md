@@ -1,24 +1,32 @@
 ---
-title: '36. Ham radio for the electronics hobbyist: a 10-hour starter path'
+title: "36-ham-radio-for-the-electronics-hobbyist-a-10-hour-starter-path"
 site: tinkerbench
-topic: '36. Ham radio for the electronics hobbyist: a 10-hour starter path'
+topic: "household-staples"
 tier: mvp
-updatedAt: '2026-05-12T11:16:45Z'
+cardTitle: "36-ham-radio-for-the-electronics-hobbyist-a-10-hour-starte"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.093Z'
 relatedProducts: []
 status: published
-heroImage: /heroes/36-ham-radio-for-the-electronics-hobbyist-a-10-hour-starter-path.webp
-subtopic: components
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.093Z'
+metaDescription: "36-ham-radio-for-the-electronics-hobbyist-a-10-hour-starter-path"
+excerpt: "36-ham-radio-for-the-electronics-hobbyist-a-10-hour-starter-path"
+heroImage: /images/heroes/36-ham-radio-for-the-electronics-hobbyist-a-10-hour-starter-path.webp
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
 
-Ham radio can seem like a complex world of regulations, frequencies, and equipment, which often deters electronics hobbyists from jumping in. If you’re curious about integrating ham radio into your projects but don’t know where to start, this 10-hour starter path breaks down the essential steps, tools, and learning goals to get you transmitting and receiving confidently—without drowning in jargon or expensive gear.
 
+Ham radio can seem like a complex world of regulations, frequencies, and equipment, which often deters electronics hobbyists from jumping in. If you’re curious about integrating ham radio into your projects but don’t know where to start, this 10-hour starter path breaks down the essential steps, tools, and learning goals to get you transmitting and receiving confidently—without drowning in jargon or expensive gear.
+---
 ## What Is Ham Radio for the Electronics Hobbyist?
 
 Ham radio (amateur radio) is a popular way for electronics enthusiasts to experiment with communication technologies, radio frequency circuits, antenna design, and digital signal processing. For hobbyists, it’s more than just chatting on the airwaves—it’s a hands-on learning platform for RF electronics, propagation physics, and practical problem-solving.
 
 Unlike commercial or licensed communication systems requiring specialized infrastructure, ham radio lets you build, customize, and operate your own radio stations. It’s especially appealing for those who enjoy kit-building, DIY antenna construction, and tinkering with microcontrollers or SDR (Software Defined Radio).
-
-
 
 > **See also:** [34. 555 timer projects that still teach well in 2026](https://tinkerbench.co/articles/34-555-timer-projects-that-still-teach-well-in-2026/)
 

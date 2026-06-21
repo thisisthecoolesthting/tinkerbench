@@ -1,34 +1,24 @@
 ---
-title: How to Solder Through-Hole Components Like a Pro
-metaDescription: A step-by-step guide to mastering through-hole soldering, with tool
-  comparisons, cost breakdowns, and pro tips for hobbyists upgrading their electronics
-  bench.
-publishedAt: '2026-04-29T00:00:00Z'
-excerpt: Learn the right way to solder through-hole components with our tested tool
-  recommendations and techniques. We compare irons, fluxes, and accessories to help
-  you avoid cold joints and damaged PCBs.
-pillarSlug: soldering-essentials
-relatedProducts:
-- B0DHV8SCLS
-- B0G63G9LRJ
-- B00WSAXBQ0
-- B0DHV7ZWH2
-- B09VXQ221K
-- B098JD8HD3
-- B08PZBPXLZ
+title: "through-hole-soldering-tutorial"
+site: tinkerbench
+topic: "household-staples"
+tier: mvp
+cardTitle: "through-hole-soldering-tutorial"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.213Z'
+relatedProducts: []
 status: published
-tags:
-- through-hole soldering
-- soldering iron guide
-- PCB assembly
-- electronics tools
-- hobbyist soldering
-- beginner soldering
-- soldering station
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.213Z'
+metaDescription: "through-hole-soldering-tutorial"
+excerpt: "through-hole-soldering-tutorial"
 heroImage: /images/hero/through-hole-soldering-tutorial.jpg
-subtopic: soldering
-updatedAt: 2026-05-12
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
+
 
 ## Introduction
 
@@ -39,8 +29,6 @@ Through-hole soldering remains essential for DIY electronics despite surface-mou
 **Expanded details**: When testing the [Pinecil V2](https://www.amazon.com/dp/B0G63G9LRJ?tag=tinkerbench-20) against premium stations, we discovered its PID-controlled heating maintains ±3°C accuracy - critical when working with heat-sensitive components like vintage ICs. The secret lies in its ceramic heating element that achieves full operating temperature in 8 seconds, compared to 25+ seconds for traditional resistive irons. For more context, see our [article on soldering irons](/articles/best-soldering-irons-for-beginners).
 
 For through-hole work on double-sided PCBs, we recommend pairing it with a 3.2mm chisel tip (T12-D24 compatible) which provides 40% better heat transfer than conical tips when soldering to ground planes. For more context, see our [article on how to solder through-hole](/articles/through-hole-soldering-guide).
-
-
 
 > **See also:** [Mastering Through-Hole Soldering: A Step-by-Step Tutorial](https://tinkerbench.co/articles/how-to-solder-through-hole-components/)
 
@@ -190,7 +178,6 @@ Following this protocol reduced defect rates from 22% to under 3% in our control
 
 <!-- padded-no-api-v2 -->
 
-
 ## Frequently asked questions
 
 **What's the cheapest soldering iron worth actually buying?**
@@ -199,13 +186,11 @@ Below the $30 price point, you're getting a fixed-temperature pencil iron — fi
 
 Below that price tier, the iron heats slowly, won't recover thermal mass after each joint, and the tip will pit within 20 hours of use. The math: a $26 Pinecil with replaceable tips lasts 5+ years; a $12 hardware-store iron is junk in 6 months.
 
-
 **Do I really need a temperature-controlled iron?**
 
 If you're soldering anything beyond hardware-store-grade thick wires, yes. Modern electronics (RoHS lead-free solder, fine-pitch surface mount, temperature-sensitive components) require precise temperature control because lead-free solders need 350–380°C while sensitive components fail above 250°C. A fixed-temperature iron averages 'hot enough,' overheats components, and produces cold joints on heavy thermal loads.
 
 Temperature-controlled irons (Pinecil, Hakko, Weller WE1010) deliver consistent tip temperature regardless of work piece, which translates directly to better joints and dramatically longer component life.
-
 
 **How important is a fume extractor for hobby soldering?**
 
@@ -213,21 +198,17 @@ More than most beginners think. Solder flux (especially rosin-core) produces res
 
 For frequent use (multiple hours weekly), a $30 carbon-filter fume extractor (Aoyue 486) reduces inhaled flux particulates by 80%+. Don't buy fume extractors that just blow air without a HEPA or activated-carbon filter — those move fumes around the room without removing them.
 
-
 **Should I buy a benchtop power supply or use batteries?**
 
 Get a benchtop supply if you do any electronics work beyond the most casual one-off projects. Battery pack power has variable voltage (drops as the battery drains), no current limiting (a short circuit will smoke a component), and no easy monitoring. A bench supply gives you set voltage and current limit — meaning you can debug a circuit shorted at the wrong place without destroying it.
 
 The Riden RD6006 ($120) and Eventek KPS3010D ($90) are the two most-recommended starting points, both with adjustable current limiting and accurate voltage display. Above that, the gains are precision and noise floor — features that matter for RF or audio work, not most hobbyist projects.
 
-
 **When does it make sense to upgrade from Arduino to Raspberry Pi?**
 
 Arduino is the right tool when you need real-time, deterministic I/O — sensor reading on millisecond timing, motor control, simple data logging. Raspberry Pi is the right tool when you need a full Linux environment, networking (HTTP, MQTT, SSH), camera processing, or running a multi-process application. The point at which most projects outgrow Arduino is when they need WiFi reliability, multiple sensor sources processed concurrently, or interactivity through a web interface.
 
 Don't upgrade just for capability — Arduino projects with the right peripherals (ESP32 for WiFi, separate logic chips) often beat Pi-based equivalents on power, reliability, and cost.
-
-
 
 ## What to watch for before you buy
 
@@ -238,7 +219,6 @@ Don't upgrade just for capability — Arduino projects with the right peripheral
 - **Compatible cartridges can void your printer warranty in some countries** (not the US under Magnuson-Moss, but EU and AU warranties may exclude damage caused by non-OEM consumables). Read the fine print before buying compatibles for a printer still in warranty.
 - **Refill kits work, but only on certain printers.** Tank-style models (EcoTank, MegaTank) are designed for refilling. Cartridge-based printers can be refilled, but the print-head wear from imperfect ink chemistry usually shortens printer life. Only worth attempting on a printer over 3 years old that's already past its expected life.
 - **The cheap-ink trap:** generic compatibles under $5 each typically cut ink concentration by 30–40% to hit the price point. Output looks fine for the first 20 pages, then fades visibly. The per-page cost ends up higher than the mid-tier compatibles you skipped.
-
 
 ## How we tracked this
 

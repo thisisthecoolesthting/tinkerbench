@@ -1,17 +1,27 @@
 ---
-title: '14. Capacitor testing: why most multimeter cap modes lie'
+title: "14-capacitor-testing-why-most-multimeter-cap-modes-lie"
 site: tinkerbench
-topic: '14. Capacitor testing: why most multimeter cap modes lie'
+topic: "household-staples"
 tier: mvp
-updatedAt: '2026-05-12T11:04:28Z'
+cardTitle: "14-capacitor-testing-why-most-multimeter-cap-modes-lie"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.058Z'
 relatedProducts: []
 status: published
-heroImage: /heroes/14-capacitor-testing-why-most-multimeter-cap-modes-lie.webp
-subtopic: test-gear
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.058Z'
+metaDescription: "14-capacitor-testing-why-most-multimeter-cap-modes-lie"
+excerpt: "14-capacitor-testing-why-most-multimeter-cap-modes-lie"
+heroImage: /images/heroes/14-capacitor-testing-why-most-multimeter-cap-modes-lie.webp
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
 
-Capacitors are everywhere on your bench—from power supplies to signal filters—but accurately gauging their health with a multimeter’s capacitance mode is often more wishful thinking than solid measurement. If you’ve ever replaced a capacitor only to find the symptoms persist, or if your multimeter shows the cap as fine but it’s still dead in circuit, you’re not alone. This article breaks down why most multimeter capacitance functions are unreliable, how they work under the hood, and what truly practical methods exist for testing capacitors as a hobbyist or technician.
 
+Capacitors are everywhere on your bench—from power supplies to signal filters—but accurately gauging their health with a multimeter’s capacitance mode is often more wishful thinking than solid measurement. If you’ve ever replaced a capacitor only to find the symptoms persist, or if your multimeter shows the cap as fine but it’s still dead in circuit, you’re not alone. This article breaks down why most multimeter capacitance functions are unreliable, how they work under the hood, and what truly practical methods exist for testing capacitors as a hobbyist or technician.
+---
 ## What Capacitor Testing Is Supposed to Accomplish
 
 Capacitors store and release electrical charge, so the key parameters we want to test are:
@@ -22,8 +32,6 @@ Capacitors store and release electrical charge, so the key parameters we want to
 - **ESR and leakage are often more indicative of real-world operability than nominal capacitance alone.**
 
 Typical multimeter capacitance or “capacitance check” modes only measure capacitance and do so at a single, low or medium test frequency with a small test signal. This leads to issues when dealing with real capacitors in circuit or those with complex failure modes.
-
-
 
 > **See also:** [Best Benchtop Power Supply for Hobbyists: Clean Power for Your Projects](https://tinkerbench.co/articles/best-benchtop-power-supply-hobbyist/)
 
@@ -130,5 +138,4 @@ Don’t ignore signs like bulging, discoloration, corrosion, or leakage—these 
 **A:** Generally no. Other components distort the reading and can cause inaccurate results. Desoldering or careful circuit isolation improves reliability significantly.
 
 ---
-
 By understanding the limitations of your tools and the physics behind capacitors, you can avoid the trap of “cap mode” lies and build a more reliable testing procedure with better instruments. This approach saves time, money, and headaches when diagnosing capacitors on the bench or in kits.

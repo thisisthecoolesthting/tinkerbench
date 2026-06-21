@@ -1,33 +1,24 @@
 ---
-title: 'Hakko FX-888D vs. Pinecil: Which Soldering Iron Belongs on Your Bench?'
-metaDescription: 'Compare the Hakko FX-888D and Pinecil soldering irons side-by-side:
-  thermal performance, cost, tip ecosystems, and which tool fits your real-world projects.'
-publishedAt: '2026-04-28'
-excerpt: The Hakko FX-888D is a proven workhorse; the Pinecil offers USB-C portability
-  at a fraction of the cost. We tested both irons through 30+ days of real projects
-  to help you pick the right tool for your bench.
-pillarSlug: essential-bench-tools
+title: "hakko-fx-888d-vs-pinecil"
+site: tinkerbench
+topic: "household-staples"
+tier: mvp
+cardTitle: "hakko-fx-888d-vs-pinecil"
+cardPick: "Editorial household-staples pick from TinkerBench."
+updatedAt: '2026-06-06T03:05:47.185Z'
+relatedProducts: []
 status: published
-tags:
-- soldering-irons
-- hakko
-- pinecil
-- electronics-tools
-- diy-electronics
-- bench-tools
-- maker-tools
-- soldering
-relatedProducts:
-- B07TEST1234
-- B07TEST5678
-- B07TEST9012
-- B07TEST3456
-- B07TEST7890
-- B07TEST2345
+subtopic: household-staples
+publishedAt: '2026-06-06T03:05:47.185Z'
+metaDescription: "hakko-fx-888d-vs-pinecil"
+excerpt: "hakko-fx-888d-vs-pinecil"
 heroImage: /images/hero/hakko-fx-888d-vs-pinecil.jpg
-subtopic: soldering
-updatedAt: 2026-05-12
+tags:
+  - tinkerbench
+  - home gym
+author: marcus-webb
 ---
+
 
 # Introduction
 
@@ -107,8 +98,7 @@ For most hobbyists, the Pinecil offers the best balance of cost, features, and p
 Final considerations: The Hakko excels in educational environments where durability matters—its all-metal construction survives drops that would damage the Pinecil's plastic components. Conversely, the Pinecil's firmware can be updated to add features like sleep timers or temperature presets, something the Hakko's analog design can't match. For a first iron, the Pinecil's low risk makes sense, but serious makers will appreciate the Hakko's proven track record on the bench.
 
 <!-- padded-no-api-v2 -->
-
-
+---
 ## Frequently asked questions
 
 **What's the cheapest soldering iron worth actually buying?**
@@ -117,13 +107,11 @@ Below the $30 price point, you're getting a fixed-temperature pencil iron — fi
 
 Below that price tier, the iron heats slowly, won't recover thermal mass after each joint, and the tip will pit within 20 hours of use. The math: a $26 Pinecil with replaceable tips lasts 5+ years; a $12 hardware-store iron is junk in 6 months.
 
-
 **Do I really need a temperature-controlled iron?**
 
 If you're soldering anything beyond hardware-store-grade thick wires, yes. Modern electronics (RoHS lead-free solder, fine-pitch surface mount, temperature-sensitive components) require precise temperature control because lead-free solders need 350–380°C while sensitive components fail above 250°C. A fixed-temperature iron averages 'hot enough,' overheats components, and produces cold joints on heavy thermal loads.
 
 Temperature-controlled irons (Pinecil, Hakko, Weller WE1010) deliver consistent tip temperature regardless of work piece, which translates directly to better joints and dramatically longer component life.
-
 
 **Should I buy a benchtop power supply or use batteries?**
 
@@ -131,23 +119,17 @@ Get a benchtop supply if you do any electronics work beyond the most casual one-
 
 The Riden RD6006 ($120) and Eventek KPS3010D ($90) are the two most-recommended starting points, both with adjustable current limiting and accurate voltage display. Above that, the gains are precision and noise floor — features that matter for RF or audio work, not most hobbyist projects.
 
-
 **How important is a fume extractor for hobby soldering?**
 
 More than most beginners think. Solder flux (especially rosin-core) produces respiratory irritants and the fumes from lead-free solder include trace metals. Continuous unprotected exposure correlates with chronic respiratory irritation in studies of professional electronics technicians. For occasional use (a project an hour a week), good ventilation is enough — open windows, a small desk fan blowing air away from your face.
 
 For frequent use (multiple hours weekly), a $30 carbon-filter fume extractor (Aoyue 486) reduces inhaled flux particulates by 80%+. Don't buy fume extractors that just blow air without a HEPA or activated-carbon filter — those move fumes around the room without removing them.
 
-
 **When does it make sense to upgrade from Arduino to Raspberry Pi?**
 
 Arduino is the right tool when you need real-time, deterministic I/O — sensor reading on millisecond timing, motor control, simple data logging. Raspberry Pi is the right tool when you need a full Linux environment, networking (HTTP, MQTT, SSH), camera processing, or running a multi-process application. The point at which most projects outgrow Arduino is when they need WiFi reliability, multiple sensor sources processed concurrently, or interactivity through a web interface.
 
 Don't upgrade just for capability — Arduino projects with the right peripherals (ESP32 for WiFi, separate logic chips) often beat Pi-based equivalents on power, reliability, and cost.
-
-
-
-
 
 > **See also:** [Pinecil vs. Hakko FX-888D: Which Soldering Iron is Right for You?](https://tinkerbench.co/articles/pinecil-vs-hakko-fx888d/)
 
@@ -160,7 +142,6 @@ Don't upgrade just for capability — Arduino projects with the right peripheral
 - **Compatible cartridges can void your printer warranty in some countries** (not the US under Magnuson-Moss, but EU and AU warranties may exclude damage caused by non-OEM consumables). Read the fine print before buying compatibles for a printer still in warranty.
 - **Refill kits work, but only on certain printers.** Tank-style models (EcoTank, MegaTank) are designed for refilling. Cartridge-based printers can be refilled, but the print-head wear from imperfect ink chemistry usually shortens printer life. Only worth attempting on a printer over 3 years old that's already past its expected life.
 - **The cheap-ink trap:** generic compatibles under $5 each typically cut ink concentration by 30–40% to hit the price point. Output looks fine for the first 20 pages, then fades visibly. The per-page cost ends up higher than the mid-tier compatibles you skipped.
-
 
 ## How we tracked this
 
