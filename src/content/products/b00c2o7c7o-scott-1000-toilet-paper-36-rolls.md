@@ -18,7 +18,7 @@ affiliateUrl: https://www.amazon.com/dp/B00C2O7C7O?tag=tinkerbench-20&linkCode=l
 isPrime: true
 status: published
 firstSeen: '2026-04-24T00:00:00+00:00'
-lastSeen: '2026-08-03T15:38:03+00:00'
+lastSeen: '2026-08-03T15:39:34+00:00'
 tags:
 - toilet-paper
 - paper-products

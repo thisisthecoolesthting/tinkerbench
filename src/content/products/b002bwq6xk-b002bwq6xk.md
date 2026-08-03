@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B002BWQ6XK?tag=tinkerbench-20
 isPrime: false
 status: draft
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:38:03+00:00'
+lastSeen: '2026-08-03T15:39:34+00:00'
 slug: b002bwq6xk-b002bwq6xk
 cardTitle: B002BWQ6XK
 cardPick: Solid pick for most readers

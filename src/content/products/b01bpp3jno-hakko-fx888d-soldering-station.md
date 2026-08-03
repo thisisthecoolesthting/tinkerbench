@@ -18,7 +18,7 @@ affiliateUrl: https://www.amazon.com/dp/B01BPP3JNO?tag=tinkerbench-20&linkCode=l
 isPrime: true
 status: published
 firstSeen: '2026-05-13T00:00:00+00:00'
-lastSeen: '2026-08-03T15:38:03+00:00'
+lastSeen: '2026-08-03T15:39:34+00:00'
 tags:
 - soldering-station
 - temperature-controlled
