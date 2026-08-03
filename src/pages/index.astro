@@ -116,9 +116,105 @@ const trustItems = [
   { label: 'Weekly price checks', icon: 'clock' as const },
   { label: 'No retailer sponsorships', icon: 'ban' as const },
 ];
+
+// ---------- SEO: homepage retheme + FAQ (grounded in published site content) ----------
+const pageTitle = 'Arduino Starter Kit Buying Guides & Maker Tool Reviews';
+const pageDescription =
+  'Compare Arduino starter kits and maker bench tools. Practical buying guides for electronics tinkering, 3D printers, multimeters, and soldering gear from TinkerBench.';
+
+const faqItems: { question: string; answer: string }[] = [
+  {
+    question: 'Which Arduino starter kit is worth buying?',
+    answer:
+      'For structured learning, our testing favors the Official Arduino Starter Kit and its printed project book. Budget-minded hobbyists often do well with a third-party Mega 2560 kit that includes more sensors, as long as you supplement with solid tutorials. We generally advise skipping kits under about $40 because jumper wires, breadboards, and USB cables tend to fail early.',
+  },
+  {
+    question: 'What is the Arduino Uno A000066?',
+    answer:
+      'A000066 is the product code for the Arduino Uno Rev3 board. It uses an ATmega328P microcontroller at 16 MHz, with 14 digital I/O pins, 6 analog inputs, and 32 KB of flash for your sketches. USB handles both power and programming, and the board remains a common beginner entry point because of its documentation and shield ecosystem.',
+  },
+  {
+    question: 'What is the difference between 2-wire and 4-wire multimeter resistance measurement?',
+    answer:
+      'Two-wire measurement uses the same leads for current and voltage, so lead and contact resistance are included in the reading. Four-wire (Kelvin) sensing uses separate force and sense leads so lead resistance is largely excluded. Use two-wire for most hobbyist checks above roughly 100 ohms; use four-wire when measuring low-value resistors, shunts, or PCB traces where milliohms matter.',
+  },
+  {
+    question: 'Do I need a 3D printer enclosure?',
+    answer:
+      'An enclosure helps most when you print temperature-sensitive filaments such as ABS, ASA, polycarbonate, or nylon, because it stabilizes chamber temperature, cuts drafts, and can contain fumes. PLA, PETG, and TPU are more forgiving and often print fine without one, especially on smaller parts. Enclosures can also reduce noise and keep dust off the printer.',
+  },
+  {
+    question: 'Can you get a decent 3D printer under $300?',
+    answer:
+      'Yes. The sub-$300 market has improved a lot since 2020, with many machines now offering auto-leveling and better extruders. In our budget testing we prioritized first-layer success, serviceable parts, and filament flexibility (PLA, PETG, TPU). A higher budget under $700 buys more headroom, but a carefully chosen under-$300 printer is a workable entry point for many hobbyists.',
+  },
+  {
+    question: 'What is the best PCB design software for beginners?',
+    answer:
+      'For absolute beginners, EasyEDA is the friendliest start: browser-based, large component libraries, and a short learning curve. Hobbyists who want a free, powerful desktop suite should look at KiCad, knowing the interface takes practice. Paid options like Eagle or DipTrace make sense if you need specific professional workflows or prefer a polished paid toolchain.',
+  },
+  {
+    question: 'Should I build a DIY 3D printer enclosure or buy a commercial one?',
+    answer:
+      'DIY builds such as the IKEA Lack table enclosure typically run about $100–$150 and suit beginners who want a cheap, customizable box. Custom wood or extrusion builds cost more but fit unusual printer sizes. Commercial enclosures often start around $200–$600 and win on setup speed, insulation, and integrated lighting or filtration if you prefer plug-and-play over a weekend project.',
+  },
+];
+
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.answer,
+    },
+  })),
+};
+
+const relatedGuides = [
+  {
+    href: '/articles/arduino-starter-kit-worth-it',
+    label: 'Arduino starter kit buying guide',
+    blurb: 'Official kit vs third-party bundles — what holds up after real prototyping hours.',
+  },
+  {
+    href: '/articles/guide-arduino-uno-rev3-a000066-atmega328p-microcontroller-16mhz-14-digital-i-o-pins-6-analog-inputs-32kb-flash-usb-co-asin-b008grtsv6',
+    label: 'Arduino Uno Rev3 (A000066) overview',
+    blurb: 'Specs and getting-started notes for the classic Uno board.',
+  },
+  {
+    href: '/articles/3d-printer-enclosures-diy-vs-commercial',
+    label: '3D printer enclosures: DIY vs commercial',
+    blurb: 'When ABS and ASA need a chamber, and how Lack builds compare to pre-built boxes.',
+  },
+  {
+    href: '/articles/12-four-wire-vs-two-wire-resistance-what-your-multimeter-is-not-telling-you',
+    label: '2-wire vs 4-wire resistance',
+    blurb: 'Why low-ohm readings lie on a basic multimeter — and when Kelvin sensing matters.',
+  },
+  {
+    href: '/articles/best-pcb-design-software-hobbyists',
+    label: 'Best PCB design software for hobbyists',
+    blurb: 'EasyEDA, KiCad, Eagle, and DipTrace for beginners and serious makers.',
+  },
+  {
+    href: '/products/b07yd5xfkp-elegoo-uno-r3-starter-kit',
+    label: 'ELEGOO UNO R3 starter kit',
+    blurb: 'What the popular beginner kit actually includes and how far it takes you.',
+  },
+];
 ---
 
-<CompliantLayout title={b.fullName} description={dmeta} sectionAds="home" sectionAdsCompact sectionAdsFooter={false}>
+<CompliantLayout
+  title={pageTitle}
+  description={pageDescription}
+  jsonLd={faqJsonLd}
+  sectionAds="home"
+  sectionAdsCompact
+  sectionAdsFooter={false}
+>
 
   {/* ============ 1. HERO — compact watchdog band ============ */}
   <HeroCompact
@@ -152,6 +248,39 @@ const trustItems = [
   />
 
   <TrustStrip trustLine={trustLineDisplay} items={trustItems} />
+
+  {/* ============ RELATED GUIDES (internal links) ============ */}
+  <section class="max-w-6xl mx-auto px-5 py-8 md:py-10" aria-labelledby="related-guides-heading">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-5 mb-8">
+      <div>
+        <p class="font-mono text-[11px] tracking-[0.18em] uppercase text-terracotta-600 font-medium mb-2">Related guides</p>
+        <h2 id="related-guides-heading" class="font-display text-3xl md:text-4xl text-ink-900 leading-tight !mt-0 max-w-[22ch]">
+          Start with these maker buying guides.
+        </h2>
+      </div>
+      <p class="text-sm text-ink-700 max-w-[30ch]">
+        Arduino kits, enclosures, multimeters, and PCB software — linked to guides already on this site.
+      </p>
+    </div>
+    <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 list-none p-0 m-0">
+      {relatedGuides.map((guide) => (
+        <li>
+          <a
+            href={guide.href}
+            class="group no-underline block h-full rounded-xl border border-cream-200 bg-cream-50 p-5 hover:border-terracotta-400 hover:shadow-soft-lg hover:-translate-y-0.5 transition-all"
+          >
+            <h3 class="font-display text-lg text-ink-900 !mt-0 leading-snug group-hover:text-terracotta-600">
+              {guide.label}
+            </h3>
+            <p class="text-sm text-ink-700 mt-2 leading-relaxed">{guide.blurb}</p>
+            <span class="font-mono text-[11px] tracking-[0.1em] uppercase text-ink-900 mt-4 inline-block group-hover:text-terracotta-600">
+              Read guide <span class="text-terracotta-500">→</span>
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
 
   {/* ============ 3. PILLAR GRID ============ */}
   {pillarGridEntries.length > 0 && (
@@ -382,6 +511,30 @@ const trustItems = [
       subtitle="One shrinkflation alert, one smarter swap, one price check — every week. No spam."
       cta="Get price alerts"
     />
+  </section>
+
+  {/* ============ FAQ (visible + FAQPage JSON-LD in <head>) ============ */}
+  <section class="max-w-3xl mx-auto px-5 py-12 md:py-14" aria-labelledby="faq-heading">
+    <p class="font-mono text-[11px] tracking-[0.18em] uppercase text-terracotta-600 font-medium mb-2">FAQ</p>
+    <h2 id="faq-heading" class="font-display text-3xl md:text-4xl text-ink-900 !mt-0 leading-tight max-w-[24ch]">
+      Common questions from makers shopping this niche.
+    </h2>
+    <p class="text-sm text-ink-700 mt-3 mb-8 max-w-[52ch]">
+      Short answers drawn from our Arduino, multimeter, 3D printing, and PCB guides — not generic filler.
+    </p>
+    <div class="space-y-4">
+      {faqItems.map((item) => (
+        <details class="group rounded-xl border border-cream-200 bg-white px-5 py-4 open:shadow-soft">
+          <summary class="font-display text-lg text-ink-900 cursor-pointer list-none flex items-start justify-between gap-4 [&::-webkit-details-marker]:hidden">
+            <span>{item.question}</span>
+            <span class="font-mono text-terracotta-500 shrink-0 mt-1 group-open:rotate-45 transition-transform" aria-hidden="true">+</span>
+          </summary>
+          <p class="text-sm md:text-[15px] text-ink-700 leading-relaxed mt-3 pr-8">
+            {item.answer}
+          </p>
+        </details>
+      ))}
+    </div>
   </section>
 
   {/* ============ 8. METHODOLOGY DISCLOSURE STRIP ============ */}

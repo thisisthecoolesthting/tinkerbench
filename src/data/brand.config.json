@@ -32,9 +32,9 @@
     }
   },
   "homepage": {
-    "eyebrow": "Maker & resin 3D print",
-    "h1": "Workshop gear worth buying once — not twice",
-    "subhead": "We track resin printers, filaments, and bench tools on real durability and unit cost — then flag when bundles inflate the price of basics you use every week.",
+    "eyebrow": "DIY & electronics tinkering",
+    "h1": "Arduino starter kits and maker tools worth buying once",
+    "subhead": "Buying guides for Arduino starter kits, 3D printers, multimeters, and soldering gear — focused on what lasts on a hobbyist workbench, not marketing fluff.",
     "ctaPrimaryLabel": "Browse maker guides",
     "ctaPrimaryHref": "/articles",
     "ctaSecondaryLabel": "How we test picks",
