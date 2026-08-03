@@ -1,21 +1,21 @@
 ---
-title: "using-clamp-meter-safe-current-measurement"
+title: using-clamp-meter-safe-current-measurement
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "using-clamp-meter-safe-current-measurement"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: using-clamp-meter-safe-current-measurement
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.226Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.226Z'
-metaDescription: "using-clamp-meter-safe-current-measurement"
-excerpt: "using-clamp-meter-safe-current-measurement"
+metaDescription: using-clamp-meter-safe-current-measurement
+excerpt: using-clamp-meter-safe-current-measurement
 heroImage: /images/heroes/using-clamp-meter-safe-current-measurement.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -99,3 +99,11 @@ Once you're comfortable with the basics, you can explore more advanced technique
 *   **Power Measurement:** By combining current measurements from a clamp meter with voltage measurements from a standard multimeter, you can calculate the power (watts) being consumed by a device or circuit.
 
 A clamp meter is a safe and effective tool for measuring current in a variety of applications. By understanding the principles of operation, following the safety precautions, and practicing the techniques outlined in this tutorial, you can confidently use a clamp meter to troubleshoot electrical problems, monitor power consumption, and enhance your electronics projects. Consider a basic multimeter like the Arduino Uno Rev3 A000066 as a companion tool for voltage measurements.
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+

@@ -1,21 +1,21 @@
 ---
-title: "understanding-using-logic-gates"
+title: understanding-using-logic-gates
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "understanding-using-logic-gates"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: understanding-using-logic-gates
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.219Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.219Z'
-metaDescription: "understanding-using-logic-gates"
-excerpt: "understanding-using-logic-gates"
+metaDescription: understanding-using-logic-gates
+excerpt: understanding-using-logic-gates
 heroImage: /images/heroes/understanding-using-logic-gates.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -135,3 +135,10 @@ When choosing between the 7400 and 4000 series, consider the following:
 *   **Speed:** The 7400 series is typically faster than the 4000 series, but for most hobbyist projects, the difference is negligible.
 
 Logic gates are the foundation of digital electronics. By understanding their operation and how to use them, you will be well-equipped to tackle a wide range of electronics projects. Start experimenting with simple circuits, and gradually build up your knowledge to create more complex and interesting applications.
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+

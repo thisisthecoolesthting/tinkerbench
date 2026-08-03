@@ -1,21 +1,21 @@
 ---
-title: "using-signal-generator-circuit-testing"
+title: using-signal-generator-circuit-testing
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "using-signal-generator-circuit-testing"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: using-signal-generator-circuit-testing
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.228Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.228Z'
-metaDescription: "using-signal-generator-circuit-testing"
-excerpt: "using-signal-generator-circuit-testing"
+metaDescription: using-signal-generator-circuit-testing
+excerpt: using-signal-generator-circuit-testing
 heroImage: /images/heroes/using-signal-generator-circuit-testing.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -154,3 +154,11 @@ Signal generators range from basic function generators to sophisticated arbitrar
 For hobbyists and beginners, a basic function generator is often sufficient. As your needs grow, you can upgrade to a more advanced model. For a good starter project, consider picking up an [Arduino Uno Rev3](/products/b008grtsv6-arduino-uno-rev3-a000066-atmega328p-microcontroller-16mhz-14/) and using its PWM outputs to generate simple square waves for testing.
 
 A signal generator is a powerful tool for any electronics enthusiast. By understanding its capabilities and mastering the techniques described in this tutorial, you can significantly enhance your ability to test, troubleshoot, and understand electronic circuits.
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+

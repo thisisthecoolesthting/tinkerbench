@@ -18,7 +18,7 @@ affiliateUrl: https://www.amazon.com/dp/B07YD5XFKP?tag=tinkerbench-20&linkCode=l
 isPrime: true
 status: published
 firstSeen: '2026-05-13T00:00:00+00:00'
-lastSeen: '2026-08-03T15:36:29+00:00'
+lastSeen: '2026-08-03T15:38:03+00:00'
 tags:
 - arduino
 - starter-kit
