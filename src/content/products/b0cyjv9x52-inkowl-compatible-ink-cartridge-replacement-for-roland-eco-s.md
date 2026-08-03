@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B0CYJV9X52?tag=tinkerbench-20
 isPrime: false
 status: draft
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:39:34+00:00'
+lastSeen: '2026-08-03T15:41:12+00:00'
 slug: b0cyjv9x52-inkowl-compatible-ink-cartridge-replacement-for-roland-eco-s
 cardTitle: InkOwl Compatible Ink Cartridge Replacement for Roland ECO-SOL MAX 2 Printers ES
 cardPick: Solid pick for most readers
