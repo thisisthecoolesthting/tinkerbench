@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B00SAYAKPK?tag=tinkerbench-20
 isPrime: false
 status: draft
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:41:54+00:00'
+lastSeen: '2026-08-03T15:45:05+00:00'
 slug: b00sayakpk-b00sayakpk
 cardTitle: B00SAYAKPK
 cardPick: Solid pick for most readers
