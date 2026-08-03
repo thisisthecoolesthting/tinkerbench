@@ -9,14 +9,14 @@ rating: 4.1
 bsr: 56
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/41opUFkFLBL.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B0DV5579PT?tag=tinkerbench-20"
+imageUrl: https://m.media-amazon.com/images/I/41opUFkFLBL.jpg
+affiliateUrl: https://www.amazon.com/dp/B0DV5579PT?tag=tinkerbench-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-06-02'
 slug: b0dv5579pt-white-lines-wl-16-street-juice-products-whitewall-tire-clean
-cardTitle: White Lines WL-16 Street Juice Products Whitewall & Tire Cleaner Safe for Cars, 
+cardTitle: White Lines WL-16 Street Juice Products Whitewall & Tire Cleaner Safe for Cars,
 cardPick: Solid pick for most readers
 tags: []
 ---
@@ -62,3 +62,8 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for tire
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+

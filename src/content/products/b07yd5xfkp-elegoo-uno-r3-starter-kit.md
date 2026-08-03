@@ -1,30 +1,30 @@
 ---
-asin: "B07YD5XFKP"
-slug: "b07yd5xfkp-elegoo-uno-r3-starter-kit"
-title: "ELEGOO UNO R3 Project Complete Starter Kit with Tutorial"
-seoTitle: "ELEGOO UNO R3 Starter Kit Review | TinkerBench"
-metaDescription: "The ELEGOO UNO R3 kit vs. buying components individually: what you actually get, what to buy next, and how far it takes a beginner."
-cardTitle: "ELEGOO UNO R3 Kit"
-cardPick: "Best first Arduino kit for beginners"
-category: "microcontroller-kits"
+asin: B07YD5XFKP
+slug: b07yd5xfkp-elegoo-uno-r3-starter-kit
+title: ELEGOO UNO R3 Project Complete Starter Kit with Tutorial
+seoTitle: ELEGOO UNO R3 Starter Kit Review | TinkerBench
+metaDescription: 'The ELEGOO UNO R3 kit vs. buying components individually: what you actually get, what to buy next, and how far it takes a beginner.'
+cardTitle: ELEGOO UNO R3 Kit
+cardPick: Best first Arduino kit for beginners
+category: microcontroller-kits
 price: 37.99
 rating: 4.7
 reviewCount: 15680
 bsr: 62
 commissionPerSale: 0.0
 score: 48.6
-imageUrl: "/images/amazon-picks/B07YD5XFKP.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B07YD5XFKP?tag=tinkerbench-20&linkCode=ll1&language=en_US"
+imageUrl: /images/amazon-picks/B07YD5XFKP.jpg
+affiliateUrl: https://www.amazon.com/dp/B07YD5XFKP?tag=tinkerbench-20&linkCode=ll1&language=en_US
 isPrime: true
-status: "published"
-firstSeen: "2026-05-13T00:00:00+00:00"
-lastSeen: "2026-05-13T00:00:00+00:00"
+status: published
+firstSeen: '2026-05-13T00:00:00+00:00'
+lastSeen: '2026-08-03T15:34:39+00:00'
 tags:
-  - arduino
-  - starter-kit
-  - microcontroller
-  - beginner
-author: "eli-tinkerbench"
+- arduino
+- starter-kit
+- microcontroller
+- beginner
+author: eli-tinkerbench
 ---
 # ELEGOO UNO R3 Starter Kit — How Far Does It Actually Get You?
 

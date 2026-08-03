@@ -9,12 +9,12 @@ rating: 4.0
 bsr: 677
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/41tV3F45YYL.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B08BJTRNRF?tag=tinkerbench-20"
+imageUrl: https://m.media-amazon.com/images/I/41tV3F45YYL.jpg
+affiliateUrl: https://www.amazon.com/dp/B08BJTRNRF?tag=tinkerbench-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-06-02'
 slug: b08bjtrnrf-wsays-chrome-12-rise-ape-bagger-handlebar-compatible-with-ha
 cardTitle: WSays Chrome 12'' Rise Ape Bagger Handlebar Compatible with Harley Touring Stree
 cardPick: Solid pick for most readers
@@ -62,3 +62,8 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for hand
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+

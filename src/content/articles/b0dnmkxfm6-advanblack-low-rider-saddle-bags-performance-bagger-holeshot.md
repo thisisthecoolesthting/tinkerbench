@@ -9,14 +9,14 @@ rating: null
 bsr: 2020
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/31esxF8vZqL.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B0DNMKXFM6?tag=tinkerbench-20"
+imageUrl: https://m.media-amazon.com/images/I/31esxF8vZqL.jpg
+affiliateUrl: https://www.amazon.com/dp/B0DNMKXFM6?tag=tinkerbench-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-06-02'
 slug: b0dnmkxfm6-advanblack-low-rider-saddle-bags-performance-bagger-holeshot
-cardTitle: Advanblack Low Rider Saddle Bags Performance Bagger Holeshot Chopped Saddlebags 
+cardTitle: Advanblack Low Rider Saddle Bags Performance Bagger Holeshot Chopped Saddlebags
 cardPick: Solid pick for most readers
 tags: []
 ---
@@ -62,3 +62,9 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for sadd
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[ELEGOO UNO R3 Project Complete Starter Kit with Tutorial](/products/b07yd5xfkp-elegoo-uno-r3-starter-kit/)** — see current price and specs.
+

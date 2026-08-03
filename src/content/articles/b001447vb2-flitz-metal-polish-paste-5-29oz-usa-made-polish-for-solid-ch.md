@@ -9,12 +9,12 @@ rating: 4.8
 bsr: 8
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/410nT4OVq3L.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B001447VB2?tag=tinkerbench-20"
+imageUrl: https://m.media-amazon.com/images/I/410nT4OVq3L.jpg
+affiliateUrl: https://www.amazon.com/dp/B001447VB2?tag=tinkerbench-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-06-02'
 slug: b001447vb2-flitz-metal-polish-paste-5-29oz-usa-made-polish-for-solid-ch
 cardTitle: Flitz Metal Polish Paste - 5.29oz USA-Made Polish for Solid Chrome, Stainless St
 cardPick: Solid pick for most readers
@@ -62,3 +62,8 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for chro
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+

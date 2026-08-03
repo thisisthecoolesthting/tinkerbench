@@ -136,3 +136,12 @@ If you're a beginner looking for a solid entry point, consider something like th
 If you have a bit more budget and want a machine that's largely "set and forget" with excellent print quality and speed right out of the box, the **Bambu Lab P1S** (B0C8K95T87) is an incredibly popular choice. While more of a closed ecosystem, its performance and user experience are hard to beat.
 
 Ultimately, the best 3D printer for you is one that fits your specific projects, budget, and willingness to tinker. Don't chase the absolute cheapest option, as you might spend more time troubleshooting than printing. Invest in a machine that has a good reputation for reliability and support, and you'll be well on your way to bringing your digital designs into
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[Folgers Classic Roast Ground Coffee, 48 Oz](/products/b00hhqx0bq-folgers-classic-roast-coffee-48oz/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

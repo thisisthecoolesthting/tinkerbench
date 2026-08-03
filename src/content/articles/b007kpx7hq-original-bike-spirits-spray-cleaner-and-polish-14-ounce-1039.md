@@ -9,12 +9,12 @@ rating: 4.8
 bsr: 16
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/41wFTTwVrgL.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B007KPX7HQ?tag=tinkerbench-20"
+imageUrl: https://m.media-amazon.com/images/I/41wFTTwVrgL.jpg
+affiliateUrl: https://www.amazon.com/dp/B007KPX7HQ?tag=tinkerbench-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-06-02'
 slug: b007kpx7hq-original-bike-spirits-spray-cleaner-and-polish-14-ounce-1039
 cardTitle: Original Bike Spirits Spray Cleaner and Polish - 14 Ounce - 1039615 - The Ultima
 cardPick: Solid pick for most readers
@@ -62,3 +62,9 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for clea
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+

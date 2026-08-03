@@ -1,21 +1,21 @@
 ---
-title: "best-desoldering-station-through-hole"
+title: best-desoldering-station-through-hole
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "best-desoldering-station-through-hole"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: best-desoldering-station-through-hole
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.138Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.138Z'
-metaDescription: "best-desoldering-station-through-hole"
-excerpt: "best-desoldering-station-through-hole"
+metaDescription: best-desoldering-station-through-hole
+excerpt: best-desoldering-station-through-hole
 heroImage: /images/heroes/best-desoldering-station-through-hole.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -129,3 +129,11 @@ To evaluate these desoldering stations, we tested them on a variety of circuit b
 For hobbyists and light-duty professional use, the **Hakko FR-301** is a solid choice. It's reliable, easy to use, and provides adequate suction power for most through-hole components. However, if you need more power and versatility, consider a hot-air rework station with an optional desoldering handpiece. If you are on a tight budget, the **Yihua 948D** may suffice, but be prepared to work harder and verify temperature accuracy.
 
 Remember to choose a desoldering station that fits your specific needs and budget. Consider the types of components you'll be working with, the volume of desoldering you'll be doing, and your budget. With the right tool, desoldering through-hole components can be a much easier and more enjoyable task. And when you're done, don't forget to clean up your bench with a good microfiber spin mop – you'd be surprised how much solder and flux end up on the floor! [/products/b00wswgvzq-o-cedar-easywring-microfiber-spin-mop-bucket-floor-cleaning/]
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+

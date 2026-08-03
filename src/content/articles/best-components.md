@@ -80,3 +80,10 @@ Conversely, a project built with dubious parts is a ticking time bomb. You'll sp
 ## Bottom Line
 
 Don't let the allure of rock-bottom prices on generic components derail your projects. For critical functions, power supplies, and precision analog circuits, invest in quality components from authorized distributors. For less critical applications, you can be more flexible, but still prioritize reputable sources. Your time, sanity, and the longevity of your creations will thank you. As an old colleague used to say, "The bitterness of poor quality remains long after the sweetness of low price is forgotten."
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

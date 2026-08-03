@@ -1,22 +1,22 @@
 ---
 asin: B09BCWY4GB
-title: "Mofun Chrome 12\" Rise Handlebar 1-1/4\" Bagger Handlebar Ape Hanger Compatible with Harley Touring Street Glide Electra Glide Models 1986-2023 with Batwing Fairing, Ultra Limited 2024"
-seoTitle: "Mofun Chrome 12\" Rise Handlebar 1-1/4\" Bagger Handlebar Ape Hanger Compatible with Harley Touring Street Glide Electra Glide Models 1986-2023 with Batwing Fairing, Ultra Limited 2024 \u2014 review"
-metaDescription: "Hands-on notes on Mofun Chrome 12\" Rise Handlebar 1-1/4\" Bagger Handlebar Ape Hanger Compatible with Harley Touring Street Glide Electra Glide Models 1986-2023 with Batwing Fairing, Ultra Limited 2024."
+title: Mofun Chrome 12" Rise Handlebar 1-1/4" Bagger Handlebar Ape Hanger Compatible with Harley Touring Street Glide Electra Glide Models 1986-2023 with Batwing Fairing, Ultra Limited 2024
+seoTitle: Mofun Chrome 12" Rise Handlebar 1-1/4" Bagger Handlebar Ape Hanger Compatible with Harley Touring Street Glide Electra Glide Models 1986-2023 with Batwing Fairing, Ultra Limited 2024 — review
+metaDescription: Hands-on notes on Mofun Chrome 12" Rise Handlebar 1-1/4" Bagger Handlebar Ape Hanger Compatible with Harley Touring Street Glide Electra Glide Models 1986-2023 with Batwing Fairing, Ultra Limited 2024.
 category: handlebars
 price: 175.99
 rating: 4.4
 bsr: 34
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/51JZRyKZ3QL.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B09BCWY4GB?tag=tinkerbench-20"
+imageUrl: https://m.media-amazon.com/images/I/51JZRyKZ3QL.jpg
+affiliateUrl: https://www.amazon.com/dp/B09BCWY4GB?tag=tinkerbench-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-06-02'
 slug: b09bcwy4gb-mofun-chrome-12-rise-handlebar-1-1-4-bagger-handlebar-ape-ha
-cardTitle: "Mofun Chrome 12\" Rise Handlebar 1-1/4\" Bagger Handlebar Ape Hanger Compatible wi"
+cardTitle: Mofun Chrome 12" Rise Handlebar 1-1/4" Bagger Handlebar Ape Hanger Compatible wi
 cardPick: Solid pick for most readers
 tags: []
 ---
@@ -62,3 +62,8 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for hand
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+

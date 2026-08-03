@@ -86,3 +86,10 @@ If 3D printing isn't an option, you could achieve a similar multi-stage filter b
 ## Bottom Line
 
 Building your own fume extractor is a rewarding project that can significantly improve your workbench environment. It's an intermediate-level build, requiring basic wiring skills, some mechanical aptitude, and a willingness to experiment. For the beginner, a commercial unit like the Hakko FA400 is a safer bet. But for the tinkerer who enjoys custom solutions and wants better performance than budget offerings, a DIY fume extractor offers excellent value and performance. Just remember to prioritize airflow and multi-stage filtration for the best results. Your lungs will thank you. For further reading on workbench ergonomics, check out my article on [setting up your ideal electronics workbench](INTERNAL:workbench-setup-guide).
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

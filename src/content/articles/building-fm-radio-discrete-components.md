@@ -1,21 +1,21 @@
 ---
-title: "building-fm-radio-discrete-components"
+title: building-fm-radio-discrete-components
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "building-fm-radio-discrete-components"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: building-fm-radio-discrete-components
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.164Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.164Z'
-metaDescription: "building-fm-radio-discrete-components"
-excerpt: "building-fm-radio-discrete-components"
+metaDescription: building-fm-radio-discrete-components
+excerpt: building-fm-radio-discrete-components
 heroImage: /images/heroes/building-fm-radio-discrete-components.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -89,3 +89,10 @@ Once you have a working FM radio receiver, you can explore ways to improve its p
 *   **Adding an RF Amplifier Stage:** A separate RF amplifier stage before the oscillator can improve sensitivity.
 
 Building an FM radio receiver from discrete components is a rewarding project that provides valuable insight into RF circuit design. While it requires patience and attention to detail, the satisfaction of hearing your own creation receive radio signals is well worth the effort. This project provides a solid foundation for more advanced RF projects, such as building a simple transmitter or experimenting with different modulation techniques. Remember to always respect the radio spectrum and operate within legal limits.
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+

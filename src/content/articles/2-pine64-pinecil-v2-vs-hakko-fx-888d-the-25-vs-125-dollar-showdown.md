@@ -1,21 +1,21 @@
 ---
-title: "2-pine64-pinecil-v2-vs-hakko-fx-888d-the-25-vs-125-dollar-showdown"
+title: 2-pine64-pinecil-v2-vs-hakko-fx-888d-the-25-vs-125-dollar-showdown
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "2-pine64-pinecil-v2-vs-hakko-fx-888d-the-25-vs-125-dollar-"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: 2-pine64-pinecil-v2-vs-hakko-fx-888d-the-25-vs-125-dollar-
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.067Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.067Z'
-metaDescription: "2-pine64-pinecil-v2-vs-hakko-fx-888d-the-25-vs-125-dollar-showdown"
-excerpt: "2-pine64-pinecil-v2-vs-hakko-fx-888d-the-25-vs-125-dollar-showdown"
+metaDescription: 2-pine64-pinecil-v2-vs-hakko-fx-888d-the-25-vs-125-dollar-showdown
+excerpt: 2-pine64-pinecil-v2-vs-hakko-fx-888d-the-25-vs-125-dollar-showdown
 heroImage: /images/heroes/2-pine64-pinecil-v2-vs-hakko-fx-888d-the-25-vs-125-dollar-showdown.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -102,3 +102,12 @@ If you want a rugged, reliable soldering station that lasts for years under heav
 
 **Q: Is it possible to use the Pinecil V2’s open-source firmware to improve performance?**  
 **A:** Yes, advanced users can update and customize firmware profiles for different soldering tasks, which can optimize temperature control and enhance the Pinecil’s usability. However, this requires some technical comfort.
+
+## Our picks worth a closer look
+
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+

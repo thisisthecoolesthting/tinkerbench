@@ -1,21 +1,21 @@
 ---
-title: "20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope"
+title: 20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: 20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.069Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.069Z'
-metaDescription: "20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope"
-excerpt: "20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope"
+metaDescription: 20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope
+excerpt: 20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope
 heroImage: /images/heroes/20-when-you-need-100-mhz-bandwidth-vs-20-mhz-on-a-scope.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -116,3 +116,11 @@ Choosing between 20 MHz and 100 MHz scope bandwidth comes down to the signals yo
 
 **Q: Are probes interchangeable between 20 MHz and 100 MHz scopes?**  
 **A:** Basic passive probes for 20 MHz scopes might work on 100 MHz scopes but may not preserve signal integrity. For 100 MHz scopes, higher-quality or compensated probes are recommended for accurate reading.
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+

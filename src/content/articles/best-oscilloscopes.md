@@ -70,3 +70,10 @@ For critical specifications like bandwidth and sample rate, I verify them agains
 ### Bottom Line
 
 Choosing the right oscilloscope doesn't have to be intimidating. For the vast majority of weekend tinkerers and hobbyists, a 50MHz or 100MHz 4-channel digital storage oscilloscope with decent memory depth will serve you well for years. The **Rigol DS1054Z** remains an unbeatable value for beginners, offering incredible capability for its price. If your budget allows, stepping up to the **Siglent SDS1104X-E** provides a significant leap in performance, particularly in sample rate, memory depth, and waveform capture rate, making it an excellent choice for more demanding projects. Remember, the best oscilloscope is the one that meets your current and anticipated needs without breaking your budget, and one you'll actually enjoy using to explore the invisible world of electronics.
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

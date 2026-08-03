@@ -106,3 +106,10 @@ To keep your desoldering pump working like new:
 ## Bottom Line
 
 A quality desoldering pump is an essential tool for any electronics enthusiast, regardless of skill level. It's a low-cost investment that pays dividends in saved components, undamaged PCBs, and reduced frustration. While dedicated desoldering stations have their place, for the vast majority of hobbyist repairs and modifications, a good manual pump like the Engineer SS-02 or Edsyn Soldapullt DS017 will serve you exceptionally well. Don't skimp on this tool; a cheap, ineffective pump is worse than no pump at all.
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

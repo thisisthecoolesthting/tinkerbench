@@ -1,21 +1,21 @@
 ---
-title: "arduino-weather-station"
+title: arduino-weather-station
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "arduino-weather-station"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: arduino-weather-station
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.122Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.122Z'
-metaDescription: "arduino-weather-station"
-excerpt: "arduino-weather-station"
+metaDescription: arduino-weather-station
+excerpt: arduino-weather-station
 heroImage: /images/heroes/arduino-weather-station.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -171,3 +171,11 @@ Once you have a basic weather station working, you can expand its functionality 
 *   **Real-Time Clock (RTC):** Add an RTC module to timestamp your weather data accurately, even when the Arduino is disconnected from the internet.
 
 Building an Arduino weather station is a rewarding project that combines electronics, programming, and environmental science. With a few basic components and some coding, you can create a device that provides valuable insights into your local weather conditions. Enjoy tinkering!
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+

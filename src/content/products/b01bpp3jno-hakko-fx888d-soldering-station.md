@@ -1,29 +1,29 @@
 ---
-asin: "B01BPP3JNO"
-slug: "b01bpp3jno-hakko-fx888d-soldering-station"
-title: "Hakko FX-888D Digital Soldering Station with FX-8801 Tip"
-seoTitle: "Hakko FX-888D Review | TinkerBench"
-metaDescription: "Is the Hakko FX-888D worth $110 over a $25 iron? We test tip temperature accuracy, recovery time, and 5-year durability data."
-cardTitle: "Hakko FX-888D"
-cardPick: "Best temperature-controlled station for serious hobbyists"
-category: "soldering-stations"
+asin: B01BPP3JNO
+slug: b01bpp3jno-hakko-fx888d-soldering-station
+title: Hakko FX-888D Digital Soldering Station with FX-8801 Tip
+seoTitle: Hakko FX-888D Review | TinkerBench
+metaDescription: Is the Hakko FX-888D worth $110 over a $25 iron? We test tip temperature accuracy, recovery time, and 5-year durability data.
+cardTitle: Hakko FX-888D
+cardPick: Best temperature-controlled station for serious hobbyists
+category: soldering-stations
 price: 109.99
 rating: 4.8
 reviewCount: 7820
 bsr: 55
 commissionPerSale: 0.0
 score: 48.8
-imageUrl: "/images/amazon-picks/B01BPP3JNO.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B01BPP3JNO?tag=tinkerbench-20&linkCode=ll1&language=en_US"
+imageUrl: /images/amazon-picks/B01BPP3JNO.jpg
+affiliateUrl: https://www.amazon.com/dp/B01BPP3JNO?tag=tinkerbench-20&linkCode=ll1&language=en_US
 isPrime: true
-status: "published"
-firstSeen: "2026-05-13T00:00:00+00:00"
-lastSeen: "2026-05-13T00:00:00+00:00"
+status: published
+firstSeen: '2026-05-13T00:00:00+00:00'
+lastSeen: '2026-08-03T15:34:39+00:00'
 tags:
-  - soldering-station
-  - temperature-controlled
-  - electronics
-author: "eli-tinkerbench"
+- soldering-station
+- temperature-controlled
+- electronics
+author: eli-tinkerbench
 ---
 # Hakko FX-888D — Why Temperature Accuracy Matters for Soldering
 

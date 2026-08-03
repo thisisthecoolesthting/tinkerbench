@@ -1,7 +1,6 @@
 ---
 title: Best clay bar kits before a candy paint wipe-down
-metaDescription: Best clay bar kits before a candy paint wipe-down. Practical guide
-  covering Best clay bar kits before a candy paint wipe-down.
+metaDescription: Best clay bar kits before a candy paint wipe-down. Practical guide covering Best clay bar kits before a candy paint wipe-down.
 publishedAt: '2026-06-02'
 updatedAt: '2026-06-02'
 excerpt: Best clay bar kits before a candy paint wipe-down
@@ -19,16 +18,11 @@ tier: full
 relatedProducts: []
 status: published
 keyTakeaways:
-- Clay bar kits safely remove surface contaminants like brake dust, road grime, and
-  industrial fallout that dull your paint’s shine.
-- Using a detailing clay bar before a candy paint application ensures a smooth, contaminant-free
-  surface for maximum depth and gloss.
-- Look for kits that include lubricant spray and multiple clay bars to cover your
-  entire bike.
-- I recommend picking kits with fine-grade clay for delicate finishes like Vicla and
-  custom lowriders.
-- Proper use requires gentle pressure and patience—it’s more low-and-slow than fast
-  and furious.
+- Clay bar kits safely remove surface contaminants like brake dust, road grime, and industrial fallout that dull your paint’s shine.
+- Using a detailing clay bar before a candy paint application ensures a smooth, contaminant-free surface for maximum depth and gloss.
+- Look for kits that include lubricant spray and multiple clay bars to cover your entire bike.
+- I recommend picking kits with fine-grade clay for delicate finishes like Vicla and custom lowriders.
+- Proper use requires gentle pressure and patience—it’s more low-and-slow than fast and furious.
 hero_image_keywords:
 - clay bar kits
 - kits candy paint
@@ -150,3 +144,8 @@ Yes, you can reshape and reuse a clay bar multiple times until it becomes loaded
 ---
 
 Use these pro-tested clay bar kits and tips to get your bagger paint ready for a candy paint wipe-down that shines with authentic, low-and-slow depth. I’ve found that taking the time to prep right is the difference between an “okay” finish and show-stopping gloss that turns heads at every cruise night.
+
+## Our picks worth a closer look
+
+- **[ELEGOO UNO R3 Project Complete Starter Kit with Tutorial](/products/b07yd5xfkp-elegoo-uno-r3-starter-kit/)** — see current price and specs.
+

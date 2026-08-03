@@ -1,21 +1,21 @@
 ---
-title: "8-through-hole-vs-surface-mount-soldering-for-beginners"
+title: 8-through-hole-vs-surface-mount-soldering-for-beginners
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "8-through-hole-vs-surface-mount-soldering-for-beginners"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: 8-through-hole-vs-surface-mount-soldering-for-beginners
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.112Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.112Z'
-metaDescription: "8-through-hole-vs-surface-mount-soldering-for-beginners"
-excerpt: "8-through-hole-vs-surface-mount-soldering-for-beginners"
+metaDescription: 8-through-hole-vs-surface-mount-soldering-for-beginners
+excerpt: 8-through-hole-vs-surface-mount-soldering-for-beginners
 heroImage: /images/heroes/8-through-hole-vs-surface-mount-soldering-for-beginners.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -132,3 +132,12 @@ Remember, patience and practice are key. Don’t rush into SMT until you’ve na
 
 **Q: Which solder should beginners use for best results?**  
 **A:** For hobbyists, rosin-core solder with a 60/40 or 63/37 tin-lead ratio is easier to work with because it melts at lower temperatures and flows more smoothly. Lead-free solder requires higher heat and can be less forgiving for new users.
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+

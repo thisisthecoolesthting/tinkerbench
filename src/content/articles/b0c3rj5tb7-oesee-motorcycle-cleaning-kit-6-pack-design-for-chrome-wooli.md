@@ -9,12 +9,12 @@ rating: 4.6
 bsr: 269
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/51brvDP8L4L.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B0C3RJ5TB7?tag=tinkerbench-20"
+imageUrl: https://m.media-amazon.com/images/I/51brvDP8L4L.jpg
+affiliateUrl: https://www.amazon.com/dp/B0C3RJ5TB7?tag=tinkerbench-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-06-02'
 slug: b0c3rj5tb7-oesee-motorcycle-cleaning-kit-6-pack-design-for-chrome-wooli
 cardTitle: oesee Motorcycle Cleaning Kit 6 Pack Design for Chrome, Woolies Brush, Wool Wash
 cardPick: Solid pick for most readers
@@ -62,3 +62,9 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for brus
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[ELEGOO UNO R3 Project Complete Starter Kit with Tutorial](/products/b07yd5xfkp-elegoo-uno-r3-starter-kit/)** — see current price and specs.
+

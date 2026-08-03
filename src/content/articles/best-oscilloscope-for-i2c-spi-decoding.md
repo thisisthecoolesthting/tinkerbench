@@ -1,21 +1,21 @@
 ---
-title: "best-oscilloscope-for-i2c-spi-decoding"
+title: best-oscilloscope-for-i2c-spi-decoding
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "best-oscilloscope-for-i2c-spi-decoding"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: best-oscilloscope-for-i2c-spi-decoding
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.148Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.148Z'
-metaDescription: "best-oscilloscope-for-i2c-spi-decoding"
-excerpt: "best-oscilloscope-for-i2c-spi-decoding"
+metaDescription: best-oscilloscope-for-i2c-spi-decoding
+excerpt: best-oscilloscope-for-i2c-spi-decoding
 heroImage: /images/heroes/best-oscilloscope-for-i2c-spi-decoding.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -119,3 +119,11 @@ Once you've chosen your oscilloscope, here are a few tips for effective I2C and 
 ## Final Thoughts
 
 Choosing the best oscilloscope for I2C and SPI decoding under $500 requires careful consideration of your specific needs and budget. The Siglent SDS1104X-E offers an excellent balance of features, performance, and price, making it a top choice for many hobbyists and students. If you can find a used Rigol DS1054Z in good condition, it can also be a great value. Remember to consider the key features outlined in this article, and follow the tips for effective I2C and SPI decoding to make the most of your new oscilloscope. With the right tool and techniques, debugging serial communication can be a much less daunting task.
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+

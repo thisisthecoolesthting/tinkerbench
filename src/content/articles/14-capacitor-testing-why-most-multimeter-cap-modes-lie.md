@@ -1,21 +1,21 @@
 ---
-title: "14-capacitor-testing-why-most-multimeter-cap-modes-lie"
+title: 14-capacitor-testing-why-most-multimeter-cap-modes-lie
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "14-capacitor-testing-why-most-multimeter-cap-modes-lie"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: 14-capacitor-testing-why-most-multimeter-cap-modes-lie
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.058Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.058Z'
-metaDescription: "14-capacitor-testing-why-most-multimeter-cap-modes-lie"
-excerpt: "14-capacitor-testing-why-most-multimeter-cap-modes-lie"
+metaDescription: 14-capacitor-testing-why-most-multimeter-cap-modes-lie
+excerpt: 14-capacitor-testing-why-most-multimeter-cap-modes-lie
 heroImage: /images/heroes/14-capacitor-testing-why-most-multimeter-cap-modes-lie.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -139,3 +139,11 @@ Don’t ignore signs like bulging, discoloration, corrosion, or leakage—these 
 
 ---
 By understanding the limitations of your tools and the physics behind capacitors, you can avoid the trap of “cap mode” lies and build a more reliable testing procedure with better instruments. This approach saves time, money, and headaches when diagnosing capacitors on the bench or in kits.
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+

@@ -1,21 +1,21 @@
 ---
-title: "17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war"
+title: 17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-wa"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: 17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-wa
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.063Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.063Z'
-metaDescription: "17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war"
-excerpt: "17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war"
+metaDescription: 17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war
+excerpt: 17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war
 heroImage: /images/heroes/17-rigol-ds1054z-vs-siglent-sds1104x-e-the-budget-scope-war.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -126,3 +126,11 @@ The included probes impact measurement precision and the long-term usability of 
 
 ---
 If you're hunting for a budget oscilloscope to match hobbyist or technician needs, both the Rigol DS1054Z and Siglent SDS1104X-E are proven contenders. Choose based on your bandwidth needs, interface preferences, and willingness to tinker with unofficial hacks versus a ready-to-go solution. Either way, you’re getting a strong tool that offers impressive features and precision for under $500.
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+

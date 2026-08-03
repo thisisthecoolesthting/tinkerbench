@@ -1,21 +1,21 @@
 ---
-title: "31-esp32-starter-kits-what-to-buy-and-what-to-skip"
+title: 31-esp32-starter-kits-what-to-buy-and-what-to-skip
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "31-esp32-starter-kits-what-to-buy-and-what-to-skip"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: 31-esp32-starter-kits-what-to-buy-and-what-to-skip
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.086Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.086Z'
-metaDescription: "31-esp32-starter-kits-what-to-buy-and-what-to-skip"
-excerpt: "31-esp32-starter-kits-what-to-buy-and-what-to-skip"
+metaDescription: 31-esp32-starter-kits-what-to-buy-and-what-to-skip
+excerpt: 31-esp32-starter-kits-what-to-buy-and-what-to-skip
 heroImage: /images/heroes/31-esp32-starter-kits-what-to-buy-and-what-to-skip.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -149,3 +149,12 @@ ESP32 starter kits are ideal if:
 
 ---
 Building with ESP32 is an exciting gateway into wireless embedded projects, but a good start depends on smart kit selection. Prioritize core functionality, component quality, and quality learning materials — then skip the flashy extras that add complexity but little real value. With the right starter kit, you’ll spend more time making and less time troubleshooting.
+
+## Our picks worth a closer look
+
+- **[ELEGOO UNO R3 Project Complete Starter Kit with Tutorial](/products/b07yd5xfkp-elegoo-uno-r3-starter-kit/)** — see current price and specs.
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+

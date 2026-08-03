@@ -1,30 +1,30 @@
 ---
-asin: "B07WMVG9KK"
-slug: "b07wmvg9kk-fnirsi-digital-oscilloscope"
-title: "FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester"
-seoTitle: "FNIRSI DSO-TC3 Oscilloscope Review | TinkerBench"
-metaDescription: "A $70 handheld oscilloscope and component tester: bandwidth limits, use cases where it works, and where it falls short."
-cardTitle: "FNIRSI DSO-TC3"
-cardPick: "Best budget scope for audio and DC circuits"
-category: "test-equipment"
+asin: B07WMVG9KK
+slug: b07wmvg9kk-fnirsi-digital-oscilloscope
+title: FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester
+seoTitle: FNIRSI DSO-TC3 Oscilloscope Review | TinkerBench
+metaDescription: 'A $70 handheld oscilloscope and component tester: bandwidth limits, use cases where it works, and where it falls short.'
+cardTitle: FNIRSI DSO-TC3
+cardPick: Best budget scope for audio and DC circuits
+category: test-equipment
 price: 69.99
 rating: 4.3
 reviewCount: 3240
 bsr: 285
 commissionPerSale: 0.0
 score: 43.3
-imageUrl: "/images/amazon-picks/B07WMVG9KK.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B07WMVG9KK?tag=tinkerbench-20&linkCode=ll1&language=en_US"
+imageUrl: /images/amazon-picks/B07WMVG9KK.jpg
+affiliateUrl: https://www.amazon.com/dp/B07WMVG9KK?tag=tinkerbench-20&linkCode=ll1&language=en_US
 isPrime: true
-status: "published"
-firstSeen: "2026-05-13T00:00:00+00:00"
-lastSeen: "2026-05-13T00:00:00+00:00"
+status: published
+firstSeen: '2026-05-13T00:00:00+00:00'
+lastSeen: '2026-08-03T15:34:39+00:00'
 tags:
-  - oscilloscope
-  - test-equipment
-  - electronics
-  - signal-analysis
-author: "eli-tinkerbench"
+- oscilloscope
+- test-equipment
+- electronics
+- signal-analysis
+author: eli-tinkerbench
 ---
 # FNIRSI DSO-TC3 — What a $70 Oscilloscope Can and Can't Do
 

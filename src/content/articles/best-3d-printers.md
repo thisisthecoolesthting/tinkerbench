@@ -90,3 +90,10 @@ Having a great 3D printer is only half the battle. Here are a few other things y
 ### Bottom Line
 
 For the weekend tinkerer, the world of 3D printing has never been more accessible or capable. If you're just starting out and want a reliable, feature-packed machine that won't break the bank, the **Creality Ender 3 V3 KE** is an outstanding choice. It offers a fantastic balance of performance, ease of use
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

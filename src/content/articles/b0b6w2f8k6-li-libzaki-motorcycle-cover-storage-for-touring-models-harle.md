@@ -9,12 +9,12 @@ rating: 4.7
 bsr: 13
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/410X5UjU8XL.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B0B6W2F8K6?tag=tinkerbench-20"
+imageUrl: https://m.media-amazon.com/images/I/410X5UjU8XL.jpg
+affiliateUrl: https://www.amazon.com/dp/B0B6W2F8K6?tag=tinkerbench-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-06-02'
 slug: b0b6w2f8k6-li-libzaki-motorcycle-cover-storage-for-touring-models-harle
 cardTitle: LI LIBZAKI Motorcycle Cover Storage for Touring Models Harley Davidson Road King
 cardPick: Solid pick for most readers
@@ -62,3 +62,8 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for vehi
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[Folgers Classic Roast Ground Coffee, 48 Oz](/products/b00hhqx0bq-folgers-classic-roast-coffee-48oz/)** — see current price and specs.
+

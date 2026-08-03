@@ -1,8 +1,7 @@
 ---
-targetKeyword: 'Whitewall Cleaning Without Wrecking the Finish'
+targetKeyword: Whitewall Cleaning Without Wrecking the Finish
 title: Whitewall Cleaning Without Wrecking the Finish
-metaDescription: Whitewall Cleaning Without Wrecking the Finish. Practical guide covering
-  Whitewall Cleaning Without Wrecking the Finish.
+metaDescription: Whitewall Cleaning Without Wrecking the Finish. Practical guide covering Whitewall Cleaning Without Wrecking the Finish.
 publishedAt: '2026-06-02'
 updatedAt: '2026-06-02'
 excerpt: Whitewall Cleaning Without Wrecking the Finish
@@ -19,18 +18,11 @@ tier: full
 relatedProducts: []
 status: published
 keyTakeaways:
-- '**Water and mild soap are the safest first line of defense** for routine whitewall
-  cleaning; they remove brake dust, road grime, and light discoloration without risk
-  of chemical damage.'
-- '**Dedicated whitewall cleaners exist but require patience and testing** before
-  use on your whole set—some formulas oxidize rubber or leave streaks if applied wrong.'
-- '**Brush selection matters as much as the cleaner itself:** soft bristle or microfiber
-  brushes beat stiff wire, which can scratch the white coating and expose darker rubber
-  underneath.'
-- '**UV protection and tire dressing applied after cleaning extend whitewall life**
-  and reduce yellowing and cracking that invites deeper staining.'
-- '**A regular maintenance schedule—weekly during cruise season—beats emergency deep-cleaning**
-  and keeps your sidewalls looking fresh without chemical overkill.'
+- '**Water and mild soap are the safest first line of defense** for routine whitewall cleaning; they remove brake dust, road grime, and light discoloration without risk of chemical damage.'
+- '**Dedicated whitewall cleaners exist but require patience and testing** before use on your whole set—some formulas oxidize rubber or leave streaks if applied wrong.'
+- '**Brush selection matters as much as the cleaner itself:** soft bristle or microfiber brushes beat stiff wire, which can scratch the white coating and expose darker rubber underneath.'
+- '**UV protection and tire dressing applied after cleaning extend whitewall life** and reduce yellowing and cracking that invites deeper staining.'
+- '**A regular maintenance schedule—weekly during cruise season—beats emergency deep-cleaning** and keeps your sidewalls looking fresh without chemical overkill.'
 hero_image_keywords:
 - whitewall cleaning without
 - without wrecking finish
@@ -215,3 +207,8 @@ Clean after a ride, not immediately after. A ride heats the tires, and hot rubbe
 ### Can oxidized whitewalls be restored to like-new condition?
 
 Partially. If the oxidation is only surface-level (light graying), a whitewall restorer product or a clay bar can restore a significant amount of whiteness. However, if oxidation has penetrated deeply or the whitewall coating has been compromised, you'll hit a ceiling—the best you can do is stabilize and protect. In those cases, new tires might be the only complete solution, but consistent dressing and maintenance prevents reaching that point.
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+

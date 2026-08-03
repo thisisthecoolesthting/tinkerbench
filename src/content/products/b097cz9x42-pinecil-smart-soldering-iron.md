@@ -1,30 +1,30 @@
 ---
-asin: "B097CZ9X42"
-slug: "b097cz9x42-pinecil-smart-soldering-iron"
-title: "Pine64 Pinecil Smart Mini Portable Soldering Iron V2"
-seoTitle: "Pinecil V2 Soldering Iron Review | TinkerBench"
-metaDescription: "Pinecil V2 vs TS101 vs Hakko FX-888D: which portable iron wins for field repairs and travel maker work."
-cardTitle: "Pinecil V2"
-cardPick: "Best portable iron for USB-C power"
-category: "soldering-tools"
+asin: B097CZ9X42
+slug: b097cz9x42-pinecil-smart-soldering-iron
+title: Pine64 Pinecil Smart Mini Portable Soldering Iron V2
+seoTitle: Pinecil V2 Soldering Iron Review | TinkerBench
+metaDescription: 'Pinecil V2 vs TS101 vs Hakko FX-888D: which portable iron wins for field repairs and travel maker work.'
+cardTitle: Pinecil V2
+cardPick: Best portable iron for USB-C power
+category: soldering-tools
 price: 24.99
 rating: 4.7
 reviewCount: 5640
 bsr: 95
 commissionPerSale: 0.0
 score: 47.6
-imageUrl: "/images/amazon-picks/B097CZ9X42.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B097CZ9X42?tag=tinkerbench-20&linkCode=ll1&language=en_US"
+imageUrl: /images/amazon-picks/B097CZ9X42.jpg
+affiliateUrl: https://www.amazon.com/dp/B097CZ9X42?tag=tinkerbench-20&linkCode=ll1&language=en_US
 isPrime: false
-status: "published"
-firstSeen: "2026-05-13T00:00:00+00:00"
-lastSeen: "2026-05-13T00:00:00+00:00"
+status: published
+firstSeen: '2026-05-13T00:00:00+00:00'
+lastSeen: '2026-08-03T15:34:39+00:00'
 tags:
-  - portable-iron
-  - usb-c
-  - travel-soldering
-  - pinecil
-author: "eli-tinkerbench"
+- portable-iron
+- usb-c
+- travel-soldering
+- pinecil
+author: eli-tinkerbench
 ---
 # Pinecil V2 — The USB-C Soldering Iron That Changed Portable Work
 

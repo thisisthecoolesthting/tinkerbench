@@ -9,12 +9,12 @@ rating: 4.5
 bsr: 4
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/31-FdRdsuYL.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B005U80HPK?tag=tinkerbench-20"
+imageUrl: https://m.media-amazon.com/images/I/31-FdRdsuYL.jpg
+affiliateUrl: https://www.amazon.com/dp/B005U80HPK?tag=tinkerbench-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-06-02'
 slug: b005u80hpk-muc-off-664us-nano-tech-motorcycle-cleaner-1-liter-fast-acti
 cardTitle: Muc Off 664US Nano-Tech Motorcycle Cleaner, 1 Liter - Fast-Action, Biodegradable
 cardPick: Solid pick for most readers
@@ -62,3 +62,8 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for degr
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+

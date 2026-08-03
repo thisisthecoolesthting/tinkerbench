@@ -100,3 +100,10 @@ A good soldering iron is just the start. To make your soldering experience enjoy
 ## Bottom Line: Invest in Control
 
 For the beginner, the single most important feature in a soldering iron is reliable **temperature control**. It directly impacts the quality of your joints and your overall frustration level. While a cheap pencil iron might seem appealing, it's a false economy. If your budget allows, spring for a Hakko FX-888D or a Weller WE1010NA; they are lifetime tools. If you need portability or love open-source, the Pinecil V2 or TS101 are fantastic. If budget is truly tight, a basic X-Tronic or YIHUA station will get you started, but be prepared for an upgrade down the line. Remember, good tools don't make you a master, but they certainly smooth the path to becoming one.
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

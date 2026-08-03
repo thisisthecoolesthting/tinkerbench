@@ -9,12 +9,12 @@ rating: 4.7
 bsr: 1
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/511L4yygJdL.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B0D92PVDQH?tag=tinkerbench-20"
+imageUrl: https://m.media-amazon.com/images/I/511L4yygJdL.jpg
+affiliateUrl: https://www.amazon.com/dp/B0D92PVDQH?tag=tinkerbench-20
 isPrime: false
 status: draft
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-06-02'
 slug: b0d92pvdqh-soldering-iron-kit-60w-led-display-digital-solder-pen-5-repl
 cardTitle: Soldering Iron Kit, 60W LED Display Digital Solder Pen, 5 Replaceable Tips, 21-i
 cardPick: Solid pick for most readers
@@ -62,3 +62,12 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for iron
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[ELEGOO UNO R3 Project Complete Starter Kit with Tutorial](/products/b07yd5xfkp-elegoo-uno-r3-starter-kit/)** — see current price and specs.
+

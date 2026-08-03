@@ -1,21 +1,21 @@
 ---
-title: "building-home-automation-raspberry-pi"
+title: building-home-automation-raspberry-pi
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "building-home-automation-raspberry-pi"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: building-home-automation-raspberry-pi
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.165Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.165Z'
-metaDescription: "building-home-automation-raspberry-pi"
-excerpt: "building-home-automation-raspberry-pi"
+metaDescription: building-home-automation-raspberry-pi
+excerpt: building-home-automation-raspberry-pi
 heroImage: /images/heroes/building-home-automation-raspberry-pi.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -192,3 +192,11 @@ This is just the beginning. Here are some ideas for expanding your project:
 ## Conclusion
 
 Building a home automation system with a Raspberry Pi is a rewarding project that combines electronics, programming, and problem-solving skills. This guide provides a starting point for creating your own smart home. Remember to start small, experiment, and have fun! And, as always, don't be afraid to consult the vast online resources available for Raspberry Pi enthusiasts. You'll find that the seemingly complex world of home automation is surprisingly accessible with a little tinkering. The [Arduino Uno Rev3](/products/b008grtsv6-arduino-uno-rev3-a000066-atmega328p-microcontroller-16mhz-14/) is often mentioned in the same breath as the Raspberry Pi, but for home automation, the Raspberry Pi's networking capabilities and full OS put it ahead.
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+

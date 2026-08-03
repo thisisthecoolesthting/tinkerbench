@@ -113,3 +113,8 @@ Choosing between a frame only desk and a complete desk boils down to how much co
 - [11. Uplift V2 vs Fully Jarvis three years later](/articles/11-uplift-v2-vs-fully-jarvis-three-years-later/)
 - [Creating a Clutter-Free Ergonomic Workspace at Home](/articles/creating-a-clutter-free-ergonomic-workspace-at-home/)
 - [Benefits of Adjustable Standing Desks for Home Offices](/articles/benefits-of-adjustable-standing-desks-for-home-offices/)
+
+## Our picks worth a closer look
+
+- **[ELEGOO UNO R3 Project Complete Starter Kit with Tutorial](/products/b07yd5xfkp-elegoo-uno-r3-starter-kit/)** — see current price and specs.
+

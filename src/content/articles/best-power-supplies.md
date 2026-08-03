@@ -98,3 +98,10 @@ For more on setting up a safe and efficient workspace, check out our guide on [e
 ## Bottom Line
 
 A quality bench power supply is not just another tool; it’s the bedrock of your electronics lab. It allows for safe experimentation, accurate testing, and ultimately, faster and more successful project completion. While a basic single-channel unit will get you started, investing in a multi-channel, low-noise supply like the Siglent SPD3303C or the Rigol DP832A will pay dividends in versatility and reliability for years to come. Don't skimp on your power source – it’s the one piece of equipment that touches every circuit you build.
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

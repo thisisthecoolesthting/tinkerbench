@@ -1,21 +1,21 @@
 ---
-title: "36-ham-radio-for-the-electronics-hobbyist-a-10-hour-starter-path"
+title: 36-ham-radio-for-the-electronics-hobbyist-a-10-hour-starter-path
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "36-ham-radio-for-the-electronics-hobbyist-a-10-hour-starte"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: 36-ham-radio-for-the-electronics-hobbyist-a-10-hour-starte
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.093Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.093Z'
-metaDescription: "36-ham-radio-for-the-electronics-hobbyist-a-10-hour-starter-path"
-excerpt: "36-ham-radio-for-the-electronics-hobbyist-a-10-hour-starter-path"
+metaDescription: 36-ham-radio-for-the-electronics-hobbyist-a-10-hour-starter-path
+excerpt: 36-ham-radio-for-the-electronics-hobbyist-a-10-hour-starter-path
 heroImage: /images/heroes/36-ham-radio-for-the-electronics-hobbyist-a-10-hour-starter-path.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -141,3 +141,12 @@ These tools enhance your effectiveness and enjoyment in ham radio projects.
 
 **Q: How much does it cost to start ham radio as a hobby?**  
 **A:** Entry can be as low as $100-$200 for a basic handheld and antenna, plus licensing fees. Building your own transceiver kits or SDRs varies widely but can be budget-friendly.
+
+## Our picks worth a closer look
+
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+

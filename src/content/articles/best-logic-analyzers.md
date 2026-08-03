@@ -118,3 +118,10 @@ No matter which logic analyzer you choose, a few tips will make your debugging l
 *   **Good Probes Matter:** The tiny, individual hook probes that come with most logic analyzers are fine for prototyping. But for more permanent setups or faster signals, consider using a dedicated logic analyzer probe set with a ground lead for every few channels, or even active probes for very high-speed signals. Poor probing can introduce noise and obscure your data.
 *   **Grounding is Critical:** Just like with an oscilloscope, ensure a solid ground connection. Connect the logic analyzer's ground to your circuit's ground. For multi-channel captures, it’s best practice to ground every 4-8 channels, especially if you’re dealing with noisy environments or higher frequencies.
 *   **Understand Your Triggers:** Don't just hit "capture." Learn to use triggers effectively. If you're looking for a specific command on an SPI bus, set a pattern trigger for that command. If you're debugging a startup sequence, trigger on the reset line. This focuses your capture on the
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+
