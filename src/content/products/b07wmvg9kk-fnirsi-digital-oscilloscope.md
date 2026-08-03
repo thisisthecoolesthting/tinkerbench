@@ -18,7 +18,7 @@ affiliateUrl: https://www.amazon.com/dp/B07WMVG9KK?tag=tinkerbench-20&linkCode=l
 isPrime: true
 status: published
 firstSeen: '2026-05-13T00:00:00+00:00'
-lastSeen: '2026-08-03T15:41:12+00:00'
+lastSeen: '2026-08-03T15:41:54+00:00'
 tags:
 - oscilloscope
 - test-equipment
