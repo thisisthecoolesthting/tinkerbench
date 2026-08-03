@@ -80,3 +80,10 @@ The main barrier to entry is the cost – both for the station itself and for th
 ## Bottom Line
 
 Choosing the right soldering iron is about matching the tool to your needs and budget. For most hobbyists who want a reliable, long-lasting workhorse, the Hakko FX-888D is still my top recommendation. It balances performance, durability, and cost exceptionally well. If you're just starting out or on a tighter budget, the Weller WE1010NA provides excellent value and a solid foundation. For ultimate portability, the TS80P/TS101 is an unbeatable choice. And for those who demand the absolute best and are willing to invest, JBC stands alone at the top of the performance heap. No matter which you choose, investing in a good quality iron will elevate your soldering skills and make your time at the bench far more enjoyable and productive.
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

@@ -1,16 +1,12 @@
 ---
-title: 'Guide: Hakko FX888DX-010BY - Digital Soldering Station with Rotary Encoder
-  (Blue/Yellow Housing) (ASIN B0D4DJW54S)'
-metaDescription: 'Guide: Hakko FX888DX-010BY - Digital Soldering Station with Rotary
-  Encoder (Blue/Yellow Housing) (ASIN B0D4DJW54S)'
+title: 'Guide: Hakko FX888DX-010BY - Digital Soldering Station with Rotary Encoder (Blue/Yellow Housing) (ASIN B0D4DJW54S)'
+metaDescription: 'Guide: Hakko FX888DX-010BY - Digital Soldering Station with Rotary Encoder (Blue/Yellow Housing) (ASIN B0D4DJW54S)'
 publishedAt: '2026-07-13'
-excerpt: 'Guide: Hakko FX888DX-010BY - Digital Soldering Station with Rotary Encoder
-  (Blue/Yellow Housing) (ASIN B0D4DJW54S)'
+excerpt: 'Guide: Hakko FX888DX-010BY - Digital Soldering Station with Rotary Encoder (Blue/Yellow Housing) (ASIN B0D4DJW54S)'
 author: eli-rowe
 tags: []
 site: tinkerbench
-topic: 'Guide: Hakko FX888DX-010BY - Digital Soldering Station with Rotary Encoder
-  (Blue/Yellow Housing) (ASIN B0D4DJW54S)'
+topic: 'Guide: Hakko FX888DX-010BY - Digital Soldering Station with Rotary Encoder (Blue/Yellow Housing) (ASIN B0D4DJW54S)'
 tier: mvp
 relatedProducts: []
 status: published
@@ -64,3 +60,10 @@ This type of digital soldering station is generally well-suited for a wide array
 *   **User Manual and Support:** A well-written manual can save you a lot of frustration, especially when delving into advanced features like calibration or lockout.
 
 A digital soldering station with a rotary encoder offers a robust and user-friendly experience for many electronics tasks. Its blend of precision, speed, and safety features makes it a valuable addition to any electronics workbench.
+
+## Our picks worth a closer look
+
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+

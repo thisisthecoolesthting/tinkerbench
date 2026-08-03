@@ -1,21 +1,21 @@
 ---
-title: "hobbyist-benchtop-power-supply"
+title: hobbyist-benchtop-power-supply
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "hobbyist-benchtop-power-supply"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: hobbyist-benchtop-power-supply
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.188Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.188Z'
-metaDescription: "hobbyist-benchtop-power-supply"
-excerpt: "hobbyist-benchtop-power-supply"
+metaDescription: hobbyist-benchtop-power-supply
+excerpt: hobbyist-benchtop-power-supply
 heroImage: /images/hero/hobbyist-benchtop-power-supply.jpg
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -191,3 +191,11 @@ A: Lab-grade power supplies are worth it if you need high accuracy and durabilit
 
 **Q: What safety features should I look for in a benchtop power supply?**  
 A: Look for features like overcurrent protection, short-circuit protection, and thermal shutdown to ensure safe operation during your projects.
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+

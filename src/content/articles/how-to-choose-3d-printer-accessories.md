@@ -100,3 +100,10 @@ Just as important as knowing what to buy is knowing what to skip, especially whe
 ## Bottom Line
 
 Choosing 3D printer accessories is an iterative process. Start with the essentials: a good build surface, reliable cleaning tools, and precise measurement instruments. As you gain experience and encounter specific challenges, you'll naturally identify the next accessories that will improve your workflow and print quality. Don't feel pressured to buy everything at once; build your toolkit thoughtfully, focusing on quality over quantity. Happy tinkering!
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

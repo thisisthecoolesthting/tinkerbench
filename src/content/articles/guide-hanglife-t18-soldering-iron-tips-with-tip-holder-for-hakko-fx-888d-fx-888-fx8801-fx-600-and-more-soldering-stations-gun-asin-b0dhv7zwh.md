@@ -1,16 +1,12 @@
 ---
-title: 'Guide: HANGLIFE T18 Soldering Iron Tips with Tip Holder for Hakko FX-888D
-  FX-888 FX8801 FX-600, and More Soldering Stations/Gun (ASIN B0DHV7ZWH2)'
-metaDescription: 'Guide: HANGLIFE T18 Soldering Iron Tips with Tip Holder for Hakko
-  FX-888D FX-888 FX8801 FX-600, and More Soldering Stations/Gun (ASIN B0DHV7ZWH2)'
+title: 'Guide: HANGLIFE T18 Soldering Iron Tips with Tip Holder for Hakko FX-888D FX-888 FX8801 FX-600, and More Soldering Stations/Gun (ASIN B0DHV7ZWH2)'
+metaDescription: 'Guide: HANGLIFE T18 Soldering Iron Tips with Tip Holder for Hakko FX-888D FX-888 FX8801 FX-600, and More Soldering Stations/Gun (ASIN B0DHV7ZWH2)'
 publishedAt: '2026-07-12'
-excerpt: 'Guide: HANGLIFE T18 Soldering Iron Tips with Tip Holder for Hakko FX-888D
-  FX-888 FX8801 FX-600, and More Soldering Stations/Gun (ASIN B0DHV7ZWH2)'
+excerpt: 'Guide: HANGLIFE T18 Soldering Iron Tips with Tip Holder for Hakko FX-888D FX-888 FX8801 FX-600, and More Soldering Stations/Gun (ASIN B0DHV7ZWH2)'
 author: eli-rowe
 tags: []
 site: tinkerbench
-topic: 'Guide: HANGLIFE T18 Soldering Iron Tips with Tip Holder for Hakko FX-888D
-  FX-888 FX8801 FX-600, and More Soldering Stations/Gun (ASIN B0DHV7ZWH2)'
+topic: 'Guide: HANGLIFE T18 Soldering Iron Tips with Tip Holder for Hakko FX-888D FX-888 FX8801 FX-600, and More Soldering Stations/Gun (ASIN B0DHV7ZWH2)'
 tier: mvp
 relatedProducts: []
 status: published
@@ -85,3 +81,9 @@ When considering a soldering tip set, keep the following in mind:
 ## Conclusion
 
 A well-chosen set of soldering tips is an enduring asset for any electronics workbench. This specific tip set, with its included holder and compatibility with popular soldering stations, presents a convenient option for users looking to replace worn tips or expand their tip collection. By understanding the types of tips available and practicing good maintenance, you can ensure precise, reliable solder joints for all your electronic projects.
+
+## Our picks worth a closer look
+
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+

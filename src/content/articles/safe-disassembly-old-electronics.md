@@ -1,21 +1,21 @@
 ---
-title: "safe-disassembly-old-electronics"
+title: safe-disassembly-old-electronics
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "safe-disassembly-old-electronics"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: safe-disassembly-old-electronics
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.209Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.209Z'
-metaDescription: "safe-disassembly-old-electronics"
-excerpt: "safe-disassembly-old-electronics"
+metaDescription: safe-disassembly-old-electronics
+excerpt: safe-disassembly-old-electronics
 heroImage: /images/heroes/safe-disassembly-old-electronics.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -88,3 +88,11 @@ Follow these steps to disassemble electronics safely:
 ## Proper Disposal and Recycling
 
 Proper disposal of electronic waste is crucial to protect the environment and human health. Do not throw electronics in the trash. Instead, recycle them at a certified e-waste recycling center. These centers have the equipment and expertise to safely disassemble and recycle electronics, recovering valuable materials and preventing hazardous substances from contaminating the environment. Contact your local government or waste management company to find a nearby e-waste recycling center.
+
+## Our picks worth a closer look
+
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+

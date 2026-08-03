@@ -132,3 +132,8 @@ Yes, some brands deliver decent quality left-handed corkscrews and bar tools at 
 ---
 
 When it comes to left-handed corkscrews and bar tools, the right equipment makes all the difference between a frustrating experience and seamless wine and cocktail service. I’ve tested these tools firsthand and can say with confidence — investing in those designed for lefties is a smart, enjoyable decision. Cheers to less fuss and more fun behind the bar!
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+

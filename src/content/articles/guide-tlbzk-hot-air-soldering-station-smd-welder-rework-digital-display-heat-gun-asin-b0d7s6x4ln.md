@@ -1,16 +1,12 @@
 ---
-title: 'Guide: TLBZK Hot Air Soldering Station SMD Welder Rework Digital Display Heat
-  Gun (ASIN B0D7S6X4LN)'
-metaDescription: 'Guide: TLBZK Hot Air Soldering Station SMD Welder Rework Digital
-  Display Heat Gun (ASIN B0D7S6X4LN)'
+title: 'Guide: TLBZK Hot Air Soldering Station SMD Welder Rework Digital Display Heat Gun (ASIN B0D7S6X4LN)'
+metaDescription: 'Guide: TLBZK Hot Air Soldering Station SMD Welder Rework Digital Display Heat Gun (ASIN B0D7S6X4LN)'
 publishedAt: '2026-07-11'
-excerpt: 'Guide: TLBZK Hot Air Soldering Station SMD Welder Rework Digital Display
-  Heat Gun (ASIN B0D7S6X4LN)'
+excerpt: 'Guide: TLBZK Hot Air Soldering Station SMD Welder Rework Digital Display Heat Gun (ASIN B0D7S6X4LN)'
 author: eli-rowe
 tags: []
 site: tinkerbench
-topic: 'Guide: TLBZK Hot Air Soldering Station SMD Welder Rework Digital Display Heat
-  Gun (ASIN B0D7S6X4LN)'
+topic: 'Guide: TLBZK Hot Air Soldering Station SMD Welder Rework Digital Display Heat Gun (ASIN B0D7S6X4LN)'
 tier: mvp
 relatedProducts: []
 status: published
@@ -116,3 +112,10 @@ Here’s a basic workflow for using a hot air station for both desoldering and s
 ### Practice Makes Perfect
 
 Like any precision tool, mastering a hot air rework station takes practice. Start with sacrificial PCBs and components. Experiment with different temperatures and airflow settings until you get a feel for how various components and solder types react. You'll quickly find that this tool opens up a whole new world of possibilities in your electronics projects.
+
+## Our picks worth a closer look
+
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+

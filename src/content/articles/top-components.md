@@ -113,3 +113,10 @@ For specific or harder-to-find components, reputable online distributors like Di
 ## Bottom Line
 
 A well-stocked component library is an investment that pays dividends in saved time and reduced frustration. Focus on comprehensive assortments of passive components, fundamental active components like common diodes, transistors, and a few versatile ICs. Don't skimp on prototyping essentials like breadboards, wires, and connectors. As you gain experience and tackle more complex projects, your component needs will naturally evolve, leading you to specialized parts. But with this foundation, you'll be ready for 90% of the projects a home tinkerer will encounter, turning those "I wonder if I could build..." thoughts into tangible, working circuits
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

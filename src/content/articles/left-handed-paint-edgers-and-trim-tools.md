@@ -126,3 +126,8 @@ Start on a scrap piece or a less visible wall to get comfortable with the tool�
 ---
 
 Left-handed paint edgers and trim tools are an investment in comfort and quality when painting detail areas. I’ve tested many, and the brands mentioned here stand out for how naturally they fit the left hand and translate your precision into professional-looking results. Skip the frustration of fighting right-handed gear—your left hand deserves tools made for it.
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+

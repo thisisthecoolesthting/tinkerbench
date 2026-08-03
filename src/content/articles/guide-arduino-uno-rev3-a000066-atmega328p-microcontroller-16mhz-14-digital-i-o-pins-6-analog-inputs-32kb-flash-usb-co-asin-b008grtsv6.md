@@ -1,16 +1,12 @@
 ---
-title: 'Guide: Arduino Uno REV3 [A000066] - ATmega328P Microcontroller, 16MHz, 14
-  Digital I/O Pins, 6 Analog Inputs, 32KB Flash, USB Co (ASIN B008GRTSV6)'
-metaDescription: 'Guide: Arduino Uno REV3 [A000066] - ATmega328P Microcontroller,
-  16MHz, 14 Digital I/O Pins, 6 Analog Inputs, 32KB Flash, USB Co (ASIN B008GRTSV6)'
+title: 'Guide: Arduino Uno REV3 [A000066] - ATmega328P Microcontroller, 16MHz, 14 Digital I/O Pins, 6 Analog Inputs, 32KB Flash, USB Co (ASIN B008GRTSV6)'
+metaDescription: 'Guide: Arduino Uno REV3 [A000066] - ATmega328P Microcontroller, 16MHz, 14 Digital I/O Pins, 6 Analog Inputs, 32KB Flash, USB Co (ASIN B008GRTSV6)'
 publishedAt: '2026-07-13'
-excerpt: 'Guide: Arduino Uno REV3 [A000066] - ATmega328P Microcontroller, 16MHz, 14
-  Digital I/O Pins, 6 Analog Inputs, 32KB Flash, USB Co (ASIN B008GRTSV6)'
+excerpt: 'Guide: Arduino Uno REV3 [A000066] - ATmega328P Microcontroller, 16MHz, 14 Digital I/O Pins, 6 Analog Inputs, 32KB Flash, USB Co (ASIN B008GRTSV6)'
 author: eli-rowe
 tags: []
 site: tinkerbench
-topic: 'Guide: Arduino Uno REV3 [A000066] - ATmega328P Microcontroller, 16MHz, 14
-  Digital I/O Pins, 6 Analog Inputs, 32KB Flash, USB Co (ASIN B008GRTSV6)'
+topic: 'Guide: Arduino Uno REV3 [A000066] - ATmega328P Microcontroller, 16MHz, 14 Digital I/O Pins, 6 Analog Inputs, 32KB Flash, USB Co (ASIN B008GRTSV6)'
 tier: mvp
 relatedProducts: []
 status: published
@@ -85,3 +81,11 @@ To begin working with the Arduino Uno, you will typically need:
 4.  **The Arduino IDE (Integrated Development Environment):** Free software available from the official Arduino website, used for writing and uploading your programs.
 
 With these tools, you can dive into a world of projects, from simple LED blinking to complex sensor data logging and automation. The Arduino Uno remains a dependable and highly recommended platform for learning and creating.
+
+## Our picks worth a closer look
+
+- **[ELEGOO UNO R3 Project Complete Starter Kit with Tutorial](/products/b07yd5xfkp-elegoo-uno-r3-starter-kit/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+

@@ -64,3 +64,9 @@ This significantly reduces the cost of the main unit, as you're not paying for r
 ### Conclusion
 
 A 12V cordless soldering iron, especially when purchased as a bare tool, represents a significant investment in portability and convenience for those already invested in a compatible battery system. Its quick heat-up, temperature stability, and freedom from power cords make it an invaluable tool for on-the-go repairs and projects where traditional corded irons are impractical. Just ensure you account for the battery and charger if you don't already own them.
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+

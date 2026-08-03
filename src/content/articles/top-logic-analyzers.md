@@ -118,3 +118,10 @@ These devices bridge the gap between the basic USB dongles and the premium Salea
 *   **Specs (DSLogic U3):** 16 channels, up to 400 MHz sample rate (for 4 channels), 200 MHz (for 8 channels), 100 MHz (for 16 channels). Up to 256Mbit memory depth.
 *   **Software:** Hantek uses its own software, which is functional but not as polished as Saleae's. DSLogic uses their own software which is quite good and supports a wide range of decoders, similar to Saleae. Both often have Sigrok/PulseView support, which is a big plus.
 *   **Pros:**
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

@@ -1,16 +1,12 @@
 ---
-title: 'Guide: Hot Air Rework Station, ATTEN ST-862D 1000W Digital Display Automatic
-  Sleep Hot Air Gun Soldering Station, Adjustable Te (ASIN B0CPFPLGML)'
-metaDescription: 'Guide: Hot Air Rework Station, ATTEN ST-862D 1000W Digital Display
-  Automatic Sleep Hot Air Gun Soldering Station, Adjustable Te (ASIN B0CPFPLGML)'
+title: 'Guide: Hot Air Rework Station, ATTEN ST-862D 1000W Digital Display Automatic Sleep Hot Air Gun Soldering Station, Adjustable Te (ASIN B0CPFPLGML)'
+metaDescription: 'Guide: Hot Air Rework Station, ATTEN ST-862D 1000W Digital Display Automatic Sleep Hot Air Gun Soldering Station, Adjustable Te (ASIN B0CPFPLGML)'
 publishedAt: '2026-07-13'
-excerpt: 'Guide: Hot Air Rework Station, ATTEN ST-862D 1000W Digital Display Automatic
-  Sleep Hot Air Gun Soldering Station, Adjustable Te (ASIN B0CPFPLGML)'
+excerpt: 'Guide: Hot Air Rework Station, ATTEN ST-862D 1000W Digital Display Automatic Sleep Hot Air Gun Soldering Station, Adjustable Te (ASIN B0CPFPLGML)'
 author: eli-rowe
 tags: []
 site: tinkerbench
-topic: 'Guide: Hot Air Rework Station, ATTEN ST-862D 1000W Digital Display Automatic
-  Sleep Hot Air Gun Soldering Station, Adjustable Te (ASIN B0CPFPLGML)'
+topic: 'Guide: Hot Air Rework Station, ATTEN ST-862D 1000W Digital Display Automatic Sleep Hot Air Gun Soldering Station, Adjustable Te (ASIN B0CPFPLGML)'
 tier: mvp
 relatedProducts: []
 status: published
@@ -84,3 +80,10 @@ If you're new to hot air rework, a few tips can help you get started:
 6.  **Safety First:** Always work in a well-ventilated area. Hot air can reach very high temperatures, so always wear appropriate eye protection and be mindful of hot surfaces and components. Allow components and boards to cool down before handling.
 
 A high-quality hot air rework station is a worthwhile investment for anyone serious about electronics repair, prototyping, or hobbyist projects involving surface-mount technology. The ATTEN ST-862D, with its robust power, precise digital control, and thoughtful features like automatic sleep, represents a capable option that can serve you well for years to come.
+
+## Our picks worth a closer look
+
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+

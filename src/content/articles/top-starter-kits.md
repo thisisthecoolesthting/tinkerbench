@@ -92,3 +92,11 @@ No kit, no matter how good, is a substitute for continuous learning.
 ## Bottom Line
 
 Choosing the right starter kit is about matching the kit to the learner's current skill level and aspirations. For the absolute beginner, focus on simple, tangible successes that build confidence, like a soldering practice kit or Snap Circuits. For those ready to dive into programming and more complex interactions, Arduino or Raspberry Pi kits offer rich learning experiences. Remember, the goal isn't just to complete the projects in the box, but to spark curiosity and provide the tools and knowledge to embark on your *own* creations. Happy tinkering!
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[ELEGOO UNO R3 Project Complete Starter Kit with Tutorial](/products/b07yd5xfkp-elegoo-uno-r3-starter-kit/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

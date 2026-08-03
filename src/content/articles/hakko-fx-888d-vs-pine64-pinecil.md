@@ -108,3 +108,10 @@ The choice between the Hakko FX-888D and the Pinecil isn't about one being defin
 The **Hakko FX-888D** remains an excellent, steadfast soldering station. It's a true workhorse, offering unparalleled thermal performance and reliability for a fixed bench setup. If you demand consistent, high-power soldering for demanding tasks and rarely move your setup, the Hakko is still a fantastic choice that will serve you for decades.
 
 The **Pinecil**, however, represents the future of personal soldering irons. Its incredible portability, open-source flexibility, and surprisingly robust performance (especially with a good power supply) make it an incredibly compelling option. For the modern tinkerer who values versatility, customizability, and the ability to solder anywhere, the Pinecil is the clear winner. It's the iron I find myself reaching for most often these days, simply because it's so convenient and capable. If you're a retired engineer looking to get back into electronics, or a parent buying a first soldering kit, the Pinecil offers a blend of performance and modern features that's hard to beat. Just remember to budget for a decent USB-C PD power supply and a stand.
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

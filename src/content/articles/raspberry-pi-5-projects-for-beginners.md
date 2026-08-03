@@ -133,3 +133,10 @@ This project pushes you a bit further, introducing you to the world of IoT (Inte
 2.  **First Boot and Setup:** Insert the HAOS microSD card into your Pi 5, connect an Ethernet cable (recommended for stability, though Wi-Fi can be configured later), and power it on. Give it 10-20 minutes for the initial setup.
 3.  **Access Home Assistant:** From a computer on the same network, open a web browser and go to `http://homeassistant.local:8123` or `http://pi_ip_address:8123`. You'll be guided through creating your first user account.
 4.
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

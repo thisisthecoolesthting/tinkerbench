@@ -1,21 +1,21 @@
 ---
-title: "smd-rework-for-beginners"
+title: smd-rework-for-beginners
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "smd-rework-for-beginners"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: smd-rework-for-beginners
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.210Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.210Z'
-metaDescription: "smd-rework-for-beginners"
-excerpt: "smd-rework-for-beginners"
+metaDescription: smd-rework-for-beginners
+excerpt: smd-rework-for-beginners
 heroImage: /images/heroes/smd-rework-for-beginners.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -116,3 +116,11 @@ SMD rework involves working with high temperatures and potentially hazardous mat
 *   **Dispose of Waste Properly:** Dispose of solder waste and cleaning solvents properly.
 
 With practice and patience, you can master the art of SMD rework and expand your electronics tinkering skills. Remember to start with simple projects and gradually work your way up to more complex tasks. Good luck, and happy tinkering!
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+

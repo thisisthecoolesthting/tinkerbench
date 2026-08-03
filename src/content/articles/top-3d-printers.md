@@ -116,3 +116,10 @@ The best 3D printer for you depends entirely on your priorities.
 If you want **blazing speed and excellent quality with minimal setup**, and don't mind a somewhat more closed ecosystem, the **Bambu Lab P1P/P1S** is an outstanding choice that offers incredible performance for the money. It's my current daily driver for most projects.
 
 If you're a **beginner on a budget** who wants to learn the ropes without breaking the bank, the **
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

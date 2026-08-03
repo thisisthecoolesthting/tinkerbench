@@ -1,16 +1,12 @@
 ---
-title: 'Guide: WEP 2009D-II Hot Air Soldering Station, Hot Air Rework Station with
-  Detachable Soldering Heat Gun, 4 Preset Channels, Di (ASIN B0D93GZ572)'
-metaDescription: 'Guide: WEP 2009D-II Hot Air Soldering Station, Hot Air Rework Station
-  with Detachable Soldering Heat Gun, 4 Preset Channels, Di (ASIN B0D93GZ572)'
+title: 'Guide: WEP 2009D-II Hot Air Soldering Station, Hot Air Rework Station with Detachable Soldering Heat Gun, 4 Preset Channels, Di (ASIN B0D93GZ572)'
+metaDescription: 'Guide: WEP 2009D-II Hot Air Soldering Station, Hot Air Rework Station with Detachable Soldering Heat Gun, 4 Preset Channels, Di (ASIN B0D93GZ572)'
 publishedAt: '2026-07-11'
-excerpt: 'Guide: WEP 2009D-II Hot Air Soldering Station, Hot Air Rework Station with
-  Detachable Soldering Heat Gun, 4 Preset Channels, Di (ASIN B0D93GZ572)'
+excerpt: 'Guide: WEP 2009D-II Hot Air Soldering Station, Hot Air Rework Station with Detachable Soldering Heat Gun, 4 Preset Channels, Di (ASIN B0D93GZ572)'
 author: eli-rowe
 tags: []
 site: tinkerbench
-topic: 'Guide: WEP 2009D-II Hot Air Soldering Station, Hot Air Rework Station with
-  Detachable Soldering Heat Gun, 4 Preset Channels, Di (ASIN B0D93GZ572)'
+topic: 'Guide: WEP 2009D-II Hot Air Soldering Station, Hot Air Rework Station with Detachable Soldering Heat Gun, 4 Preset Channels, Di (ASIN B0D93GZ572)'
 tier: mvp
 relatedProducts: []
 status: published
@@ -104,3 +100,9 @@ When evaluating this or any similar rework station, keep the following in mind:
 6.  **Flux is Your Friend:** Always use flux when soldering and desoldering SMDs. It improves heat transfer, helps clean surfaces, and promotes better solder flow.
 
 This hot air rework station, with its detachable handpiece, consistent air pump, preset channels, and safety features, represents a strong contender for hobbyists and professionals seeking a capable and versatile tool for their electronics bench. Careful consideration of your specific needs and a commitment to safe practices will ensure its value in your workshop.
+
+## Our picks worth a closer look
+
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+

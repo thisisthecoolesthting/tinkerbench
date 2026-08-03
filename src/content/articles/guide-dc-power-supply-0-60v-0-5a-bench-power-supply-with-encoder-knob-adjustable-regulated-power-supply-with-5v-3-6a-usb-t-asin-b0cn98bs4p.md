@@ -1,16 +1,12 @@
 ---
-title: 'Guide: DC Power Supply 0-60V 0-5A, Bench Power Supply with Encoder Knob, Adjustable
-  Regulated Power Supply with 5V 3.6A USB & T (ASIN B0CN98BS4P)'
-metaDescription: 'Guide: DC Power Supply 0-60V 0-5A, Bench Power Supply with Encoder
-  Knob, Adjustable Regulated Power Supply with 5V 3.6A USB & T (ASIN B0CN98BS4P)'
+title: 'Guide: DC Power Supply 0-60V 0-5A, Bench Power Supply with Encoder Knob, Adjustable Regulated Power Supply with 5V 3.6A USB & T (ASIN B0CN98BS4P)'
+metaDescription: 'Guide: DC Power Supply 0-60V 0-5A, Bench Power Supply with Encoder Knob, Adjustable Regulated Power Supply with 5V 3.6A USB & T (ASIN B0CN98BS4P)'
 publishedAt: '2026-07-12'
-excerpt: 'Guide: DC Power Supply 0-60V 0-5A, Bench Power Supply with Encoder Knob,
-  Adjustable Regulated Power Supply with 5V 3.6A USB & T (ASIN B0CN98BS4P)'
+excerpt: 'Guide: DC Power Supply 0-60V 0-5A, Bench Power Supply with Encoder Knob, Adjustable Regulated Power Supply with 5V 3.6A USB & T (ASIN B0CN98BS4P)'
 author: eli-rowe
 tags: []
 site: tinkerbench
-topic: 'Guide: DC Power Supply 0-60V 0-5A, Bench Power Supply with Encoder Knob, Adjustable
-  Regulated Power Supply with 5V 3.6A USB & T (ASIN B0CN98BS4P)'
+topic: 'Guide: DC Power Supply 0-60V 0-5A, Bench Power Supply with Encoder Knob, Adjustable Regulated Power Supply with 5V 3.6A USB & T (ASIN B0CN98BS4P)'
 tier: mvp
 relatedProducts: []
 status: published
@@ -87,3 +83,8 @@ Some power supplies include an additional 'T' port, which typically refers to a 
 *   **Overload Protection:** Understand the supply's over-voltage (OVP) and over-current (OCP) protection mechanisms. These are vital for protecting both the supply and your circuits.
 
 A well-chosen bench power supply with features like an encoder knob and auxiliary USB ports significantly enhances the capabilities of any electronics workbench. The 0-60V, 0-5A specification provides a versatile foundation for a wide range of electronic endeavors, from basic breadboarding to more complex power delivery challenges. Investing in a capable unit will pay dividends in safety, precision, and the sheer enjoyment of bringing your electronic creations to life.
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+

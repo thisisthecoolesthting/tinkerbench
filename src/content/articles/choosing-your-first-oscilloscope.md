@@ -1,21 +1,21 @@
 ---
-title: "choosing-your-first-oscilloscope"
+title: choosing-your-first-oscilloscope
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "choosing-your-first-oscilloscope"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: choosing-your-first-oscilloscope
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.173Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.173Z'
-metaDescription: "choosing-your-first-oscilloscope"
-excerpt: "choosing-your-first-oscilloscope"
+metaDescription: choosing-your-first-oscilloscope
+excerpt: choosing-your-first-oscilloscope
 heroImage: /images/hero/choosing-your-first-oscilloscope.jpg
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -242,3 +242,12 @@ A: Two channels are ideal for most tasks, like comparing signals or debugging ci
 
 **Q: What’s the difference between sampling rate and bandwidth?**  
 A: Bandwidth determines the highest frequency signal you can measure, while sampling rate affects how accurately fast signals are captured. Aim for a sampling rate at least 5x the bandwidth for reliable results.
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

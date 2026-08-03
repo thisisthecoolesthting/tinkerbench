@@ -149,3 +149,8 @@ Yes, most high-quality left-handed scissors made from surgical stainless steel a
 ---
 
 If you’re a lefty assembling or updating your first aid kit, investing in dedicated left-handed bandage scissors is one of the best choices you'll make. The combination of precision, comfort, and safety these tools provide could easily make the difference during a critical moment. I've found these to be reliable essentials and can confidently recommend the models that performed best in my hands-on tests.
+
+## Our picks worth a closer look
+
+- **[ELEGOO UNO R3 Project Complete Starter Kit with Tutorial](/products/b07yd5xfkp-elegoo-uno-r3-starter-kit/)** — see current price and specs.
+

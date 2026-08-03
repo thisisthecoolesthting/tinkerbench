@@ -1,16 +1,12 @@
 ---
-title: 'Guide: HAKKO FX8804-01 Hot Tweezer for FX-888D, FX-889, FR-701, FR-702 (ASIN
-  B00762AGO0)'
-metaDescription: 'Guide: HAKKO FX8804-01 Hot Tweezer for FX-888D, FX-889, FR-701,
-  FR-702 (ASIN B00762AGO0)'
+title: 'Guide: HAKKO FX8804-01 Hot Tweezer for FX-888D, FX-889, FR-701, FR-702 (ASIN B00762AGO0)'
+metaDescription: 'Guide: HAKKO FX8804-01 Hot Tweezer for FX-888D, FX-889, FR-701, FR-702 (ASIN B00762AGO0)'
 publishedAt: '2026-07-12'
-excerpt: 'Guide: HAKKO FX8804-01 Hot Tweezer for FX-888D, FX-889, FR-701, FR-702 (ASIN
-  B00762AGO0)'
+excerpt: 'Guide: HAKKO FX8804-01 Hot Tweezer for FX-888D, FX-889, FR-701, FR-702 (ASIN B00762AGO0)'
 author: eli-rowe
 tags: []
 site: tinkerbench
-topic: 'Guide: HAKKO FX8804-01 Hot Tweezer for FX-888D, FX-889, FR-701, FR-702 (ASIN
-  B00762AGO0)'
+topic: 'Guide: HAKKO FX8804-01 Hot Tweezer for FX-888D, FX-889, FR-701, FR-702 (ASIN B00762AGO0)'
 tier: mvp
 relatedProducts: []
 status: published
@@ -73,3 +69,8 @@ While excellent for two-leaded SMDs, hot tweezers are not a universal solution:
 ### Conclusion
 
 Adding a set of hot tweezers like the FX-8804 to your workbench is a significant upgrade for anyone regularly working with surface-mount components. They provide a precise, efficient, and safer method for both removing and soldering two-leaded SMDs, ultimately leading to cleaner work and saving you time and frustration. For the serious hobbyist or professional who values quality and efficiency in their electronics work, hot tweezers are a sound investment.
+
+## Our picks worth a closer look
+
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+

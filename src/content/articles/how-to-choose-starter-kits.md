@@ -134,3 +134,11 @@ There's a sweet spot. Very cheap kits often skimp on documentation or component 
 ## Bottom Line
 
 Choosing your first electronics starter kit is an exciting step. Don't rush it. Define your goals, understand your current skill level, and then research kits that align with those. For the absolute beginner, a solid breadboard-based component kit or an Arduino starter kit with comprehensive tutorials is almost always the best bet. If you're aiming to build practical skills, a dedicated soldering kit is a must. Remember that the kit is just the beginning – the real learning happens when you start experimenting, making mistakes, and ultimately, creating something new. Happy tinkering! [INTERNAL:first-breadboard-project]
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[ELEGOO UNO R3 Project Complete Starter Kit with Tutorial](/products/b07yd5xfkp-elegoo-uno-r3-starter-kit/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

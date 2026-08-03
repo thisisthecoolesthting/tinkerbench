@@ -106,3 +106,10 @@ For example, when designing a power supply, always include protection mechanisms
 ### Bottom Line
 
 Choosing the right components is a fundamental skill in electronics. It's not just about matching values on a schematic; it's about understanding the nuances of how each component behaves under real-world conditions, its limitations, and its potential failure modes. Take the time to read datasheets thoroughly, consider your application's full operating environment, and don't be afraid to over-spec critical components for reliability. A few extra pennies spent on a better capacitor or a higher-rated resistor can save you hours, or even days, of troubleshooting a frustratingly intermittent problem. Build up a good stock of common, quality passive components, invest in a decent LCR meter, and always be skeptical of unbelievably good deals on critical semiconductors. Your projects, and your sanity, will thank you for it.
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

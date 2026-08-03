@@ -92,3 +92,10 @@ You can't fix what you can't see or measure.
 ## Bottom Line
 
 The barrier to entry for custom PCB prototyping has never been lower. Whether you're a seasoned engineer dusting off your skills or a curious newcomer, there's a method and a set of tools to match your ambition and budget. For most tinkerers today, the optimal path involves designing your board in a free EDA suite like KiCad and sending the Gerbers to a professional fab house for manufacturing. This gives you the best balance of quality, cost, and complexity. Supplement that with a solid soldering station, good inspection tools, and fundamental test equipment, and you'll be well-equipped to bring any circuit idea from concept to reality. Happy tinkering!
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

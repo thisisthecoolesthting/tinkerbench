@@ -1,16 +1,12 @@
 ---
-title: 'Guide: Soldering Iron Kit, 80W 110V LCD Digital Solder Iron Pen with Ceramic
-  Heater, Portable Welding Tools with 5pcs Tips, Sta (ASIN B08R3515SF)'
-metaDescription: 'Guide: Soldering Iron Kit, 80W 110V LCD Digital Solder Iron Pen
-  with Ceramic Heater, Portable Welding Tools with 5pcs Tips, Sta (ASIN B08R3515SF)'
+title: 'Guide: Soldering Iron Kit, 80W 110V LCD Digital Solder Iron Pen with Ceramic Heater, Portable Welding Tools with 5pcs Tips, Sta (ASIN B08R3515SF)'
+metaDescription: 'Guide: Soldering Iron Kit, 80W 110V LCD Digital Solder Iron Pen with Ceramic Heater, Portable Welding Tools with 5pcs Tips, Sta (ASIN B08R3515SF)'
 publishedAt: '2026-07-14'
-excerpt: 'Guide: Soldering Iron Kit, 80W 110V LCD Digital Solder Iron Pen with Ceramic
-  Heater, Portable Welding Tools with 5pcs Tips, Sta (ASIN B08R3515SF)'
+excerpt: 'Guide: Soldering Iron Kit, 80W 110V LCD Digital Solder Iron Pen with Ceramic Heater, Portable Welding Tools with 5pcs Tips, Sta (ASIN B08R3515SF)'
 author: eli-rowe
 tags: []
 site: tinkerbench
-topic: 'Guide: Soldering Iron Kit, 80W 110V LCD Digital Solder Iron Pen with Ceramic
-  Heater, Portable Welding Tools with 5pcs Tips, Sta (ASIN B08R3515SF)'
+topic: 'Guide: Soldering Iron Kit, 80W 110V LCD Digital Solder Iron Pen with Ceramic Heater, Portable Welding Tools with 5pcs Tips, Sta (ASIN B08R3515SF)'
 tier: mvp
 relatedProducts: []
 status: published
@@ -93,3 +89,11 @@ This type of 80W 110V digital soldering iron kit is an excellent choice for:
 *   **Safety:** Always assume the iron is hot. Use the stand, avoid touching the tip, and keep flammable materials away from your workspace.
 
 An 80W digital soldering iron kit provides a solid foundation for anyone looking to get into or back into electronics. With its precision temperature control and array of useful accessories, it offers excellent value for a wide range of soldering needs.
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+- **[ELEGOO UNO R3 Project Complete Starter Kit with Tutorial](/products/b07yd5xfkp-elegoo-uno-r3-starter-kit/)** — see current price and specs.
+

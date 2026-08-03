@@ -1,21 +1,21 @@
 ---
-title: "diy-soldering-fume-extractor"
+title: diy-soldering-fume-extractor
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "diy-soldering-fume-extractor"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: diy-soldering-fume-extractor
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.177Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.177Z'
-metaDescription: "diy-soldering-fume-extractor"
-excerpt: "diy-soldering-fume-extractor"
+metaDescription: diy-soldering-fume-extractor
+excerpt: diy-soldering-fume-extractor
 heroImage: /images/heroes/diy-soldering-fume-extractor.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -103,3 +103,11 @@ Here's a quick guide to help you decide:
 *   **Soldering outdoors or with lead-free solder infrequently:** Monitor ventilation and duration; a simple fan pointing *away* from you may suffice.
 
 Ultimately, the decision of whether to build, buy, or skip a soldering fume extractor depends on your individual needs, budget, and risk tolerance. However, prioritizing your health and safety is always the best approach. If you're unsure, err on the side of caution and invest in a fume extractor. Your lungs will thank you. For more projects to enhance your workspace, consider our guide to the best Arduino starter kit for a 12 year old, which includes tips on setting up a safe and organized electronics bench.
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+

@@ -82,3 +82,10 @@ These features often come standard on higher-end intermediate scopes or are avai
 ## Bottom Line
 
 Choosing an oscilloscope is a personal decision based on your current projects, future ambitions, and budget. For the absolute beginner, a capable 50-70MHz 2-channel scope like the Rigol DS1054Z is an excellent starting point. It offers incredible bang for your buck and will serve you well for a wide array of projects. If you need 4 channels and 100MHz out of the gate, the Siglent SDS1104X-E is hard to beat. For those ready to step up to more serious embedded work, RF, or just appreciate top-tier performance and features, a Keysight DSOX1204G offers professional-grade capabilities that will last you for years. Remember, don't skimp on probes, and always prioritize bandwidth and sample rate for your expected maximum signal frequency. An oscilloscope isn't just a tool; it's an investment in understanding. [Happy tinkering!](INTERNAL:tinkering-philosophy)
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

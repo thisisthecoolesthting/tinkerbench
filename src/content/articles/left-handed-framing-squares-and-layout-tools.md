@@ -134,3 +134,8 @@ Ambidextrous squares often have symmetric designs but typically still feature ri
 ---
 
 If you’re a lefty, investing in proper left-handed framing squares and layout tools isn’t just a nicety — it’s a game changer for accuracy, speed, and comfort on the job. Check out the Swanson left-handed speed square for quick layouts and the heavy-duty Empire framing square for full-scale framing projects. Your wrist will thank you, and your cuts will be sharper.
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+

@@ -1,7 +1,6 @@
 ---
 title: 'Guide: PINECIL – Smart Mini Portable Soldering Iron, Small (ASIN B096X6SG13)'
-metaDescription: 'Guide: PINECIL – Smart Mini Portable Soldering Iron, Small (ASIN
-  B096X6SG13)'
+metaDescription: 'Guide: PINECIL – Smart Mini Portable Soldering Iron, Small (ASIN B096X6SG13)'
 publishedAt: '2026-07-13'
 excerpt: 'Guide: PINECIL – Smart Mini Portable Soldering Iron, Small (ASIN B096X6SG13)'
 author: eli-rowe
@@ -103,3 +102,9 @@ This type of iron is ideal for:
 It might not fully replace a powerful soldering station for very heavy-duty work (e.g., large ground planes, thick wire, heavy copper pours), but for the vast majority of hobbyist and light professional electronics tasks, a well-chosen portable smart soldering iron is an excellent, versatile tool.
 
 In summary, these modern portable soldering irons offer a compelling blend of performance, convenience, and precision. Understanding their power requirements and maintaining good tip hygiene will ensure a positive and productive soldering experience, whether you're a seasoned engineer or just starting your electronics journey.
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+

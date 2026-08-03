@@ -1,21 +1,21 @@
 ---
-title: "pinecil-vs-hakko-fx888d"
+title: pinecil-vs-hakko-fx888d
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "pinecil-vs-hakko-fx888d"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: pinecil-vs-hakko-fx888d
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.200Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.200Z'
-metaDescription: "pinecil-vs-hakko-fx888d"
-excerpt: "pinecil-vs-hakko-fx888d"
+metaDescription: pinecil-vs-hakko-fx888d
+excerpt: pinecil-vs-hakko-fx888d
 heroImage: /images/hero/pinecil-vs-hakko-fx888d.jpg
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -171,3 +171,12 @@ A: For most hobbyist tasks, yes—the Pinecil performs well with its adjustable 
 
 **Q: Which soldering iron has better tip availability and longevity?**  
 A: The Hakko FX-888D has a wider selection of high-quality, long-lasting tips. The Pinecil uses TS100-style tips, which are widely available but may wear slightly faster under heavy use.
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+

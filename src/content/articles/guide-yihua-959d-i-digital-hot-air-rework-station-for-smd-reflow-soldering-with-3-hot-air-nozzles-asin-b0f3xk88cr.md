@@ -1,16 +1,12 @@
 ---
-title: 'Guide: YIHUA 959D I Digital Hot Air Rework Station for SMD Reflow Soldering
-  with 3 Hot Air Nozzles (ASIN B0F3XK88CR)'
-metaDescription: 'Guide: YIHUA 959D I Digital Hot Air Rework Station for SMD Reflow
-  Soldering with 3 Hot Air Nozzles (ASIN B0F3XK88CR)'
+title: 'Guide: YIHUA 959D I Digital Hot Air Rework Station for SMD Reflow Soldering with 3 Hot Air Nozzles (ASIN B0F3XK88CR)'
+metaDescription: 'Guide: YIHUA 959D I Digital Hot Air Rework Station for SMD Reflow Soldering with 3 Hot Air Nozzles (ASIN B0F3XK88CR)'
 publishedAt: '2026-07-11'
-excerpt: 'Guide: YIHUA 959D I Digital Hot Air Rework Station for SMD Reflow Soldering
-  with 3 Hot Air Nozzles (ASIN B0F3XK88CR)'
+excerpt: 'Guide: YIHUA 959D I Digital Hot Air Rework Station for SMD Reflow Soldering with 3 Hot Air Nozzles (ASIN B0F3XK88CR)'
 author: eli-rowe
 tags: []
 site: tinkerbench
-topic: 'Guide: YIHUA 959D I Digital Hot Air Rework Station for SMD Reflow Soldering
-  with 3 Hot Air Nozzles (ASIN B0F3XK88CR)'
+topic: 'Guide: YIHUA 959D I Digital Hot Air Rework Station for SMD Reflow Soldering with 3 Hot Air Nozzles (ASIN B0F3XK88CR)'
 tier: mvp
 relatedProducts: []
 status: published
@@ -129,3 +125,10 @@ The YIHUA 959D I is generally low-maintenance:
 ---
 
 With practice, the YIHUA 959D I (or similar functional hot air rework station) can become an indispensable tool in your electronics toolbox, opening up possibilities for working with modern components that would be impossible with a traditional soldering iron alone. Remember to start with a scrap board to get a feel for the temperature and airflow settings before tackling your valuable projects.
+
+## Our picks worth a closer look
+
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+

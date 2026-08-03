@@ -1,21 +1,21 @@
 ---
-title: "esp32-vs-raspberry-pi-iot"
+title: esp32-vs-raspberry-pi-iot
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "esp32-vs-raspberry-pi-iot"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: esp32-vs-raspberry-pi-iot
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.179Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.179Z'
-metaDescription: "esp32-vs-raspberry-pi-iot"
-excerpt: "esp32-vs-raspberry-pi-iot"
+metaDescription: esp32-vs-raspberry-pi-iot
+excerpt: esp32-vs-raspberry-pi-iot
 heroImage: /images/heroes/esp32-vs-raspberry-pi-iot.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -103,3 +103,11 @@ Ultimately, the best platform for your IoT project depends on your specific need
 If you're just starting out, consider an Arduino-based solution first. The [Arduino Uno Rev3](/products/b008grtsv6-arduino-uno-rev3-a000066-atmega328p-microcontroller-16mhz-14/) is a classic starting point and will teach you many of the fundamental concepts applicable to both ESP32 and Raspberry Pi development, but with a gentler learning curve. The skills will transfer even if the code doesn't.
 
 By carefully considering these factors, you can choose the platform that best meets your needs and set yourself up for success in your IoT projects. And remember, there's no shame in starting with one platform and switching to another as your project evolves. The most important thing is to get started and have fun!
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+

@@ -96,3 +96,10 @@ A good power supply is an investment. Treat it well, and it will serve you for d
 ## Bottom Line
 
 A quality bench power supply is not a luxury; it's a necessity for anyone serious about electronics. It provides the controlled, clean, and safe power essential for developing, testing, and troubleshooting circuits. For most hobbyists, a 0-30V/0-5A single-channel unit like the KORAD KA3005D is an excellent starting point, offering incredible value and reliability. As your projects grow in complexity, a dual-channel unit such as the Rigol DP832A will become an invaluable asset, expanding your capabilities significantly. Invest wisely, and your power supply will be a cornerstone of your workbench for years to come.
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

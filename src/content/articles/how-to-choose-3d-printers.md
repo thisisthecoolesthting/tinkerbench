@@ -113,3 +113,10 @@ A good starting budget for a decent FDM printer and initial supplies is around $
 ## Bottom Line
 
 Choosing your first 3D printer can feel overwhelming, but by focusing on your primary needs and understanding the core technologies, you can make an informed decision. For most weekend tinkerers and aspiring makers, an FDM printer with a medium build volume, automatic bed leveling, and a heated bed is the sweet spot. Don't be afraid to start with a more affordable, community-supported model. You'll learn a ton, and you can always upgrade or add a second, specialized printer later. The most important thing is to get started, embrace the learning curve, and enjoy the process of bringing your digital designs into the physical world. For more tips on getting started, check out our guide on [essential 3D printing accessories](INTERNAL:3d-printing-accessories). Happy printing!
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

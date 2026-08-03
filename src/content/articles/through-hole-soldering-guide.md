@@ -1,21 +1,21 @@
 ---
-title: "through-hole-soldering-guide"
+title: through-hole-soldering-guide
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "through-hole-soldering-guide"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: through-hole-soldering-guide
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.211Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.211Z'
-metaDescription: "through-hole-soldering-guide"
-excerpt: "through-hole-soldering-guide"
+metaDescription: through-hole-soldering-guide
+excerpt: through-hole-soldering-guide
 heroImage: /images/hero/through-hole-soldering-guide.jpg
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -213,3 +213,12 @@ A: Yes, but lead-free solder requires higher temperatures (340–380°C) and flo
 
 **Q: What should I do if the solder won’t stick to the component or pad?**  
 A: Clean the surfaces with isopropyl alcohol and ensure they’re free of oxidation. If the issue persists, apply a small amount of fresh flux to improve solder adhesion.
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+

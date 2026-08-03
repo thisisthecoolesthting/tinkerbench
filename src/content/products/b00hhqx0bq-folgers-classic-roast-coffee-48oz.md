@@ -18,7 +18,7 @@ affiliateUrl: https://www.amazon.com/dp/B00HHQX0BQ?tag=tinkerbench-20&linkCode=l
 isPrime: true
 status: published
 firstSeen: '2026-04-24T00:00:00+00:00'
-lastSeen: '2026-08-03T15:34:39+00:00'
+lastSeen: '2026-08-03T15:36:29+00:00'
 tags:
 - coffee
 - grocery

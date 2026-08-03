@@ -1,21 +1,21 @@
 ---
-title: "how-to-solder-through-hole-components"
+title: how-to-solder-through-hole-components
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "how-to-solder-through-hole-components"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: how-to-solder-through-hole-components
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.191Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.191Z'
-metaDescription: "how-to-solder-through-hole-components"
-excerpt: "how-to-solder-through-hole-components"
+metaDescription: how-to-solder-through-hole-components
+excerpt: how-to-solder-through-hole-components
 heroImage: /images/hero/how-to-solder-through-hole-components.jpg
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -329,3 +329,11 @@ A: Set your soldering iron to around 350°C (660°F) for most through-hole solde
 
 **Q: How can I remove excess solder from a through-hole joint?**  
 A: Use a desoldering pump or solder wick to remove excess solder, ensuring the joint is clean and free of bridges before reworking.
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+

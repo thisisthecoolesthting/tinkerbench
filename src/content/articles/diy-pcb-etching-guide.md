@@ -1,21 +1,21 @@
 ---
-title: "diy-pcb-etching-guide"
+title: diy-pcb-etching-guide
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "diy-pcb-etching-guide"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: diy-pcb-etching-guide
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.175Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.175Z'
-metaDescription: "diy-pcb-etching-guide"
-excerpt: "diy-pcb-etching-guide"
+metaDescription: diy-pcb-etching-guide
+excerpt: diy-pcb-etching-guide
 heroImage: /images/heroes/diy-pcb-etching-guide.webp
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -163,3 +163,10 @@ While the above method is the most common, several alternatives exist:
 ## Conclusion
 
 DIY PCB etching is a valuable skill for any electronics hobbyist. By following this guide and taking the necessary safety precautions, you can create your own PCBs at home and bring your electronic projects to life. Remember to start with simple designs and practice your technique. Over time, you'll develop the skills and experience needed to create more complex and sophisticated boards. Don't be afraid to experiment and learn from your mistakes. And always prioritize safety!
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+

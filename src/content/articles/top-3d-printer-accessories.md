@@ -86,3 +86,10 @@ If you're printing with materials that produce fumes (especially ABS or resins f
 ## The Bottom Line
 
 Outfitting your 3D printing station with the right accessories isn't about spending money for the sake of it; it's about investing in tools that enhance your experience, improve print quality, and ultimately save you time and frustration. From basic hand tools for cleanup to sophisticated filament dryers, each item on this list has earned its spot on my bench through practical application. Start with the basics like a good craft knife, IPA, and a digital caliper, then expand as your needs and materials evolve. Happy printing!
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

@@ -1,16 +1,12 @@
 ---
-title: 'Guide: KOTTO Solder Smoke Absorber Remover Fume Extractor Smoke Prevention
-  Absorber DIY Working Fan for Soldering Station (Yell (ASIN B07VWDN29F)'
-metaDescription: 'Guide: KOTTO Solder Smoke Absorber Remover Fume Extractor Smoke
-  Prevention Absorber DIY Working Fan for Soldering Station (Yell (ASIN B07VWDN29F)'
+title: 'Guide: KOTTO Solder Smoke Absorber Remover Fume Extractor Smoke Prevention Absorber DIY Working Fan for Soldering Station (Yell (ASIN B07VWDN29F)'
+metaDescription: 'Guide: KOTTO Solder Smoke Absorber Remover Fume Extractor Smoke Prevention Absorber DIY Working Fan for Soldering Station (Yell (ASIN B07VWDN29F)'
 publishedAt: '2026-07-13'
-excerpt: 'Guide: KOTTO Solder Smoke Absorber Remover Fume Extractor Smoke Prevention
-  Absorber DIY Working Fan for Soldering Station (Yell (ASIN B07VWDN29F)'
+excerpt: 'Guide: KOTTO Solder Smoke Absorber Remover Fume Extractor Smoke Prevention Absorber DIY Working Fan for Soldering Station (Yell (ASIN B07VWDN29F)'
 author: eli-rowe
 tags: []
 site: tinkerbench
-topic: 'Guide: KOTTO Solder Smoke Absorber Remover Fume Extractor Smoke Prevention
-  Absorber DIY Working Fan for Soldering Station (Yell (ASIN B07VWDN29F)'
+topic: 'Guide: KOTTO Solder Smoke Absorber Remover Fume Extractor Smoke Prevention Absorber DIY Working Fan for Soldering Station (Yell (ASIN B07VWDN29F)'
 tier: mvp
 relatedProducts: []
 status: published
@@ -61,3 +57,9 @@ The KOTTO Solder Smoke Absorber is a solid choice for:
 *   **Parents** looking for a sensible safety accessory for a youngster's soldering kit.
 
 It offers a good balance of performance for its price point and is a significant improvement over no fume extraction at all. While not a heavy-duty industrial solution, for the typical home electronics enthusiast, it provides welcome relief from solder smoke and contributes to a more pleasant and safer working environment.
+
+## Our picks worth a closer look
+
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+

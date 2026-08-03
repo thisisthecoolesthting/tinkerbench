@@ -82,3 +82,10 @@ For example, a good quality bench power supply like the [Siglent SPD3303C](https
 ## Bottom Line
 
 Choosing benchtop tools isn't a one-size-fits-all proposition. It's a journey of self-discovery, aligning your tools with your tinkering habits, your available space, and your financial comfort zone. Start with the essentials, prioritize quality over quantity, and don’t be afraid to invest a little more in core tools that will see heavy use. Remember, the goal isn't just to accumulate gear, but to equip yourself to bring your ideas to life and troubleshoot the inevitable challenges along the way. A well-equipped bench is a happy bench, and a happy tinkerer is a productive tinkerer.
+
+## Our picks worth a closer look
+
+- **[Pine64 Pinecil Smart Mini Portable Soldering Iron V2](/products/b097cz9x42-pinecil-smart-soldering-iron/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[FNIRSI DSO-TC3 Handheld Digital Oscilloscope and Component Tester](/products/b07wmvg9kk-fnirsi-digital-oscilloscope/)** — see current price and specs.
+

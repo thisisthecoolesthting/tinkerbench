@@ -1,21 +1,21 @@
 ---
-title: "through-hole-soldering-tutorial"
+title: through-hole-soldering-tutorial
 site: tinkerbench
-topic: "household-staples"
+topic: household-staples
 tier: mvp
-cardTitle: "through-hole-soldering-tutorial"
-cardPick: "Editorial household-staples pick from TinkerBench."
+cardTitle: through-hole-soldering-tutorial
+cardPick: Editorial household-staples pick from TinkerBench.
 updatedAt: '2026-06-06T03:05:47.213Z'
 relatedProducts: []
 status: published
 subtopic: household-staples
 publishedAt: '2026-06-06T03:05:47.213Z'
-metaDescription: "through-hole-soldering-tutorial"
-excerpt: "through-hole-soldering-tutorial"
+metaDescription: through-hole-soldering-tutorial
+excerpt: through-hole-soldering-tutorial
 heroImage: /images/hero/through-hole-soldering-tutorial.jpg
 tags:
-  - tinkerbench
-  - home gym
+- tinkerbench
+- home gym
 author: marcus-webb
 ---
 
@@ -237,3 +237,12 @@ A: Use flush cutters to trim the leads as close to the solder joint as possible 
 
 **Q: How can I fix a solder bridge between two adjacent pins?**  
 A: Use solder wick or a desoldering pump to remove excess solder, then reheat the pins individually to ensure proper separation. A fine-tip iron helps with precision in tight spaces.
+
+## Our picks worth a closer look
+
+- **[Dawn Ultra Dish Soap, Original Scent, 75 fl oz (2-Pack)](/products/b000wkwmws-dawn-ultra-dish-soap-75oz-2-pack/)** — see current price and specs.
+- **[Scott 1000 Sheets Per Roll Toilet Paper, 36 Rolls](/products/b00c2o7c7o-scott-1000-toilet-paper-36-rolls/)** — see current price and specs.
+- **[Hakko FX-888D Digital Soldering Station with FX-8801 Tip](/products/b01bpp3jno-hakko-fx888d-soldering-station/)** — see current price and specs.
+- **[Amazon Basics AA Performance Alkaline Batteries, 48-Count](/products/b01n5ib20q-amazon-basics-aa-batteries-48-pack/)** — see current price and specs.
+- **[Tide PODS Laundry Detergent Soap Pods, Original Scent, 112 Count](/products/b07qr6z1jb-tide-pods-laundry-detergent-112-count/)** — see current price and specs.
+
