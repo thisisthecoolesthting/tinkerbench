@@ -80,7 +80,7 @@ These are the workhorses of modern electronics. They digitize the analog signal,
 
 Most recommendations for hobbyists will be DSOs. They offer the best balance of features, performance, and price.
 
-A solid entry-level choice that many tinkerers start with is the **Rigol DS1054Z**. While technically a 50 MHz scope, it's widely known to be hackable to 100 MHz, offering incredible value. It's a 4-channel scope with 1 GSa/s sample rate and 12 Mpts memory depth. It often goes for around $350-400, making it a fantastic first scope. You can find it on Amazon: [Rigol DS1054Z](https://www.amazon.com/Rigol-DS1054Z-Digital-Oscilloscopes/dp/B010AY990A/?tag=tinkerbench-20).
+A solid entry-level choice that many tinkerers start with is the **Rigol DS1054Z**. While technically a 50 MHz scope, it's widely known to be hackable to 100 MHz, offering incredible value. It's a 4-channel scope with 1 GSa/s sample rate and 12 Mpts memory depth. It often goes for around $350-400, making it a fantastic first scope. You can find it on Amazon: Rigol DS1054Z.
 
 ### Mixed Signal Oscilloscopes (MSOs)
 
@@ -88,7 +88,7 @@ An MSO is essentially a DSO with added digital logic channels. If you’re heavi
 
 For example, you could observe an analog sensor output on channel 1, an MCU’s ADC conversion complete signal on channel 2, and 8-16 digital data lines on the logic channels, all at the same time. This can simplify debugging complex digital systems dramatically. MSOs are generally more expensive than pure DSOs.
 
-The **Keysight MSOX2000 series** (e.g., MSOX2012A) is a professional-grade MSO, but for hobbyists looking for MSO capabilities without breaking the bank, some companies like Siglent offer more affordable options. For example, the **Siglent SDS1104X-E** is a 100 MHz, 4-channel DSO that can be upgraded to MSO functionality with an optional logic probe kit. This offers a good path for growth. You can often find it for around $500-600. [Siglent SDS1104X-E](https://www.amazon.com/Siglent-SDS1104X-E-Oscilloscope-Channels-Bandwidth/dp/B073X696L1/?tag=tinkerbench-20).
+The **Keysight MSOX2000 series** (e.g., MSOX2012A) is a professional-grade MSO, but for hobbyists looking for MSO capabilities without breaking the bank, some companies like Siglent offer more affordable options. For example, the **Siglent SDS1104X-E** is a 100 MHz, 4-channel DSO that can be upgraded to MSO functionality with an optional logic probe kit. This offers a good path for growth. You can often find it for around $500-600. Siglent SDS1104X-E.
 
 ### PC-Based / USB Oscilloscopes
 
@@ -97,7 +97,7 @@ These scopes connect to your computer via USB and use software on your PC for di
 *   **Pros:** Portable, often cheaper, can integrate well with other PC-based tools.
 *   **Cons:** Tied to a computer, performance depends on PC specs, latency can sometimes be an issue, user interface is software-dependent (and sometimes clunky).
 
-For absolute beginners or those with very limited space, a USB scope can be a good entry point. Just be wary of the *really* cheap ones; their performance often doesn't live up to the advertised specs. A decent one, like those from Picoscope, can be quite good. The **PicoScope 2205A** is a 25 MHz, 2-channel USB scope that provides excellent software and features for its price range, often around $200. [PicoScope 2205A](https://www.amazon.com/PicoScope-2205A-Oscilloscope-Generators-Channels/dp/B0XXXXXXXX/?tag=tinkerbench-20).
+For absolute beginners or those with very limited space, a USB scope can be a good entry point. Just be wary of the *really* cheap ones; their performance often doesn't live up to the advertised specs. A decent one, like those from Picoscope, can be quite good. The **PicoScope 2205A** is a 25 MHz, 2-channel USB scope that provides excellent software and features for its price range, often around $200. PicoScope 2205A.
 
 ## Essential Features to Look For
 

@@ -30,7 +30,7 @@ A good bench power supply isn't just a convenience; it's a diagnostic tool and a
 *   **Display Resolution and Accuracy:** Digital displays are standard now, but check their precision. A 0.1V and 0.01A resolution is generally adequate.
 *   **Protection Features:** Overvoltage protection (OVP), overcurrent protection (OCP), and short-circuit protection (SCP) are non-negotiable.
 
-**My Recommendation:** For the serious hobbyist, I've been quite impressed with the **Rigol DP832** ([B07W9421T8](https://www.amazon.com/dp/B07W9421T8/?tag=tinkerbench-20)). It's a triple-output, programmable supply with excellent regulation and low noise. It's a significant investment, but it's a tool that will last decades and handle almost anything you throw at it. For those just starting or on a tighter budget, a single-output unit like the ** variável DC Power Supply (e.g., KORAD KA3005P)** ([B07K1V83Q2](https://www.amazon.com/dp/B07K1V83Q2/?tag=tinkerbench-20)) offers solid performance for its price. It's a good entry point to understanding regulated power without breaking the bank.
+**My Recommendation:** For the serious hobbyist, I've been quite impressed with the **Rigol DP832** (B07W9421T8). It's a triple-output, programmable supply with excellent regulation and low noise. It's a significant investment, but it's a tool that will last decades and handle almost anything you throw at it. For those just starting or on a tighter budget, a single-output unit like the ** variável DC Power Supply (e.g., KORAD KA3005P)** (B07K1V83Q2) offers solid performance for its price. It's a good entry point to understanding regulated power without breaking the bank.
 
 **Who it's for:** Intermediate to advanced hobbyists, anyone prototyping new circuits, or repairing existing electronics.
 **Who it's not for:** The absolute beginner just blinking an LED on an Arduino might get by with a USB power bank, but they'll quickly hit its limitations.
@@ -46,7 +46,7 @@ This is the most fundamental diagnostic tool on your bench. If you don't have on
 *   **Safety Ratings:** Look for CAT III or CAT IV ratings if you'll be working on mains voltage or power distribution circuits. Even for low-voltage work, good internal fusing is a must.
 *   **Ergonomics and Build Quality:** A good DMM feels solid, has responsive buttons, and leads that don't kink or break easily.
 
-**My Recommendation:** For a solid, reliable bench DMM that offers excellent value, the **Fluke 17B+** ([B00L5XW392](https://www.amazon.com/dp/B00L5XW392/?tag=tinkerbench-20)) is a perennial favorite. It's rugged, accurate, and has all the essential features. For those needing even higher precision, a dedicated benchtop DMM like the **Keysight 34461A** is a significant step up, offering 6.5 digits of resolution and exceptional accuracy, but it comes at a professional price.
+**My Recommendation:** For a solid, reliable bench DMM that offers excellent value, the **Fluke 17B+** (B00L5XW392) is a perennial favorite. It's rugged, accurate, and has all the essential features. For those needing even higher precision, a dedicated benchtop DMM like the **Keysight 34461A** is a significant step up, offering 6.5 digits of resolution and exceptional accuracy, but it comes at a professional price.
 
 **Who it's for:** Every single person working with electronics, from absolute beginners to seasoned professionals.
 **Who it's not for:** No one. You need a DMM. Period.
@@ -63,7 +63,7 @@ While a DMM gives you static readings, an oscilloscope shows you what's *really*
 *   **Triggering Options:** Basic edge triggering is a must, but advanced options like pulse width, video, and serial protocol triggers (I2C, SPI, UART) greatly simplify debugging.
 *   **User Interface:** A logical menu structure and responsive controls make a huge difference in usability.
 
-**My Recommendation:** For years, Rigol has dominated the entry-level DSO market with excellent value. The **Rigol DS1054Z** ([B00L5XW392](https://www.amazon.com/dp/B00L5XW392/?tag=tinkerbench-20)) is a 50 MHz (often hackable to 100 MHz), 4-channel scope that offers an incredible feature set for its price. It's the go-to recommendation for hobbyists and educational labs. For those needing more bandwidth or professional-grade features, the **Siglent SDS1104X-E** is another strong contender, offering 100-200 MHz and impressive performance.
+**My Recommendation:** For years, Rigol has dominated the entry-level DSO market with excellent value. The **Rigol DS1054Z** (B00L5XW392) is a 50 MHz (often hackable to 100 MHz), 4-channel scope that offers an incredible feature set for its price. It's the go-to recommendation for hobbyists and educational labs. For those needing more bandwidth or professional-grade features, the **Siglent SDS1104X-E** is another strong contender, offering 100-200 MHz and impressive performance.
 
 **Who it's for:** Intermediate to advanced hobbyists, anyone working with microcontrollers, audio, RF, or complex digital logic.
 **Who it's not for:** Absolute beginners who are still learning Ohm's law and basic circuit construction. Start with a DMM.

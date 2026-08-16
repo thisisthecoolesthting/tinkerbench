@@ -33,7 +33,7 @@ Before you can build anything beyond breadboard prototypes, you'll need to maste
 *   **Decent quality PCB:** You don't want pads lifting off with the slightest touch of the iron.
 *   **Avoid kits with included soldering irons:** The irons bundled with these kits are almost universally terrible. You’re much better off investing in a decent standalone iron.
 
-**My recommendation:** For a pure soldering practice kit, something like the [ELENKER Soldering Practice Kit](https://www.amazon.com/dp/B07R7Q86F1/?tag=tinkerbench-20) offers a good variety of components and a decent PCB to hone your skills. Pair it with a proper soldering iron (more on that in a moment).
+**My recommendation:** For a pure soldering practice kit, something like the ELENKER Soldering Practice Kit offers a good variety of components and a decent PCB to hone your skills. Pair it with a proper soldering iron (more on that in a moment).
 
 ### Basic Component Kits: The Breadboard Explorer
 
@@ -47,7 +47,7 @@ Once you can solder, or if you want to experiment with circuits without making p
 *   **Well-organized storage:** A kit with a compartmentalized box is a huge bonus. Trust me, you don't want to spend half your tinkering time hunting for a specific resistor value.
 *   **Clear documentation/tutorials:** While you can find endless resources online, a curated set of starting projects is a big help.
 
-**My recommendation:** The [SunFounder Starter Kit](https://www.amazon.com/dp/B0BHQ4Q1L7/?tag=tinkerbench-20) is a solid choice for a pure component kit. It provides a good selection of common parts, a decent breadboard, and usually comes with some basic project guides. For a more comprehensive dive into fundamental concepts, consider pairing this with a good textbook like *The Art of Electronics*.
+**My recommendation:** The SunFounder Starter Kit is a solid choice for a pure component kit. It provides a good selection of common parts, a decent breadboard, and usually comes with some basic project guides. For a more comprehensive dive into fundamental concepts, consider pairing this with a good textbook like *The Art of Electronics*.
 
 ### Microcontroller Kits: The Code & Circuitry Combo
 
@@ -61,7 +61,7 @@ This is where many modern "starter kits" reside. These kits revolve around a mic
 *   **Comprehensive tutorials:** This is crucial. A good microcontroller kit will have detailed, step-by-step projects that walk you through connecting components, writing code, and understanding the principles at play. Video tutorials are a big plus.
 *   **Good quality components:** Especially for sensors and modules. Flimsy connectors or unreliable sensors will quickly lead to frustration.
 
-**My recommendation:** For a beginner looking to get into microcontrollers, the [ELEGOO UNO R3 Project Super Starter Kit](https://www.amazon.com/dp/B01CZTL7GA/?tag=tinkerbench-20) is almost an industry standard. It comes with a genuine-quality Uno R3 board, a huge array of common sensors and actuators, and an excellent, well-written tutorial book that guides you through dozens of projects. It's a fantastic value and provides a solid foundation. If you're leaning more towards the Raspberry Pi ecosystem, look for kits that include a Pi Zero W or a Pi 4/5 along with a good selection of HATs and GPIO-friendly components.
+**My recommendation:** For a beginner looking to get into microcontrollers, the ELEGOO UNO R3 Project Super Starter Kit is almost an industry standard. It comes with a genuine-quality Uno R3 board, a huge array of common sensors and actuators, and an excellent, well-written tutorial book that guides you through dozens of projects. It's a fantastic value and provides a solid foundation. If you're leaning more towards the Raspberry Pi ecosystem, look for kits that include a Pi Zero W or a Pi 4/5 along with a good selection of HATs and GPIO-friendly components.
 
 ## Essential Tools: Beyond the Kit
 
@@ -70,13 +70,13 @@ While some kits bundle tools, they're often of questionable quality. For a good 
 ### Soldering Iron
 
 Forget the cheap, unregulated irons that come in many kits. You need something reliable.
-*   **Beginner/Intermediate:** A temperature-controlled soldering station is a must. My go-to recommendation for beginners is the [Hakko FX-888D](https://www.amazon.com/dp/B00AWJNR3C/?tag=tinkerbench-20). It's a workhorse, heats up quickly, holds temperature well, and has a wide range of tips available. It's a bit of an investment, but it will last you decades.
+*   **Beginner/Intermediate:** A temperature-controlled soldering station is a must. My go-to recommendation for beginners is the Hakko FX-888D. It's a workhorse, heats up quickly, holds temperature well, and has a wide range of tips available. It's a bit of an investment, but it will last you decades.
 *   **Budget Option:** If the Hakko is out of budget, consider a TS100/TS101 style iron. They are compact, heat up incredibly fast, and are surprisingly capable for their size.
 
 ### Multimeter
 
 You can't troubleshoot what you can't measure. A good digital multimeter (DMM) is indispensable.
-*   **Beginner/Intermediate:** Look for a DMM that measures voltage (AC/DC), current (AC/DC), resistance, continuity, and ideally capacitance and frequency. Auto-ranging is a nice feature. The [Fluke 101](https://www.amazon.com/dp/B009AY05D0/?tag=tinkerbench-20) is a fantastic, no-frills, reliable option that will serve most hobbyists perfectly. Avoid the absolute cheapest DMMs you can find; they often have poor accuracy and slow response times.
+*   **Beginner/Intermediate:** Look for a DMM that measures voltage (AC/DC), current (AC/DC), resistance, continuity, and ideally capacitance and frequency. Auto-ranging is a nice feature. The Fluke 101 is a fantastic, no-frills, reliable option that will serve most hobbyists perfectly. Avoid the absolute cheapest DMMs you can find; they often have poor accuracy and slow response times.
 *   For a deeper dive into choosing a DMM, check out our article on `[Selecting Your First Multimeter](INTERNAL:selecting-your-first-multimeter)`.
 
 ### Wire Strippers and Cutters

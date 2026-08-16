@@ -67,7 +67,7 @@ I've tinkered with a fair few FPGA boards over the years, from the ancient to th
 
 #### 1. Digilent Basys 3 (Xilinx Artix-7)
 
-The [Digilent Basys 3](https://www.amazon.com/dp/B00Q7243B6/?tag=tinkerbench-20) is a perennial favorite for good reason. Digilent has a long history of producing excellent educational hardware, and the Basys 3 is no exception. It features a Xilinx Artix-7 FPGA, which is a fairly capable chip for its class.
+The Digilent Basys 3 is a perennial favorite for good reason. Digilent has a long history of producing excellent educational hardware, and the Basys 3 is no exception. It features a Xilinx Artix-7 FPGA, which is a fairly capable chip for its class.
 
 **Why it's great for beginners:**
 *   **Comprehensive Peripherals:** It's loaded with 16 user LEDs, 16 slide switches, 5 pushbuttons, a 4-digit 7-segment display, and a VGA port. The VGA port is fantastic for learning about video generation, a classic FPGA application.
@@ -81,7 +81,7 @@ The [Digilent Basys 3](https://www.amazon.com/dp/B00Q7243B6/?tag=tinkerbench-20)
 
 #### 2. Terasic DE10-Lite (Intel Max 10)
 
-If you lean towards the Intel (Altera) ecosystem, the [Terasic DE10-Lite](https://www.amazon.com/dp/B073R57R8J/?tag=tinkerbench-20) is an excellent choice. Terasic is another reputable manufacturer known for high-quality FPGA boards. This board features an Intel Max 10 FPGA.
+If you lean towards the Intel (Altera) ecosystem, the Terasic DE10-Lite is an excellent choice. Terasic is another reputable manufacturer known for high-quality FPGA boards. This board features an Intel Max 10 FPGA.
 
 **Why it's great for beginners:**
 *   **Integrated ADC:** The Max 10 FPGA has an on-chip Analog-to-Digital Converter (ADC), which is a fantastic feature for hobbyists wanting to interface with analog sensors without external components.
@@ -95,7 +95,7 @@ If you lean towards the Intel (Altera) ecosystem, the [Terasic DE10-Lite](https:
 
 #### 3. TinyFPGA BX (Lattice iCE40LP8K)
 
-For something a bit different, and much smaller, consider the [TinyFPGA BX](https://www.amazon.com/dp/B07H89C7Q1/?tag=tinkerbench-20). This board uses a Lattice iCE40LP8K FPGA, which is a smaller, lower-power chip compared to the Xilinx Artix-7 or Intel Max 10.
+For something a bit different, and much smaller, consider the TinyFPGA BX. This board uses a Lattice iCE40LP8K FPGA, which is a smaller, lower-power chip compared to the Xilinx Artix-7 or Intel Max 10.
 
 **Why it's great for beginners (with a caveat):**
 *   **Open Source Toolchain:** A major selling point. Instead of proprietary vendor tools, you can use Project IceStorm, a completely open-source toolchain for Lattice iCE40 FPGAs. This is incredibly appealing for those who prefer open-source software and want to understand the entire compilation process.

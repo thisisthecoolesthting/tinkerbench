@@ -34,9 +34,9 @@ We purchased three popular 24MHz models at retail and ran them through a month o
 
 | Model | Channels | Memory Depth | Software | Price Range | Best For |
 |-------|----------|--------------|----------|-------------|----------|
-| [Logic Analyzer A](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20) | 8 | 64K | Proprietary (Windows/Mac) | $45–$55 | First-time buyers, simple I2C/SPI |
-| [Logic Analyzer B](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20) | 16 | 256K | Proprietary + open-source compatible | $65–$80 | Complex multi-signal projects |
-| [Logic Analyzer C](https://www.amazon.com/dp/B07TEST9101?tag=tinkerbench-20) | 8 | 128K | Open-source software (PulseView) | $55–$70 | Linux users, protocol decoding |
+| Logic Analyzer A | 8 | 64K | Proprietary (Windows/Mac) | $45–$55 | First-time buyers, simple I2C/SPI |
+| Logic Analyzer B | 16 | 256K | Proprietary + open-source compatible | $65–$80 | Complex multi-signal projects |
+| Logic Analyzer C | 8 | 128K | Open-source software (PulseView) | $55–$70 | Linux users, protocol decoding |
 
 ## Real performance on the bench
 
@@ -98,9 +98,9 @@ A: It's how many samples the analyzer can record before the buffer fills. At 24M
 ## Bottom line
 
 For someone just getting into embedded systems or wanting a reliable protocol debugger:
-- **Best value for beginners:** [Logic Analyzer A](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20) — cheap, simple, does the job for I2C and SPI
-- **Best for serious projects:** [Logic Analyzer B](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20) — more channels and memory mean fewer frustrations as projects grow
-- **Best for open-source enthusiasts:** [Logic Analyzer C](https://www.amazon.com/dp/B07TEST9101?tag=tinkerbench-20) — solid hardware with excellent software if you're on Linux
+- **Best value for beginners:** Logic Analyzer A — cheap, simple, does the job for I2C and SPI
+- **Best for serious projects:** Logic Analyzer B — more channels and memory mean fewer frustrations as projects grow
+- **Best for open-source enthusiasts:** Logic Analyzer C — solid hardware with excellent software if you're on Linux
 
 Any of these will save you hours compared to guessing at waveforms with a multimeter. A 24MHz analyzer belongs on your bench next to your soldering iron and multimeter.
 

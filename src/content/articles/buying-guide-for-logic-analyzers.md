@@ -85,7 +85,7 @@ These are small, often pocket-sized devices that connect to your computer via US
 *   **Pros:** Inexpensive, compact, rely on your computer's processing power and screen, often have excellent open-source software support (e.g., [Saleae Logic 2](https://www.saleae.com/downloads/)), making them future-proof with new protocol decoders.
 *   **Cons:** Performance is limited by USB bandwidth and host PC resources, not standalone (requires a computer), probe wires can be a bit messy.
 *   **Who it's for:** Beginners, intermediate hobbyists, and even professionals needing a portable, affordable solution. This is where most TinkerBench readers will find their ideal analyzer.
-*   **Product Example:** The original Saleae Logic 8 and Logic 16 set the standard, but there are many compatible clones. The [Logic Analyzer 24MHz 8 Channel by ZEROPLUS](https://www.amazon.com/ZEROPLUS-Logic-Analyzer-24MHz-Channels/dp/B07P9DDN1Q/?tag=tinkerbench-20) is a popular, very inexpensive option for basic needs. For something more robust, consider the [DSLogic U3Pro16](https://www.amazon.com/DSO-DSLogic-U3Pro16-Analyzer-Channels/dp/B0CQR5L5T1/?tag=tinkerbench-20) which offers 16 channels at 400 MS/s (max) and deeper memory.
+*   **Product Example:** The original Saleae Logic 8 and Logic 16 set the standard, but there are many compatible clones. The Logic Analyzer 24MHz 8 Channel by ZEROPLUS is a popular, very inexpensive option for basic needs. For something more robust, consider the DSLogic U3Pro16 which offers 16 channels at 400 MS/s (max) and deeper memory.
 
 ### Integrated Logic Analyzers (in Oscilloscopes)
 
@@ -122,7 +122,7 @@ Before buying, it's often possible to download and try out the software with sim
 ## Probes and Accessories
 
 Don't overlook the importance of good probes. Most logic analyzers come with a set of grabber clips and a ribbon cable.
-*   **Grabber Clips:** These are typically small, spring-loaded hooks that attach to IC pins or header pins. Ensure they are small enough for your components. You might want to invest in a set of [finer-pitch grabbers](https://www.amazon.com/ELENKER-Micro-Grabber-Clips-Electronic/dp/B0BQJ51G7P/?tag=tinkerbench-20) if you work with SMD components frequently.
+*   **Grabber Clips:** These are typically small, spring-loaded hooks that attach to IC pins or header pins. Ensure they are small enough for your components. You might want to invest in a set of finer-pitch grabbers if you work with SMD components frequently.
 *   **Ground Connections:** A common mistake is to only connect a single ground wire for all channels. While this often works, for higher-speed signals or noisy environments, connecting a ground wire for every few signal channels (or even every channel for critical signals) can significantly improve signal integrity.
 *   **Voltage Level Shifters:** If you're working with mixed-voltage systems (e.g., a 5V microcontroller talking to a 1.8V sensor), you might need an external logic level shifter to protect your analyzer and ensure correct signal interpretation. Some advanced LAs have configurable thresholds or built-in shifters.
 

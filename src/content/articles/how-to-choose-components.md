@@ -42,7 +42,7 @@ When selecting resistors, beyond the obvious resistance value and tolerance, con
 *   **Power Rating:** This is critical. A general rule of thumb is to choose a resistor rated for at least twice the maximum expected power dissipation. If your calculations show 0.1W, don't just grab a 0.125W resistor; opt for 0.25W or even 0.5W for a safety margin, especially if it's in an enclosed space.
 *   **Temperature Coefficient (TCR):** How much does the resistance change with temperature? For hobby projects, general-purpose carbon film (100-500 ppm/°C) is often fine. For precision circuits (e.g., sensor conditioning, voltage references), you'll need metal film (25-100 ppm/°C) or even specialized thin-film resistors (as low as 1 ppm/°C).
 *   **Type:** Carbon film (cheap, general purpose), metal film (better tolerance, TCR, noise), wirewound (high power, low inductance unless specially wound), thick film/thin film (SMD precision), fusable (safety).
-*   **Package:** THT (through-hole, easier for prototyping) or SMD (surface mount, compact, requires different soldering skills). For most hobbyists, a good starting point for through-hole resistors is a varied kit like this [1/4W 1% Metal Film Resistor Assortment](https://www.amazon.com/dp/B073S6H98L/?tag=tinkerbench-20). It covers most common values and offers decent precision for general use.
+*   **Package:** THT (through-hole, easier for prototyping) or SMD (surface mount, compact, requires different soldering skills). For most hobbyists, a good starting point for through-hole resistors is a varied kit like this 1/4W 1% Metal Film Resistor Assortment. It covers most common values and offers decent precision for general use.
 
 #### Capacitors: More Than Just Farads
 
@@ -57,7 +57,7 @@ Capacitors are notoriously complex. Their behavior changes significantly with fr
 *   **ESR (Equivalent Series Resistance):** Crucial for power supply filtering and switching power supplies. Low ESR capacitors are often specified for these applications.
 *   **Frequency Response:** Different capacitor types behave differently at various frequencies. Ceramic caps are great for high-frequency bypass, while electrolytics are better at lower frequencies.
 
-When building switching power supplies or filtering noisy digital lines, having a good selection of quality ceramic capacitors is a must. Something like an [SMD Capacitor Sample Book](https://www.amazon.com/dp/B08GP38F8G/?tag=tinkerbench-20) can be invaluable for prototyping, though ensure you understand the dielectric type (X5R, X7R, etc.).
+When building switching power supplies or filtering noisy digital lines, having a good selection of quality ceramic capacitors is a must. Something like an SMD Capacitor Sample Book can be invaluable for prototyping, though ensure you understand the dielectric type (X5R, X7R, etc.).
 
 #### Semiconductors: The Heart of Your Circuit
 
@@ -80,7 +80,7 @@ Diodes, transistors, and integrated circuits (ICs) are where the real magic happ
     *   **Package Type:** DIP (through-hole, breadboard friendly), SOIC, QFN, BGA (SMD, harder to hand-solder).
     *   **Availability and Lead Time:** For hobbyists, this can be a real pain point. Don't design around a part that's perpetually out of stock or only available in reels of 10,000.
 
-For microcontrollers, the choice often comes down to ecosystem and availability. If you're starting out, an [Arduino Uno R3](https://www.amazon.com/dp/B008GR3DSI/?tag=tinkerbench-20) is a fantastic choice due to its massive community support and ease of use. For more advanced projects requiring higher processing power or smaller form factors, Raspberry Pi or ESP32 modules are popular.
+For microcontrollers, the choice often comes down to ecosystem and availability. If you're starting out, an Arduino Uno R3 is a fantastic choice due to its massive community support and ease of use. For more advanced projects requiring higher processing power or smaller form factors, Raspberry Pi or ESP32 modules are popular.
 
 ### Sourcing and Verification: Where to Buy and How to Check
 
@@ -91,7 +91,7 @@ Once you've narrowed down your component choices, you need to buy them. For hobb
 *   **Amazon / eBay:** A mixed bag. You can find good deals, but counterfeits and misrepresented parts are rampant, especially for semiconductors and higher-value components. Exercise extreme caution. If a price seems too good to be true, it probably is.
 *   **Tayda Electronics / LCSC:** Good for bulk passive components at very low prices, especially for SMD parts.
 
-**Verification:** When buying critical components, especially from less reputable sources, it's worth doing some basic checks. For resistors, measure the resistance. For capacitors, check capacitance and ESR if you have the right meter (an LCR meter like the [DE-5000](https://www.amazon.com/dp/B005YQ1J92/?tag=tinkerbench-20) is an invaluable bench tool for this). For diodes, check forward voltage drop. For ICs, if you can't test them in a simple circuit, at least visually inspect them for correct markings and package integrity. Remember, a cheap part that doesn't work is more expensive than a slightly pricier one that does.
+**Verification:** When buying critical components, especially from less reputable sources, it's worth doing some basic checks. For resistors, measure the resistance. For capacitors, check capacitance and ESR if you have the right meter (an LCR meter like the DE-5000 is an invaluable bench tool for this). For diodes, check forward voltage drop. For ICs, if you can't test them in a simple circuit, at least visually inspect them for correct markings and package integrity. Remember, a cheap part that doesn't work is more expensive than a slightly pricier one that does.
 
 ### The "What If" Game: Considering Failure Modes and Alternatives
 

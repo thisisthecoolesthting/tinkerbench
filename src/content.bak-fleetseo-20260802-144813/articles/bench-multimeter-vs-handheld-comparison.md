@@ -24,9 +24,9 @@ author: marcus-webb
 
 The choice between bench and handheld multimeters represents one of the most fundamental decisions in an electronics toolkit. These instruments serve as the eyes and ears of any electrical work, from simple continuity checks to complex system diagnostics.  For more context, see our [article on benchtop power supply](/articles/hobbyist-benchtop-power-supply-guide).While they share basic functionality, their design philosophies cater to radically different use cases that can make or break your workflow efficiency.
 
-Bench multimeters like the [Fluke 8846A](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) represent the pinnacle of measurement precision, offering laboratory-grade accuracy that's essential for calibration work, research, and high-end repair stations. Their heavy chassis, extensive shielding, and thermal compensation systems allow them to achieve specifications that handheld units simply can't match.  For more context, see our [article on usb logic analyzers: affordable](/articles/usb-logic-analyzer-reviews).For instance, when measuring a 10V DC signal, the Fluke 8846A maintains accuracy within ±240 microvolts - a level of precision that reveals details invisible to most handheld models.
+Bench multimeters like the Fluke 8846A represent the pinnacle of measurement precision, offering laboratory-grade accuracy that's essential for calibration work, research, and high-end repair stations. Their heavy chassis, extensive shielding, and thermal compensation systems allow them to achieve specifications that handheld units simply can't match.  For more context, see our [article on usb logic analyzers: affordable](/articles/usb-logic-analyzer-reviews).For instance, when measuring a 10V DC signal, the Fluke 8846A maintains accuracy within ±240 microvolts - a level of precision that reveals details invisible to most handheld models.
 
-Conversely, handheld multimeters such as the [ANENG AN8008](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) sacrifice some precision for unparalleled versatility. Their compact form factor allows technicians to carry them to job sites, stuff them in tool belts, or use them in tight spaces where bench models would be impractical.  For more context, see our [article on choosing first oscilloscope: beginner](/articles/choosing-your-first-oscilloscope).Modern handhelds have evolved to include impressive safety ratings (like CAT IV 600V protection) and specialized functions ranging from temperature measurement to Bluetooth connectivity.
+Conversely, handheld multimeters such as the ANENG AN8008 sacrifice some precision for unparalleled versatility. Their compact form factor allows technicians to carry them to job sites, stuff them in tool belts, or use them in tight spaces where bench models would be impractical.  For more context, see our [article on choosing first oscilloscope: beginner](/articles/choosing-your-first-oscilloscope).Modern handhelds have evolved to include impressive safety ratings (like CAT IV 600V protection) and specialized functions ranging from temperature measurement to Bluetooth connectivity.
 
 This guide will explore seven critical dimensions of comparison, supported by real-world testing scenarios and cost analyses. We'll examine not just the obvious differences in accuracy and portability, but also less-discussed factors like long-term reliability, software integration capabilities, and ergonomic considerations that become apparent only after extended use. For more context, see our [article on finding cheapest decent oscilloscope:](/articles/budget-oscilloscope-buyers-guide).
 
@@ -52,7 +52,7 @@ Selecting the wrong multimeter type can have cascading consequences throughout y
    - Field service work with vibration and moisture exposure
    - Automotive diagnostics where accidental short circuits are common
 
-The [Keysight 34461A](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) bench multimeter illustrates these tradeoffs perfectly. Its 0.0035% basic DC accuracy and 1μV resolution enable precise characterization of power supply ripple or amplifier offset voltages. However, its 15-pound weight and need for AC power render it useless for troubleshooting a malfunctioning HVAC unit on a rooftop. There, the CAT IV-rated [KAIWEETS HT118A](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) handheld becomes the safer, more practical choice despite its ±0.8% accuracy limitation.
+The Keysight 34461A bench multimeter illustrates these tradeoffs perfectly. Its 0.0035% basic DC accuracy and 1μV resolution enable precise characterization of power supply ripple or amplifier offset voltages. However, its 15-pound weight and need for AC power render it useless for troubleshooting a malfunctioning HVAC unit on a rooftop. There, the CAT IV-rated KAIWEETS HT118A handheld becomes the safer, more practical choice despite its ±0.8% accuracy limitation.
 
 ## Head-to-head comparison
 
@@ -84,7 +84,7 @@ This expanded view reveals several non-obvious insights:
 Practical testing reveals even more nuanced differences between these tool categories:
 
 **Low-Level Signal Measurement**
-When characterizing a strain gauge output producing just 2mV full-scale, the [Fluke 8846A](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) can resolve 0.1μV changes thanks to its 6.5-digit display and ultra-low noise front end. The [ANENG AN8008](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) rounds this to nearest 10μV - potentially missing critical trends in material stress analysis.
+When characterizing a strain gauge output producing just 2mV full-scale, the Fluke 8846A can resolve 0.1μV changes thanks to its 6.5-digit display and ultra-low noise front end. The ANENG AN8008 rounds this to nearest 10μV - potentially missing critical trends in material stress analysis.
 
 **Noise Rejection Capabilities**
 Bench multimeters employ advanced digital filtering that typically provides 80dB+ rejection of 50/60Hz power line interference. Handhelds might manage only 40-50dB, making them less reliable for measurements near motors or transformers. We verified this by measuring a 1V DC signal superimposed with 100mV AC noise:
@@ -98,7 +98,7 @@ In a 72-hour continuous measurement of a voltage reference, the Keysight 34461A 
 Handhelds excel in dynamic environments:
 - Magnetic hangers allow single-handed use while climbing ladders
 - Backlit displays remain readable in bright sunlight
-- IP67-rated models like the [Brymen BM869S](https://www.amazon.com/dp/B0F54TYKF9?tag=tinkerbench-20) survive accidental immersion
+- IP67-rated models like the Brymen BM869S survive accidental immersion
 
 Bench models counter with:
 - Hands-free operation via computer control
@@ -129,18 +129,18 @@ The true cost comparison requires examining five financial dimensions:
    - Bench: 10-15 year lifespan, retains ~40% value
    - Handheld: 3-5 year lifespan, minimal resale value
 
-A professional electronics engineer might justify a [Keysight 34461A](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) bench multimeter's $1,800 cost through:
+A professional electronics engineer might justify a Keysight 34461A bench multimeter's $1,800 cost through:
 - 250 workdays/year × 15 minutes/day saved = 62.5 hours/year
 - At $80/hour billing rate = $5,000 annual productivity gain
 
-Hobbyists would find the [Mastech MS8268](https://www.amazon.com/dp/B0CGW2TFSV?tag=tinkerbench-20)'s $40 price more appropriate given their intermittent usage patterns.
+Hobbyists would find the Mastech MS8268's $40 price more appropriate given their intermittent usage patterns.
 
 ## Alternatives and refills
 
 For users needing capabilities between these extremes, consider:
 
 **Premium Handhelds**
-The [Brymen BM869S](https://www.amazon.com/dp/B0F54TYKF9?tag=tinkerbench-20) offers:
+The Brymen BM869S offers:
 - 0.025% basic DC accuracy (near bench territory)
 - 50,000 count display
 - USB data logging
@@ -168,7 +168,7 @@ For 90% of hobbyist needs, yes. Exceptions include:
 - Calibrating other equipment
 - Measuring ppm-level changes
 - Automated test sequences
-Even professionals might use a [KAIWEETS HT118A](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) for preliminary checks before bringing out bench gear.
+Even professionals might use a KAIWEETS HT118A for preliminary checks before bringing out bench gear.
 
 ### 2. How often should I calibrate my multimeter?
 
@@ -196,7 +196,7 @@ Prioritize these handheld features:
 - Duty cycle measurement
 - IP54 or better sealing
 
-The [ANENG AN8008](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) covers most needs, while the [Brymen BM869S](https://www.amazon.com/dp/B0F54TYKF9?tag=tinkerbench-20) adds advanced diagnostics.
+The ANENG AN8008 covers most needs, while the Brymen BM869S adds advanced diagnostics.
 
 ### 5. Do I need True RMS?
 
@@ -215,8 +215,8 @@ Less critical for:
 Your multimeter choice should follow this decision tree:
 
 1. **Primary Location**
-   - Fixed workbench → Bench model ([Fluke 8846A](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20))
-   - Mobile/field use → Handheld ([KAIWEETS HT118A](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20))
+   - Fixed workbench → Bench model (Fluke 8846A)
+   - Mobile/field use → Handheld (KAIWEETS HT118A)
 
 2. **Accuracy Requirements**
    - <0.1% → Bench
@@ -228,7 +228,7 @@ Your multimeter choice should follow this decision tree:
    - $100-$500 → Premium handheld
    - >$500 → Consider used bench models
 
-For most readers, starting with a quality handheld like the [ANENG AN8008](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) makes sense, adding a bench unit later if projects demand higher precision. Professionals should invest in both: a rugged handheld for fieldwork paired with a bench model like the [Keysight 34461A](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) for lab measurements.
+For most readers, starting with a quality handheld like the ANENG AN8008 makes sense, adding a bench unit later if projects demand higher precision. Professionals should invest in both: a rugged handheld for fieldwork paired with a bench model like the Keysight 34461A for lab measurements.
 
 <!-- padded-no-api-v2 -->
 

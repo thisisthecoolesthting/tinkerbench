@@ -24,7 +24,7 @@ author: marcus-webb
 
 "I just burned my third circuit board—what am I doing wrong?" If you've asked this, you're not alone. Every weekend tinkerer faces the same dilemma: cheap soldering irons fail unpredictably, while professional gear costs more than most hobbyists want to spend.  For more context, see our [article on mastering through-hole soldering: step-by-step](/articles/how-to-solder-through-hole-components).After testing 18 kits on actual projects (and replacing 7 fried tips), we found most beginners either overpay for features they won't use or underbuy on critical components.
 
-The [Pinecil V2](https://www.amazon.com/dp/B0FT32PL8L?tag=tinkerbench-20) surprised us by outperforming stations costing three times as much in temperature stability, while the [Hakko FX-888D](https://www.amazon.com/dp/B08GX3K9YS?tag=tinkerbench-20) proved why it remains the gold standard for precision work. But between USB-C portables and benchtop stations, which kit actually fits your garage workbench and skill level?  For more context, see our [article on how to solder through-hole](/articles/through-hole-soldering-tutorial).Let's cut through the marketing.
+The Pinecil V2 surprised us by outperforming stations costing three times as much in temperature stability, while the Hakko FX-888D proved why it remains the gold standard for precision work. But between USB-C portables and benchtop stations, which kit actually fits your garage workbench and skill level?  For more context, see our [article on how to solder through-hole](/articles/through-hole-soldering-tutorial).Let's cut through the marketing.
 
 When starting out, understand that soldering isn't just about melting metal. It's about creating reliable electrical connections that survive time, temperature swings, and mechanical stress.  For more context, see our [article on pinecil vs. hakko fx-888d:](/articles/pinecil-vs-hakko-fx888d).The right kit prevents cascading failures—damaged components, wasted prototypes, and the frustration that makes beginner makers quit. We'll walk you through the essentials: temperature control, tip maintenance, and how to avoid the most common (and expensive) mistakes.
 
@@ -32,15 +32,15 @@ When starting out, understand that soldering isn't just about melting metal. It'
 
 ## Why This Matters
 
-Bad soldering tools don't just waste money—they create cascading failures. A $20 iron with poor thermal recovery (like the [Tacklife SDP50DC](https://www.amazon.com/dp/B0BVYBVHK5?tag=tinkerbench-20)) can overheat components before solder even flows.  For more context, see our [article on soldering irons](/articles/best-soldering-irons-for-beginners).We measured temperature drops of 80°F during simple through-hole joints, forcing beginners to crank the heat and destroy board pads.
+Bad soldering tools don't just waste money—they create cascading failures. A $20 iron with poor thermal recovery (like the Tacklife SDP50DC) can overheat components before solder even flows.  For more context, see our [article on soldering irons](/articles/best-soldering-irons-for-beginners).We measured temperature drops of 80°F during simple through-hole joints, forcing beginners to crank the heat and destroy board pads.
 
 Three factors determine real-world reliability:
 
-1. **Thermal mass**: Larger tips (like the [Weller WE1010NA's](https://www.amazon.com/dp/B07C11YW88?tag=tinkerbench-20) 3.2mm chisel) maintain heat better during ground plane work.
+1. **Thermal mass**: Larger tips (like the Weller WE1010NA's 3.2mm chisel) maintain heat better during ground plane work.
 2. **Temperature control granularity**: ±5°F matters for delicate SMD components; ±50°F is acceptable for wire joints.
 3. **Tip lifespan**: Cheap chrome-plated tips from sub-$30 kits often fail within 20 hours; quality tips last 6–12 months.
 
-Investing in a proper starter kit like the [X-Tronic 3020-XTS](https://www.amazon.com/dp/B083BFPGD8?tag=tinkerbench-20) saves far more than repair costs—it prevents the frustration that drives beginners away from electronics. Understanding these factors helps you avoid common pitfalls: undersized tips causing cold joints, heat creep damaging components, and tip oxidation killing iron performance.
+Investing in a proper starter kit like the X-Tronic 3020-XTS saves far more than repair costs—it prevents the frustration that drives beginners away from electronics. Understanding these factors helps you avoid common pitfalls: undersized tips causing cold joints, heat creep damaging components, and tip oxidation killing iron performance.
 
 ## Head-to-Head Comparison
 
@@ -53,7 +53,7 @@ Investing in a proper starter kit like the [X-Tronic 3020-XTS](https://www.amazo
 
 **Key findings from our 30-day bench test:**
 
-- The [Pinecil V2](https://www.amazon.com/dp/B0FT32PL8L?tag=tinkerbench-20) stays surprisingly cool at the grip (104°F max) thanks to its ceramic heater design.
+- The Pinecil V2 stays surprisingly cool at the grip (104°F max) thanks to its ceramic heater design.
 - Hakko's proprietary tips last 3× longer than generic alternatives (87 vs. 28 joints per tip in our wear test).
 - Weller's auto-sleep prevented more failures than it created during extended PCB assembly work.
 
@@ -61,13 +61,13 @@ Each model has distinct strengths. The Pinecil V2 is lightweight and portable—
 
 ## Real-World Performance
 
-Cheap irons lie about temperature. Using a calibrated Fluke 62 MAX infrared thermometer, we found the $19 [Vastar 60W kit](https://www.amazon.com/dp/B0CYJV9X52?tag=tinkerbench-20) overshot its setpoint by 122°F at the tip—enough to delaminate Raspberry Pi pads in seconds. The [Pinecil](https://www.amazon.com/dp/B0FT32PL8L?tag=tinkerbench-20) held ±8°F even during continuous SMD rework.
+Cheap irons lie about temperature. Using a calibrated Fluke 62 MAX infrared thermometer, we found the $19 Vastar 60W kit overshot its setpoint by 122°F at the tip—enough to delaminate Raspberry Pi pads in seconds. The Pinecil held ±8°F even during continuous SMD rework.
 
 **Durability surprises from the test bench:**
 
-- Brass wool cleaners (included with the [X-Tronic](https://www.amazon.com/dp/B083BFPGD8?tag=tinkerbench-20)) cause less tip erosion than wet sponges over six-month use.
+- Brass wool cleaners (included with the X-Tronic) cause less tip erosion than wet sponges over six-month use.
 - Silicone cables outlast rubber ones by 2–3 years (verified in long-term testing).
-- Stations with grounded tips (like the [Hakko](https://www.amazon.com/dp/B08GX3K9YS?tag=tinkerbench-20)) protect ESD-sensitive ICs during rework—this matters when your component costs $30+.
+- Stations with grounded tips (like the Hakko) protect ESD-sensitive ICs during rework—this matters when your component costs $30+.
 
 Where theory meets practice, budget irons fail. Temperature overshoot causes the most damage; tip oxidation and poor heat transfer cause the most frustration. Quality matters because every bad joint is a potential debug nightmare.
 
@@ -82,7 +82,7 @@ Break-even math for a hobbyist soldering 10 joints per week:
 | Wasted boards/parts | $18       | $5        | $2            |
 | **3-year total**    | **$163**  | **$140**  | **$183**      |
 
-The [X-Tronic 3020-XTS](https://www.amazon.com/dp/B083BFPGD8?tag=tinkerbench-20) hits the sweet spot at $0.14 per joint over five years, versus $0.22 for disposable budget kits. Going professional (Hakko + premium tips) only makes financial sense if you're soldering daily—the entry cost is high, but per-joint cost drops to $0.08 over time.
+The X-Tronic 3020-XTS hits the sweet spot at $0.14 per joint over five years, versus $0.22 for disposable budget kits. Going professional (Hakko + premium tips) only makes financial sense if you're soldering daily—the entry cost is high, but per-joint cost drops to $0.08 over time.
 
 For most weekend makers, mid-range kits deliver the best value. You get reliable temperature control, decent tip options, and low consumable costs—without the professional price tag.
 
@@ -94,7 +94,7 @@ Third-party tips *can* save money, but quality varies wildly. Our microscopy rev
 - Weller-style generic tips often have loose tolerances (±0.2mm), causing fit issues and heat loss.
 - Pinecil tips are genuinely standardized; third-party alternatives work reliably.
 
-For portable work, the [Pinecil's USB-C](https://www.amazon.com/dp/B0FT32PL8L?tag=tinkerbench-20) power input is a game-changer. It works with any 20V+ USB PD power bank—we achieved 2.1 hours runtime from a 65W Anker pack. Traditional irons can't match this flexibility for field repairs or outdoor projects.
+For portable work, the Pinecil's USB-C power input is a game-changer. It works with any 20V+ USB PD power bank—we achieved 2.1 hours runtime from a 65W Anker pack. Traditional irons can't match this flexibility for field repairs or outdoor projects.
 
 **Recommended first upgrades:**
 - Brass wool cleaner ($8)—protects tips better than sponges.
@@ -120,7 +120,7 @@ Not with standard irons. You need 600°F+ and specialized aluminum flux. Beginne
 
 ## Bottom Line
 
-For most beginners, the **[Pinecil V2](https://www.amazon.com/dp/B0FT32PL8L?tag=tinkerbench-20)** delivers professional performance at hobbyist pricing—if you already have a USB-C charger. **Traditionalists** will prefer the **[X-Tronic 3020-XTS](https://www.amazon.com/dp/B083BFPGD8?tag=tinkerbench-20)** for its all-in-one station design and proven tip availability. **Avoid anything under $30**—the economics don't work, and you'll replace more components than you save.
+For most beginners, the **Pinecil V2** delivers professional performance at hobbyist pricing—if you already have a USB-C charger. **Traditionalists** will prefer the **X-Tronic 3020-XTS** for its all-in-one station design and proven tip availability. **Avoid anything under $30**—the economics don't work, and you'll replace more components than you save.
 
 **Critical additions for your kit:**
 1. Brass wool cleaner ($8)

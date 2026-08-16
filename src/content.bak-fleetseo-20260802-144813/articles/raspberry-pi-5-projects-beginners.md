@@ -24,9 +24,9 @@ author: marcus-webb
 
 The Raspberry Pi 5 represents a genuine step forward in single-board computing—quad-core Cortex-A76 at 2.4GHz, upgraded VideoCore VII GPU, PCIe 2.0 interface—yet it remains $60 at the base price. For beginners, the real value isn't specs.  For more context, see our [article on are arduino starter kits](/articles/arduino-starter-kits-worth-buying).It's this: you can hold a complete computing device in your palm, plug it into power, and start building projects that teach Linux, Python, electronics, and problem-solving simultaneously.
 
-We've purchased and tested five starter projects that work *because* they're built for real learning, not just novelty. You'll progress from simple GPIO control through Python scripting to networked home automation.  For more context, see our [article on soldering irons](/articles/best-soldering-irons-beginners).Each project includes troubleshooting specifics—like using a [Klein Tools MM325 multimeter](https://www.amazon.com/dp/B07TEST9999?tag=tinkerbench-20) to diagnose power rail issues, or recovering from a corrupted SD card.
+We've purchased and tested five starter projects that work *because* they're built for real learning, not just novelty. You'll progress from simple GPIO control through Python scripting to networked home automation.  For more context, see our [article on soldering irons](/articles/best-soldering-irons-beginners).Each project includes troubleshooting specifics—like using a Klein Tools MM325 multimeter to diagnose power rail issues, or recovering from a corrupted SD card.
 
-For absolute newcomers, pair these projects with the [Official Raspberry Pi Beginner's Guide](https://www.amazon.com/dp/B07TEST8888?tag=tinkerbench-20). The combination of structured learning and hands-on tinkering works better than either alone.
+For absolute newcomers, pair these projects with the Official Raspberry Pi Beginner's Guide. The combination of structured learning and hands-on tinkering works better than either alone.
 
 > **See also:** [Are Arduino Starter Kits Worth Buying? Honest Reviews for Beginners and Returning](https://tinkerbench.co/articles/arduino-starter-kits-worth-buying/)
 
@@ -52,9 +52,9 @@ Choosing the right initial package significantly impacts your experience. We've 
 
 | Product | Price | Includes | Best For | Trade-off |
 |---------|-------|----------|----------|----------|
-| [CanaKit Premium Kit](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20) | $129 | Pi 5, aluminum case w/ fan, 32GB SD, 27W PSU | Sustained projects (servers, gaming) | Overkill for learning basics |
-| [Vilros Complete Kit](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20) | $89 | Pi 5, acrylic case, 16GB SD, 15W PSU | Budget-conscious starters | May thermal-throttle under load |
-| [Official Raspberry Pi Kit](https://www.amazon.com/dp/B07TEST9012?tag=tinkerbench-20) | $99 | Pi 5, official case, 16GB SD, 27W PSU | First-time builders | Best documentation, middle ground |
+| CanaKit Premium Kit | $129 | Pi 5, aluminum case w/ fan, 32GB SD, 27W PSU | Sustained projects (servers, gaming) | Overkill for learning basics |
+| Vilros Complete Kit | $89 | Pi 5, acrylic case, 16GB SD, 15W PSU | Budget-conscious starters | May thermal-throttle under load |
+| Official Raspberry Pi Kit | $99 | Pi 5, official case, 16GB SD, 27W PSU | First-time builders | Best documentation, middle ground |
 
 **Our recommendation:** Start with the Official Kit ($99). The 27W power supply prevents voltage issues that derail beginners, and Raspberry Pi's documentation is genuinely superior.
 
@@ -62,17 +62,17 @@ Choosing the right initial package significantly impacts your experience. We've 
 
 | Product | Output | Cable Type | Notes |
 |---------|--------|-----------|-------|
-| [Official Pi 5 PSU](https://www.amazon.com/dp/B07TEST3456?tag=tinkerbench-20) | 27W USB-C | Fixed | Undervoltage protection built-in |
-| [Anker 313 30W](https://www.amazon.com/dp/B07TEST7890?tag=tinkerbench-20) | 30W USB-C | Detachable | Charges laptops too; redundant ports |
-| [RavPower 45W GaN](https://www.amazon.com/dp/B07TEST2345?tag=tinkerbench-20) | 45W USB-C | Compact | Overkill but future-proof |
+| Official Pi 5 PSU | 27W USB-C | Fixed | Undervoltage protection built-in |
+| Anker 313 30W | 30W USB-C | Detachable | Charges laptops too; redundant ports |
+| RavPower 45W GaN | 45W USB-C | Compact | Overkill but future-proof |
 
 ### Cooling (when you need it)
 
 | Product | Type | Noise | When to Buy |
 |---------|------|-------|-------------|
-| [GeeekPi Ice Tower](https://www.amazon.com/dp/B07TEST6789?tag=tinkerbench-20) | Active tower | 25dB | For gaming/overclocking |
-| [Pimoroni Fan Shim](https://www.amazon.com/dp/B07TEST0123?tag=tinkerbench-20) | Thermostatic fan | 30dB (when spinning) | For servers that run 24/7 |
-| [Flirc Aluminum Case](https://www.amazon.com/dp/B07TEST5555?tag=tinkerbench-20) | Passive heatsink | Silent | Best for media centers (nearly all projects) |
+| GeeekPi Ice Tower | Active tower | 25dB | For gaming/overclocking |
+| Pimoroni Fan Shim | Thermostatic fan | 30dB (when spinning) | For servers that run 24/7 |
+| Flirc Aluminum Case | Passive heatsink | Silent | Best for media centers (nearly all projects) |
 
 Truth: most beginners *don't need* active cooling. Passive heatsinks handle everything except overclocking. Add a fan only if stress testing shows throttling.
 
@@ -82,12 +82,12 @@ We stress-tested the Pi 5 across our five target projects:
 
 ### Retro Gaming
 
-Using RetroPie with the [8Bitdo Pro 2 Controller](https://www.amazon.com/dp/B07TEST1111?tag=tinkerbench-20):
+Using RetroPie with the 8Bitdo Pro 2 Controller:
 - **PlayStation 1**: 60 FPS full-speed, even with enhanced resolution
 - **Nintendo 64**: ~85% of games full-speed after light overclocking
 - **Dreamcast**: ~70% of games playable via Flycast core
 
-Critical finding: MicroSD speed matters enormously. The [Samsung Pro Endurance](https://www.amazon.com/dp/B07TEST2222?tag=tinkerbench-20) reduced load times by 40% versus generic cards.
+Critical finding: MicroSD speed matters enormously. The Samsung Pro Endurance reduced load times by 40% versus generic cards.
 
 ### Home Server (Nextcloud + Plex + Home Assistant)
 
@@ -95,7 +95,7 @@ Critical finding: MicroSD speed matters enormously. The [Samsung Pro Endurance](
 - **Plex Media Server**: Direct plays 4K H.265 to 2 clients; transcoding requires external device
 - **Home Assistant**: 50+ device integrations, <1s response time
 
-Pro tip: The [Argon ONE M.2 Case](https://www.amazon.com/dp/B07TEST3333?tag=tinkerbench-20) adds NVMe SSD support while keeping your footprint small.
+Pro tip: The Argon ONE M.2 Case adds NVMe SSD support while keeping your footprint small.
 
 ### Thermal Results
 
@@ -103,7 +103,7 @@ Pro tip: The [Argon ONE M.2 Case](https://www.amazon.com/dp/B07TEST3333?tag=tink
 - **Moderate load**: 55°C with heatsink
 - **Full load**: 70°C (throttles unless actively cooled)
 
-The [Noctua NF-A4x10 FLX](https://www.amazon.com/dp/B07TEST4444?tag=tinkerbench-20) offers the best noise-to-cooling ratio if you do need a fan.
+The Noctua NF-A4x10 FLX offers the best noise-to-cooling ratio if you do need a fan.
 
 ## Cost breakdown by project tier
 
@@ -156,7 +156,7 @@ Key insight: all "Starter" tiers cost under $120 and deliver complete functional
 ### Stepping-stone approach
 
 1. **Begin with Pi 400** ($100)—keyboard-integrated unit, perfect for Linux command-line learning
-2. **Add GPIO breakout kit** ($35)—the [SunFounder Project Kit](https://www.amazon.com/dp/B07TEST6666?tag=tinkerbench-20) teaches basic circuits
+2. **Add GPIO breakout kit** ($35)—the SunFounder Project Kit teaches basic circuits
 3. **Graduate to Pi 5** when ready for Zigbee/sensors/servers
 
 ### Cloud/emulation alternatives
@@ -167,9 +167,9 @@ Key insight: all "Starter" tiers cost under $120 and deliver complete functional
 
 ### Essential accessories (buy as needed)
 
-- **Storage**: [WD Purple microSD](https://www.amazon.com/dp/B07TEST7777?tag=tinkerbench-20) for 24/7 operation
-- **Networking**: [UGREEN USB Ethernet Adapter](https://www.amazon.com/dp/B07TEST8888?tag=tinkerbench-20) for more reliable connection than Wi-Fi
-- **Power protection**: [FlickerFixer UPS HAT](https://www.amazon.com/dp/B07TEST9999?tag=tinkerbench-20) prevents SD card corruption during outages
+- **Storage**: WD Purple microSD for 24/7 operation
+- **Networking**: UGREEN USB Ethernet Adapter for more reliable connection than Wi-Fi
+- **Power protection**: FlickerFixer UPS HAT prevents SD card corruption during outages
 
 ## Getting started: step-by-step
 
@@ -191,7 +191,7 @@ Key insight: all "Starter" tiers cost under $120 and deliver complete functional
 
 ### Troubleshooting fundamentals
 
-- **Power issues**: Use a [Klein Tools MM325 multimeter](https://www.amazon.com/dp/B07TEST9999?tag=tinkerbench-20) to check 5V rail; should stay above 4.75V under load
+- **Power issues**: Use a Klein Tools MM325 multimeter to check 5V rail; should stay above 4.75V under load
 - **Corrupted SD card**: Boot from USB with Raspberry Pi Imager's USB recovery tool
 - **Overheating**: Check temps via `vcgencmd measure_temp`; if >80°C, add cooling
 - **SSH won't connect**: Verify IP address via your router's admin panel, or use `ssh pi@raspberrypi.local`
@@ -204,7 +204,7 @@ For retro gaming or Pi-hole: no. For weather stations or home automation: yes—
 
 ### Should I buy active or passive cooling?
 
-Start passive (heatsink). Add a fan only if stress testing shows throttling above 80°C. The [Flirc Aluminum Case](https://www.amazon.com/dp/B07TEST5555?tag=tinkerbench-20) handles 95% of beginner projects silently.
+Start passive (heatsink). Add a fan only if stress testing shows throttling above 80°C. The Flirc Aluminum Case handles 95% of beginner projects silently.
 
 ### Can the Pi 5 really run modern applications?
 
@@ -212,7 +212,7 @@ For single-user, lightweight tasks: yes (Chromium browsing, VS Code, Python deve
 
 ### What's the best way to learn programming on a Pi?
 
-Start with GPIO Zero library (physical computing first), progress to RPi.GPIO (lower-level control), then Flask for web apps. The [Python Programming with Raspberry Pi](https://www.amazon.com/dp/B07TEST0202?tag=tinkerbench-20) book works well.
+Start with GPIO Zero library (physical computing first), progress to RPi.GPIO (lower-level control), then Flask for web apps. The Python Programming with Raspberry Pi book works well.
 
 ### How do I back up my projects?
 
@@ -222,9 +222,9 @@ Use the 3-2-1 rule: 3 copies (SD + USB + cloud), 2 formats (full image + file-le
 
 The Raspberry Pi 5 is genuinely the best entry point into electronics, Linux, and single-board computing for beginners. We recommend starting with this stack:
 
-1. **[Official Raspberry Pi 5 Starter Kit](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20)** ($99)—everything you need to boot
-2. **[Samsung Pro Endurance 64GB microSD](https://www.amazon.com/dp/B07TEST7890?tag=tinkerbench-20)** ($15)—notably faster than generic cards
-3. **[Flirc Aluminum Case](https://www.amazon.com/dp/B07TEST5555?tag=tinkerbench-20)** ($20)—silent passive cooling
+1. **Official Raspberry Pi 5 Starter Kit** ($99)—everything you need to boot
+2. **Samsung Pro Endurance 64GB microSD** ($15)—notably faster than generic cards
+3. **Flirc Aluminum Case** ($20)—silent passive cooling
 
 Total: $134 for a solid foundation. Pick one project above and spend a weekend building it.
 

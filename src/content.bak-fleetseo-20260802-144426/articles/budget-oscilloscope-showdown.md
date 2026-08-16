@@ -28,7 +28,7 @@ After testing 12 models under $500 over 18 months across three different workben
 
 The painful truth I've documented? Most sub-$300 units are glorified signal tracers with misleading bandwidth claims. I've tested $199 oscilloscopes advertising 100MHz bandwidth while actually attenuating signals above 20MHz—a critical flaw when debugging modern microcontrollers.
 
-But through rigorous testing, the [FNIRSI 1014D](https://www.amazon.com/dp/B0BVYBVHK5?tag=tinkerbench-20) and [Siglent SDS1104X-E](https://www.amazon.com/dp/B08GX3K9YS?tag=tinkerbench-20) prove you don't need to spend $800+ for reliable measurements.
+But through rigorous testing, the FNIRSI 1014D and Siglent SDS1104X-E prove you don't need to spend $800+ for reliable measurements.
 
 **This guide compares six rigorously tested contenders with hard data from bench tests including:**
 - Bandwidth verification using calibrated RF signal generators
@@ -59,7 +59,7 @@ Consider these scenarios from my testing:
 
 **Waveform Update Rate:** Cheap scopes often refresh slowly (100 wfms/s vs. 500,000+ on better models), making transient events easy to miss.
 
-Through exhaustive testing of real-world scenarios—Arduino interrupt timing, Raspberry Pi GPIO signal integrity, switching power supply noise, I2C/SPI protocol decoding—I found the $249 [OWON VDS1022I](https://www.amazon.com/dp/B0FT32PL8L?tag=tinkerbench-20) surprisingly capable for basic microcontroller work, while the $399 [Rigol DS1054Z](https://www.amazon.com/dp/B083BFPGD8?tag=tinkerbench-20) remains the upgrade king thanks to its hackable firmware and robust ecosystem of third-party probes and accessories.
+Through exhaustive testing of real-world scenarios—Arduino interrupt timing, Raspberry Pi GPIO signal integrity, switching power supply noise, I2C/SPI protocol decoding—I found the $249 OWON VDS1022I surprisingly capable for basic microcontroller work, while the $399 Rigol DS1054Z remains the upgrade king thanks to its hackable firmware and robust ecosystem of third-party probes and accessories.
 
 ## Head-to-Head Comparison
 
@@ -67,17 +67,17 @@ After 6 months of continuous testing, here's the definitive performance comparis
 
 | Model | Price | Bandwidth (Tested) | Sample Rate | Memory | Decoding | Input Impedance | Noise Floor |
 |-------|-------|--------------------|-------------|--------|----------|-----------------|-------------|
-| [FNIRSI 1014D](https://www.amazon.com/dp/B0BVYBVHK5?tag=tinkerbench-20) | $185 | 24MHz (18MHz actual) | 250MS/s | 10Kpts | None | 1MΩ ±2% | 5mV/div |
-| [OWON VDS1022I](https://www.amazon.com/dp/B0FT32PL8L?tag=tinkerbench-20) | $249 | 25MHz (22MHz actual) | 200MS/s | 1Mpts | UART | 1MΩ ±1% isolated | 2mV/div |
-| [Siglent SDS1104X-E](https://www.amazon.com/dp/B08GX3K9YS?tag=tinkerbench-20) | $389 | 100MHz (92MHz actual) | 1GS/s | 14Mpts | SPI/I2C/UART | 1MΩ ±1% | 1mV/div |
-| [Rigol DS1054Z](https://www.amazon.com/dp/B083BFPGD8?tag=tinkerbench-20) | $399 | 50MHz* (55MHz actual) | 1GS/s | 24Mpts | CAN/UART/SPI/I2C | 1MΩ ±1% | 1mV/div |
+| FNIRSI 1014D | $185 | 24MHz (18MHz actual) | 250MS/s | 10Kpts | None | 1MΩ ±2% | 5mV/div |
+| OWON VDS1022I | $249 | 25MHz (22MHz actual) | 200MS/s | 1Mpts | UART | 1MΩ ±1% isolated | 2mV/div |
+| Siglent SDS1104X-E | $389 | 100MHz (92MHz actual) | 1GS/s | 14Mpts | SPI/I2C/UART | 1MΩ ±1% | 1mV/div |
+| Rigol DS1054Z | $399 | 50MHz* (55MHz actual) | 1GS/s | 24Mpts | CAN/UART/SPI/I2C | 1MΩ ±1% | 1mV/div |
 
 *Software upgradable to 100MHz through documented firmware modifications
 
 ### Key Findings from 300+ Hours of Testing
 
-- The [Siglent SDS1104X-E](https://www.amazon.com/dp/B08GX3K9YS?tag=tinkerbench-20) delivers the most accurate bandwidth (92MHz vs. claimed 100MHz) while maintaining excellent signal integrity.
-- The [Rigol DS1054Z](https://www.amazon.com/dp/B083BFPGD8?tag=tinkerbench-20) offers the most hackable platform with active community support for firmware modifications.
+- The Siglent SDS1104X-E delivers the most accurate bandwidth (92MHz vs. claimed 100MHz) while maintaining excellent signal integrity.
+- The Rigol DS1054Z offers the most hackable platform with active community support for firmware modifications.
 - For pure analog work, the OWON's isolated inputs provide shockingly good noise rejection compared to similarly priced models.
 - FNIRSI's touchscreen interface, while innovative, proves less reliable than physical knobs for intensive measurement sessions.
 
@@ -87,7 +87,7 @@ After 6 months of continuous testing, here's the definitive performance comparis
 
 ### Crystal Oscillator Analysis (20MHz Fundamental)
 
-The FNIRSI's 18MHz effective bandwidth severely attenuated the 3rd harmonic (60MHz component) to near invisibility—problematic for digital clock analysis. Meanwhile, the [Siglent SDS1104X-E](https://www.amazon.com/dp/B08GX3K9YS?tag=tinkerbench-20) cleanly displayed harmonics out to 60MHz with proper amplitude relationships.
+The FNIRSI's 18MHz effective bandwidth severely attenuated the 3rd harmonic (60MHz component) to near invisibility—problematic for digital clock analysis. Meanwhile, the Siglent SDS1104X-E cleanly displayed harmonics out to 60MHz with proper amplitude relationships.
 
 ### Switching Power Supply Noise Measurement (200kHz Buck Converter)
 
@@ -104,7 +104,7 @@ The Rigol's 24Mpts memory captured complete transactions without glitches, while
 - Siglent's cooling fan runs noticeably louder than a Raspberry Pi 4 at full load (measured at 42dB vs. 28dB ambient).
 - Rigol's encoder knobs showed significant wear but remained functional after 10,000+ rotations.
 
-For specialized power electronics work, the [Picoscope 2204A](https://www.amazon.com/dp/B07C11YW88?tag=tinkerbench-20) (not in main table) provided the best noise floor (500μV/div) despite its 10MHz bandwidth limitation, making it ideal for low-voltage power supply analysis.
+For specialized power electronics work, the Picoscope 2204A (not in main table) provided the best noise floor (500μV/div) despite its 10MHz bandwidth limitation, making it ideal for low-voltage power supply analysis.
 
 ## Cost Analysis
 
@@ -119,8 +119,8 @@ Breaking down the true cost per usable feature reveals surprising value differen
 
 ### Long-Term Value Analysis
 
-- The [Siglent SDS1104X-E](https://www.amazon.com/dp/B08GX3K9YS?tag=tinkerbench-20) dominates on multiple fronts with low cost per MHz and included high-quality probes.
-- While the [OWON VDS1022I](https://www.amazon.com/dp/B0FT32PL8L?tag=tinkerbench-20) appears more expensive initially, its 3-year warranty and isolated inputs provide excellent protection.
+- The Siglent SDS1104X-E dominates on multiple fronts with low cost per MHz and included high-quality probes.
+- While the OWON VDS1022I appears more expensive initially, its 3-year warranty and isolated inputs provide excellent protection.
 - The Rigol's hackability adds substantial hidden value through unlocked features.
 - **Avoid scopes under $200 unless measuring only slow analog signals.** The false economy isn't worth the frustration of missed measurements.
 
@@ -130,7 +130,7 @@ Breaking down the true cost per usable feature reveals surprising value differen
 
 For space-constrained workbenches or field use, USB-based options offer compelling alternatives.
 
-The [Analog Discovery 2](https://www.amazon.com/dp/B0CYJV9X52?tag=tinkerbench-20) combines a 30MHz oscilloscope, logic analyzer, and programmable power supplies in one $279 package. While bandwidth-limited, its 16-channel logic analyzer makes it ideal for mixed-signal microcontroller debugging.
+The Analog Discovery 2 combines a 30MHz oscilloscope, logic analyzer, and programmable power supplies in one $279 package. While bandwidth-limited, its 16-channel logic analyzer makes it ideal for mixed-signal microcontroller debugging.
 
 ### Refurbished Market Finds
 
@@ -175,7 +175,7 @@ Always verify with independent tests before purchasing.
 
 ### USB vs. Benchtop—Which Architecture Works Better?
 
-**USB scopes** like the [Picoscope 2204A](https://www.amazon.com/dp/B07C11YW88?tag=tinkerbench-20) offer:
+**USB scopes** like the Picoscope 2204A offer:
 - Typically deeper memory buffers (256Mpts vs. 24Mpts)
 - Advanced software analysis tools
 - Smaller footprint
@@ -196,9 +196,9 @@ Expect 5+ years of reliable service with moderate use. The Siglent's 5-year warr
 
 ## Bottom Line
 
-After 217 hours of rigorous testing across multiple measurement scenarios, the [Siglent SDS1104X-E](https://www.amazon.com/dp/B08GX3K9YS?tag=tinkerbench-20) stands as the clear winner for serious hobbyists and professional makers. Its verified 92MHz real bandwidth, accurate protocol decoding, and deep 14Mpts memory handle everything from I2C signal integrity analysis to switch-mode power supply troubleshooting. The included high-quality probes and 5-year warranty provide exceptional long-term value at $389.
+After 217 hours of rigorous testing across multiple measurement scenarios, the Siglent SDS1104X-E stands as the clear winner for serious hobbyists and professional makers. Its verified 92MHz real bandwidth, accurate protocol decoding, and deep 14Mpts memory handle everything from I2C signal integrity analysis to switch-mode power supply troubleshooting. The included high-quality probes and 5-year warranty provide exceptional long-term value at $389.
 
-For those on a tighter budget, the [OWON VDS1022I](https://www.amazon.com/dp/B0FT32PL8L?tag=tinkerbench-20) delivers remarkable isolated inputs and basic UART decoding at $249—just be aware of its 22MHz practical bandwidth limit. The [Rigol DS1054Z](https://www.amazon.com/dp/B083BFPGD8?tag=tinkerbench-20) remains compelling for tinkerers who value hackability over outright performance.
+For those on a tighter budget, the OWON VDS1022I delivers remarkable isolated inputs and basic UART decoding at $249—just be aware of its 22MHz practical bandwidth limit. The Rigol DS1054Z remains compelling for tinkerers who value hackability over outright performance.
 
 **Avoid anything below $200 unless you're only measuring slow analog signals.** The dozens of hours wasted fighting misleading measurements on ultra-cheap scopes prove they're ultimately more frustrating than economical. Invest in proper tools and they'll pay for themselves in accurate diagnoses and saved debugging time.
 

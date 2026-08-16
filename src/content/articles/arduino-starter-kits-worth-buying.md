@@ -36,17 +36,17 @@ You'll learn why some "200+ components" claims are misleading, how to spot docum
 
 For newcomers, the initial barrier to electronics can feel overwhelming. A well-designed starter kit serves as training wheels—providing just enough structure to build confidence while leaving room for experimentation. The alternative—researching and sourcing individual components—requires understanding resistor color codes, breadboard compatibility, and voltage regulators before you've even built your first circuit.
 
-Starter kits also standardize the learning curve. The [Official Arduino Starter Kit](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20) includes a 170-page project book that gradually introduces concepts from basic circuits to motor control. This scaffolding matters because electronics concepts build cumulatively; misunderstanding current flow in week one will haunt your sensor readings in week four. Our testing showed beginners using structured kits progressed measurably faster in troubleshooting skills compared to those sourcing components independently.
+Starter kits also standardize the learning curve. The Official Arduino Starter Kit includes a 170-page project book that gradually introduces concepts from basic circuits to motor control. This scaffolding matters because electronics concepts build cumulatively; misunderstanding current flow in week one will haunt your sensor readings in week four. Our testing showed beginners using structured kits progressed measurably faster in troubleshooting skills compared to those sourcing components independently.
 
 However, the convenience comes at a premium. Many kits include low-quality versions of tools you'll replace (like flimsy jumper wires) or components you'll rarely use (like specific ICs for the included projects). For hobbyists who already own a multimeter or breadboard, paying for duplicates makes little sense. We found mid-tier kits often include 15–20 redundant components that experienced makers would omit from a custom order.
 
-The psychological aspect shouldn't be underestimated either. Completing the [Official Arduino Kit's](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20) tactile projects (like the motorized pinwheel or crystal ball) provides tangible milestones that YouTube tutorials can't match. Beginners report higher motivation when working with physical project books versus digital instructions alone.
+The psychological aspect shouldn't be underestimated either. Completing the Official Arduino Kit's tactile projects (like the motorized pinwheel or crystal ball) provides tangible milestones that YouTube tutorials can't match. Beginners report higher motivation when working with physical project books versus digital instructions alone.
 
 ## Head-to-head comparison
 
 We tested three popular kits over two months of weekend projects with both beginners and experienced makers:
 
-| Feature               | [Official Arduino Kit](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20) | [Elegoo Mega 2560 Kit](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20) | [SunFounder Project Kit](https://www.amazon.com/dp/B07TEST9012?tag=tinkerbench-20) |
+| Feature               | Official Arduino Kit | Elegoo Mega 2560 Kit | SunFounder Project Kit |
 |-----------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | Microcontroller       | Arduino Uno R3 (genuine)                                                      | Mega 2560 (clone)                                                              | Uno R3 (clone)                                                                    |
 | Components            | 150+ including rare items like tilt sensor                                   | 200+ with more sensors                                                         | 300+ but many duplicates                                                         |
@@ -58,13 +58,13 @@ We tested three popular kits over two months of weekend projects with both begin
 
 **Key takeaway**: The Elegoo kit offers the best component variety for ongoing use, while the official Arduino kit excels in documentation quality. The SunFounder kit's component count is misleading—it includes 80 duplicate resistors and 40 nearly identical LEDs to inflate numbers.
 
-Component quality varies dramatically in ways that impact learning. The official kit's resistors maintain nominal tolerance even after repeated heating, while budget kits showed measurable drift over time. Similarly, the [Elegoo Mega 2560's](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20) additional PWM pins enable smoother servo control compared to the Uno's limited outputs.
+Component quality varies dramatically in ways that impact learning. The official kit's resistors maintain nominal tolerance even after repeated heating, while budget kits showed measurable drift over time. Similarly, the Elegoo Mega 2560's additional PWM pins enable smoother servo control compared to the Uno's limited outputs.
 
 ## Real-world performance
 
-Component durability varied significantly. The [Official Arduino Kit's](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20) breadboard maintained solid connections after 50 insertions, while cheaper kits developed intermittent contacts by week three. This matters because debugging a faulty circuit is frustrating enough without questioning your tools. We measured connection resistance climbing noticeably in budget breadboards after extended use—enough to disrupt sensitive analog sensors.
+Component durability varied significantly. The Official Arduino Kit's breadboard maintained solid connections after 50 insertions, while cheaper kits developed intermittent contacts by week three. This matters because debugging a faulty circuit is frustrating enough without questioning your tools. We measured connection resistance climbing noticeably in budget breadboards after extended use—enough to disrupt sensitive analog sensors.
 
-Sensor accuracy also differed. The official kit's temperature sensor reported reliably within specification across our testing, whereas clone kits showed noticeable variation—acceptable for learning but problematic for precise applications. Motors in the [Elegoo kit](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20) ran quieter, suggesting better quality control. During continuous operation tests, only the official kit's DC motor maintained consistent performance under varying loads.
+Sensor accuracy also differed. The official kit's temperature sensor reported reliably within specification across our testing, whereas clone kits showed noticeable variation—acceptable for learning but problematic for precise applications. Motors in the Elegoo kit ran quieter, suggesting better quality control. During continuous operation tests, only the official kit's DC motor maintained consistent performance under varying loads.
 
 Documentation gaps emerged too. The SunFounder kit referenced outdated library versions, requiring forum searches to resolve. Meanwhile, the official kit's projects all worked as described—a subtle but important advantage when you're building confidence. We timed beginners spending significantly more time troubleshooting documentation errors in third-party kits versus the official materials.
 
@@ -76,9 +76,9 @@ Breaking down three purchasing strategies for equivalent capability:
 
 **Official Kit Route**: $99 gets you everything immediately, with approximately $60 worth of reusable components. You're effectively paying $39 for curation and documentation. Our time tracking shows this saves significant hours of research and troubleshooting compared to self-sourcing.
 
-**Piecemeal Approach**: Sourcing equivalent components individually costs approximately $85 (using quality mid-range parts), plus substantial time researching compatibility. The [Elegoo Mega 2560](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20) board alone saves money versus genuine Arduino. However, you'll likely spend additional funds correcting wrong purchases (like incorrect resistor wattage ratings).
+**Piecemeal Approach**: Sourcing equivalent components individually costs approximately $85 (using quality mid-range parts), plus substantial time researching compatibility. The Elegoo Mega 2560 board alone saves money versus genuine Arduino. However, you'll likely spend additional funds correcting wrong purchases (like incorrect resistor wattage ratings).
 
-**Hybrid Model**: Buy a quality [Uno R3 clone](https://www.amazon.com/dp/B07TEST3456?tag=tinkerbench-20), a good breadboard, and component bundles ($30 total), then add project guides à la carte. Total approximately $50 with better long-term parts. This works best if you have access to mentor support for component selection.
+**Hybrid Model**: Buy a quality Uno R3 clone, a good breadboard, and component bundles ($30 total), then add project guides à la carte. Total approximately $50 with better long-term parts. This works best if you have access to mentor support for component selection.
 
 Breakeven point: If you complete 15+ projects using the kit's specialized components, the kit justifies its cost. For tinkerers who move quickly to custom circuits, individual purchases win. Makers who build more than 20 projects recover the kit premium through reduced frustration and time savings.
 
@@ -86,7 +86,7 @@ Hidden costs emerge later. The official kit's projects teach proper handling and
 
 ## Alternatives and refills
 
-Third-party component packs offer better value for replenishing consumables. The [Electronics Component Kit](https://www.amazon.com/dp/B07TEST7890?tag=tinkerbench-20) provides a large assortment of resistors, capacitors, and LEDs—far cheaper per component than kit replacements. For sensors, specialized packs (like the [37-in-1 Sensor Module Bundle](https://www.amazon.com/dp/B07TEST2345?tag=tinkerbench-20)) cost less per unit than kit inclusions. We recommend buying these in tandem with any starter kit to extend its lifespan.
+Third-party component packs offer better value for replenishing consumables. The Electronics Component Kit provides a large assortment of resistors, capacitors, and LEDs—far cheaper per component than kit replacements. For sensors, specialized packs (like the 37-in-1 Sensor Module Bundle) cost less per unit than kit inclusions. We recommend buying these in tandem with any starter kit to extend its lifespan.
 
 Consider tool upgrades too. The kits' included USB cables often lack shielding, causing serial communication issues. A quality shielded cable solves this. Similarly, their jumper wires degrade with heavy use; silicone-coated versions last significantly longer. Aftermarket precision tools like flush cutters and helping hands dramatically improve build quality over kit inclusions.
 
@@ -121,7 +121,7 @@ A: Many sensors work with both platforms, but voltage levels differ. You'll need
 
 ## Bottom line
 
-For absolute beginners, the [Official Arduino Starter Kit](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20) remains a solid choice—its documentation quality justifies the premium. Returning hobbyists and budget-conscious makers should consider the [Elegoo Mega 2560 Kit](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20) for its superior component selection. Either way, plan to spend additional funds within six months on quality-of-life upgrades and specialized components for your projects.
+For absolute beginners, the Official Arduino Starter Kit remains a solid choice—its documentation quality justifies the premium. Returning hobbyists and budget-conscious makers should consider the Elegoo Mega 2560 Kit for its superior component selection. Either way, plan to spend additional funds within six months on quality-of-life upgrades and specialized components for your projects.
 
 Our testing shows the ideal path is often hybrid: start with a quality kit for structured learning, then transition to curated component purchases once you've mastered the fundamentals. This approach balances early success with long-term flexibility, avoiding both the frustration of complete DIY sourcing and the limitations of staying entirely kit-dependent.
 

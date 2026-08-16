@@ -10,7 +10,7 @@ bsr: null
 commissionPerSale: 0
 score: 0
 imageUrl: "https://m.media-amazon.com/images/I/313tVK9S7OL.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B0798Y68VX?tag=tinkerbench-20"
+affiliateUrl: "https://www.amazon.com/dp/B0798Y68VX"
 isPrime: false
 status: published
 firstSeen: "2026-06-02"

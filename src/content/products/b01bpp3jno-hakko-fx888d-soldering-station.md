@@ -14,7 +14,7 @@ bsr: 55
 commissionPerSale: 0.0
 score: 48.8
 imageUrl: /images/amazon-picks/B01BPP3JNO.jpg
-affiliateUrl: https://www.amazon.com/dp/B01BPP3JNO?tag=tinkerbench-20&linkCode=ll1&language=en_US
+affiliateUrl: https://www.amazon.com/dp/B01BPP3JNO&language=en_US
 isPrime: true
 status: published
 firstSeen: '2026-05-13T00:00:00+00:00'

@@ -38,7 +38,7 @@ We prioritized three metrics that matter most to hobbyists:
 2. **Component serviceability** (can you replace the hotend with standard parts?)
 3. **Filament flexibility** (does it handle PETG as well as PLA?)
 
-The [Creality Ender 3 V3 SE](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20) and [Anycubic Kobra Go](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20) both scored well here, but for different use cases. Budget printers also democratize small-batch manufacturing—think replacement knobs for vintage equipment or custom mounts for Raspberry Pi cameras. At this price, the break-even point versus outsourcing prints comes quickly.
+The Creality Ender 3 V3 SE and Anycubic Kobra Go both scored well here, but for different use cases. Budget printers also democratize small-batch manufacturing—think replacement knobs for vintage equipment or custom mounts for Raspberry Pi cameras. At this price, the break-even point versus outsourcing prints comes quickly.
 
 # Head-to-head comparison
 
@@ -49,17 +49,17 @@ The [Creality Ender 3 V3 SE](https://www.amazon.com/dp/B07TEST1234?tag=tinkerben
 | Elegoo Neptune 4 | 225×225×265mm | 500mm/s | Yes | 300°C | PLA, PETG, ABS, TPU |
 | Sovol SV01 | 280×240×300mm | 120mm/s | No | 240°C | PLA, PETG |
 
-The [Elegoo Neptune 4](https://www.amazon.com/dp/B07TEST9012?tag=tinkerbench-20) boasts impressive specs with its 500mm/s "hyper-speed," but in practice, vibration artifacts made those speeds unsuitable for anything beyond draft prototypes. The Sovol SV01's larger build volume appeals for enclosure printing, but its manual bed leveling caused first-layer failures in 30% of our test prints.
+The Elegoo Neptune 4 boasts impressive specs with its 500mm/s "hyper-speed," but in practice, vibration artifacts made those speeds unsuitable for anything beyond draft prototypes. The Sovol SV01's larger build volume appeals for enclosure printing, but its manual bed leveling caused first-layer failures in 30% of our test prints.
 
 # Real-world performance
 
-Heat creep—where filament softens prematurely in the hotend—plagued the [Anycubic Kobra Go](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20) during 6-hour PETG prints, causing underextrusion. The [Creality Ender 3 V3 SE](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20) handled the same job without issue thanks to its redesigned cooling fan duct. Both printers use standard MK8 nozzles, but the Ender's all-metal extruder gear proved more durable when grinding through a contaminated spool of recycled PLA.
+Heat creep—where filament softens prematurely in the hotend—plagued the Anycubic Kobra Go during 6-hour PETG prints, causing underextrusion. The Creality Ender 3 V3 SE handled the same job without issue thanks to its redesigned cooling fan duct. Both printers use standard MK8 nozzles, but the Ender's all-metal extruder gear proved more durable when grinding through a contaminated spool of recycled PLA.
 
 Long-term, the power supply is the weak point in sub-$300 printers. The MeanWell units in Creality and Elegoo machines maintained stable voltages during 72-hour print marathons, while generic PSUs in budget competitors showed 12V rail fluctuations that caused layer shifts. One printer we tested—the Toybox 3D—literally melted its own connector block during a TPU print, a fire hazard we hadn't seen since 2014-era machines.
 
 # Cost math
 
-At $219, the [Creality Ender 3 V3 SE](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20) pays for itself through small-batch printing:
+At $219, the Creality Ender 3 V3 SE pays for itself through small-batch printing:
 
 - 23 replacement knobs for vintage test equipment (versus $10/knob on Etsy)
 - 18 custom Raspberry Pi camera mounts (versus $15/mount from specialty shops)
@@ -71,7 +71,7 @@ Filament costs break down as follows:
 - PETG: $0.05/gram (roughly 33¢ for the same cube)
 - TPU: $0.08/gram (roughly 50¢ per cube, but offers flexibility)
 
-The hidden cost? Time. Auto-leveling saves 5 minutes per print versus manual adjustment—that's 25 hours per year if you print daily. The [Elegoo Neptune 4](https://www.amazon.com/dp/B07TEST9012?tag=tinkerbench-20) claims faster speeds, but failed prints waste more filament than slow-but-reliable machines.
+The hidden cost? Time. Auto-leveling saves 5 minutes per print versus manual adjustment—that's 25 hours per year if you print daily. The Elegoo Neptune 4 claims faster speeds, but failed prints waste more filament than slow-but-reliable machines.
 
 # Upgrades and alternatives
 
@@ -81,7 +81,7 @@ Third-party upgrades can bridge the gap between budget and premium printers:
 - Capricorn PTFE tubing ($15) reduces filament friction
 - Raspberry Pi + OctoPrint ($50) enables remote monitoring
 
-But watch for proprietary traps: the [Anycubic Kobra Go](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20) uses non-standard 42-34 motors that cost 3× more to replace than NEMA 17 standards. For filament, avoid no-name brands—we measured diameter variations up to 0.15mm in cheap PLA, causing extrusion inconsistencies. Sunlu and Hatchbox consistently test within 0.03mm tolerance.
+But watch for proprietary traps: the Anycubic Kobra Go uses non-standard 42-34 motors that cost 3× more to replace than NEMA 17 standards. For filament, avoid no-name brands—we measured diameter variations up to 0.15mm in cheap PLA, causing extrusion inconsistencies. Sunlu and Hatchbox consistently test within 0.03mm tolerance.
 
 # FAQ
 
@@ -107,7 +107,7 @@ Creality Print for beginners; PrusaSlicer for advanced users. Avoid proprietary 
 
 # Bottom line
 
-For most hobbyists, the [Creality Ender 3 V3 SE](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20) delivers the best balance of reliability and capability under $300. Its direct-drive extruder handles flexible filaments better than Bowden competitors, and the redesigned dual-gear feeder grips filament more consistently. If you need maximum build volume, the Sovol SV01 is worth considering—but only if you're comfortable manually leveling the bed before every major print. Avoid "hyper-speed" claims; at this price point, consistent 100mm/s prints outperform failed 250mm/s attempts every time.
+For most hobbyists, the Creality Ender 3 V3 SE delivers the best balance of reliability and capability under $300. Its direct-drive extruder handles flexible filaments better than Bowden competitors, and the redesigned dual-gear feeder grips filament more consistently. If you need maximum build volume, the Sovol SV01 is worth considering—but only if you're comfortable manually leveling the bed before every major print. Avoid "hyper-speed" claims; at this price point, consistent 100mm/s prints outperform failed 250mm/s attempts every time.
 
 <!-- padded-no-api-v2 -->
 ---

@@ -37,13 +37,13 @@ Modern electronics troubleshooting demands visibility into digital protocols. Wh
 - UART (115200 baud standard)
 - 1-Wire and PWM signals
 
-Cheap analyzers lie about their capabilities. Through testing, we found the [Hantek 24MHz Analyzer](https://www.amazon.com/dp/B0DHV8SCLS?tag=tinkerbench-20) couldn't maintain stable sampling above 8MHz with all channels active, while the [Saleae Logic 8](https://www.amazon.com/dp/B00WSAXBQ0?tag=tinkerbench-20) delivered consistent 24MHz performance. Poor signal integrity leads to "ghost" glitches in your captures - false positives that send you debugging wild geese.
+Cheap analyzers lie about their capabilities. Through testing, we found the Hantek 24MHz Analyzer couldn't maintain stable sampling above 8MHz with all channels active, while the Saleae Logic 8 delivered consistent 24MHz performance. Poor signal integrity leads to "ghost" glitches in your captures - false positives that send you debugging wild geese.
 
 Beyond bandwidth, consider:
 
 - **Protocol decoding**: Built-in analysis for I2C/SPI saves hours over manual interpretation
 - **Trigger flexibility**: Sequence triggers catch setup/hold violations
-- **Probe quality**: Flimsy hooks break after 50 uses; silicone-insulated probes (like those on the [DSLogic Plus](https://www.amazon.com/dp/B0G63G9LRJ?tag=tinkerbench-20)) survive bench abuse
+- **Probe quality**: Flimsy hooks break after 50 uses; silicone-insulated probes (like those on the DSLogic Plus) survive bench abuse
 - **Software ecosystem**: Open-source alternatives to manufacturer tools (PulseView vs. Logic)
 
 # Head-to-Head Comparison
@@ -57,14 +57,14 @@ Beyond bandwidth, consider:
 
 Key findings after 30 days of testing:
 
-1. The [Saleae Logic 8](https://www.amazon.com/dp/B00WSAXBQ0?tag=tinkerbench-20) remains the gold standard for software stability, but its 8-channel limit frustrates parallel bus analysis.
-2. DSLogic's [400MHz model](https://www.amazon.com/dp/B0G63G9LRJ?tag=tinkerbench-20) delivers professional features at half the price of equivalent Keysight gear, though its software lacks polish.
-3. Hantek's [24MHz analyzer](https://www.amazon.com/dp/B0DHV8SCLS?tag=tinkerbench-20) works for basic Arduino debugging but struggles with signal integrity above 8MHz.
-4. Digilent's [Analog Discovery 2](https://www.amazon.com/dp/B01N1TJOPZ?tag=tinkerbench-20) combines logic analysis with oscilloscope functionality in a portable EDU-focused package.
+1. The Saleae Logic 8 remains the gold standard for software stability, but its 8-channel limit frustrates parallel bus analysis.
+2. DSLogic's 400MHz model delivers professional features at half the price of equivalent Keysight gear, though its software lacks polish.
+3. Hantek's 24MHz analyzer works for basic Arduino debugging but struggles with signal integrity above 8MHz.
+4. Digilent's Analog Discovery 2 combines logic analysis with oscilloscope functionality in a portable EDU-focused package.
 
 # Real-World Performance
 
-Durability separates hobbyist tools from professional gear. The [Hantek 4032L's](https://www.amazon.com/dp/B0DHV7ZWH2?tag=tinkerbench-20) probes developed intermittent connections after 200 insertions in our stress test, while the [Saleae's](https://www.amazon.com/dp/B00WSAXBQ0?tag=tinkerbench-20) silicone-clad probes survived 800+ insertions without degradation. For heavy use, consider the [PulseView-compatible analyzers](https://www.amazon.com/dp/B098JD8HD3?tag=tinkerbench-20) with replaceable probe sets.
+Durability separates hobbyist tools from professional gear. The Hantek 4032L's probes developed intermittent connections after 200 insertions in our stress test, while the Saleae's silicone-clad probes survived 800+ insertions without degradation. For heavy use, consider the PulseView-compatible analyzers with replaceable probe sets.
 
 Software matters more than hardware specs:
 
@@ -72,7 +72,7 @@ Software matters more than hardware specs:
 - Open-source PulseView supports community-developed decoders but requires manual installation
 - Hantek's software crashed twice during 10-hour capture sessions, losing data
 
-Thermal performance surprised us - the [DSLogic Plus](https://www.amazon.com/dp/B0G63G9LRJ?tag=tinkerbench-20) remained cool during 8-hour FPGA debug sessions, while cheaper models throttled sampling rates after 90 minutes.
+Thermal performance surprised us - the DSLogic Plus remained cool during 8-hour FPGA debug sessions, while cheaper models throttled sampling rates after 90 minutes.
 
 # Cost Math
 
@@ -84,7 +84,7 @@ Breakdown of cost per usable feature:
 | DSLogic Plus         | $36.12        | $18.06       | $0.72    |
 | Hantek 4032L        | $49.75        | $6.21        | $8.29    |
 
-For occasional use, the [$89 8-channel analyzers](https://www.amazon.com/dp/B08PZBPXLZ?tag=tinkerbench-20) make sense, but professionals should invest in the [DSLogic](https://www.amazon.com/dp/B0G63G9LRJ?tag=tinkerbench-20) for its 400MHz headroom. Consider:
+For occasional use, the $89 8-channel analyzers make sense, but professionals should invest in the DSLogic for its 400MHz headroom. Consider:
 
 - Saleae's upgrade policy (free software updates)
 - DSLogic's BNC adapter compatibility (uses existing scope probes)
@@ -94,9 +94,9 @@ For occasional use, the [$89 8-channel analyzers](https://www.amazon.com/dp/B08P
 
 For tight budgets:
 
-1. **Raspberry Pi Pico** - Can function as a basic 12MHz logic analyzer using [PicoLogic](https://www.amazon.com/dp/B09VXQ221K?tag=tinkerbench-20) software
+1. **Raspberry Pi Pico** - Can function as a basic 12MHz logic analyzer using PicoLogic software
 2. **Second-hand gear** - Older Saleae Logic 4 units sell for $150 (avoid clones)
-3. **FPGA-based** - Lattice-based analyzers like the [DreamSourceLab DSLogic](https://www.amazon.com/dp/B0BX2N258S?tag=tinkerbench-20) offer upgradable firmware
+3. **FPGA-based** - Lattice-based analyzers like the DreamSourceLab DSLogic offer upgradable firmware
 
 Probe replacement costs add up:
 
@@ -108,7 +108,7 @@ Probe replacement costs add up:
 
 ### Can I use a logic analyzer as an oscilloscope?
 
-No - logic analyzers only show digital states (high/low), not analog waveforms. For mixed-signal work, consider the [Analog Discovery 2](https://www.amazon.com/dp/B01N1TJOPZ?tag=tinkerbench-20).
+No - logic analyzers only show digital states (high/low), not analog waveforms. For mixed-signal work, consider the Analog Discovery 2.
 
 ### Why does my analyzer show glitches that aren't real?
 
@@ -120,7 +120,7 @@ This aliasing occurs when sampling near the device's maximum rate. Reduce channe
 
 ### Are cheaper clones reliable?
 
-Counterfeit Saleae units often fail within months. Stick with authorized sellers for the [DSLogic](https://www.amazon.com/dp/B0G63G9LRJ?tag=tinkerbench-20) or [Hantek](https://www.amazon.com/dp/B0DHV8SCLS?tag=tinkerbench-20).
+Counterfeit Saleae units often fail within months. Stick with authorized sellers for the DSLogic or Hantek.
 
 ### What software works on Linux?
 
@@ -128,7 +128,7 @@ PulseView supports most analyzers, while Saleae offers native Linux builds for t
 
 # Bottom Line
 
-For **hobbyists**, the [Hantek 4032L](https://www.amazon.com/dp/B0DHV7ZWH2?tag=tinkerbench-20) provides adequate 24MHz performance at $199, though its software frustrates. **FPGA developers** should invest in the [DSLogic Plus](https://www.amazon.com/dp/B0G63G9LRJ?tag=tinkerbench-20) for its 400MHz bandwidth and 16 channels. If budget allows, the [Saleae Logic 8](https://www.amazon.com/dp/B00WSAXBQ0?tag=tinkerbench-20) remains the most polished solution for professional use - its protocol decoders and stable software justify the premium.
+For **hobbyists**, the Hantek 4032L provides adequate 24MHz performance at $199, though its software frustrates. **FPGA developers** should invest in the DSLogic Plus for its 400MHz bandwidth and 16 channels. If budget allows, the Saleae Logic 8 remains the most polished solution for professional use - its protocol decoders and stable software justify the premium.
 
 Final tip: Buy from vendors offering return policies - we found 3/10 units arrived DOA in our batch testing. Keep those packaging materials for the first 30 days.
 

@@ -24,7 +24,7 @@ author: marcus-webb
 
 When your Arduino project starts sending gibberish over SPI or your custom PCB refuses to boot, a USB logic analyzer becomes the diagnostic lifeline every maker needs. Unlike oscilloscopes that show voltage over time, these $50-$200 tools decode the language of digital systems - capturing the 1s and 0s flying between chips.  For more context, see our [article on benchtop power supply](/articles/hobbyist-benchtop-power-supply-guide).But with specs like "24MHz sampling" and "16-channel capture" meaning wildly different things across brands, choosing the right analyzer feels like reading hieroglyphics.
 
-After burning through three logic analyzers that couldn't keep up with a Raspberry Pi's I2C bus (including one that [literally smoked](https://www.amazon.com/dp/B0846GFNCQ?tag=tinkerbench-20) during a 3.3V capture), I tested seven models across 30 projects. This guide cuts through the marketing to reveal which analyzers actually deliver on their promises, which software won't crash mid-debug, and when it's worth stepping up to pro gear like the [Saleae Logic Pro 16](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20). For more context, see our [article on bench multimeter vs. handheld:](/articles/bench-multimeter-vs-handheld-comparison).
+After burning through three logic analyzers that couldn't keep up with a Raspberry Pi's I2C bus (including one that literally smoked during a 3.3V capture), I tested seven models across 30 projects. This guide cuts through the marketing to reveal which analyzers actually deliver on their promises, which software won't crash mid-debug, and when it's worth stepping up to pro gear like the Saleae Logic Pro 16. For more context, see our [article on bench multimeter vs. handheld:](/articles/bench-multimeter-vs-handheld-comparison).
 
 We'll examine critical factors most reviews ignore: How USB 2.0 bandwidth bottlenecks affect real-world sampling rates, why some "5V-tolerant" inputs fry at 5.5V, and which software packages charge hidden fees for basic protocol decoding. You'll see side-by-side captures of identical I2C transactions across devices, revealing how interpolation artifacts can mask timing violations.  For more context, see our [article on choosing first oscilloscope: beginner](/articles/choosing-your-first-oscilloscope).For engineers transitioning from lab equipment, we've included oscilloscope comparisons showing where USB analyzers excel (protocol decoding) and where they fall short (glitch detection).
 
@@ -39,9 +39,9 @@ Consider these real-world scenarios where logic analyzers proved indispensable:
 - Reverse-engineering a proprietary motor controller protocol by capturing UART traffic between its main IC and driver chips
 - Validating signal integrity in a 10-meter SPI run between an industrial PLC and remote sensor module
 
-But the market floods with analyzers that share identical cases but wildly different capabilities. The [DSLogic Plus](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) and [Kingst LA2016](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) both advertise "100MHz" sampling - except one achieves this through interpolation while the other captures real samples. During UART debugging, this difference means missing start bits versus catching every glitch. We verified this by simultaneously capturing a known-bad UART signal with both devices; the DSLogic showed clean transitions while the Kingst revealed the actual 12ns glitch causing errors.
+But the market floods with analyzers that share identical cases but wildly different capabilities. The DSLogic Plus and Kingst LA2016 both advertise "100MHz" sampling - except one achieves this through interpolation while the other captures real samples. During UART debugging, this difference means missing start bits versus catching every glitch. We verified this by simultaneously capturing a known-bad UART signal with both devices; the DSLogic showed clean transitions while the Kingst revealed the actual 12ns glitch causing errors.
 
-For retired engineers dusting off their workbenches, these tools offer lab-grade capabilities at hobbyist prices. The [Analog Discovery 3](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) combines a 125MHz logic analyzer with a 14-bit oscilloscope, function generator, and network analyzer - all for less than the cost of a single 1980s logic probe. But newcomers face a minefield of specs that don't translate to real-world use. This guide focuses on practical performance: Which analyzers handle 5V-tolerant inputs without frying?
+For retired engineers dusting off their workbenches, these tools offer lab-grade capabilities at hobbyist prices. The Analog Discovery 3 combines a 125MHz logic analyzer with a 14-bit oscilloscope, function generator, and network analyzer - all for less than the cost of a single 1980s logic probe. But newcomers face a minefield of specs that don't translate to real-world use. This guide focuses on practical performance: Which analyzers handle 5V-tolerant inputs without frying?
 
 Which software decodes CAN bus without $200 plugin fees? How does USB 3.0 versus USB 2.0 affect maximum capture duration?
 
@@ -55,9 +55,9 @@ Which software decodes CAN bus without $200 plugin fees? How does USB 3.0 versus
 | Hantek 4032L         | 32       | 200MHz          | ±20V           | 4 protocols      | $299   |
 | Analog Discovery 3   | 16       | 125MHz          | ±25V           | 12 protocols     | $379   |
 
-For most hobbyists, the [DSLogic Plus](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) hits the sweet spot - its open-source software avoids subscription fees, and the ±30V input range handles automotive projects. During testing, it successfully captured CAN bus traffic from a 24V industrial controller while simultaneously decoding the UART debug output. The companion DSView software includes advanced triggers like "Capture when pattern X occurs after pattern Y but before pattern Z" - features typically found in $5,000 analyzers.
+For most hobbyists, the DSLogic Plus hits the sweet spot - its open-source software avoids subscription fees, and the ±30V input range handles automotive projects. During testing, it successfully captured CAN bus traffic from a 24V industrial controller while simultaneously decoding the UART debug output. The companion DSView software includes advanced triggers like "Capture when pattern X occurs after pattern Y but before pattern Z" - features typically found in $5,000 analyzers.
 
-The [Kingst LA2016](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) remains a budget favorite, but its Windows-only software crashes on long captures. We reproduced this by attempting a 10-minute I2S audio capture - the software froze after 47 seconds while the [Saleae Logic Pro 16](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) completed a 2-hour capture without dropping samples. For basic Arduino debugging though, the Kingst provides reliable performance at nearly half the DSLogic's price.
+The Kingst LA2016 remains a budget favorite, but its Windows-only software crashes on long captures. We reproduced this by attempting a 10-minute I2S audio capture - the software froze after 47 seconds while the Saleae Logic Pro 16 completed a 2-hour capture without dropping samples. For basic Arduino debugging though, the Kingst provides reliable performance at nearly half the DSLogic's price.
 
 Channel count deserves special consideration. While 32 channels on the Hantek 4032L sound impressive, most makers rarely use more than 8. Exceptions include:
 - Parallel memory bus debugging (16+ channels)
@@ -66,9 +66,9 @@ Channel count deserves special consideration. While 32 channels on the Hantek 40
 
 ## Real-World Performance
 
-Bandwidth claims crumble under real buses. The $79 [CJMCU-2408](https://www.amazon.com/dp/B09N9SR36W?tag=tinkerbench-20) advertises "24MHz" sampling but drops packets on 1MHz SPI due to USB 2.0 bottlenecks. Our tests showed it could only sustain 12MHz sampling when capturing all 8 channels simultaneously. Meanwhile, the [Analog Discovery 3](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20)'s 125MHz sampling handled 10MHz digital video signals without breaking stride, thanks to its USB 3.0 interface and onboard buffer memory.
+Bandwidth claims crumble under real buses. The $79 CJMCU-2408 advertises "24MHz" sampling but drops packets on 1MHz SPI due to USB 2.0 bottlenecks. Our tests showed it could only sustain 12MHz sampling when capturing all 8 channels simultaneously. Meanwhile, the Analog Discovery 3's 125MHz sampling handled 10MHz digital video signals without breaking stride, thanks to its USB 3.0 interface and onboard buffer memory.
 
-Durability varies wildly. Plastic-bodied analyzers like the [DSView Mini](https://www.amazon.com/dp/B0C7ZTV376?tag=tinkerbench-20) survive desk use but crack when dropped onto concrete. The aluminum [Saleae Logic Pro 16](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) survived a 4-foot drop during testing - though at 16x the price, it should. More concerning was discovering that some budget analyzers lack proper input protection. Applying 12V to a "5V max" input on a no-name analyzer fried its input buffer, while the DSLogic simply refused to capture (and survived unharmed).
+Durability varies wildly. Plastic-bodied analyzers like the DSView Mini survive desk use but crack when dropped onto concrete. The aluminum Saleae Logic Pro 16 survived a 4-foot drop during testing - though at 16x the price, it should. More concerning was discovering that some budget analyzers lack proper input protection. Applying 12V to a "5V max" input on a no-name analyzer fried its input buffer, while the DSLogic simply refused to capture (and survived unharmed).
 
 Software stability proved equally important as hardware specs. The open-source Sigrok platform supports dozens of analyzers but crashed when decoding nested SPI transactions on a Raspberry Pi Pico. Saleae's software handled the same capture flawlessly but requires paid upgrades for advanced protocols like USB PD. For Linux users, the DSLogic's software offers the best balance of stability and features.
 
@@ -79,18 +79,18 @@ Breaking down cost per protocol:
 - DSLogic: $12.60/protocol (15 included)
 - Kingst: $19.88/protocol (8 included)
 
-For occasional I2C debugging, the $59 [CJMCU-2408](https://www.amazon.com/dp/B09N9SR36W?tag=tinkerbench-20) pays for itself in two projects. But developers working with CAN FD or USB PD need the [Analog Discovery 3](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20)'s analog-digital hybrid capabilities. Its network analyzer mode helped diagnose impedance mismatches in a custom USB-C cable that was causing negotiation failures.
+For occasional I2C debugging, the $59 CJMCU-2408 pays for itself in two projects. But developers working with CAN FD or USB PD need the Analog Discovery 3's analog-digital hybrid capabilities. Its network analyzer mode helped diagnose impedance mismatches in a custom USB-C cable that was causing negotiation failures.
 
 Consider total cost of ownership:
 1. The $159 Kingst LA2016 seems affordable until you need $40 protocol packs
 2. Saleae's $1,499 price includes lifetime software updates
 3. Open-source options like DSLogic avoid recurring costs but lack premium support
 
-For classroom use, the [Analog Discovery 3](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) shines - its WaveForms software allows creating virtual instruments perfect for teaching digital logic concepts. We used it to demonstrate clock domain crossing issues by generating simultaneous 100MHz and 101MHz square waves.
+For classroom use, the Analog Discovery 3 shines - its WaveForms software allows creating virtual instruments perfect for teaching digital logic concepts. We used it to demonstrate clock domain crossing issues by generating simultaneous 100MHz and 101MHz square waves.
 
 ## Alternatives and Refills
 
-For Raspberry Pi tinkerers, the $15 [PicoScope](https://www.amazon.com/dp/B0846GFNCQ?tag=tinkerbench-20) turns your microcontroller into a basic analyzer. While limited to 1MHz sampling, it's perfect for verifying GPIO toggles or simple UART traffic. Open-source options like Sigrok support 100+ devices but require CLI fluency - we walked through decoding I2C using PulseView's terminal commands.
+For Raspberry Pi tinkerers, the $15 PicoScope turns your microcontroller into a basic analyzer. While limited to 1MHz sampling, it's perfect for verifying GPIO toggles or simple UART traffic. Open-source options like Sigrok support 100+ devices but require CLI fluency - we walked through decoding I2C using PulseView's terminal commands.
 
 When projects outgrow USB tools, used HP/Agilent analyzers on eBay offer 1GHz+ sampling for under $500. The HP 16500C series provides deep memory and advanced triggering, though their SCSI interfaces require adapters. For mixed-signal work, the Tektronix TLA7000 series combines logic analysis with oscilloscope channels - we found a working TLA715 for $800.
 
@@ -123,7 +123,7 @@ Most software supports custom protocol definitions. Saleae's SDK allows Python s
 
 ## Bottom Line
 
-For under $200, the [DSLogic Plus](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) delivers pro features without pro pricing - just don't expect it to survive a drop test. Budget-focused makers should grab the [Kingst LA2016](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) for classic protocols, while embedded developers will appreciate the [Analog Discovery 3](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20)'s mixed-signal flexibility. When your project involves 1GHz DDR4 memory or automotive CAN FD, it's time to rent a $10,000 Keysight.
+For under $200, the DSLogic Plus delivers pro features without pro pricing - just don't expect it to survive a drop test. Budget-focused makers should grab the Kingst LA2016 for classic protocols, while embedded developers will appreciate the Analog Discovery 3's mixed-signal flexibility. When your project involves 1GHz DDR4 memory or automotive CAN FD, it's time to rent a $10,000 Keysight.
 
 Remember: The best analyzer is the one you'll actually use. For quick Arduino checks, a $15 PicoScope beats an unused $1,500 Saleae. But if you're designing PCBs professionally, invest in tools that won't leave you guessing whether glitches are real or artifacts. As one engineer told us: "I don't trust a logic analyzer until I've seen it fail" - meaning it should reveal problems, not hide them.
 

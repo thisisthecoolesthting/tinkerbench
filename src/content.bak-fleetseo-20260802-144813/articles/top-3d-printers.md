@@ -56,8 +56,8 @@ My biggest gripe, if I had to pick one, is that it's a more "closed" ecosystem t
 *   **Auto Bed Leveling:** Yes
 *   **Connectivity:** Wi-Fi, Bambu Lab Cloud
 *   **Price:** Mid-range (P1P around $600, P1S around $700)
-*   [Check price for Bambu Lab P1P on Amazon](https://www.amazon.com/dp/B0BVT6247Y/?tag=tinkerbench-20)
-*   [Check price for Bambu Lab P1S on Amazon](https://www.amazon.com/dp/B0C392R788/?tag=tinkerbench-20)
+*   Check price for Bambu Lab P1P on Amazon
+*   Check price for Bambu Lab P1S on Amazon
 
 ### The Beginner's Champion: Creality Ender 3 V3 KE
 
@@ -81,7 +81,7 @@ While it's not as fast or polished as the Bambu Lab machines, the Ender 3 V3 KE 
 *   **Auto Bed Leveling:** Yes (CR Touch)
 *   **Connectivity:** USB, Wi-Fi, LAN
 *   **Price:** Entry-level (around $250-$300)
-*   [Check price for Creality Ender 3 V3 KE on Amazon](https://www.amazon.com/dp/B0CPJ1Q84M/?tag=tinkerbench-20)
+*   Check price for Creality Ender 3 V3 KE on Amazon
 
 ### The Enthusiast's Choice: Prusa MK4
 
@@ -107,7 +107,7 @@ Is it the fastest printer? No. Is it the cheapest? Absolutely not. But if you va
 *   **Auto Bed Leveling:** Yes (Nextruder load cell)
 *   **Connectivity:** USB, Ethernet, Wi-Fi (optional)
 *   **Price:** High-end hobbyist (around $800 kit, $1100 assembled)
-*   [Check price for Prusa MK4 (kit) on Amazon](https://www.amazon.com/dp/B0BXXXXXXXX/?tag=tinkerbench-20) - *Note: Prusa typically sells direct, Amazon stock can be inconsistent.*
+*   Check price for Prusa MK4 (kit) on Amazon - *Note: Prusa typically sells direct, Amazon stock can be inconsistent.*
 
 ### Bottom Line
 

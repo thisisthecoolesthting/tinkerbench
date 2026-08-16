@@ -37,7 +37,7 @@ I’ve used a DS1054Z for years on various projects, from debugging audio amplif
 
 *   **Who it's for:** Beginners, students, hobbyists, and those on a budget who need a solid, versatile bench scope.
 *   **Who it's not for:** Professionals needing higher bandwidth (200MHz+) or specialized features like spectrum analysis (though it has a basic FFT).
-*   **Consider instead:** For a slightly more compact and portable option, often with a touchscreen, consider the [FNIRSI 1014D (B0B68T73N1)](https://www.amazon.com/dp/B0B68T73N1/?tag=tinkerbench-20). It's a dual-channel, 100MHz scope, but its memory depth and sample rate are significantly lower than the Rigol, making it less suitable for deep analysis.
+*   **Consider instead:** For a slightly more compact and portable option, often with a touchscreen, consider the FNIRSI 1014D (B0B68T73N1). It's a dual-channel, 100MHz scope, but its memory depth and sample rate are significantly lower than the Rigol, making it less suitable for deep analysis.
 
 ### Stepping Up: More Bandwidth, Deeper Memory, Better Displays
 

@@ -22,35 +22,35 @@ author: marcus-webb
 
 ## Introduction
 
-"What's the cheapest oscilloscope that won't fail me mid-project?" This question haunts every hobbyist stepping into circuit debugging. At TinkerBench, we burned through seven budget models (literally, in one case) to find instruments that balance cost and capability.  For more context, see our [article on benchtop power supply](/articles/hobbyist-benchtop-power-supply-guide).The $200-$500 range hides critical tradeoffs: a [Siglent SDS1202X-E](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) might save you $150 over a Rigol, but will its 200MHz bandwidth handle your Raspberry Pi clock signals?
+"What's the cheapest oscilloscope that won't fail me mid-project?" This question haunts every hobbyist stepping into circuit debugging. At TinkerBench, we burned through seven budget models (literally, in one case) to find instruments that balance cost and capability.  For more context, see our [article on benchtop power supply](/articles/hobbyist-benchtop-power-supply-guide).The $200-$500 range hides critical tradeoffs: a Siglent SDS1202X-E might save you $150 over a Rigol, but will its 200MHz bandwidth handle your Raspberry Pi clock signals?
 
 We tested bandwidth accuracy, trigger stability, and software quirks across 30 projects—from Arduino PWM checks to CAN bus sniffing—to separate marketing claims from reality.
 
 Our testing methodology involved three key phases: First, we subjected each scope to standardized signal tests using a calibrated function generator, measuring actual bandwidth versus claimed specs. Second, we replicated common hobbyist scenarios like debugging SPI communications between microcontrollers and analyzing switch-mode power supply noise.  For more context, see our [article on usb logic analyzers: affordable](/articles/usb-logic-analyzer-reviews).Finally, we conducted long-term durability tests, power cycling units 50 times daily while monitoring performance degradation.
 
-The [Rigol DS1054Z](https://www.amazon.com/dp/B0F54TYKF9?tag=tinkerbench-20) surprised us by maintaining stable triggering after 1,200 power cycles, while a cheaper clone developed display artifacts at just 300 cycles.
+The Rigol DS1054Z surprised us by maintaining stable triggering after 1,200 power cycles, while a cheaper clone developed display artifacts at just 300 cycles.
 
 Key findings include:
 - 68% of sub-$300 scopes failed to achieve 80% of their advertised bandwidth
-- USB-powered models like the [OWON VDS1022I](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) showed significant noise when powered from laptop USB ports
+- USB-powered models like the OWON VDS1022I showed significant noise when powered from laptop USB ports
 - Memory depth varied wildly, with some 100MHz scopes having just 10kpts while others offered 1Mpts For more context, see our [article on bench multimeter vs. handheld:](/articles/bench-multimeter-vs-handheld-comparison).
 
 > **See also:** [Best Benchtop Power Supply for Hobbyists: Lab-Grade Precision Without the](https://tinkerbench.co/articles/hobbyist-benchtop-power-supply/)
 
 ## Why This Matters
 
-A scope isn't like buying a multimeter. While a $20 meter measures static values adequately, oscilloscopes live or die by their ability to capture transient events.  For more context, see our [article on choosing first oscilloscope: beginner](/articles/choosing-your-first-oscilloscope).Consider a common scenario: debugging I2C glitches on a homemade PCB. A cheap scope with poor memory depth might miss the faulty transaction entirely, sending you down hours of false trails. We found the [OWON VDS1022I](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) struggles with signals faster than 10MHz despite its claimed 25MHz bandwidth, while the [Hantek DSO2C10](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) handles 50MHz reliably.
+A scope isn't like buying a multimeter. While a $20 meter measures static values adequately, oscilloscopes live or die by their ability to capture transient events.  For more context, see our [article on choosing first oscilloscope: beginner](/articles/choosing-your-first-oscilloscope).Consider a common scenario: debugging I2C glitches on a homemade PCB. A cheap scope with poor memory depth might miss the faulty transaction entirely, sending you down hours of false trails. We found the OWON VDS1022I struggles with signals faster than 10MHz despite its claimed 25MHz bandwidth, while the Hantek DSO2C10 handles 50MHz reliably.
 
 For retired engineers reviving old tube amps, this difference means catching capacitor leakage waveforms versus guessing from distorted traces.
 
 The consequences of choosing wrong manifest in three ways:
 1. **False negatives**: A scope might display a "clean" signal while missing critical glitches. We recorded one instance where a $179 scope failed to capture a 50ns pulse that caused microcontroller resets.
-2. **Measurement errors**: Budget scopes often have inaccurate vertical scaling. Our tests showed the [FNIRSI 1014D](https://www.amazon.com/dp/B085VZPR2Y?tag=tinkerbench-20) reporting 3.3V signals as 3.1V—enough to mask marginal logic levels.
+2. **Measurement errors**: Budget scopes often have inaccurate vertical scaling. Our tests showed the FNIRSI 1014D reporting 3.3V signals as 3.1V—enough to mask marginal logic levels.
 3. **Workflow friction**: Clunky interfaces waste time.
 
 The Hantek takes 8 button presses to set up edge triggering versus the Siglent's 3-tap process.
 
-For automotive diagnostics, the difference between a 50MHz and 100MHz scope becomes critical when probing CAN FD buses running at 5Mbps. We verified the [Siglent SDS1202X-E](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) could cleanly capture the entire message frame, while entry-level models showed signal degradation at the 3rd bit.
+For automotive diagnostics, the difference between a 50MHz and 100MHz scope becomes critical when probing CAN FD buses running at 5Mbps. We verified the Siglent SDS1202X-E could cleanly capture the entire message frame, while entry-level models showed signal degradation at the 3rd bit.
 
 ## Head-to-Head Comparison
 
@@ -61,7 +61,7 @@ For automotive diagnostics, the difference between a 50MHz and 100MHz scope beco
 | Hantek DSO2C10      | 100MHz    | 1GSa/s      | 40Kpts       | $299   | Analog circuits, audio work       |
 | OWON VDS1022I       | 25MHz     | 100MSa/s    | 1Mpts        | $159   | Education, slow serial buses      |
 
-The [Rigol DS1054Z](https://www.amazon.com/dp/B0F54TYKF9?tag=tinkerbench-20) remains the value king—its hackable firmware unlocks 100MHz bandwidth, effectively doubling its value. But the [Siglent SDS1202X-E](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20)'s deeper memory captures longer signal sequences critical for intermittent faults.
+The Rigol DS1054Z remains the value king—its hackable firmware unlocks 100MHz bandwidth, effectively doubling its value. But the Siglent SDS1202X-E's deeper memory captures longer signal sequences critical for intermittent faults.
 
 **Deep Dive on Key Models:**
 
@@ -94,7 +94,7 @@ The [Rigol DS1054Z](https://www.amazon.com/dp/B0F54TYKF9?tag=tinkerbench-20) rem
 
 ## Real-World Performance
 
-Budget scopes cut corners in subtle ways. The [FNIRSI 1014D](https://www.amazon.com/dp/B085VZPR2Y?tag=tinkerbench-20) ($189) claims 100MHz but aliases signals above 30MHz, as we discovered while probing a 433MHz RF module. Its tiny display also makes cursor measurements frustrating. Conversely, the [Siglent SDS1104X-E](https://www.amazon.com/dp/B0CGW2TFSV?tag=tinkerbench-20) ($599) maintains signal integrity up to its rated 100MHz, with responsive touch controls that speed up debugging. For power supply work, we clocked the Hantek's FFT analysis at 3x slower than Rigol's when identifying switching noise.
+Budget scopes cut corners in subtle ways. The FNIRSI 1014D ($189) claims 100MHz but aliases signals above 30MHz, as we discovered while probing a 433MHz RF module. Its tiny display also makes cursor measurements frustrating. Conversely, the Siglent SDS1104X-E ($599) maintains signal integrity up to its rated 100MHz, with responsive touch controls that speed up debugging. For power supply work, we clocked the Hantek's FFT analysis at 3x slower than Rigol's when identifying switching noise.
 
 **Application-Specific Findings:**
 
@@ -127,7 +127,7 @@ Break down cost per feature:
 - **$2.15/MHz**: Siglent SDS1202X-E (200MHz @ $429)
 - **$3.18/MHz**: Rigol DS1054Z (50MHz* @ $399, post-hack)
 
-But raw bandwidth isn't everything. The [OWON VDS1022I](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20)'s $6.36/MHz seems poor until you factor in its USB portability—crucial for field repairs. Over three years, our test Rigol required $120 in replacement probes, while the Siglent's included probes survived daily use.
+But raw bandwidth isn't everything. The OWON VDS1022I's $6.36/MHz seems poor until you factor in its USB portability—crucial for field repairs. Over three years, our test Rigol required $120 in replacement probes, while the Siglent's included probes survived daily use.
 
 **Total Cost of Ownership Analysis:**
 
@@ -145,7 +145,7 @@ But raw bandwidth isn't everything. The [OWON VDS1022I](https://www.amazon.com/d
 
 ## Alternatives and Refills
 
-Consider used Tektronix TDS3000 series ($800-$1200) for industrial durability. For pure digital work, the [Digilent Analog Discovery 2](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) ($279) combines scope, logic analyzer, and pattern generator in one USB device. Third-party probes from Pomona or Testec often outperform stock accessories—we measured 20% better high-frequency response with a $49 Testec TT-SI 9001 versus bundled probes.
+Consider used Tektronix TDS3000 series ($800-$1200) for industrial durability. For pure digital work, the Digilent Analog Discovery 2 ($279) combines scope, logic analyzer, and pattern generator in one USB device. Third-party probes from Pomona or Testec often outperform stock accessories—we measured 20% better high-frequency response with a $49 Testec TT-SI 9001 versus bundled probes.
 
 **Alternative Solutions:**
 
@@ -193,7 +193,7 @@ All compared models support SCPI commands via USB. Siglent's Python library is m
 
 ## Bottom Line
 
-The [Rigol DS1054Z](https://www.amazon.com/dp/B0F54TYKF9?tag=tinkerbench-20) remains our top pick for its balance of hackability and durability. If you regularly work above 100MHz or need deep memory, stretch for the [Siglent SDS1202X-E](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20). For pure budget constraints, the Hantek DSO2C10 delivers competent analog performance at $299—just don't expect clean signals above 80MHz. Avoid no-name brands claiming unrealistic specs; we measured one "200MHz" AliExpress scope actually bandwidth-limiting at 35MHz.
+The Rigol DS1054Z remains our top pick for its balance of hackability and durability. If you regularly work above 100MHz or need deep memory, stretch for the Siglent SDS1202X-E. For pure budget constraints, the Hantek DSO2C10 delivers competent analog performance at $299—just don't expect clean signals above 80MHz. Avoid no-name brands claiming unrealistic specs; we measured one "200MHz" AliExpress scope actually bandwidth-limiting at 35MHz.
 
 **Final Recommendations by Use Case:**
 - **Students**: OWON VDS1022I + $20 probe upgrade

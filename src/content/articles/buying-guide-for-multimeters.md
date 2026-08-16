@@ -97,7 +97,7 @@ For voltage measurements, a high input impedance (typically 1 MΩ or 10 MΩ) is 
 Don't underestimate this. A cheap, flimsy meter feels terrible to use. Look for:
 
 *   **Robust Casing:** Rubberized armor or a sturdy plastic case that can withstand a drop.
-*   **Good Test Leads:** Flexible silicone leads are far superior to stiff PVC leads, especially in cold weather. Good quality probes with sharp tips are a must. Cheap leads are often the first thing to fail. Consider upgrading your leads if your meter comes with poor ones. [These silicone test leads](https://www.amazon.com/dp/B071QJ5J8B/?tag=tinkerbench-20) are a good upgrade for many meters.
+*   **Good Test Leads:** Flexible silicone leads are far superior to stiff PVC leads, especially in cold weather. Good quality probes with sharp tips are a must. Cheap leads are often the first thing to fail. Consider upgrading your leads if your meter comes with poor ones. These silicone test leads are a good upgrade for many meters.
 *   **Clear Display:** Backlighting is a huge plus for poorly lit benches.
 *   **Sturdy Rotary Switch:** It should click positively into place.
 *   **Kickstand:** So you can prop it up on your bench.
@@ -112,7 +112,7 @@ If you're just dipping your toes into electronics or need a reliable backup that
 
 *   **Who it's for:** Absolute beginners, parents buying for kids, anyone needing a very affordable, reliable basic meter.
 *   **Who it's not for:** Anyone needing True RMS, capacitance, or extremely high accuracy.
-*   **Consider instead:** If you need more features but still on a budget, look at the [Kaiweets KM601](https://www.amazon.com/dp/B09DGR5M5K/?tag=tinkerbench-20).
+*   **Consider instead:** If you need more features but still on a budget, look at the Kaiweets KM601.
 
 ### For the Serious Hobbyist & Weekend Maker: Uni-T UT61E+
 
@@ -128,7 +128,7 @@ If you're looking for the gold standard in general-purpose multimeters, the Fluk
 
 *   **Who it's for:** Professionals, engineers, anyone who demands the highest reliability, accuracy, and safety, and expects their tools to last a lifetime.
 *   **Who it's not for:** Beginners or those on a tight budget where a feature-rich meter like the Uni-T UT61E+ might offer more bang for the buck.
-*   **Consider instead:** For specialized applications, other Fluke models or meters from Keysight or Agilent. For a more affordable but still excellent professional meter, consider the [Fluke 117](https://www.amazon.com/dp/B0014H2O4M/?tag=tinkerbench-20) if you don't need temperature or specific industrial features.
+*   **Consider instead:** For specialized applications, other Fluke models or meters from Keysight or Agilent. For a more affordable but still excellent professional meter, consider the Fluke 117 if you don't need temperature or specific industrial features.
 
 ## Other Considerations
 

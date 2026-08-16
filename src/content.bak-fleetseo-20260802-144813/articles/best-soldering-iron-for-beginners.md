@@ -43,7 +43,7 @@ We put several popular beginner-friendly soldering stations through their paces 
 
 ### 1. Hakko FX-888D: The Industry Standard for a Reason (Intermediate/Serious Beginner)
 
-The [Hakko FX-888D](https://www.amazon.com/Hakko-FX888D-23BY-Digital-Soldering-Station/dp/B00ANZKOP2/?tag=tinkerbench-20) isn't the cheapest option, but it's often considered the gold standard for hobbyists and professionals alike. This is the station I recommend to anyone serious about getting into electronics. It's built like a tank, heats up incredibly fast (often under 30 seconds), and maintains its temperature with remarkable stability.
+The Hakko FX-888D isn't the cheapest option, but it's often considered the gold standard for hobbyists and professionals alike. This is the station I recommend to anyone serious about getting into electronics. It's built like a tank, heats up incredibly fast (often under 30 seconds), and maintains its temperature with remarkable stability.
 
 *   **Temperature Control:** Digital display, highly accurate, and recovers temperature almost instantly. It's a joy to use.
 *   **Power:** 70W, which is more than enough for virtually any hobbyist project.
@@ -54,7 +54,7 @@ The [Hakko FX-888D](https://www.amazon.com/Hakko-FX888D-23BY-Digital-Soldering-S
 
 ### 2. Weller WE1010NA: A Solid Contender (Intermediate/Serious Beginner)
 
-Weller has been a household name in soldering for decades, and their [WE1010NA](https://www.amazon.com/Weller-WE1010NA-Digital-Soldering-Station/dp/B071G75X6Q/?tag=tinkerbench-20) station is a fantastic option that competes directly with the Hakko. It offers similar performance and build quality at a comparable price point.
+Weller has been a household name in soldering for decades, and their WE1010NA station is a fantastic option that competes directly with the Hakko. It offers similar performance and build quality at a comparable price point.
 
 *   **Temperature Control:** Digital display, precise, and excellent thermal recovery.
 *   **Power:** 70W, just like the Hakko, offering ample power for most tasks.
@@ -65,7 +65,7 @@ Weller has been a household name in soldering for decades, and their [WE1010NA](
 
 ### 3. Pinecil V2 / TS101: The Portable Powerhouse (Intermediate/Advanced Beginner)
 
-These compact, smart soldering irons have taken the hobbyist world by storm. The [Pinecil V2](https://www.amazon.com/PINE64-PINE64-Pinecil-Smart-Mini/dp/B0C4M6D32P/?tag=tinkerbench-20) and the [Miniware TS101](https://www.amazon.com/Miniware-TS101-Soldering-Iron-Black/dp/B0B5Z2541C/?tag=tinkerbench-20) (the successor to the popular TS100) are remarkably capable for their size. They require a separate power supply (USB-C PD or DC barrel jack), which adds to the initial cost if you don't already have one, but offers incredible flexibility.
+These compact, smart soldering irons have taken the hobbyist world by storm. The Pinecil V2 and the Miniware TS101 (the successor to the popular TS100) are remarkably capable for their size. They require a separate power supply (USB-C PD or DC barrel jack), which adds to the initial cost if you don't already have one, but offers incredible flexibility.
 
 *   **Temperature Control:** Digital display, incredibly fast heating, and surprisingly good stability. They run open-source firmware (like IronOS) which adds advanced features.
 *   **Power:** Up to 65W with USB-C PD 20V, or 90W with a DC power supply. They punch well above their weight class.
@@ -76,7 +76,7 @@ These compact, smart soldering irons have taken the hobbyist world by storm. The
 
 ### 4. X-Tronic 3020-XTS / YIHUA 939D-II: Budget-Friendly Stations (Beginner)
 
-For those just dipping their toes in and not ready to commit to the Hakko or Weller price point, there are several decent budget stations. The [X-Tronic 3020-XTS](https://www.amazon.com/X-Tronic-3020-XTS-Soldering-Station-Desoldering/dp/B07Q2D6Q34/?tag=tinkerbench-20) or a similar YIHUA 939D-II are good examples. They offer temperature control and a station form factor without breaking the bank.
+For those just dipping their toes in and not ready to commit to the Hakko or Weller price point, there are several decent budget stations. The X-Tronic 3020-XTS or a similar YIHUA 939D-II are good examples. They offer temperature control and a station form factor without breaking the bank.
 
 *   **Temperature Control:** Digital display, generally good enough for most beginner tasks, though thermal recovery might not be as snappy as higher-end units.
 *   **Power:** Typically 60-75W.

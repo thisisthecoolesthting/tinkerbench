@@ -71,7 +71,7 @@ After running countless bits through them on my bench, here are the logic analyz
 
 ### 1. The Entry Point: Saleae Logic 8 or Logic Pro 8
 
-For the absolute beginner or someone needing a reliable, easy-to-use option, the [Saleae Logic 8](https://www.amazon.com/Saleae-Logic-8-Channel-Analyzer/dp/B00N07T4M0/?tag=tinkerbench-20) is an excellent choice. Saleae pretty much set the standard for modern, USB-based logic analyzers with their intuitive software.
+For the absolute beginner or someone needing a reliable, easy-to-use option, the Saleae Logic 8 is an excellent choice. Saleae pretty much set the standard for modern, USB-based logic analyzers with their intuitive software.
 
 *   **Who it's for:** Beginners, students, anyone who values simplicity and a polished user experience above raw specs. Great for learning the ropes of digital communication.
 *   **Channels:** 8 channels.
@@ -85,7 +85,7 @@ If you’re just starting, the Saleae Logic 8 is a fantastic investment that wil
 
 ### 2. The Mid-Range Workhorse: DreamSourceLab DSLogic U3Pro32
 
-When you need more channels and higher performance without breaking the bank, the [DreamSourceLab DSLogic U3Pro32](https://www.amazon.com/DreamSourceLab-DSLogic-U3Pro32-Analyzer/dp/B0BJX4859T/?tag=tinkerbench-20) is a serious contender. This is the unit I find myself reaching for most often on my bench.
+When you need more channels and higher performance without breaking the bank, the DreamSourceLab DSLogic U3Pro32 is a serious contender. This is the unit I find myself reaching for most often on my bench.
 
 *   **Who it's for:** Intermediate to advanced hobbyists, those working with FPGAs, wider parallel buses, or multiple simultaneous serial protocols.
 *   **Channels:** 32 channels.
@@ -99,7 +99,7 @@ This unit delivers incredible bang for your buck and is a great step up for thos
 
 ### 3. The Budget-Friendly Option: Hantek 4032L
 
-If you’re on a tight budget and just need *something* to get started, the [Hantek 4032L](https://www.amazon.com/Hantek-4032L-USB-Logic-Analyzer/dp/B00A710U54/?tag=tinkerbench-20) is a common choice. However, it comes with caveats.
+If you’re on a tight budget and just need *something* to get started, the Hantek 4032L is a common choice. However, it comes with caveats.
 
 *   **Who it's for:** Absolute beginners on a shoestring budget, or those who need a disposable unit for occasional, non-critical tasks.
 *   **Channels:** 32 channels.

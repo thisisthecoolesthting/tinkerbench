@@ -53,7 +53,7 @@ Moreover, the choice between these two soldering irons also depends on your budg
 | Tip Compatibility     | Wide range    | Limited |
 | Build Quality         | Excellent     | Good    |
 
-For those who need a reliable, stationary soldering station, the [Hakko FX-888D](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) is a solid choice. Its robust build and precise temperature control make it ideal for detailed work. On the other hand, the [Pinecil](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) is perfect for those who need a portable, budget-friendly option without sacrificing performance.
+For those who need a reliable, stationary soldering station, the Hakko FX-888D is a solid choice. Its robust build and precise temperature control make it ideal for detailed work. On the other hand, the Pinecil is perfect for those who need a portable, budget-friendly option without sacrificing performance.
 
 When comparing the two, it's important to note that the Hakko FX-888D offers a wider range of tip compatibility, allowing users to switch between different tips for various tasks. This flexibility is particularly useful for professionals who need to work on different types of projects. The Pinecil, while not as versatile in terms of tip options, still offers a decent selection for most common soldering tasks.
 
@@ -77,7 +77,7 @@ Additionally, the Hakko FX-888D's wide range of tip compatibility allows users t
 
 ## Alternatives and refills
 
-If neither the Hakko nor the Pinecil fits your needs, consider the [TS100](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) or the [Weller WE1010](https://www.amazon.com/dp/B09N9SR36W?tag=tinkerbench-20). Both offer different balances of portability and performance. For tip replacements, the Hakko's wide compatibility is a plus, while the Pinecil's tips are more limited but still readily available.
+If neither the Hakko nor the Pinecil fits your needs, consider the TS100 or the Weller WE1010. Both offer different balances of portability and performance. For tip replacements, the Hakko's wide compatibility is a plus, while the Pinecil's tips are more limited but still readily available.
 
 The TS100 is another portable soldering iron that offers excellent performance and temperature control, making it a great alternative to the Pinecil. The Weller WE1010, on the other hand, is a more traditional soldering station that offers similar features to the Hakko FX-888D but at a slightly lower price point.
 

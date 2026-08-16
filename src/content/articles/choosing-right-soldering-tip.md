@@ -24,7 +24,7 @@ author: marcus-webb
 ---
 ## Choosing the Right Soldering Tip: A Guide to Shapes and Sizes
 
-A soldering iron is only as good as the tip you put on it. Many beginners (and even some experienced tinkerers) underestimate the impact a good soldering tip can have on both efficiency and the quality of the finished joint. Using the correct [soldering tip](https://www.amazon.com/dp/B00FZPGDLA/) for the job can dramatically improve heat transfer, reduce soldering time, and ultimately lead to stronger, more reliable connections. This guide will walk you through the most common soldering tip shapes and sizes, helping you choose the right one for your next project.
+A soldering iron is only as good as the tip you put on it. Many beginners (and even some experienced tinkerers) underestimate the impact a good soldering tip can have on both efficiency and the quality of the finished joint. Using the correct soldering tip for the job can dramatically improve heat transfer, reduce soldering time, and ultimately lead to stronger, more reliable connections. This guide will walk you through the most common soldering tip shapes and sizes, helping you choose the right one for your next project.
 
 ### Why Tip Selection Matters
 
@@ -81,7 +81,7 @@ Soldering tips come in a wide variety of shapes, each designed for specific task
 
 ## Choosing the Right Size
 
-Beyond the shape, the size of the [soldering tip](https://www.amazon.com/dp/B00FZPGDLA/) also plays a crucial role. Here's a simple guideline:
+Beyond the shape, the size of the soldering tip also plays a crucial role. Here's a simple guideline:
 
 *   **Smaller Tips:** Ideal for fine detail work, soldering small components, and working in tight spaces. They provide more precision but less heat capacity.
 *   **Larger Tips:** Ideal for soldering larger components, wires, and applications where you need to transfer heat quickly. They have greater heat capacity but less precision.
@@ -92,7 +92,7 @@ Think about the size of the pad or component you are soldering. You want a tip t
 
 Even the best soldering tip will degrade over time if not properly maintained. Here are a few tips to prolong the life of your tips:
 
-*   **Clean Regularly:** Use a brass sponge or wire cleaner ([like this one](https://www.amazon.com/dp/B00FZPGDLA/)) to remove solder and oxidation from the tip after each use. This helps maintain good heat transfer. *Never* use a damp sponge, as the rapid temperature change damages the plating.
+*   **Clean Regularly:** Use a brass sponge or wire cleaner (like this one) to remove solder and oxidation from the tip after each use. This helps maintain good heat transfer. *Never* use a damp sponge, as the rapid temperature change damages the plating.
 *   **Tin the Tip:** After cleaning, apply a thin layer of fresh solder to the tip. This helps prevent oxidation and improves heat transfer.
 *   **Control Temperature:** Avoid using excessive temperatures, as this can accelerate tip wear. Use the lowest temperature that allows you to quickly and effectively melt the solder.
 *   **Don't Overheat:** Leaving your soldering iron on at high temperatures for extended periods can damage the tip. Turn it off when not in use.

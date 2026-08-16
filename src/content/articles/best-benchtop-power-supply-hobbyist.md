@@ -36,17 +36,17 @@ For anyone working with sensitive components or prototyping new designs, investi
 
 Consider these real scenarios where a proper benchtop supply proves invaluable: When testing a new LED array, the ability to gradually increase voltage while monitoring current draw prevents catastrophic failures. Debugging an intermittent microcontroller reset issue requires observing power rail stability under dynamic loads—impossible with basic adapters. Developing a battery-powered device? A bench supply can simulate battery discharge curves by programming voltage drops over time. These capabilities separate successful projects from frustrating troubleshooting sessions.
 
-The safety aspects alone justify the investment. Quality supplies include protections like over-voltage (OVP), over-current (OCP), and over-temperature (OTP) shutdowns. Some models like the [Rigol DP832](https://www.amazon.com/dp/B07TEST9012?tag=tinkerbench-20) log fault conditions to help diagnose problems. Compare this to using an unregulated wall wart that might deliver 14V instead of the labeled 12V, potentially destroying sensitive components. For roughly the cost of replacing two fried development boards, you can own a supply that prevents such mishaps.
+The safety aspects alone justify the investment. Quality supplies include protections like over-voltage (OVP), over-current (OCP), and over-temperature (OTP) shutdowns. Some models like the Rigol DP832 log fault conditions to help diagnose problems. Compare this to using an unregulated wall wart that might deliver 14V instead of the labeled 12V, potentially destroying sensitive components. For roughly the cost of replacing two fried development boards, you can own a supply that prevents such mishaps.
 
 # Head-to-Head Comparison
 
 | Model | Channels | Voltage Range | Current Limit | Price | Best For |
 |-------|----------|---------------|---------------|-------|----------|
-| [Tekpower TP3005T](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20) | 1 | 0–30V | 0–5A | $120 | Low-noise analog work (audio, RF circuits) |
-| [Korad KD3005D](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20) | 1 | 0–30V | 0–5A | $150 | Digital precision, USB automation, hobby projects |
-| [Siglent SPD3303X-E](https://www.amazon.com/dp/B07TEST7890?tag=tinkerbench-20) | 2 | 0–32V | 0–3.2A | $250 | Dual independent outputs, color LCD, op-amp circuits |
-| [Rigol DP832](https://www.amazon.com/dp/B07TEST9012?tag=tinkerbench-20) | 3 | 0–30V | 0–3/0–3/0–5A | $400 | Lab-grade precision, programmable sequences, complex projects |
-| [Mastech HY3005D](https://www.amazon.com/dp/B07TEST3456?tag=tinkerbench-20) | 1 | 0–30V | 0–5A | $100 | Minimal budget, basic protections, learning projects |
+| Tekpower TP3005T | 1 | 0–30V | 0–5A | $120 | Low-noise analog work (audio, RF circuits) |
+| Korad KD3005D | 1 | 0–30V | 0–5A | $150 | Digital precision, USB automation, hobby projects |
+| Siglent SPD3303X-E | 2 | 0–32V | 0–3.2A | $250 | Dual independent outputs, color LCD, op-amp circuits |
+| Rigol DP832 | 3 | 0–30V | 0–3/0–3/0–5A | $400 | Lab-grade precision, programmable sequences, complex projects |
+| Mastech HY3005D | 1 | 0–30V | 0–5A | $100 | Minimal budget, basic protections, learning projects |
 ---
 ## What These Models Do Well
 
@@ -86,11 +86,11 @@ Breaking down value per feature:
 
 # Alternatives Worth Considering
 
-The **[Mastech HY3005D](https://www.amazon.com/dp/B07TEST3456?tag=tinkerbench-20)** offers similar specs to the Tekpower at lower cost, but sacrifices build quality—binding posts feel less robust, and voltage adjustment lacks fine control.
+The **Mastech HY3005D** offers similar specs to the Tekpower at lower cost, but sacrifices build quality—binding posts feel less robust, and voltage adjustment lacks fine control.
 
-For budget-conscious makers wanting more features, the **[Riden RD6006](https://www.amazon.com/dp/B07TEST2345?tag=tinkerbench-20)** provides 60V/6A output with Bluetooth control for around $180, though it requires an external DC power source.
+For budget-conscious makers wanting more features, the **Riden RD6006** provides 60V/6A output with Bluetooth control for around $180, though it requires an external DC power source.
 
-At the high end, the **[GW Instek GPP-4323](https://www.amazon.com/dp/B07TEST0123?tag=tinkerbench-20)** at $600 offers four isolated outputs with series/parallel combinations for high-current or high-voltage experiments—exceeding most hobbyists' needs but valuable for advanced work.
+At the high end, the **GW Instek GPP-4323** at $600 offers four isolated outputs with series/parallel combinations for high-current or high-voltage experiments—exceeding most hobbyists' needs but valuable for advanced work.
 
 Don't overlook accessories: A $20 set of silicone test leads with right-angle banana plugs prevents accidental shorts in crowded work areas. Magnetic rubber feet keep supplies from sliding during knob adjustments. For programmable models, a $10 USB optical isolator protects your computer from ground loops when automating tests.
 
@@ -100,11 +100,11 @@ Don't overlook accessories: A $20 set of silicone test leads with right-angle ba
 
 ## What's the difference between linear and switching power supplies?
 
-Linear supplies like the Tekpower use transformers and analog regulation to provide exceptionally clean output (<5mV ripple) but are less efficient (50–60%), generating noticeable heat at higher currents. Switching supplies use high-frequency conversion that's 80–90% efficient and compact, but introduce 50–100mV of high-frequency noise problematic for sensitive analog circuits. The [Siglent SPD3303X-E](https://www.amazon.com/dp/B07TEST7890?tag=tinkerbench-20) uses hybrid design: switching for bulk conversion followed by linear post-regulation, balancing efficiency and cleanliness.
+Linear supplies like the Tekpower use transformers and analog regulation to provide exceptionally clean output (<5mV ripple) but are less efficient (50–60%), generating noticeable heat at higher currents. Switching supplies use high-frequency conversion that's 80–90% efficient and compact, but introduce 50–100mV of high-frequency noise problematic for sensitive analog circuits. The Siglent SPD3303X-E uses hybrid design: switching for bulk conversion followed by linear post-regulation, balancing efficiency and cleanliness.
 
 ## Do I need multiple channels?
 
-Only if you're working with circuits requiring different voltages simultaneously. Common scenarios include: microcontrollers (3.3V) with peripheral devices (5V), op-amp circuits needing matched positive/negative supplies (±15V), or systems separating analog and digital grounds. The [Rigol DP832](https://www.amazon.com/dp/B07TEST9012?tag=tinkerbench-20)'s three channels prove invaluable when developing IoT devices needing 3.3V for the MCU, 5V for sensors, and 12V for radios.
+Only if you're working with circuits requiring different voltages simultaneously. Common scenarios include: microcontrollers (3.3V) with peripheral devices (5V), op-amp circuits needing matched positive/negative supplies (±15V), or systems separating analog and digital grounds. The Rigol DP832's three channels prove invaluable when developing IoT devices needing 3.3V for the MCU, 5V for sensors, and 12V for radios.
 
 ## Can I use a computer power supply instead?
 
@@ -112,7 +112,7 @@ Not effectively. ATX supplies provide 3.3V, 5V, and 12V but lack critical featur
 
 ## What's the minimum current limit I should look for?
 
-3A suffices for most microcontroller projects (an Arduino Uno draws <100mA), but 5A provides headroom for motors, LEDs, or power amplifiers. Consider your highest-current device: A 12V DC gearmotor might stall at 4A, requiring a supply capable of briefly delivering that without tripping. The [Korad KD3005D](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20)'s 5A capacity handles most hobbyist needs while remaining affordable.
+3A suffices for most microcontroller projects (an Arduino Uno draws <100mA), but 5A provides headroom for motors, LEDs, or power amplifiers. Consider your highest-current device: A 12V DC gearmotor might stall at 4A, requiring a supply capable of briefly delivering that without tripping. The Korad KD3005D's 5A capacity handles most hobbyist needs while remaining affordable.
 
 ## Are programmable features worth the extra cost?
 
@@ -120,11 +120,11 @@ Only if you frequently switch between preset voltages or need remote control. Pr
 
 # Bottom Line
 
-For most hobbyists, the **[Korad KD3005D](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20)** strikes the best balance between price and features. Its digital readout eliminates guesswork when setting precise voltages (critical for 3.3V logic), while USB connectivity enables simple automation for repetitive tasks. At $150, it delivers 90% of the functionality needed for Arduino, Raspberry Pi, and basic analog projects without overinvesting.
+For most hobbyists, the **Korad KD3005D** strikes the best balance between price and features. Its digital readout eliminates guesswork when setting precise voltages (critical for 3.3V logic), while USB connectivity enables simple automation for repetitive tasks. At $150, it delivers 90% of the functionality needed for Arduino, Raspberry Pi, and basic analog projects without overinvesting.
 
-Those working with noise-sensitive audio or RF circuits should consider the **[Tekpower TP3005T](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20)** despite its analog interface—the ultra-clean linear output justifies the compromise. When budget allows, stepping up to the **[Siglent SPD3303X-E](https://www.amazon.com/dp/B07TEST7890?tag=tinkerbench-20)** provides future-proofing with dual isolated outputs and excellent software support.
+Those working with noise-sensitive audio or RF circuits should consider the **Tekpower TP3005T** despite its analog interface—the ultra-clean linear output justifies the compromise. When budget allows, stepping up to the **Siglent SPD3303X-E** provides future-proofing with dual isolated outputs and excellent software support.
 
-Serious makers tackling complex projects like robotics or embedded systems will appreciate the **[Rigol DP832](https://www.amazon.com/dp/B07TEST9012?tag=tinkerbench-20)**'s three-channel flexibility and programmability. While the $400 price seems steep, it replaces multiple single-output supplies while adding capabilities found in instruments costing twice as much. Ultimately, investing in a quality power supply pays dividends in project success and equipment protection—it's the foundation every electronics workbench deserves.
+Serious makers tackling complex projects like robotics or embedded systems will appreciate the **Rigol DP832**'s three-channel flexibility and programmability. While the $400 price seems steep, it replaces multiple single-output supplies while adding capabilities found in instruments costing twice as much. Ultimately, investing in a quality power supply pays dividends in project success and equipment protection—it's the foundation every electronics workbench deserves.
 
 <!-- padded-no-api-v2 -->
 

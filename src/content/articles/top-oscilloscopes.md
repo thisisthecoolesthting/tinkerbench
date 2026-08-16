@@ -38,7 +38,7 @@ One of the best values in this category is the **Rigol DS1054Z**. While nominall
 *   **Who it's not for:** Professionals needing high-speed digital analysis (GHz range) or extremely low-noise measurements.
 *   **Consider instead:** For a slightly lower budget, a used older Tektronix or Keysight might offer better build quality but potentially less modern features. For a slightly higher budget, the Siglent SDS1104X-E is a strong contender with similar capabilities and a slightly more polished UI.
 
-You can often find the Rigol DS1054Z on Amazon: [Rigol DS1054Z Digital Oscilloscope](https://www.amazon.com/Rigol-DS1054Z-Digital-Oscilloscope-Channels/dp/B00FG9R22M/?tag=tinkerbench-20).
+You can often find the Rigol DS1054Z on Amazon: Rigol DS1054Z Digital Oscilloscope.
 
 Another option that's gained popularity is the **Siglent SDS1104X-E**. This is a true 100MHz, 4-channel scope out of the box, often at a similar price point to the Rigol. It features a higher sample rate (1GSa/s on all channels simultaneously, which is a big deal if you're using all four), a faster waveform capture rate, and a slightly more modern interface. It also includes a built-in arbitrary waveform generator on some models, which can be incredibly useful for testing.
 
@@ -46,7 +46,7 @@ Another option that's gained popularity is the **Siglent SDS1104X-E**. This is a
 *   **Who it's not for:** The highest-end RF work, or those on a shoestring budget.
 *   **Consider instead:** The Rigol DS1054Z for a slightly lower entry cost, or moving up to a higher-bandwidth Siglent model like the SDS2104X Plus if your budget allows.
 
-Check out the Siglent SDS1104X-E: [Siglent SDS1104X-E Digital Oscilloscope](https://www.amazon.com/Siglent-SDS1104X-E-Channels-Digital-Oscilloscope/dp/B073X6Z9YQ/?tag=tinkerbench-20).
+Check out the Siglent SDS1104X-E: Siglent SDS1104X-E Digital Oscilloscope.
 
 ## Intermediate Workhorses: Stepping Up Your Game
 
@@ -58,7 +58,7 @@ The **Keysight DSOX1204G** is an excellent example of an intermediate-level scop
 *   **Who it's not for:** Budget-conscious beginners, or those exclusively working in extremely high-frequency RF.
 *   **Consider instead:** A high-end Siglent SDS2000X Plus series for more features at a slightly lower price, or a used higher-end Tektronix for ultimate measurement fidelity (but potentially older features).
 
-You can find the Keysight DSOX1204G here: [Keysight DSOX1204G Oscilloscope](https://www.amazon.com/Keysight-DSOX1204G-Oscilloscope-Generation-Frequency/dp/B08FB4959N/?tag=tinkerbench-20).
+You can find the Keysight DSOX1204G here: Keysight DSOX1204G Oscilloscope.
 
 Investing in a scope like this opens up a world of possibilities, especially when you start diving into [advanced microcontroller projects](INTERNAL:advanced-microcontroller-techniques) or developing your own RF circuits.
 

@@ -24,7 +24,7 @@ author: marcus-webb
 
 "What's the best soldering iron for someone just starting out?" I hear this question weekly from retirees dusting off their electronics skills and parents buying their teen's first toolkit. After burning through 12 tips and three cheap irons during my own early projects, I learned the hard way that not all soldering tools are created equal. For more context, see our [article on mastering through-hole soldering: step-by-step](/articles/how-to-solder-through-hole-components).
 
-A proper beginner iron must balance three factors: temperature stability for clean joints, ergonomics to prevent hand fatigue, and enough thermal mass for through-hole components without scorching SMD parts. Through 90 days of testing popular models under $100 - from the [Hakko FX-888D](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) to the [Pinecil V2](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) - we identified clear winners for different use cases. For more context, see our [article on how to solder through-hole](/articles/through-hole-soldering-tutorial).
+A proper beginner iron must balance three factors: temperature stability for clean joints, ergonomics to prevent hand fatigue, and enough thermal mass for through-hole components without scorching SMD parts. Through 90 days of testing popular models under $100 - from the Hakko FX-888D to the Pinecil V2 - we identified clear winners for different use cases. For more context, see our [article on how to solder through-hole](/articles/through-hole-soldering-tutorial).
 
 Whether you're assembling Arduino kits or repairing vintage radios, this guide will help you avoid the $20 trap of underpowered pens that stall on ground planes.
 
@@ -34,9 +34,9 @@ Whether you're assembling Arduino kits or repairing vintage radios, this guide w
 
 A soldering iron is the gateway tool for electronics work. Unlike disposable hobby knives or generic screwdrivers, your first iron directly impacts three critical outcomes:
 
-1. **Joint Reliability**: Cold joints from insufficient heat create intermittent connections that fail over time.  For more context, see our [article on pinecil vs. hakko fx-888d:](/articles/pinecil-vs-hakko-fx888d).Our stress tests showed the [KSGER T12](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) maintained 350°C ±5° when soldering to a ground plane, while bargain pens fluctuated by 50°.
+1. **Joint Reliability**: Cold joints from insufficient heat create intermittent connections that fail over time.  For more context, see our [article on pinecil vs. hakko fx-888d:](/articles/pinecil-vs-hakko-fx888d).Our stress tests showed the KSGER T12 maintained 350°C ±5° when soldering to a ground plane, while bargain pens fluctuated by 50°.
 
-2. **Learning Curve**: Poor thermal recovery (the time to reheat after touching a joint) forces beginners to overhold the iron, increasing PCB damage.  For more context, see our [article on soldering irons](/articles/best-soldering-irons-for-beginners).The [Weller WE1010NA](https://www.amazon.com/dp/B085VZPR2Y?tag=tinkerbench-20) recovered 25% faster than similarly priced competitors.
+2. **Learning Curve**: Poor thermal recovery (the time to reheat after touching a joint) forces beginners to overhold the iron, increasing PCB damage.  For more context, see our [article on soldering irons](/articles/best-soldering-irons-for-beginners).The Weller WE1010NA recovered 25% faster than similarly priced competitors.
 
 3. **Long-Term Costs**: Cheap ceramic heaters and non-replaceable tips become e-waste. The Hakko's nickel-plated copper tips last 6x longer than generic conical tips based on our 10,000-joint abrasion test.
 
@@ -60,7 +60,7 @@ Key findings:
 - **Hakko FX-888D** demonstrated the most consistent performance for bench work, with negligible temperature drop during continuous use.
 
 The included iron stand is a safety must-have.
-- Budget pick: The [Tabiger T12](https://www.amazon.com/dp/B0F54TYKF9?tag=tinkerbench-20) delivered 85% of the KSGER's performance at 60% of the cost, though tip quality varied by batch.
+- Budget pick: The Tabiger T12 delivered 85% of the KSGER's performance at 60% of the cost, though tip quality varied by batch.
 
 ## Real-World Performance
 
@@ -72,7 +72,7 @@ Beyond spec sheets, we subjected each iron to three punishing tests:
 
 3. **Tip Longevity**: Using the same tip for 30 days of mixed SMD/through-hole work. Hakko's proprietary nickel plating outlasted generic copper tips 3:1.
 
-Unexpected finding: The Pinecil's USB-C compatibility became a liability when used with underpowered chargers, causing erratic temperature swings. For reliable operation, pair it with a [PD 3.0 power supply](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) capable of 30W+ output.
+Unexpected finding: The Pinecil's USB-C compatibility became a liability when used with underpowered chargers, causing erratic temperature swings. For reliable operation, pair it with a PD 3.0 power supply capable of 30W+ output.
 
 ## Cost Math
 
@@ -87,13 +87,13 @@ Breaking down true ownership costs over 3 years:
 
 Surprisingly, the premium Hakko becomes cost-competitive after year two due to lower tip replacement costs. The Pinecil requires additional investment in a quality power bank for portable use.
 
-For light users (<10 hours/month), the [Tabiger T12](https://www.amazon.com/dp/B0F54TYKF9?tag=tinkerbench-20) offers the best cost-per-joint at $0.003 versus $0.007 for the Hakko. However, professionals will recoup the Hakko's higher initial cost through reduced downtime.
+For light users (<10 hours/month), the Tabiger T12 offers the best cost-per-joint at $0.003 versus $0.007 for the Hakko. However, professionals will recoup the Hakko's higher initial cost through reduced downtime.
 
 ## Alternatives and Refills
 
 Third-party options exist for consumables:
 - **Tips**: Hakko T18-D16 clones work adequately for 1/3 the price, but wear out faster (our tests showed 40% shorter lifespan)
-- **Stands**: Pinecil users can 3D print a stand or use the [TS100 stand](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) with modification
+- **Stands**: Pinecil users can 3D print a stand or use the TS100 stand with modification
 - **Sponges**: Replace OEM sponges with cellulose kitchen sponges cut to size (avoid brass wool for beginners)
 
 Warning: Using non-OEM heating elements in the KSGER voids warranty coverage and risks thermal runaway. Stick with manufacturer-approved replacements.

@@ -39,7 +39,7 @@ Poor through-hole soldering causes 43% of prototype failures according to a 2025
 - **Component stress**: Prolonged heat exposure degrades electrolytic capacitors and semiconductors. We measured a 15% reduction in capacitor lifespan when exposed to >350°C for more than 5 seconds during soldering.
 - **Solder wicking**: Excess heat causes solder to creep up component leads, creating stiff joints prone to fracture. This is particularly problematic with axial components like resistors and diodes.
 
-Professional assemblers use $10,000 soldering systems, but our testing proves hobbyists can achieve similar results with the [Hakko FX-888D](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) or [Pine64 Pinecil](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) when paired with proper technique. The difference between a lasting repair and a recurring failure often comes down to three factors: temperature control, tip selection, and flux application.
+Professional assemblers use $10,000 soldering systems, but our testing proves hobbyists can achieve similar results with the Hakko FX-888D or Pine64 Pinecil when paired with proper technique. The difference between a lasting repair and a recurring failure often comes down to three factors: temperature control, tip selection, and flux application.
 
 We documented a 72% improvement in joint reliability simply by switching from conical to chisel tips, and a 55% reduction in pad damage when using temperature-controlled irons versus fixed-wattage models. These findings hold true across various solder alloys, though lead-free formulations (SAC305) proved particularly sensitive to improper technique.
 
@@ -49,10 +49,10 @@ We stress-tested four stations across 20 through-hole soldering tasks (DIP ICs, 
 
 | Model | Temp Stability | Tip Variety | Warmup | Best For | Key Advantage |
 |-------|----------------|-------------|--------|----------|---------------|
-| [Hakko FX-888D](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) | ±5°C | 40+ tips | 45s | Daily professional use | Unmatched thermal recovery during high-density work |
-| [Pine64 Pinecil](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) | ±15°C | 6 tips | 8s | Portable repairs | USB-C power enables field work with power banks |
-| [Weller WE1010](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) | ±10°C | 15 tips | 60s | Educational settings | Magnetic tip retention prevents accidental disconnection |
-| [KSGER T12](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) | ±8°C | 30 tips | 20s | Budget-conscious tinkerers | Open-source firmware allows custom temperature profiles |
+| Hakko FX-888D | ±5°C | 40+ tips | 45s | Daily professional use | Unmatched thermal recovery during high-density work |
+| Pine64 Pinecil | ±15°C | 6 tips | 8s | Portable repairs | USB-C power enables field work with power banks |
+| Weller WE1010 | ±10°C | 15 tips | 60s | Educational settings | Magnetic tip retention prevents accidental disconnection |
+| KSGER T12 | ±8°C | 30 tips | 20s | Budget-conscious tinkerers | Open-source firmware allows custom temperature profiles |
 
 The Hakko maintained the most consistent temperature during high-density PCB work, while the Pinecil's ultra-fast warmup proved invaluable for quick field repairs. For through-hole work specifically, the Hakko's 3.2mm chisel tip provided optimal heat transfer for 0.1" headers without overheating adjacent components.
 
@@ -66,12 +66,12 @@ Detailed performance metrics revealed:
 
 Through-hole soldering exposes subtle tool differences that don't appear in spec sheets:
 
-- **Lead-free solder challenges**: The [Weller WE1010](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) struggled with higher melting points, requiring 15% longer contact time versus the Hakko. Our tests with Kester 96.5Sn/3Ag/0.5Cu showed optimal results at 375°C with 2-second contact time.
-- **Thermal mass requirements**: Large ground planes demand stations like the [KSGER T12](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) that can deliver sustained 60W without droop. We measured 8°C temperature drops with underpowered irons during ground pin soldering.
+- **Lead-free solder challenges**: The Weller WE1010 struggled with higher melting points, requiring 15% longer contact time versus the Hakko. Our tests with Kester 96.5Sn/3Ag/0.5Cu showed optimal results at 375°C with 2-second contact time.
+- **Thermal mass requirements**: Large ground planes demand stations like the KSGER T12 that can deliver sustained 60W without droop. We measured 8°C temperature drops with underpowered irons during ground pin soldering.
 - **Tip oxidation**: Cheap iron plating fails after 50-100 joints, while genuine Hakko tips last 2000+ in our abrasion tests. Oxidation increases thermal resistance by up to 40%, forcing higher temperature settings.
 - **Component sensitivity**: Delicate parts like vintage ICs require precise control. The Pinecil's 1°C resolution prevented damage to rare 4000-series CMOS chips during our retro computing repairs.
 
-Unexpected finding: The [Pine64 Pinecil](https://www.amazon.com/dp/B093TCYF12C?tag=tinkerbench-20) outperformed stations 3x its price when soldering heat-sensitive vintage components, thanks to precise 1°C incremental control unavailable on analog systems. In our tests with 1N34A germanium diodes (max 200°C), the Pinecil achieved 100% success rate versus 68% with conventional irons.
+Unexpected finding: The Pine64 Pinecil outperformed stations 3x its price when soldering heat-sensitive vintage components, thanks to precise 1°C incremental control unavailable on analog systems. In our tests with 1N34A germanium diodes (max 200°C), the Pinecil achieved 100% success rate versus 68% with conventional irons.
 
 ## Cost Math
 
@@ -85,7 +85,7 @@ Breaking down true ownership costs over 5 years:
 | Repairs | $5 | $12 | $8 | $15 |
 | **Total** | **$239** | **$66** | **$245** | **$176** |
 
-The [Pine64 Pinecil](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) becomes cost-effective after just 18 months for occasional users. However, professionals recoup the Hakko's premium through tip longevity - our test unit required just 3 tip changes in 5 years versus 8-12 for clones.
+The Pine64 Pinecil becomes cost-effective after just 18 months for occasional users. However, professionals recoup the Hakko's premium through tip longevity - our test unit required just 3 tip changes in 5 years versus 8-12 for clones.
 
 Hidden costs to consider:
 - **Replacement parts**: Generic stations average 2x more frequent component failures
@@ -96,8 +96,8 @@ Hidden costs to consider:
 
 Third-party options present tradeoffs:
 
-- **Tips**: [YIHUA replacements](https://www.amazon.com/dp/B0F54TYKF9?tag=tinkerbench-20) work at 80% efficiency for 30% cost, but require 10-15°C higher settings
-- **Stands**: The [Hakko FH-300](https://www.amazon.com/dp/B00063RWT8?tag=tinkerbench-20) reduces tip oxidation versus cheap spring-loaded holders by maintaining proper tip angle
+- **Tips**: YIHUA replacements work at 80% efficiency for 30% cost, but require 10-15°C higher settings
+- **Stands**: The Hakko FH-300 reduces tip oxidation versus cheap spring-loaded holders by maintaining proper tip angle
 - **Cleaning**: Brass wool lasts 3x longer than sponges for $2 more and doesn't thermally shock tips
 - **Solder**: Kester 44 rosin-core outperforms generic brands with better flow characteristics
 - **Fume extraction**: DIY charcoal filters work for occasional use, but benchtop extractors are essential for daily soldering
@@ -143,7 +143,7 @@ A 2-3mm chisel tip provides optimal heat transfer for most through-hole work. Sp
 
 ## Bottom Line
 
-For serious hobbyists, the [Hakko FX-888D](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) remains our top recommendation - its temperature stability and tip ecosystem justify the premium for through-hole work. Budget-conscious makers will appreciate the [Pine64 Pinecil's](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) surprising capability in a portable package. Always pair your iron with quality 63/37 solder and name-brand flux for reliable joints that stand the test of time.
+For serious hobbyists, the Hakko FX-888D remains our top recommendation - its temperature stability and tip ecosystem justify the premium for through-hole work. Budget-conscious makers will appreciate the Pine64 Pinecil's surprising capability in a portable package. Always pair your iron with quality 63/37 solder and name-brand flux for reliable joints that stand the test of time.
 
 Final pro tips:
 - Keep a log of temperature settings for different joint types

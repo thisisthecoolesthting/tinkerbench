@@ -21,7 +21,7 @@ The short answer is: it depends. A standard heat gun, the kind you’d use to st
 
 ### The Good: Accessibility and Cost
 
-The primary appeal of using a heat gun for reflow is its accessibility and low cost. Most tinkerers already own one, or can pick one up for a fraction of the price of a dedicated hot air station or reflow oven. If you're just dipping your toes into SMD rework, or have a one-off repair, a basic heat gun like the [BLACK+DECKER Heat Gun (HG1300)](https://www.amazon.com/dp/B00004SUHX/?tag=tinkerbench-20) might seem like a quick solution. And for very simple tasks, like removing a large, easy-to-access component from a generously spaced board, it *can* work.
+The primary appeal of using a heat gun for reflow is its accessibility and low cost. Most tinkerers already own one, or can pick one up for a fraction of the price of a dedicated hot air station or reflow oven. If you're just dipping your toes into SMD rework, or have a one-off repair, a basic heat gun like the BLACK+DECKER Heat Gun (HG1300) might seem like a quick solution. And for very simple tasks, like removing a large, easy-to-access component from a generously spaced board, it *can* work.
 
 ### The Bad: Control, Damage, and Consistency
 
@@ -57,7 +57,7 @@ If you're serious about SMD work, investing in proper tools will save you countl
 
 ### Hot Air Rework Station
 
-This is the workhorse for most SMD repair and prototyping. A good hot air station provides precise temperature control, adjustable airflow, and a variety of nozzles to direct the heat. Stations like the [Weller WTHA1N](https://www.amazon.com/dp/B07N32L717/?tag=tinkerbench-20) or even more budget-friendly options from brands like Atten or Quick (e.g., the [Quick 861DW](https://www.amazon.com/dp/B0B7J49W61/?tag=tinkerbench-20) – often available from specialized electronics suppliers) are what you should be looking at. They allow you to dial in specific temperatures, control the ramp rate, and use focused nozzles to target individual components without affecting their neighbors. This is an absolute game-changer for anything from 0603 passive components to QFN and BGA packages.
+This is the workhorse for most SMD repair and prototyping. A good hot air station provides precise temperature control, adjustable airflow, and a variety of nozzles to direct the heat. Stations like the Weller WTHA1N or even more budget-friendly options from brands like Atten or Quick (e.g., the Quick 861DW – often available from specialized electronics suppliers) are what you should be looking at. They allow you to dial in specific temperatures, control the ramp rate, and use focused nozzles to target individual components without affecting their neighbors. This is an absolute game-changer for anything from 0603 passive components to QFN and BGA packages.
 
 ### Reflow Oven
 

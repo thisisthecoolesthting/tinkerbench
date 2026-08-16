@@ -46,7 +46,7 @@ Once you've decided on FDM, it's time to dig into the nitty-gritty. Don't get ov
 This refers to the maximum dimensions (X, Y, Z) of an object the printer can produce. Common sizes range from 150x150x150mm up to 300x300x400mm or more.
 
 *   **Small (e.g., 150x150x150mm):** Fine for tiny trinkets, miniature parts, or very specific functional components. You'll quickly run into limitations if you want to print anything substantial.
-*   **Medium (e.g., 220x220x250mm):** This is the sweet spot for many hobbyists. Printers like the ubiquitous Creality Ender 3 series (or clones) fall into this category. It's large enough for most common projects without taking up excessive bench space. The [Creality Ender 3 V3 KE](https://www.amazon.com/Creality-Ender-3-V3-KE-Filament/dp/B0CKK57XJ4/?tag=tinkerbench-20) is a solid example of a modern printer in this size class that offers a lot for the money.
+*   **Medium (e.g., 220x220x250mm):** This is the sweet spot for many hobbyists. Printers like the ubiquitous Creality Ender 3 series (or clones) fall into this category. It's large enough for most common projects without taking up excessive bench space. The Creality Ender 3 V3 KE is a solid example of a modern printer in this size class that offers a lot for the money.
 *   **Large (e.g., 300x300x300mm+):** If you plan on printing helmets, large enclosures, or multiple parts simultaneously, a larger build volume is essential. Be aware that larger prints take considerably longer and consume more filament. They also require a very well-tuned printer to avoid failures over long print times.
 
 My advice: Don't automatically go for the biggest. A medium-sized printer is often more reliable, faster, and easier to manage for a beginner. You can always print larger objects in sections and assemble them.
@@ -67,7 +67,7 @@ Some printers arrive as a box of parts, requiring hours of assembly and calibrat
 *   **Assembly:** Many popular budget printers require some assembly. This can be a great learning experience, helping you understand how the machine works. However, if you're not mechanically inclined or short on time, look for "pre-assembled" or "quick-assembly" models.
 *   **Auto-Leveling/Bed Leveling:** This is a crucial feature. Manual bed leveling can be frustrating for newcomers. Look for printers with automatic bed leveling (ABL) systems (like BLTouch, CRTouch, or inductive sensors). This significantly reduces the learning curve and potential for failed prints.
 *   **User Interface:** A simple touchscreen interface is often more user-friendly than a small monochrome LCD with a rotary encoder.
-*   **Connectivity:** SD card slots are standard. USB connectivity for tethering to a computer is also common. Wi-Fi and app control are increasingly popular features, allowing you to monitor prints remotely. The [Bambu Lab P1P](https://www.amazon.com/Bambu-Lab-P1P-3D-Printer/dp/B0BTHN384W/?tag=tinkerbench-20) is a prime example of a printer that prioritizes ease of use and advanced connectivity right out of the box, though it comes at a higher price point.
+*   **Connectivity:** SD card slots are standard. USB connectivity for tethering to a computer is also common. Wi-Fi and app control are increasingly popular features, allowing you to monitor prints remotely. The Bambu Lab P1P is a prime example of a printer that prioritizes ease of use and advanced connectivity right out of the box, though it comes at a higher price point.
 
 ### 4. Open Source vs. Closed Ecosystem
 
@@ -103,12 +103,12 @@ While not strictly a feature of the printer itself, an enclosure (either built-i
 Beyond the printer itself, there are other costs to consider.
 
 *   **Filament:** This is your consumable. A 1kg spool of good quality PLA can range from $18-$30. Start with a few spools of different colors of PLA.
-*   **Tools:** A good set of [precision pliers](https://www.amazon.com/Hakko-CHP-170-Micro-Cutter/dp/B000BMZ8LC/?tag=tinkerbench-20) for snipping filament, a scraper for print removal, and perhaps a set of hex keys are essential.
+*   **Tools:** A good set of precision pliers for snipping filament, a scraper for print removal, and perhaps a set of hex keys are essential.
 *   **Spare Parts:** No matter how good your printer is, things will eventually wear out. Having spare nozzles, a PTFE tube (if applicable), and perhaps a thermistor on hand is wise.
 *   **Software:** Slicing software (like PrusaSlicer or Cura) is almost always free. Design software (CAD) can range from free (Tinkercad, FreeCAD) to subscription-based (Fusion 360 for personal use, SolidWorks).
 *   **Ventilation:** Especially for materials like ABS or resin, proper ventilation is crucial for your health. This might involve a small exhaust fan or even an air purifier.
 
-A good starting budget for a decent FDM printer and initial supplies is around $250-$400. You can certainly spend less, but you'll likely encounter more frustrations. You can also spend significantly more for advanced features, larger build volumes, or multi-material capabilities, such as the [Prusa MK4](https://www.amazon.com/Original-PRUSA-MK4-3D-Printer/dp/B0C39H9C1P/?tag=tinkerbench-20).
+A good starting budget for a decent FDM printer and initial supplies is around $250-$400. You can certainly spend less, but you'll likely encounter more frustrations. You can also spend significantly more for advanced features, larger build volumes, or multi-material capabilities, such as the Prusa MK4.
 
 ## Bottom Line
 

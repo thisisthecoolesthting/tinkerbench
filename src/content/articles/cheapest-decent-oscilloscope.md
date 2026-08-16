@@ -54,12 +54,12 @@ We tested six popular models under $300 across real-world operating conditions:
 
 | Model | Tested Bandwidth | Sample Rate | Channels | Input Protection | Display | Update Rate | Price |
 |-------|------------------|-------------|----------|------------------|---------|-------------|-------|
-| [Hantek DSO5102P](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20) | 70MHz | 1GSa/s | 2 | 400V CAT II | 800×480 | 30 wfms/s | $279 |
-| [Siglent SDS1104X-E](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20) | 85MHz | 1GSa/s | 4 | 300V CAT II | 1024×600 | 100 wfms/s | $349 |
-| [Rigol DS1054Z](https://www.amazon.com/dp/B07TEST9012?tag=tinkerbench-20) | 45MHz | 1GSa/s | 4 | 300V CAT II | 800×480 | 30 wfms/s | $399 |
-| [FNIRSI 1014D](https://www.amazon.com/dp/B07TEST3456?tag=tinkerbench-20) | 30MHz | 500MSa/s | 2 | 100V (unrated) | 800×480 | 15 wfms/s | $159 |
-| [OWON SDS1102](https://www.amazon.com/dp/B07TEST7890?tag=tinkerbench-20) | 60MHz | 1GSa/s | 2 | 300V CAT II | 800×480 | 25 wfms/s | $229 |
-| [Sainsmart DSO212](https://www.amazon.com/dp/B07TEST2345?tag=tinkerbench-20) | 10MHz | 100MSa/s | 2 | 50V (unrated) | 320×240 | 5 wfms/s | $89 |
+| Hantek DSO5102P | 70MHz | 1GSa/s | 2 | 400V CAT II | 800×480 | 30 wfms/s | $279 |
+| Siglent SDS1104X-E | 85MHz | 1GSa/s | 4 | 300V CAT II | 1024×600 | 100 wfms/s | $349 |
+| Rigol DS1054Z | 45MHz | 1GSa/s | 4 | 300V CAT II | 800×480 | 30 wfms/s | $399 |
+| FNIRSI 1014D | 30MHz | 500MSa/s | 2 | 100V (unrated) | 800×480 | 15 wfms/s | $159 |
+| OWON SDS1102 | 60MHz | 1GSa/s | 2 | 300V CAT II | 800×480 | 25 wfms/s | $229 |
+| Sainsmart DSO212 | 10MHz | 100MSa/s | 2 | 50V (unrated) | 320×240 | 5 wfms/s | $89 |
 
 **What we found:** The Hantek delivered the most consistent performance per dollar, though two channels become limiting when debugging I2C and SPI simultaneously. The Siglent's four channels and superior update rate justified its premium for complex signal analysis. The FNIRSI and Sainsmart proved adequate only for basic DC work and slow digital signals below 10MHz.
 
@@ -103,7 +103,7 @@ For Arduino and Raspberry Pi work below 20MHz, the OWON provides exceptional val
 The Nyquist theorem requires 2 samples per cycle minimum, but practical scopes use 5–10× oversampling for usable results. A "100MHz" scope should specify at least 500MSa/s; anything less suggests interpolation rather than real sampling.
 
 **Are USB oscilloscopes worth buying?**
-Some. The $250 [Picoscope 2204A](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20) delivers excellent 10MHz performance, but most sub-$100 USB scopes suffer from driver instability and USB power noise coupling into measurements.
+Some. The $250 Picoscope 2204A delivers excellent 10MHz performance, but most sub-$100 USB scopes suffer from driver instability and USB power noise coupling into measurements.
 
 **What about tablet-based scopes?**
 Devices like the Analog Discovery 2 combine scope, logic analyzer, and power supply for $299—exceptional value if you accept always working tethered to a computer.
@@ -116,9 +116,9 @@ Front-end amplifier ICs frequently fail first and can sometimes be replaced. We 
 
 ## Bottom line
 
-After 200+ hours of real-world testing, the **[Hantek DSO5102P](https://www.amazon.com/dp/B07TEST1234?tag=tinkerbench-20)** emerges as the best value for budget-conscious makers. Its robust construction survived our abuse tests while delivering measurements accurate for all hobby work short of precision RF characterization. The $70 premium over bargain models buys genuine input protection, usable bandwidth, and interface responsiveness that meaningfully accelerates troubleshooting.
+After 200+ hours of real-world testing, the **Hantek DSO5102P** emerges as the best value for budget-conscious makers. Its robust construction survived our abuse tests while delivering measurements accurate for all hobby work short of precision RF characterization. The $70 premium over bargain models buys genuine input protection, usable bandwidth, and interface responsiveness that meaningfully accelerates troubleshooting.
 
-For those regularly debugging multiple simultaneous signals (I2C + SPI, or PWM + feedback loops), the **[Siglent SDS1104X-E](https://www.amazon.com/dp/B07TEST5678?tag=tinkerbench-20)** justifies its higher cost with four channels and superior waveform update rates. The protocol decoding alone saved our testers hours during complex signal analysis.
+For those regularly debugging multiple simultaneous signals (I2C + SPI, or PWM + feedback loops), the **Siglent SDS1104X-E** justifies its higher cost with four channels and superior waveform update rates. The protocol decoding alone saved our testers hours during complex signal analysis.
 
 Either scope will serve you far better than struggling with inadequate tools or overspending on capabilities you'll never use.
 

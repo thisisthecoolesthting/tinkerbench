@@ -24,7 +24,7 @@ author: marcus-webb
 
 "How do I choose my first oscilloscope without wasting money?" This question keeps many hobbyists awake at night. Unlike multimeters that give simple voltage readings, oscilloscopes visualize electrical signals - revealing timing issues, noise problems, and signal integrity challenges that other tools miss.  For more context, see our [article on benchtop power supply](/articles/hobbyist-benchtop-power-supply-guide).But with prices ranging from $100 USB scopes to $10,000 lab-grade units, the options overwhelm beginners.
 
-Having tested 27 oscilloscopes over 15 years of repairing vintage radios and debugging Arduino projects, I've learned that your first scope should balance three factors: bandwidth (minimum 50MHz for digital work), sample rate (5x your highest frequency of interest), and triggering capabilities (essential for stable waveform capture). The [Siglent SDS1104X-E](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) hits this sweet spot for most hobbyists, but let's examine why through concrete comparisons. For more context, see our [article on usb logic analyzers: affordable](/articles/usb-logic-analyzer-reviews).
+Having tested 27 oscilloscopes over 15 years of repairing vintage radios and debugging Arduino projects, I've learned that your first scope should balance three factors: bandwidth (minimum 50MHz for digital work), sample rate (5x your highest frequency of interest), and triggering capabilities (essential for stable waveform capture). The Siglent SDS1104X-E hits this sweet spot for most hobbyists, but let's examine why through concrete comparisons. For more context, see our [article on usb logic analyzers: affordable](/articles/usb-logic-analyzer-reviews).
 
 When starting out, consider these fundamental measurements you'll need to make:
 - Rise/fall times of digital signals (critical for SPI/I2C debugging)
@@ -40,7 +40,7 @@ A common beginner mistake is buying a scope with insufficient bandwidth. For exa
 
 An oscilloscope is the stethoscope of electronics work. While multimeters tell you "what," scopes show you "when" and "how" - critical for diagnosing intermittent faults or communication errors between components. Consider these real scenarios:
 
-- **Debugging I2C communication**: When a Raspberry Pi fails to communicate with a sensor, the scope reveals whether the issue is timing (clock stretching), voltage levels (pull-up resistors), or noise (improper grounding). The [Siglent SDS1104X-E](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20)'s protocol decoder can automatically flag malformed packets.
+- **Debugging I2C communication**: When a Raspberry Pi fails to communicate with a sensor, the scope reveals whether the issue is timing (clock stretching), voltage levels (pull-up resistors), or noise (improper grounding). The Siglent SDS1104X-E's protocol decoder can automatically flag malformed packets.
 
 - **Switch bounce analysis**: Mechanical relays in 3D printers often exhibit contact bounce that causes multiple unintended activations. A scope captures these millisecond glitches that multimeters miss completely.
 
@@ -62,10 +62,10 @@ a 50-100MHz scope provides adequate headroom. The key is understanding what band
 
 | Model | Bandwidth | Sample Rate | Channels | Price | Best For | Key Limitations |
 |-------|-----------|-------------|----------|-------|----------|-----------------|
-| [Rigol DS1054Z](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) | 50MHz (hackable to 100MHz) | 1GSa/s | 4 | $399 | Budget-conscious beginners needing 4 channels | Slower waveform update rate, basic FFT |
-| [Siglent SDS1104X-E](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) | 100MHz | 1GSa/s | 4 | $549 | Serious hobbyists doing mixed-signal work | Slightly steeper learning curve |
-| [OWON SDS1102](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) | 100MHz | 1GSa/s | 2 | $299 | Portable basic troubleshooting | Only 2 channels, slower UI |
-| [Hantek DSO5102P](https://www.amazon.com/dp/B09N9SR36W?tag=tinkerbench-20) | 100MHz | 1GSa/s | 2 | $329 | Analog circuit analysis | No protocol decoding |
+| Rigol DS1054Z | 50MHz (hackable to 100MHz) | 1GSa/s | 4 | $399 | Budget-conscious beginners needing 4 channels | Slower waveform update rate, basic FFT |
+| Siglent SDS1104X-E | 100MHz | 1GSa/s | 4 | $549 | Serious hobbyists doing mixed-signal work | Slightly steeper learning curve |
+| OWON SDS1102 | 100MHz | 1GSa/s | 2 | $299 | Portable basic troubleshooting | Only 2 channels, slower UI |
+| Hantek DSO5102P | 100MHz | 1GSa/s | 2 | $329 | Analog circuit analysis | No protocol decoding |
 
 Key differentiators explained in depth:
 
@@ -81,7 +81,7 @@ Key differentiators explained in depth:
 
 ## Real-World Performance
 
-After 90 days testing the [Siglent SDS1104X-E](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) on Raspberry Pi GPIO debugging, three strengths emerged:
+After 90 days testing the Siglent SDS1104X-E on Raspberry Pi GPIO debugging, three strengths emerged:
 
 1. **Serial protocol decoding**: The built-in I2C/SPI/UART decoders saved hours manually interpreting bus traffic. For example, when an I2C temperature sensor returned corrupted data, the decoder immediately showed malformed packets that would take hours to spot by eye.
 
@@ -89,9 +89,9 @@ After 90 days testing the [Siglent SDS1104X-E](https://www.amazon.com/dp/B093TCY
 
 3. **Responsive UI**: Unlike cheaper scopes, panning/zooming waveforms felt instantaneous. This becomes crucial during long debugging sessions where laggy interfaces cause frustration.
 
-However, the [Rigol DS1054Z](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) revealed limitations when probing 20MHz crystal oscillators - the 50MHz bandwidth (pre-hack) attenuated signals noticeably. Its FFT function also proved nearly useless for frequency analysis compared to the Siglent's more sophisticated implementation.
+However, the Rigol DS1054Z revealed limitations when probing 20MHz crystal oscillators - the 50MHz bandwidth (pre-hack) attenuated signals noticeably. Its FFT function also proved nearly useless for frequency analysis compared to the Siglent's more sophisticated implementation.
 
-For analog circuit work, the [Hantek DSO5102P](https://www.amazon.com/dp/B09N9SR36W?tag=tinkerbench-20) performed admirably on:
+For analog circuit work, the Hantek DSO5102P performed admirably on:
 - Characterizing RC filter cutoff frequencies
 - Measuring op-amp slew rates
 - Analyzing power supply noise
@@ -110,7 +110,7 @@ Breakdown of true ownership costs over 5 years:
 | Logic Analyzer | $129 | $199 | Optional but highly recommended |
 | **Total** | **$647** | **$748** | With basic accessories |
 
-The [OWON SDS1102](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) seems cheaper at $299, but adding essential accessories (probes, case) brings it within $50 of the Rigol. For occasional use, USB scopes like the [Hantek 6022BE](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) ($80) make sense, but their 20MHz bandwidth and 48MSa/s rate limit usefulness.
+The OWON SDS1102 seems cheaper at $299, but adding essential accessories (probes, case) brings it within $50 of the Rigol. For occasional use, USB scopes like the Hantek 6022BE ($80) make sense, but their 20MHz bandwidth and 48MSa/s rate limit usefulness.
 
 Consider these hidden costs:
 - **Probes**: Cheap probes (under $50/pair) often have inconsistent compensation, affecting measurement accuracy
@@ -120,15 +120,15 @@ Consider these hidden costs:
 ## Alternatives and Refills
 
 For those needing ultra-portability:
-- [FNIRSI 1014D](https://www.amazon.com/dp/B0846GFNCQ?tag=tinkerbench-20) ($150) - Pocket-sized but only 10MHz bandwidth, suitable for basic automotive diagnostics
-- [Picoscope 2204A](https://www.amazon.com/dp/B0C7ZTV376?tag=tinkerbench-20) ($199) - Excellent USB scope software, ideal for laptop-based work
+- FNIRSI 1014D ($150) - Pocket-sized but only 10MHz bandwidth, suitable for basic automotive diagnostics
+- Picoscope 2204A ($199) - Excellent USB scope software, ideal for laptop-based work
 
 Refurbished professional scopes (like Tektronix TDS3000 series) often appear on eBay for $800-$1200. While feature-rich, their aging capacitors and lack of warranty make them risky for beginners. Key considerations:
 - Calibration history (when was it last calibrated?)
 - Availability of replacement parts
 - Power consumption (older scopes often use more power)
 
-For classroom or shared environments, the [Rigol DS1054Z](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) offers better durability than the Siglent's touchscreen.
+For classroom or shared environments, the Rigol DS1054Z offers better durability than the Siglent's touchscreen.
 
 ## FAQ
 
@@ -141,7 +141,7 @@ For Arduino/RPi projects, 50MHz suffices. Working with RF? 100MHz minimum. The r
 
 ### Are USB oscilloscopes any good?
 
-Entry-level USB scopes (like the [Hantek 6022BE](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20)) work for basic tasks but lack the responsiveness and triggering of benchtop units. They excel in:
+Entry-level USB scopes (like the Hantek 6022BE) work for basic tasks but lack the responsiveness and triggering of benchtop units. They excel in:
 - Educational settings where space is limited
 - Field work with laptops
 - Budget-conscious beginners
@@ -170,7 +170,7 @@ Not directly - you need a current probe ($$$) or shunt resistor. Most beginners 
 
 ## Bottom Line
 
-For most electronics hobbyists, the [Siglent SDS1104X-E](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) delivers the best balance of features and value at $549. Its 100MHz bandwidth handles 90% of hobbyist needs, while the responsive interface and protocol decoding accelerate debugging. Budget-constrained makers should consider the [Rigol DS1054Z](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20), accepting its 50MHz limitation (unless hacked). Whatever you choose, invest in good probes - they're the critical link between your circuit and measurements.
+For most electronics hobbyists, the Siglent SDS1104X-E delivers the best balance of features and value at $549. Its 100MHz bandwidth handles 90% of hobbyist needs, while the responsive interface and protocol decoding accelerate debugging. Budget-constrained makers should consider the Rigol DS1054Z, accepting its 50MHz limitation (unless hacked). Whatever you choose, invest in good probes - they're the critical link between your circuit and measurements.
 
 Final recommendations based on use case:
 

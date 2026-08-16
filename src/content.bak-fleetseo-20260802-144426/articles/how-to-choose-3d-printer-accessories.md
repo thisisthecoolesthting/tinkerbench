@@ -24,7 +24,7 @@ Every 3D printer comes with a basic set of tools – usually a spatula, a pair o
 Getting prints to stick and then removing them without damage is a constant dance. The stock build surface might be fine, but it’s often the first thing people upgrade.
 
 *   **Build Surfaces:** The heated bed is the foundation of your print. Different materials offer different adhesion properties and removal experiences.
-    *   **PEI (Polyetherimide) Sheets:** These are my go-to. They offer excellent adhesion for most common filaments like PLA, PETG, and ABS, especially when heated. Once the bed cools, prints often pop right off with minimal effort. They come in smooth and textured varieties. I prefer smooth for aesthetics and easier cleaning, but textured can hide minor imperfections and offers a nice finish on the print's bottom surface. Look for spring steel PEI sheets (like this popular option: [https://www.amazon.com/dp/B0BP8L448X/?tag=tinkerbench-20](https://www.amazon.com/dp/B0BP8L448X/?tag=tinkerbench-20)) that flex for easy print removal.
+    *   **PEI (Polyetherimide) Sheets:** These are my go-to. They offer excellent adhesion for most common filaments like PLA, PETG, and ABS, especially when heated. Once the bed cools, prints often pop right off with minimal effort. They come in smooth and textured varieties. I prefer smooth for aesthetics and easier cleaning, but textured can hide minor imperfections and offers a nice finish on the print's bottom surface. Look for spring steel PEI sheets (like this popular option: https://www.amazon.com/dp/B0BP8L448X/) that flex for easy print removal.
     *   **Glass Beds:** Borosilicate glass offers a perfectly flat, smooth surface, which is fantastic for a mirror-like bottom finish. However, adhesion often requires additional aids like glue stick or hairspray, and removing prints can be more challenging without the flexibility of PEI. They are durable and easy to clean, but typically heavier, which can impact acceleration on some printers.
     *   **Garolite/FR4:** Excellent for nylon and other high-temperature engineering filaments. Not as common for general-purpose printing, but invaluable if you work with those materials.
 
@@ -47,7 +47,7 @@ Maintaining your printer is key to consistent, high-quality results. Many access
     *   **Nozzle Assortment Kits:** Get a kit with various sizes (0.2mm - 0.8mm) to experiment with detail vs. speed. A 0.4mm is standard, but a 0.6mm can drastically reduce print time for larger, less detailed objects.
 
 *   **Filament Management:**
-    *   **Dry Boxes/Dehydrators:** Filament absorbs moisture from the air, leading to stringing, poor layer adhesion, and weaker prints. A dedicated filament dryer (like the [SUNLU S2 Filament Dryer](https://www.amazon.com/dp/B0B55Q4G6D/?tag=tinkerbench-20)) is a game-changer, especially for hygroscopic filaments like PETG, Nylon, and TPU. Even a simple sealed container with desiccant can help.
+    *   **Dry Boxes/Dehydrators:** Filament absorbs moisture from the air, leading to stringing, poor layer adhesion, and weaker prints. A dedicated filament dryer (like the SUNLU S2 Filament Dryer) is a game-changer, especially for hygroscopic filaments like PETG, Nylon, and TPU. Even a simple sealed container with desiccant can help.
     *   **Filament Guides/Rollers:** If your printer's stock filament path causes drag or tangles, aftermarket guides can smooth things out.
 
 *   **Cleaning Supplies:**
@@ -60,7 +60,7 @@ Maintaining your printer is key to consistent, high-quality results. Many access
 
 Precision is paramount in 3D printing. These tools help you achieve it.
 
-*   **Digital Calipers:** Absolutely indispensable. For measuring filament diameter, checking print dimensions, verifying part tolerances, and countless other tasks. Don't skimp here; a cheap plastic one will frustrate you. A decent metal digital caliper (e.g., [Neiko 01407A](https://www.amazon.com/dp/B000GSLKIW/?tag=tinkerbench-20)) is a must-have.
+*   **Digital Calipers:** Absolutely indispensable. For measuring filament diameter, checking print dimensions, verifying part tolerances, and countless other tasks. Don't skimp here; a cheap plastic one will frustrate you. A decent metal digital caliper (e.g., Neiko 01407A) is a must-have.
 *   **Feeler Gauges:** Perfect for accurately setting your Z-offset and leveling your bed. While paper works, a feeler gauge gives you a known thickness, leading to more consistent first layers.
 *   **Precision Scale:** For weighing prints, calculating filament usage, or even calibrating extruder steps per millimeter (E-steps) by weighing extruded filament.
 *   **Multimeter:** While not strictly a 3D printing accessory, if you're serious about maintenance or troubleshooting, a multimeter is essential for checking voltages, continuity, and resistance on your printer's electronics. [How to choose a multimeter](INTERNAL:how-to-choose-multimeter) is a good place to start if you don't have one.

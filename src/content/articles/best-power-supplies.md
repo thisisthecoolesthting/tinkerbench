@@ -66,16 +66,16 @@ We've tested a range of power supplies, from entry-level units to more advanced 
 
 For those just starting out or upgrading from wall warts, the Siglent SPD3303C is an excellent choice. It’s a triple-output linear power supply, offering two adjustable 0-30V/3A channels and a fixed 5V/3A channel. The linear design means very low noise, which is fantastic for sensitive circuits. The build quality is solid, and the controls are intuitive with separate coarse and fine adjustment knobs for both voltage and current. The large, clear LCD displays are easy to read, and it has all the essential protection features. You can run the two main channels independently, in series for up to 60V, or in parallel for up to 6A. This versatility makes it a fantastic workhorse for a home lab. It's a bit pricier than some entry-level single-channel units, but the dual adjustable channels and linear regulation make it a worthwhile investment that you won't outgrow quickly.
 
-[Siglent SPD3303C on Amazon](https://www.amazon.com/Siglent-SPD3303C-Programmable-Power-Supply/dp/B07PGK65F4/?tag=tinkerbench-20)
+Siglent SPD3303C on Amazon
 
 *Who it's for:* Serious beginners, intermediate hobbyists, anyone needing low-noise output and dual rails.
-*Who it's not for:* Those on a very strict budget (consider a basic single-channel unit like the [KORAD KA3005P](https://www.amazon.com/KORAD-KA3005P-Programmable-Precision-Adjustable/dp/B00EE1B5WE/?tag=tinkerbench-20)), or those needing very high current (above 3A per channel).
+*Who it's not for:* Those on a very strict budget (consider a basic single-channel unit like the KORAD KA3005P), or those needing very high current (above 3A per channel).
 
 ### The Workhorse: Rigol DP832A
 
 Moving up a notch, the Rigol DP832A is a step into truly professional-grade equipment that's still accessible for the advanced hobbyist. This is a three-channel programmable linear power supply: two channels offer 0-30V/3A, and the third offers 0-5V/3A (or 0-30V/1A on the non-A model). The "A" model adds higher resolution, remote sensing, and more advanced features. The DP832A boasts extremely low ripple and noise, excellent load regulation, and a comprehensive set of features including programmable over-voltage/current protection, multiple display modes, and even basic data logging. The color display is crisp and informative, and the controls are well-laid out. This supply is built to last and will provide rock-solid performance for virtually any project you throw at it. It's significantly heavier and more expensive than the Siglent, but it offers a level of precision and reliability that justifies the cost for those who demand it. This is the kind of supply you buy once and use for decades.
 
-[Rigol DP832A on Amazon](https://www.amazon.com/Rigol-DP832A-Programmable-Power-Supply/dp/B00J6S64C8/?tag=tinkerbench-20)
+Rigol DP832A on Amazon
 
 *Who it's for:* Advanced hobbyists, small businesses, educational labs, anyone who needs precision, low noise, and programmable features.
 *Who it's not for:* Beginners who might be overwhelmed by the features or those on a tighter budget.
@@ -84,7 +84,7 @@ Moving up a notch, the Rigol DP832A is a step into truly professional-grade equi
 
 Sometimes you don't need a full bench behemoth. For quick tests, field work, or powering small microcontroller projects, a compact, modular power supply like the Miniware MDP-XP is incredibly handy. This system consists of a display control module and various power modules (e.g., a 90W power output module, a 30V/5A digital signal generator module). It's incredibly small, fits in a backpack, and runs on a standard USB-C power delivery input. While its maximum current and voltage are lower than the bench supplies (typically 30V/5A for the power output module), its portability and flexibility are unmatched. The display module is intuitive, and you can even daisy-chain multiple power modules for more complex setups. It's not a replacement for a primary bench supply, but it's an excellent secondary tool for specific use cases.
 
-[Miniware MDP-XP on Amazon](https://www.amazon.com/MINIWARE-MDP-XP-Programmable-Adjustable-Controller/dp/B09D83T7Q6/?tag=tinkerbench-20)
+Miniware MDP-XP on Amazon
 
 *Who it's for:* Field technicians, students, anyone needing a portable, compact, and flexible power solution for low to medium power applications.
 *Who it's not for:* Those needing high power (100W+), ultra-low noise for sensitive analog work, or a primary bench supply.

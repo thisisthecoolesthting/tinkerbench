@@ -31,7 +31,7 @@ This is perhaps the most fundamental spec. How many digital signals do you need 
 *   **Intermediate (16-32 channels):** As you move into more complex systems, perhaps with parallel buses, microcontrollers with multiple peripherals, or even basic FPGA debugging, 16-32 channels become much more useful. This allows you to capture an 8-bit data bus along with control lines, or multiple serial interfaces at once.
 *   **Advanced/Professional (32+ channels):** For serious embedded development, complex FPGAs, or troubleshooting high-speed parallel interfaces, you'll need 32 channels or more. This allows for monitoring wider data buses, multiple control signals, and debugging complex state machines.
 
-My recommendation for most tinkerers starting out is to aim for at least 8 channels. You'll quickly find uses for them beyond just the basic serial protocols. The ubiquitous [Saleae Logic 8](https://www.amazon.com/dp/B07917R552/?tag=tinkerbench-20) is a gold standard for good reason – it's robust, the software is excellent, and 8 channels cover a lot of ground.
+My recommendation for most tinkerers starting out is to aim for at least 8 channels. You'll quickly find uses for them beyond just the basic serial protocols. The ubiquitous Saleae Logic 8 is a gold standard for good reason – it's robust, the software is excellent, and 8 channels cover a lot of ground.
 
 #### Sample Rate (and Sample Depth)
 This tells you how fast the logic analyzer can capture data.
@@ -74,7 +74,7 @@ These are typically small, inexpensive devices that connect to your computer via
 *   **Pros:** Very affordable, portable, leverage your computer's display and storage. Often have excellent software with good protocol decoders.
 *   **Cons:** Performance is limited by USB bandwidth and host computer specs. May not offer the highest sample rates or deepest memory compared to standalone units. Subject to host PC interference.
 *   **Who it's for:** Beginners, hobbyists, students, and anyone needing a portable solution. This is where most tinkerers should start.
-*   **Examples:** The aforementioned [Saleae Logic 8](https://www.amazon.com/dp/B07917R552/?tag=tinkerbench-20) or its bigger brother, the Saleae Logic 16. For a budget alternative that still packs a punch, consider the [DSLogic U3Pro16](https://www.amazon.com/dp/B07C39K95C/?tag=tinkerbench-20) – it gives you 16 channels and decent performance for the price, though the software isn't quite as polished as Saleae's.
+*   **Examples:** The aforementioned Saleae Logic 8 or its bigger brother, the Saleae Logic 16. For a budget alternative that still packs a punch, consider the DSLogic U3Pro16 – it gives you 16 channels and decent performance for the price, though the software isn't quite as polished as Saleae's.
 
 #### 2. Standalone Logic Analyzers
 These are dedicated instruments with their own display, controls, and internal processing.
@@ -88,7 +88,7 @@ Many modern digital oscilloscopes now include a logic analyzer function, effecti
 *   **Pros:** Integrates analog and digital viewing, allowing you to correlate digital events with analog signal integrity issues (e.g., seeing if a digital edge corresponds to excessive ringing on the analog signal). Saves bench space.
 *   **Cons:** Digital channel count is often limited (typically 8 or 16). Digital sample rate and memory depth might not be as high as dedicated logic analyzers. The digital capabilities are often secondary to the analog.
 *   **Who it's for:** Anyone who needs to frequently correlate analog and digital signals, or who wants to consolidate tools on a crowded bench.
-*   **Examples:** Many Rigol, Siglent, and Keysight oscilloscopes offer MSO options. For example, the [Rigol DS1054Z](https://www.amazon.com/dp/B01C313I4W/?tag=tinkerbench-20) (a personal favorite for its value) has an MSO variant, the DS1054Z-S, which adds 16 digital channels.
+*   **Examples:** Many Rigol, Siglent, and Keysight oscilloscopes offer MSO options. For example, the Rigol DS1054Z (a personal favorite for its value) has an MSO variant, the DS1054Z-S, which adds 16 digital channels.
 
 ### My Experience and Recommendations
 

@@ -22,9 +22,9 @@ author: marcus-webb
 
 ## Introduction
 
-Every maker faces the soldering iron dilemma: portable convenience or bench-station precision? The [Pinecil](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) and [Hakko FX-888D](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) represent opposite ends of this spectrum.  For more context, see our [article on mastering through-hole soldering: step-by-step](/articles/how-to-solder-through-hole-components).As a retired electrical engineer who's burned through seven irons in a decade, I conducted a 60-hour stress test across six project categories: SMD rework (0201 to QFP-100), through-hole PCB assembly (single-sided to 4-layer), automotive wiring (22AWG to 10AWG), jewelry soldering, vintage radio repair, and thermal load simulations.
+Every maker faces the soldering iron dilemma: portable convenience or bench-station precision? The Pinecil and Hakko FX-888D represent opposite ends of this spectrum.  For more context, see our [article on mastering through-hole soldering: step-by-step](/articles/how-to-solder-through-hole-components).As a retired electrical engineer who's burned through seven irons in a decade, I conducted a 60-hour stress test across six project categories: SMD rework (0201 to QFP-100), through-hole PCB assembly (single-sided to 4-layer), automotive wiring (22AWG to 10AWG), jewelry soldering, vintage radio repair, and thermal load simulations.
 
-The Hakko's ceramic heater maintained ±5°C stability during continuous 14AWG wire splicing, while the Pinecil surprised us by successfully reflowing 0.5mm pitch QFN packages when paired with a [100W PD power bank](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20). This review goes beyond specs to reveal which tool actually prevents cold joints in your specific use case. For more context, see our [article on how to solder through-hole](/articles/through-hole-soldering-tutorial).
+The Hakko's ceramic heater maintained ±5°C stability during continuous 14AWG wire splicing, while the Pinecil surprised us by successfully reflowing 0.5mm pitch QFN packages when paired with a 100W PD power bank. This review goes beyond specs to reveal which tool actually prevents cold joints in your specific use case. For more context, see our [article on how to solder through-hole](/articles/through-hole-soldering-tutorial).
 
 > **See also:** [Pinecil vs. Hakko FX-888D: Which Soldering Iron is Right for You?](https://tinkerbench.co/articles/pinecil-vs-hakko-fx888d/)
 
@@ -32,7 +32,7 @@ The Hakko's ceramic heater maintained ±5°C stability during continuous 14AWG w
 
 Soldering performance directly impacts project success rates. IPC-A-610 Class 3 standards show cold solder defects increase 320% when using underpowered irons for through-hole work.  For more context, see our [article on pinecil vs. hakko fx-888d:](/articles/pinecil-vs-hakko-fx888d).The Hakko FX-888D's 70W ceramic heater delivers professional-grade thermal recovery - maintaining ±9°F accuracy even when soldering 10AWG ground wires, a task that caused the Pinecil's temperature to drop 48°C during testing. However, the Pinecil's ultra-portable design enabled field repairs that would require a $300+ portable station otherwise.
 
-During a rooftop solar array installation, we used the Pinecil with a [65W car charger](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) to repair junction boxes without climbing down. For makers working with temperature-sensitive components, the Hakko's calibrated temperature control prevents PCB delamination - our infrared measurements showed 5°C lower board temperatures versus the Pinecil at identical tip settings. For more context, see our [article on soldering irons](/articles/best-soldering-irons-for-beginners).
+During a rooftop solar array installation, we used the Pinecil with a 65W car charger to repair junction boxes without climbing down. For makers working with temperature-sensitive components, the Hakko's calibrated temperature control prevents PCB delamination - our infrared measurements showed 5°C lower board temperatures versus the Pinecil at identical tip settings. For more context, see our [article on soldering irons](/articles/best-soldering-irons-for-beginners).
 
 ## Head-to-Head Comparison
 
@@ -49,7 +49,7 @@ During a rooftop solar array installation, we used the Pinecil with a [65W car c
 | Tip Change           | Tool-free magnetic             | Wrench required               |
 | Sleep Mode           | Software-based (adjustable)    | Physical switch + timer       |
 
-Key differentiators: The Hakko's copper-alloy heating element provides 18% faster thermal transfer than the Pinecil's iron-plated tips, critical for lead-free solders. However, the Pinecil's [USB-C versatility](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) allows operation from laptops, power banks, or even solar panels - we successfully powered it using a [60W foldable solar charger](https://www.amazon.com/dp/B0846GFNCQ?tag=tinkerbench-20) during field testing. Hakko's ergonomic grip reduced hand fatigue by 62% during our 4-hour soldering marathon test.
+Key differentiators: The Hakko's copper-alloy heating element provides 18% faster thermal transfer than the Pinecil's iron-plated tips, critical for lead-free solders. However, the Pinecil's USB-C versatility allows operation from laptops, power banks, or even solar panels - we successfully powered it using a 60W foldable solar charger during field testing. Hakko's ergonomic grip reduced hand fatigue by 62% during our 4-hour soldering marathon test.
 
 ## Real-World Performance
 
@@ -67,12 +67,12 @@ Our stress tests revealed surprising capabilities and limitations:
 
 **Automotive Wiring:**
 - Hakko soldered 10AWG battery cables without temperature drop
-- Pinecil failed to maintain heat on 12AWG grounds without [thermal paste](https://www.amazon.com/dp/B0F54TYKF9?tag=tinkerbench-20)
+- Pinecil failed to maintain heat on 12AWG grounds without thermal paste
 - Pinecil tip oxidation increased 5x in high-humidity environments
 
 **Temperature Consistency:**
 - Hakko: ±3.2°C variation during 30-minute continuous use
-- Pinecil: ±18.7°C variation, improved to ±9.4°C with [stiff USB-C cables](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20)
+- Pinecil: ±18.7°C variation, improved to ±9.4°C with stiff USB-C cables
 
 ## Cost Math
 
@@ -100,16 +100,16 @@ Our stress tests revealed surprising capabilities and limitations:
 For specialized use cases:
 
 1. **Precision Work:**
-   - [Pace ADS200](https://www.amazon.com/dp/B0846GFNCQ?tag=tinkerbench-20) ($300) - Superior ESD protection for sensitive components
-   - [JBC CD-2BE](https://www.amazon.com/dp/B0F54TYKF9?tag=tinkerbench-20) ($600) - Industry-leading thermal recovery
+   - Pace ADS200 ($300) - Superior ESD protection for sensitive components
+   - JBC CD-2BE ($600) - Industry-leading thermal recovery
 
 2. **Field Repairs:**
-   - [TS100](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) ($60) - More durable than Pinecil but micro-USB
-   - [Portable Butane Irons](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) - No power required but poor temp control
+   - TS100 ($60) - More durable than Pinecil but micro-USB
+   - Portable Butane Irons - No power required but poor temp control
 
 3. **Budget Benchtop:**
-   - [KSGER T12](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) ($60) - Hakko-compatible tips with OLED
-   - [Weller WE1010](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) ($120) - Better ergonomics than Hakko
+   - KSGER T12 ($60) - Hakko-compatible tips with OLED
+   - Weller WE1010 ($120) - Better ergonomics than Hakko
 
 **Tip Economics:**
 - Genuine Hakko tips cost $15-$25 but last 3x longer than clones
@@ -123,7 +123,7 @@ For specialized use cases:
 Only for specific scenarios: Our PCB assembly house testing showed the Pinecil could handle 6-hour shifts when:
 - Using OEM tips exclusively
 - Operating below 330°C
-- Paired with a [100W PD power supply](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20)
+- Paired with a 100W PD power supply
 - Implementing 10-minute cooldown periods every 90 minutes
 
 For continuous 8-hour production work, the Hakko's reliability proved superior with 0.3% defect rates versus Pinecil's 1.7%.
@@ -140,8 +140,8 @@ Use T18-D24 or T18-S3 tips for best results with lead-free pastes.
 ### Which has better safety features for educational environments?
 
 Hakko's physical standby switch prevents accidental activation, while its 30-minute auto-shutoff is more reliable than Pinecil's software-based sleep mode. However, the Pinecil's lower mass causes less damage when dropped from workbenches. For school labs, we recommend:
-- Hakko with [tip guards](https://www.amazon.com/dp/B0846GFNCQ?tag=tinkerbench-20) for ages 14+
-- Pinecil with [silicone sleeves](https://www.amazon.com/dp/B0F54TYKF9?tag=tinkerbench-20) for younger students
+- Hakko with tip guards for ages 14+
+- Pinecil with silicone sleeves for younger students
 
 ### Can Hakko tips be used on Pinecil with adapters?
 
@@ -162,7 +162,7 @@ The Pinecil's minimum 100°C setting risks damaging antique components.
 
 ## Bottom Line
 
-For professional technicians and daily users, the [Hakko FX-888D](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) remains the undisputed champion - its thermal performance justifies the $155 price tag through reduced defects and tip longevity. Makers needing portability should pair the Pinecil with a [high-quality 65W PD power bank](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) and budget for biannual tip replacements. Our recommendation matrix:
+For professional technicians and daily users, the Hakko FX-888D remains the undisputed champion - its thermal performance justifies the $155 price tag through reduced defects and tip longevity. Makers needing portability should pair the Pinecil with a high-quality 65W PD power bank and budget for biannual tip replacements. Our recommendation matrix:
 
 | User Profile              | Best Choice                   | Critical Accessories          |
 |---------------------------|-------------------------------|-------------------------------|

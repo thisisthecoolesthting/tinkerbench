@@ -58,7 +58,7 @@ I've tested about a dozen different desoldering pumps over the years, from the c
 
 ### 1. Engineer SS-02 Solder Sucker
 
-This is my go-to, the one I reach for most often. The [Engineer SS-02](https://www.amazon.com/dp/B002MJZ03U/?tag=tinkerbench-20) is a compact, well-built desoldering pump from Japan.
+This is my go-to, the one I reach for most often. The Engineer SS-02 is a compact, well-built desoldering pump from Japan.
 
 *   **Who it's for:** Intermediate to advanced hobbyists, professionals who need a reliable portable option. Anyone who does a fair amount of desoldering.
 *   **Why I like it:** The suction is phenomenal for its size. It's incredibly effective at clearing joints on the first try. The metal body feels solid, and the replaceable silicone tip (which is very heat resistant) is designed to minimize solder sticking. It's also easy to disassemble for cleaning. Its smaller size makes it comfortable to hold and maneuver, even in tight spaces.
@@ -67,7 +67,7 @@ This is my go-to, the one I reach for most often. The [Engineer SS-02](https://w
 
 ### 2. Edsyn Soldapullt DS017
 
-The [Edsyn Soldapullt DS017](https://www.amazon.com/dp/B000ZKSQJ0/?tag=tinkerbench-20) is a classic for a reason. Edsyn has been making these for decades, and their design is tried and true.
+The Edsyn Soldapullt DS017 is a classic for a reason. Edsyn has been making these for decades, and their design is tried and true.
 
 *   **Who it's for:** Professionals, serious hobbyists, anyone who wants a large-capacity, heavy-duty desoldering pump.
 *   **Why I like it:** This thing is a workhorse. It has immense suction power, probably the strongest of any manual pump I've used. The large internal capacity means you can desolder many joints before needing to empty it. It's built like a tank, with a robust metal and high-quality plastic construction. The tip is durable and replaceable.
@@ -76,7 +76,7 @@ The [Edsyn Soldapullt DS017](https://www.amazon.com/dp/B000ZKSQJ0/?tag=tinkerben
 
 ### 3. Aoyue 4000
 
-While Aoyue is better known for its soldering and desoldering stations, their manual pump, the [Aoyue 4000](https://www.amazon.com/dp/B0092B0G2G/?tag=tinkerbench-20), is a surprisingly good performer for its price.
+While Aoyue is better known for its soldering and desoldering stations, their manual pump, the Aoyue 4000, is a surprisingly good performer for its price.
 
 *   **Who it's for:** Beginners, budget-conscious hobbyists, or those who need a reliable backup pump.
 *   **Why I like it:** It's an excellent value. The suction is more than adequate for most hobbyist tasks, and it's built surprisingly well for a budget option. The metal body feels sturdy, and it's easy to disassemble and clean. It consistently outperforms cheaper, generic pumps.

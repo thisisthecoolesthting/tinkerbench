@@ -65,9 +65,9 @@ This is the workhorse of any electronics lab, hobbyist or professional. These ar
     *   **Remote Sensing:** For projects that draw significant current through long wires, remote sensing (or 4-wire sensing) compensates for voltage drop in the cables, ensuring the voltage at your load is precisely what you set. Again, more of a professional feature.
 
 *   **Recommendations:**
-    *   **Beginner/Budget:** For a solid, no-frills single-channel supply, I’ve used the **[KORAD KA3005P](https://www.amazon.com/KORAD-KA3005P-Programmable-Precision-Adjustable/dp/B00F294P6G/?tag=tinkerbench-20)** (30V, 5A) for years. It's an SMPS but with decent ripple specs for its price. It’s got a good display and robust protection.
-    *   **Intermediate/Versatile:** If you can swing it, a dual-channel supply is a game-changer. The **[Rigol DP832A](https://www.amazon.com/Rigol-DP832A-Programmable-Tri-Channel-Linear/dp/B00V4J0A9S/?tag=tinkerbench-20)** is an excellent triple-output linear supply (two adjustable 30V/3A channels, one fixed 5V/3A channel). It's quiet, precise, and built like a tank. It’s a significant investment but will last decades.
-    *   **Hobbyist Pro/Compact:** For something more compact with good features, the **[Siglent SPD3303X-E](https://www.amazon.com/Siglent-SPD3303X-E-Programmable-Supply-Channels/dp/B07Y7J389M/?tag=tinkerbench-20)** is a strong contender. It offers two 30V/3.2A channels and a 2.5V/3.3V/5V 3.2A channel, with excellent displays and robust protection.
+    *   **Beginner/Budget:** For a solid, no-frills single-channel supply, I’ve used the **KORAD KA3005P** (30V, 5A) for years. It's an SMPS but with decent ripple specs for its price. It’s got a good display and robust protection.
+    *   **Intermediate/Versatile:** If you can swing it, a dual-channel supply is a game-changer. The **Rigol DP832A** is an excellent triple-output linear supply (two adjustable 30V/3A channels, one fixed 5V/3A channel). It's quiet, precise, and built like a tank. It’s a significant investment but will last decades.
+    *   **Hobbyist Pro/Compact:** For something more compact with good features, the **Siglent SPD3303X-E** is a strong contender. It offers two 30V/3.2A channels and a 2.5V/3.3V/5V 3.2A channel, with excellent displays and robust protection.
 
 ### 2. Wall Warts / AC-DC Adapters
 

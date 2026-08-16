@@ -56,7 +56,7 @@ Environmental factors also play a role. The Pinecil's digital temperature contro
 | Thermal Recovery      | Moderate             | Excellent                  |
 | Compatible Tips       | TS100-style          | Hakko T18 series           |
 
-The [Pinecil](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) shines with its quick heating and USB-C compatibility, making it great for on-the-go repairs. Its open-source firmware allows tech-savvy users to customize temperature curves and safety features. The [Hakko FX-888D](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20), however, offers superior build quality and a wider range of tips for specialized tasks like drag soldering QFP chips or working with heavy-gauge wires.
+The Pinecil shines with its quick heating and USB-C compatibility, making it great for on-the-go repairs. Its open-source firmware allows tech-savvy users to customize temperature curves and safety features. The Hakko FX-888D, however, offers superior build quality and a wider range of tips for specialized tasks like drag soldering QFP chips or working with heavy-gauge wires.
 
 Power delivery is a crucial differentiator. The Pinecil requires a capable USB-C PD power supply (at least 20W) to reach maximum temperature, while the Hakko draws consistent power from any standard outlet. For users in areas with unstable electricity, the Hakko's transformer-based design provides more stable performance than the Pinecil's switching power supply.
 
@@ -64,7 +64,7 @@ Power delivery is a crucial differentiator. The Pinecil requires a capable USB-C
 
 In daily use, the Pinecil's portability is a game-changer. Its ability to run off a power bank means you can solder anywhere - from rooftop antenna installations to underground server room repairs. However, its small size can be a drawback for prolonged use, as it lacks the ergonomic comfort of the Hakko. The Pinecil's lightweight design may cause hand fatigue during multi-hour soldering sessions, and its shorter handle provides less heat insulation than the Hakko's ceramic-insulated grip.
 
-The Hakko FX-888D excels in stability and precision. Its analog temperature control might seem outdated, but it provides consistent heat, crucial for delicate components like vintage transistor replacements or modern BGA chips. The [Hakko FX-888D](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) also supports a vast array of tips, from ultra-fine 0.2mm points for 0402 SMD work to massive chisel tips for automotive wiring harnesses. The station's heavy base prevents tipping during aggressive desoldering work, and its sleep mode extends tip life during intermittent use.
+The Hakko FX-888D excels in stability and precision. Its analog temperature control might seem outdated, but it provides consistent heat, crucial for delicate components like vintage transistor replacements or modern BGA chips. The Hakko FX-888D also supports a vast array of tips, from ultra-fine 0.2mm points for 0402 SMD work to massive chisel tips for automotive wiring harnesses. The station's heavy base prevents tipping during aggressive desoldering work, and its sleep mode extends tip life during intermittent use.
 
 Thermal performance differs substantially in practice. When soldering a ground plane on a PCB, the Hakko maintains temperature better, preventing cold joints. The Pinecil may require brief pauses to recover heat when working on thermally massive connections. However, for quick prototyping with small gauge wires or through-hole components, both perform admirably.
 
@@ -72,17 +72,17 @@ Thermal performance differs substantially in practice. When soldering a ground p
 
 At first glance, the Pinecil's $25-$40 price tag is appealing, especially for beginners. But consider long-term costs: replacement tips and accessories can add up. The Hakko FX-888D, though pricier at $100-$150, includes a stand and more durable tips, reducing long-term expenses.
 
-For occasional use, the [Pinecil](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) is cost-effective. You'll need to budget for a quality USB-C power supply ($15-$30) and possibly a stand ($10-$20). Hakko tips typically last 6-12 months with proper care, while Pinecil tips may require replacement every 3-6 months under heavy use. The Hakko's included brass sponge cleaner also reduces tip oxidation compared to the wet sponge often used with portable irons.
+For occasional use, the Pinecil is cost-effective. You'll need to budget for a quality USB-C power supply ($15-$30) and possibly a stand ($10-$20). Hakko tips typically last 6-12 months with proper care, while Pinecil tips may require replacement every 3-6 months under heavy use. The Hakko's included brass sponge cleaner also reduces tip oxidation compared to the wet sponge often used with portable irons.
 
-Professional users should factor in productivity gains. The Hakko's faster thermal recovery can save minutes per hour in a production environment, potentially paying for itself in labor savings over time. Hobbyists working on personal projects may find the Pinecil's lower barrier to entry more appealing, especially when paired with affordable [third-party tip sets](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20).
+Professional users should factor in productivity gains. The Hakko's faster thermal recovery can save minutes per hour in a production environment, potentially paying for itself in labor savings over time. Hobbyists working on personal projects may find the Pinecil's lower barrier to entry more appealing, especially when paired with affordable third-party tip sets.
 
 ## Alternatives and refills
 
-If neither fits your needs, consider the [TS100](https://www.amazon.com/dp/B074ND5RDT?tag=tinkerbench-20), another portable option with digital control that shares tips with the Pinecil. For those needing a budget-friendly stationary iron, the [Weller WLC100](https://www.amazon.com/dp/B000AS28UC?tag=tinkerbench-20) offers basic temperature control at a mid-range price point. Professionals requiring higher performance might upgrade to the [Hakko FM-206](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) for specialized applications.
+If neither fits your needs, consider the TS100, another portable option with digital control that shares tips with the Pinecil. For those needing a budget-friendly stationary iron, the Weller WLC100 offers basic temperature control at a mid-range price point. Professionals requiring higher performance might upgrade to the Hakko FM-206 for specialized applications.
 
-Tip availability varies significantly: Hakko's T18 series includes over 30 specialized tip shapes available worldwide, while Pinecil-compatible TS100 tips number about a dozen common variants. Third-party options exist for both, but quality varies - genuine Hakko tips provide better thermal conductivity and longer lifespan than clones. For Pinecil users, [Pine64's official tips](https://www.amazon.com/dp/B0F54TYKF9?tag=tinkerbench-20) offer the best compatibility.
+Tip availability varies significantly: Hakko's T18 series includes over 30 specialized tip shapes available worldwide, while Pinecil-compatible TS100 tips number about a dozen common variants. Third-party options exist for both, but quality varies - genuine Hakko tips provide better thermal conductivity and longer lifespan than clones. For Pinecil users, Pine64's official tips offer the best compatibility.
 
-Power accessories merit consideration. The Pinecil works well with [compact GaN chargers](https://www.amazon.com/dp/B0846GFNCQ?tag=tinkerbench-20) for maximum portability, while Hakko users might invest in a [stationary power conditioner](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) for clean power in sensitive environments.
+Power accessories merit consideration. The Pinecil works well with compact GaN chargers for maximum portability, while Hakko users might invest in a stationary power conditioner for clean power in sensitive environments.
 
 ## FAQ
 
@@ -104,11 +104,11 @@ Yes, Hakko offers a one-year warranty covering manufacturing defects. Profession
 
 ### Can I use the Pinecil for heavy-duty projects?
 
-It's best for light to medium tasks; heavy-duty work may require a more robust iron. While the Pinecil can technically reach 400°C, its limited thermal mass struggles with large ground planes, thick copper pours, or automotive wiring. For occasional heavy jobs, preheating the workpiece or using supplemental heat (like a hot air station) helps. Frequent large-scale soldering warrants a high-wattage iron like the [Hakko FX-951](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20).
+It's best for light to medium tasks; heavy-duty work may require a more robust iron. While the Pinecil can technically reach 400°C, its limited thermal mass struggles with large ground planes, thick copper pours, or automotive wiring. For occasional heavy jobs, preheating the workpiece or using supplemental heat (like a hot air station) helps. Frequent large-scale soldering warrants a high-wattage iron like the Hakko FX-951.
 
 ## Bottom line
 
-The Pinecil is perfect for hobbyists and those needing portability, while the Hakko FX-888D is a professional-grade tool for serious work. If you're starting out, the [Pinecil](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) offers great value and enough performance for most DIY projects. For professionals or those working daily with electronics, the [Hakko FX-888D](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) is the clear choice for its reliability, tip selection, and ergonomic design. Consider your workspace constraints, project types, and budget when choosing between these excellent but fundamentally different tools.
+The Pinecil is perfect for hobbyists and those needing portability, while the Hakko FX-888D is a professional-grade tool for serious work. If you're starting out, the Pinecil offers great value and enough performance for most DIY projects. For professionals or those working daily with electronics, the Hakko FX-888D is the clear choice for its reliability, tip selection, and ergonomic design. Consider your workspace constraints, project types, and budget when choosing between these excellent but fundamentally different tools.
 
 <!-- padded-no-api-v2 -->
 

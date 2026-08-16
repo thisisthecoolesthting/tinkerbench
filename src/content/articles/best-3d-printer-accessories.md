@@ -23,7 +23,7 @@ Let's face it, most consumer 3D printers, especially those in the sub-$500 range
 
 The absolute foundation of a successful print is adhesion. If your first layer doesn't stick, or if your print warps and detaches mid-job, you're just wasting filament and time. While many printers come with glass, PEI, or even plain aluminum beds, not all are created equal, and some materials prefer different surfaces.
 
-For most general-purpose printing with PLA, PETG, and even some ABS, a textured PEI (Polyetherimide) spring steel sheet is my go-to. The texture provides excellent adhesion when heated, and once cooled, parts practically pop off with a gentle flex. No more scraping with spatulas or wrestling with stubborn prints. I've had great success with the [Creality Textured PEI Flexible Build Plate](https://www.amazon.com/dp/B0BNW851ZJ/?tag=tinkerbench-20) for my Ender 3 V2. It's durable, easy to clean, and the magnetic base makes swapping plates a breeze.
+For most general-purpose printing with PLA, PETG, and even some ABS, a textured PEI (Polyetherimide) spring steel sheet is my go-to. The texture provides excellent adhesion when heated, and once cooled, parts practically pop off with a gentle flex. No more scraping with spatulas or wrestling with stubborn prints. I've had great success with the Creality Textured PEI Flexible Build Plate for my Ender 3 V2. It's durable, easy to clean, and the magnetic base makes swapping plates a breeze.
 
 If you're primarily printing with materials that require very high bed temperatures, like ABS, ASA, or Nylon, or you need a perfectly smooth bottom finish, a plain glass bed or a smooth PEI sheet might be preferable. Just remember that glass often benefits from an adhesive like a glue stick or hairspray for reliable sticking, especially with larger prints. For advanced users exploring engineering filaments, exotic surfaces like Garolite (G10/FR4) offer excellent adhesion without needing additional adhesives, particularly for nylons, though they require careful handling due to their rigidity.
 
@@ -34,7 +34,7 @@ If you're primarily printing with materials that require very high bed temperatu
 
 Filament is hygroscopic, meaning it absorbs moisture from the air. Even a tiny bit of moisture can wreak havoc on your prints: stringing, bubbling, poor layer adhesion, and a general loss of mechanical properties. This isn't just an issue for exotic filaments; PLA and PETG are also susceptible.
 
-A dedicated filament dryer is a game-changer, especially in humid environments. These aren't just glorified food dehydrators; they often have specific temperature ranges optimized for different filament types. I use a [Sunlu S2 Filament Dryer](https://www.amazon.com/dp/B0BL3313X7/?tag=tinkerbench-20) which has a built-in fan for better air circulation and a clear window to see the spool. Running filament through it for a few hours before printing, or even during a long print, can resurrect seemingly ruined spools and significantly improve print quality, especially for PETG and nylon.
+A dedicated filament dryer is a game-changer, especially in humid environments. These aren't just glorified food dehydrators; they often have specific temperature ranges optimized for different filament types. I use a Sunlu S2 Filament Dryer which has a built-in fan for better air circulation and a clear window to see the spool. Running filament through it for a few hours before printing, or even during a long print, can resurrect seemingly ruined spools and significantly improve print quality, especially for PETG and nylon.
 
 For long-term storage, airtight containers with desiccant packets are essential. Large plastic tubs with rubber seals work well, and you can buy rechargeable desiccant sachets that change color when they're saturated, indicating it's time to bake them dry in an oven. This combination of drying before printing and proper storage preserves your investment in filament and ensures consistent results.
 
@@ -58,7 +58,7 @@ Beyond the printer itself, a good set of supporting tools can make your 3D print
 
 ### The Unsung Hero: Good Nippers and Deburring Tools
 
-After a print finishes, you'll almost always have support structures, brims, or elephant's foot to clean up. Cheap flush cutters bundled with most printers are often dull, poorly aligned, and quickly break. Investing in a good pair of flush cutters designed for plastics, like the [Hakko CHP-170](https://www.amazon.com/dp/B07L5T5W72/?tag=tinkerbench-20), makes a world of difference. They cut cleanly, precisely, and last much longer.
+After a print finishes, you'll almost always have support structures, brims, or elephant's foot to clean up. Cheap flush cutters bundled with most printers are often dull, poorly aligned, and quickly break. Investing in a good pair of flush cutters designed for plastics, like the Hakko CHP-170, makes a world of difference. They cut cleanly, precisely, and last much longer.
 
 For more intricate cleanup, especially on holes or edges, a deburring tool is invaluable. These hand tools have a swiveling blade that neatly shaves off plastic without leaving nubs or tearing the surface. It's far superior to trying to clean up with a craft knife and reduces the risk of cutting yourself.
 
@@ -87,7 +87,7 @@ Beyond the physical hardware, some of the most impactful upgrades come in the fo
 
 ### The Brains of the Operation: OctoPrint on a Raspberry Pi
 
-If you're still shuffling SD cards back and forth, you're missing out. OctoPrint, running on a [Raspberry Pi](https://www.amazon.com/dp/B09V39D1P3/?tag=tinkerbench-20), transforms your printer into a networked device. It provides a web interface to control your printer, monitor progress, upload G-code, and even view a live webcam feed from anywhere on your network.
+If you're still shuffling SD cards back and forth, you're missing out. OctoPrint, running on a Raspberry Pi, transforms your printer into a networked device. It provides a web interface to control your printer, monitor progress, upload G-code, and even view a live webcam feed from anywhere on your network.
 
 The real power of OctoPrint, however, lies in its plugin ecosystem. Want to automatically pause prints if spaghetti forms? There's a plugin for that (Spaghetti Detective). Want to manage multiple printers from one interface? Yep. Want to generate time-lapses of your prints? Absolutely. Want to monitor bed leveling in real-time? You get the idea. It's an absolute game-changer for workflow and remote monitoring. [INTERNAL:getting-started-with-octoprint]
 

@@ -41,7 +41,7 @@ I’ve tested countless irons over the years. Here are a few that consistently i
 *Who it's for:* Intermediate to advanced hobbyists, small-batch electronics manufacturers, anyone who wants a reliable, professional-grade iron without breaking the bank.
 *Who it's not for:* Absolute beginners (there are cheaper, simpler options), those needing ultra-fine pitch rework (look at hot air stations or more specialized pencil irons).
 
-The [Hakko FX-888D](https://www.amazon.com/Hakko-FX888D-23BY-Digital-Soldering-Station/dp/B00AWRDM8M/?tag=tinkerbench-20) has been a staple on benches worldwide for a reason. It's a workhorse. Out of the box, it's a no-nonsense, temperature-controlled soldering station that gets the job done, reliably, every single time. My unit consistently holds its set temperature within ±2°C, even when soldering larger components to ground planes. Heat-up time is typically under 20 seconds, and recovery is excellent thanks to its 70W ceramic heater.
+The Hakko FX-888D has been a staple on benches worldwide for a reason. It's a workhorse. Out of the box, it's a no-nonsense, temperature-controlled soldering station that gets the job done, reliably, every single time. My unit consistently holds its set temperature within ±2°C, even when soldering larger components to ground planes. Heat-up time is typically under 20 seconds, and recovery is excellent thanks to its 70W ceramic heater.
 
 The user interface is simple – two buttons and a digital display. It takes a moment to get used to the button sequence for setting temperatures, but once you do, it's intuitive. Hakko's T18 series tips are widely available, reasonably priced, and come in a vast array of shapes and sizes. The handpiece is lightweight and comfortable, and the stand is sturdy, with a brass sponge and conventional sponge for tip cleaning.
 
@@ -51,7 +51,7 @@ While it's not the absolute fastest or most feature-rich station on the market, 
 *Who it's for:* Beginners, students, those who solder occasionally and need a step up from a basic un-regulated iron.
 *Who it's not for:* Heavy daily use, high-volume production, those needing advanced features like profiling.
 
-Weller has a long-standing reputation in the soldering world, and their [WE1010NA](https://www.amazon.com/Weller-WE1010NA-Digital-Soldering-Station/dp/B071G1YPPF/?tag=tinkerbench-20) station is an excellent entry point into temperature-controlled soldering. It's often found at a price point that makes it very attractive for those just starting out or needing a reliable backup.
+Weller has a long-standing reputation in the soldering world, and their WE1010NA station is an excellent entry point into temperature-controlled soldering. It's often found at a price point that makes it very attractive for those just starting out or needing a reliable backup.
 
 What I appreciate about the WE1010NA is its simplicity and solid performance for its price class. It heats up quickly (around 30 seconds) and maintains temperature reasonably well. While not quite as rock-solid as the Hakko, its temperature stability is a significant improvement over cheap unregulated irons. The digital display is clear, and temperature adjustment is straightforward.
 
@@ -61,7 +61,7 @@ The iron itself is comfortable to hold, and the ET series tips are widely availa
 *Who it's for:* Anyone needing a portable, powerful iron for field repairs, remote projects, or those who prefer a minimalist setup.
 *Who it's not for:* High-volume production, users who need a dedicated stand and robust station interface.
 
-The [TS80P](https://www.amazon.com/MINIWARE-Soldering-Programmable-Firmware-Development/dp/B0B235Y4X9/?tag=tinkerbench-20) (or its newer iteration, the TS101) is a marvel of modern engineering. This isn't a traditional soldering station; it's a smart soldering iron powered directly via USB-C PD (Power Delivery). This means you can power it from a laptop charger, a power bank, or a dedicated USB-C PD adapter.
+The TS80P (or its newer iteration, the TS101) is a marvel of modern engineering. This isn't a traditional soldering station; it's a smart soldering iron powered directly via USB-C PD (Power Delivery). This means you can power it from a laptop charger, a power bank, or a dedicated USB-C PD adapter.
 
 I've taken my TS80P on several trips, using it for everything from fixing drone wiring at a remote field site to quick repairs on a friend's amplifier. It heats up incredibly fast – often under 10 seconds to 300°C when supplied with sufficient power (e.g., 65W PD). The OLED display provides temperature feedback, and the two buttons allow for precise temperature adjustment.
 
@@ -71,7 +71,7 @@ What truly sets these irons apart is their open-source firmware community. You c
 *Who it's for:* Professionals, engineers, those working with very fine pitch components, high-density boards, or requiring unparalleled thermal performance.
 *Who it's not for:* Beginners, budget-conscious hobbyists (this is a significant investment), those who don't need top-tier performance.
 
-If budget is less of a concern and performance is paramount, the [JBC CD-2BE](https://www.amazon.com/JBC-CD-2BE-Microprocessor-Controlled-Soldering/dp/B0B2G35K1X/?tag=tinkerbench-20) (or similar JBC models) is in a league of its own. JBC stations are renowned for their lightning-fast heat-up and recovery times, often reaching working temperature in under 2 seconds. Their patented heating system integrates the heater and temperature sensor directly into the tip cartridge, providing incredible thermal efficiency and stability.
+If budget is less of a concern and performance is paramount, the JBC CD-2BE (or similar JBC models) is in a league of its own. JBC stations are renowned for their lightning-fast heat-up and recovery times, often reaching working temperature in under 2 seconds. Their patented heating system integrates the heater and temperature sensor directly into the tip cartridge, providing incredible thermal efficiency and stability.
 
 Working with a JBC is a revelation. It feels like the iron *knows* what you're trying to do. Large ground planes that would stall other irons are handled with ease. The precision and consistency allow for incredibly delicate work without stressing components. The ergonomics are superb, with very lightweight handpieces and flexible cables.
 

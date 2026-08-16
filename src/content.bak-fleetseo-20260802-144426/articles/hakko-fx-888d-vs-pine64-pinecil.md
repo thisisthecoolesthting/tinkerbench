@@ -31,7 +31,7 @@ We put both irons through a series of tests, focusing on heat-up time, temperatu
 
 A fast heat-up time is crucial for efficiency, especially when you're just doing a quick repair.
 *   **Hakko FX-888D:** From cold (22°C) to 350°C, the Hakko consistently reached temperature in 15-18 seconds. This is excellent performance, allowing you to get to work almost immediately.
-*   **Pinecil:** The Pinecil's heat-up time is highly dependent on the power supply. With a quality 65W USB-C PD (Power Delivery) supply ([Anker 713 Charger (65W)](https://www.amazon.com/dp/B0B5PN3R3Y/?tag=tinkerbench-20)), it matched the Hakko, hitting 350°C in 16-19 seconds. When powered by a 45W supply, it took closer to 25-30 seconds. On a basic 30W USB-C supply, it struggled, taking over a minute and often not reaching stable temperatures above 300°C efficiently. For serious work, a 60W or higher PD supply is essential.
+*   **Pinecil:** The Pinecil's heat-up time is highly dependent on the power supply. With a quality 65W USB-C PD (Power Delivery) supply (Anker 713 Charger (65W)), it matched the Hakko, hitting 350°C in 16-19 seconds. When powered by a 45W supply, it took closer to 25-30 seconds. On a basic 30W USB-C supply, it struggled, taking over a minute and often not reaching stable temperatures above 300°C efficiently. For serious work, a 60W or higher PD supply is essential.
 
 #### Temperature Stability and Accuracy
 
@@ -48,7 +48,7 @@ This is where the rubber meets the road, especially when soldering larger compon
 #### Ergonomics and Usability
 
 *   **Hakko FX-888D:** The Hakko handpiece is comfortable to hold, with a good weight balance. The cable is flexible enough not to be a nuisance. The base unit, while taking up bench space, is stable and includes a convenient tip cleaner. The interface is simple: two buttons and a digital display. It's intuitive, if a bit dated in aesthetics.
-*   **Pinecil:** The Pinecil's pen-style form factor is incredibly lightweight and compact. It feels like holding a thick marker. The OLED display is crisp and provides a lot of information. The two buttons are small but functional. The main ergonomic consideration is the cable: if you're using a stiff USB-C cable, it can pull on the iron, which is annoying. A soft, flexible silicone USB-C cable ([Cable Matters USB-C to USB-C Cable (Silicone) 6ft](https://www.amazon.com/dp/B0B5D982K5/?tag=tinkerbench-20)) is highly recommended. The lack of a dedicated stand means you'll need to source one, which adds to the cost and clutter. We use a simple spring-type stand, but a more robust one is ideal.
+*   **Pinecil:** The Pinecil's pen-style form factor is incredibly lightweight and compact. It feels like holding a thick marker. The OLED display is crisp and provides a lot of information. The two buttons are small but functional. The main ergonomic consideration is the cable: if you're using a stiff USB-C cable, it can pull on the iron, which is annoying. A soft, flexible silicone USB-C cable (Cable Matters USB-C to USB-C Cable (Silicone) 6ft) is highly recommended. The lack of a dedicated stand means you'll need to source one, which adds to the cost and clutter. We use a simple spring-type stand, but a more robust one is ideal.
 
 ### Tips, Accessories, and Ecosystem
 
@@ -66,7 +66,7 @@ This is where the Pinecil truly shines, and the Hakko simply cannot compete.
 *   **Hakko FX-888D:** Strictly an AC-powered bench tool. Not portable in any practical sense.
 *   **Pinecil:** Its USB-C power input makes it incredibly versatile. You can power it from:
     *   **USB-C PD Wall Adapters:** As mentioned, 60W or higher is recommended for optimal performance.
-    *   **USB-C PD Power Banks:** This is a game-changer for field repairs or soldering away from a power outlet. A 65W power bank can easily power the Pinecil for several hours of intermittent use. ([Baseus Power Bank 65W 20000mAh](https://www.amazon.com/dp/B0BP99Q5WW/?tag=tinkerbench-20))
+    *   **USB-C PD Power Banks:** This is a game-changer for field repairs or soldering away from a power outlet. A 65W power bank can easily power the Pinecil for several hours of intermittent use. (Baseus Power Bank 65W 20000mAh)
     *   **Laptop USB-C Ports:** Some laptops with powerful USB-C ports can power the Pinecil, though performance might be limited depending on the laptop's power output.
     *   **DC Barrel Jack (Pinecil V2):** The Pinecil V2 adds a DC barrel jack, allowing it to be powered by 12-24V DC sources, like a laptop power brick or even a car battery adapter, expanding its versatility even further.
 
@@ -92,7 +92,7 @@ This level of customization means you can tailor the iron's behavior precisely t
 *   **The Dedicated Bench User:** If your soldering happens exclusively at a workbench with AC power, and you value rock-solid reliability and performance above all else.
 *   **Industrial/Commercial Use:** Its robust build and consistent performance make it suitable for environments where downtime is costly.
 *   **Those Who Prefer Simplicity:** No firmware updates, no settings to tweak. Just turn it on, set the temp, and solder.
-*   **Parents buying a first soldering kit:** While a bit overkill, it's a solid, reliable choice that will last for years. Consider a [Weller WLC100](https://www.amazon.com/dp/B000AS28UC/?tag=tinkerbench-20) for a more budget-friendly but still decent starter iron.
+*   **Parents buying a first soldering kit:** While a bit overkill, it's a solid, reliable choice that will last for years. Consider a Weller WLC100 for a more budget-friendly but still decent starter iron.
 
 #### Pinecil:
 *   **The Mobile Maker/Field Technician:** Its portability is unmatched. If you need to solder away from your bench.

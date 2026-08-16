@@ -23,7 +23,7 @@ Let's start with the unsung heroes: resistors, capacitors, and inductors. These 
 
 You absolutely need a good assortment of through-hole resistors. While surface-mount (SMD) is prevalent in commercial designs, through-hole is far more forgiving for prototyping, breadboarding, and general tinkering. I recommend starting with a 1/4W 1% metal film assortment. Why 1%? Because they're cheap enough now that there's no real reason to settle for 5% carbon film, and the tighter tolerance can save you headaches down the line, especially in analog circuits.
 
-Look for kits that cover the E12 or E24 series values, spanning from a few ohms up to several megohms. A good starter kit will have 20-50 pieces of each common value. While I've picked up various kits over the years, something like the [SCS ETC 1/4W Resistor Kit](https://www.amazon.com/dp/B07R984931/?tag=tinkerbench-20) offers a solid range without breaking the bank. For power applications, you'll want some 1W or 2W resistors in common values (10Ω, 100Ω, 1kΩ, 10kΩ) for current limiting or load resistors. Don't forget a handful of potentiometers – linear and logarithmic tapers, 1kΩ, 10kΩ, 100kΩ are good starting points for adjusting voltages or setting audio levels.
+Look for kits that cover the E12 or E24 series values, spanning from a few ohms up to several megohms. A good starter kit will have 20-50 pieces of each common value. While I've picked up various kits over the years, something like the SCS ETC 1/4W Resistor Kit offers a solid range without breaking the bank. For power applications, you'll want some 1W or 2W resistors in common values (10Ω, 100Ω, 1kΩ, 10kΩ) for current limiting or load resistors. Don't forget a handful of potentiometers – linear and logarithmic tapers, 1kΩ, 10kΩ, 100kΩ are good starting points for adjusting voltages or setting audio levels.
 
 ### Capacitors: Storing and Smoothing
 
@@ -33,7 +33,7 @@ Capacitors are where things get a little more nuanced. You'll need several types
 *   **Electrolytic:** These are polarized and offer higher capacitance values, primarily used for power supply filtering, coupling, and decoupling. You'll want a range of values from 1uF to 1000uF, with voltage ratings of at least 25V or 50V to cover most low-voltage projects. Pay attention to temperature ratings; 105°C is generally preferred for longevity.
 *   **Film (Polyester/Mylar/Polypropylene):** These offer better stability and lower equivalent series resistance (ESR) than ceramics for certain applications, especially in audio or precision timing circuits. A small selection from 0.01uF to 1uF is useful.
 
-For a beginner, a combined kit like the [ELENKER Capacitor Assortment](https://www.amazon.com/dp/B072K72V9R/?tag=tinkerbench-20) covering ceramic and electrolytic types is a good start. As you progress, you'll find yourself ordering specific values as needed for particular projects.
+For a beginner, a combined kit like the ELENKER Capacitor Assortment covering ceramic and electrolytic types is a good start. As you progress, you'll find yourself ordering specific values as needed for particular projects.
 
 ### Inductors: Less Common, Still Important
 
@@ -70,7 +70,7 @@ This is a vast category, but some ICs are so fundamental they deserve a permanen
 *   **Op-Amps:** LM358 (dual, general purpose) and LM741 (single, classic) are great for understanding op-amp basics. For more modern, low-power, or precision applications, you'll branch out, but these are excellent starting points.
 *   **Voltage Regulators:** LM7805 (5V fixed positive), LM7905 (5V fixed negative), and LM317 (adjustable positive) are essential for power supply design and conditioning. These often require heat sinks, so factor that in.
 *   **Logic Gates (CMOS/TTL):** If you're experimenting with digital logic without a microcontroller, a few 74HC series (CMOS) or 74LS series (TTL) gates (AND, OR, NOT, XOR, Flip-Flops) are useful. The 74HC00 (NAND), 74HC04 (NOT), and 74HC32 (OR) are good starting points.
-*   **Microcontrollers:** For the modern tinkerer, a [Raspberry Pi Pico](https://www.amazon.com/dp/B08V55G44S/?tag=tinkerbench-20) or an [Arduino Uno R3](https://www.amazon.com/dp/B09D832H67/?tag=tinkerbench-20) clone is practically a component itself. These development boards provide a powerful, flexible platform for countless projects and drastically reduce the need for discrete logic ICs for many tasks. They're excellent for learning programming and interfacing.
+*   **Microcontrollers:** For the modern tinkerer, a Raspberry Pi Pico or an Arduino Uno R3 clone is practically a component itself. These development boards provide a powerful, flexible platform for countless projects and drastically reduce the need for discrete logic ICs for many tasks. They're excellent for learning programming and interfacing.
 
 ## Connectors, Hardware, and Prototyping Essentials
 

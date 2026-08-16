@@ -27,7 +27,7 @@ Once you've proven a concept on a breadboard, you might want something a bit mor
 
 *   **Who it's for:** Beginners, educational projects, quick proof-of-concept, low-frequency analog, simple digital circuits.
 *   **Who it's not for:** High-speed digital, RF, high-density circuits, mass production.
-*   **Consider instead:** For slightly more structure than a breadboard, consider a [solderable breadboard](https://www.amazon.com/dp/B07R852B5Y/?tag=tinkerbench-20) which mimics the layout but allows permanent soldering.
+*   **Consider instead:** For slightly more structure than a breadboard, consider a solderable breadboard which mimics the layout but allows permanent soldering.
 
 ### DIY PCB Etching: The Classic Maker Method (with Caveats)
 
@@ -47,7 +47,7 @@ I picked up a small desktop CNC a few years back, primarily for aluminum and woo
 
 *   **Who it's for:** Those who need quick iteration, prefer a mechanical process, want to avoid chemicals, or have existing CNC equipment. Ideal for medium-complexity single or double-sided boards.
 *   **Who it's not for:** Anyone put off by machine noise and dust, multi-layer boards, extremely fine-pitch components (without a high-end machine).
-*   **Consider instead:** For a dedicated desktop PCB mill, look at options like the [Bantam Tools Desktop PCB Milling Machine](B0XXXXXXXX) for a more integrated solution, though at a higher price point. For a more general-purpose CNC for under $1000, consider the [3018 Pro](https://www.amazon.com/dp/B08V5366K4/?tag=tinkerbench-20) which can be adapted for PCB milling.
+*   **Consider instead:** For a dedicated desktop PCB mill, look at options like the [Bantam Tools Desktop PCB Milling Machine](B0XXXXXXXX) for a more integrated solution, though at a higher price point. For a more general-purpose CNC for under $1000, consider the 3018 Pro which can be adapted for PCB milling.
 
 ### Professional PCB Fabrication: The Modern Standard
 
@@ -75,7 +75,7 @@ This is where it all begins. You need software to capture your schematic and lay
 
 Once you have a bare board, you need to populate it. A good soldering station is paramount.
 
-*   **Soldering Iron:** Don't skimp here. A temperature-controlled soldering station is a must. My go-to is a [Hakko FX-888D](https://www.amazon.com/dp/B00AWRDM8M/?tag=tinkerbench-20), which has been a workhorse for years. It heats up fast, holds temperature well, and has a wide range of tips available.
+*   **Soldering Iron:** Don't skimp here. A temperature-controlled soldering station is a must. My go-to is a Hakko FX-888D, which has been a workhorse for years. It heats up fast, holds temperature well, and has a wide range of tips available.
 *   **Solder:** Lead-free is common now, but I still keep some leaded 63/37 tin/lead solder around for easier flow on prototypes. Choose a thin gauge (0.5mm to 0.8mm) for most through-hole and SMD work.
 *   **Flux:** A flux pen or liquid flux is invaluable for clean, strong solder joints, especially with SMD components.
 *   **Desoldering Tools:** Solder wick and a desoldering pump are essential for fixing mistakes. A hot air rework station is a game-changer for SMD components, especially QFNs and BGAs.

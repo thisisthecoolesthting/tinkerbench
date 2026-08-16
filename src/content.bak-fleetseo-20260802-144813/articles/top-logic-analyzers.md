@@ -91,7 +91,7 @@ This category is dominated by one specific, ubiquitous design. You've probably s
 *   **Cons:** Limited sample rate. Limited channels. Input voltage tolerance is often 5V max, sometimes 3.3V, so be careful with 12V or higher logic. Prone to noise at higher speeds. The cheap probes that come with them are often terrible.
 *   **Consider instead:** If you need slightly better performance but still on a budget, consider the next tier up.
 
-You can find these all over the internet. A typical example would be this [8-channel 24MHz USB logic analyzer](https://www.amazon.com/HiLetgo-Analyzer-Module-Compatible-Arduino/dp/B07598K34V/?tag=tinkerbench-20). For the price of a couple of coffees, it's hard to beat for getting started.
+You can find these all over the internet. A typical example would be this 8-channel 24MHz USB logic analyzer. For the price of a couple of coffees, it's hard to beat for getting started.
 
 #### The Hobbyist Sweet Spot: Saleae Logic 8 / Logic 16 (or clones)
 
@@ -106,7 +106,7 @@ Saleae effectively created the modern USB logic analyzer market. Their original 
 *   **Cons:** Official Saleae devices are not cheap (though they hold their value well if you buy used). Clones might have varying build quality or slightly different performance.
 *   **Consider instead:** If your budget is tighter, the cheaper 24MHz unit can get you started. If you need more channels *and* higher speed, you're looking at much more expensive professional tools.
 
-If you can find an older [Saleae Logic 8](https://www.amazon.com/Saleae-Logic-8-USB-Logic-Analyzer/dp/B00S3D8N86/?tag=tinkerbench-20) or a reputable clone, it's a solid investment. I've used my Logic 16 for years and it's saved my bacon more times than I can count.
+If you can find an older Saleae Logic 8 or a reputable clone, it's a solid investment. I've used my Logic 16 for years and it's saved my bacon more times than I can count.
 
 #### The Step-Up: Hantek 4032L / DSLogic U3
 

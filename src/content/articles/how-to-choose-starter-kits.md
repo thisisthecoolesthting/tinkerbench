@@ -55,7 +55,7 @@ These kits typically include a breadboard, a handful of common components (resis
 *   A power supply solution (USB or battery clip).
 *   Avoid kits that are just a bag of parts with no guidance.
 
-**Consider this:** The [Elgoo UNO R3 Starter Kit](https://www.amazon.com/dp/B01EHRH134/?tag=tinkerbench-20) is a perennial favorite, though it technically blends basic components with a microcontroller. For pure component and breadboard learning without the microcontroller, look for kits specifically labeled "Electronic Component Fun Kits" or similar, often including a multimeter.
+**Consider this:** The Elgoo UNO R3 Starter Kit is a perennial favorite, though it technically blends basic components with a microcontroller. For pure component and breadboard learning without the microcontroller, look for kits specifically labeled "Electronic Component Fun Kits" or similar, often including a multimeter.
 
 **Who it's not for:** Anyone looking to build permanent projects, or those already comfortable with basic circuit theory.
 
@@ -71,7 +71,7 @@ These kits range from simple PCBs with through-hole pads to more complex boards 
 *   **A functional end product:** This provides a sense of accomplishment.
 *   **Quality PCB:** Look for boards with clearly labeled components and good solder mask.
 
-**Consider this:** While many kits exist, the classic [Velleman K8047 Dual LED Flasher](https://www.amazon.com/dp/B0002Z7A4M/?tag=tinkerbench-20) is a great, simple through-hole option. For those wanting to tackle SMD, search for "SMD soldering practice kit" – just be aware you'll need finer tools.
+**Consider this:** While many kits exist, the classic Velleman K8047 Dual LED Flasher is a great, simple through-hole option. For those wanting to tackle SMD, search for "SMD soldering practice kit" – just be aware you'll need finer tools.
 
 **Who it's not for:** Those who prefer breadboard-only experimentation, or those already proficient in soldering.
 
@@ -83,7 +83,7 @@ These kits introduce you to the world of programmable electronics.
 
 *   **Arduino kits** are arguably the most popular entry point. They focus on simple C++-like programming to control hardware. Many basic component kits (like the Elgoo mentioned above) are actually Arduino kits. They typically include an Arduino board (often a clone, which is fine for learning), a breadboard, and a variety of sensors, actuators, and displays. The learning curve is gentle, and there’s a massive community for support.
     *   **What to look for:** A reputable Arduino clone (like Elegoo, Keyestudio, Freenove), a good range of common sensors (temp, light), actuators (servos, motors), and output devices (LCD, LEDs). A well-structured tutorial book with code examples is crucial.
-    *   **Consider this:** The [Freenove Ultimate Starter Kit for Arduino](https://www.amazon.com/dp/B073R54F11/?tag=tinkerbench-20) is another excellent choice, often praised for its detailed tutorials and extensive component list.
+    *   **Consider this:** The Freenove Ultimate Starter Kit for Arduino is another excellent choice, often praised for its detailed tutorials and extensive component list.
 
 *   **Raspberry Pi kits** are more akin to miniature computers. They run a full Linux operating system and are programmed in Python (though other languages are possible). They are fantastic for projects requiring more processing power, networking, or integration with web services. The learning curve is steeper than Arduino, involving operating system management in addition to electronics.
     *   **What to look for:** A genuine Raspberry Pi board (Pi 3B+, 4B, or Zero W for smaller projects), a power supply, microSD card with OS preloaded or easy flashing instructions, and a basic set of GPIO-friendly components. Some kits include a case and heatsinks.
@@ -119,7 +119,7 @@ A kit with a thick, well-written manual and clear schematics is worth its weight
 ### Tools You'll Need
 Most starter kits assume you have *some* basic tools.
 *   **For breadboard kits:** Nothing much beyond your hands, maybe small pliers for bending component leads.
-*   **For soldering kits:** You'll absolutely need a [soldering iron](https://www.amazon.com/dp/B08P1Q6B2F/?tag=tinkerbench-20) (a basic 60W adjustable temperature iron is fine for beginners), solder, desoldering braid or pump, safety glasses, and a steady hand. A "third-hand" tool is invaluable.
+*   **For soldering kits:** You'll absolutely need a soldering iron (a basic 60W adjustable temperature iron is fine for beginners), solder, desoldering braid or pump, safety glasses, and a steady hand. A "third-hand" tool is invaluable.
 *   **For microcontroller kits:** A computer with a USB port, internet access, and possibly a multimetter for troubleshooting.
 *   **General:** A decent pair of wire strippers and cutters are always useful.
 

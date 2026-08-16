@@ -26,7 +26,7 @@ When I asked on r/AskElectronics last year whether a $150 oscilloscope could act
 
 This review focuses on scopes priced between $100-$400 - the no-man's-land between toy-grade USB dongles and professional gear. Over 90 days, I evaluated each unit across multiple real-world scenarios: debugging Arduino PWM signals with varying duty cycles, validating Raspberry Pi GPIO signal integrity under different load conditions, tracing audio signal paths in vintage synthesizers, and diagnosing switch-mode power supply noise. For more context, see our [article on usb logic analyzers: affordable](/articles/usb-logic-analyzer-reviews).
 
-The [OWON SDS1102](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) surprised me most with its consistent performance, while the popular [Hantek DSO5102P](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) revealed hidden limitations when pushed beyond basic measurements.
+The OWON SDS1102 surprised me most with its consistent performance, while the popular Hantek DSO5102P revealed hidden limitations when pushed beyond basic measurements.
 
 To ensure fair testing, I developed a standardized evaluation protocol: each scope underwent 24-hour burn-in, frequency response verification using a calibrated signal generator, input impedance measurement at multiple frequencies, and thermal performance monitoring during extended capture sessions. All tests were conducted in a controlled 22°C environment with proper grounding to eliminate external interference. For more context, see our [article on bench multimeter vs. handheld:](/articles/bench-multimeter-vs-handheld-comparison).
 
@@ -48,10 +48,10 @@ Younger makers face different challenges. Those diving into Raspberry Pi or FPGA
 
 | Model | Bandwidth (Real tested) | Sample Rate | Input Impedance | Vertical Resolution | Price |
 |-------|-------------------------|-------------|------------------|---------------------|-------|
-| [OWON SDS1102](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) | 98MHz (±3dB) | 1GSa/s (interleaved) | 1MΩ ±2% (DC-50MHz) | 8-bit (9-bit enhanced) | $289 |
-| [Hantek DSO5102P](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) | 87MHz (±3dB) | 1GSa/s (single-shot) | 1MΩ ±5% (varies with freq) | 8-bit | $349 |
-| [FNIRSI 1014D](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) | 52MHz (-6dB point) | 250MSa/s (shared) | 1MΩ ±10% (unstable >20MHz) | 8-bit | $199 |
-| [Siglent SDS1104X-E](https://www.amazon.com/dp/B085VZPR2Y?tag=tinkerbench-20) | 104MHz (±3dB) | 1GSa/s (per channel) | 1MΩ/50Ω selectable ±1% | 8-bit (12-bit Hi-Res) | $399 |
+| OWON SDS1102 | 98MHz (±3dB) | 1GSa/s (interleaved) | 1MΩ ±2% (DC-50MHz) | 8-bit (9-bit enhanced) | $289 |
+| Hantek DSO5102P | 87MHz (±3dB) | 1GSa/s (single-shot) | 1MΩ ±5% (varies with freq) | 8-bit | $349 |
+| FNIRSI 1014D | 52MHz (-6dB point) | 250MSa/s (shared) | 1MΩ ±10% (unstable >20MHz) | 8-bit | $199 |
+| Siglent SDS1104X-E | 104MHz (±3dB) | 1GSa/s (per channel) | 1MΩ/50Ω selectable ±1% | 8-bit (12-bit Hi-Res) | $399 |
 
 Key findings from 300+ hours of testing:
 - The OWON delivered 98MHz bandwidth vs. its claimed 100MHz - the closest to spec among budget models
@@ -65,27 +65,27 @@ Display quality varied dramatically. The OWON's 7" 800×480 LCD provided the bes
 
 ## Real-world performance
 
-The [OWON SDS1102](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) handled Arduino PWM signals cleanly across the full 0-100% duty cycle range, but its FFT function produced aliasing artifacts above 50MHz due to limited analog bandwidth. For Raspberry Pi work, it revealed clock jitter that cheaper scopes missed completely - critical for debugging I2C timing issues. However, the fan noise (measured at 45dB from 1m) makes it problematic for audio work environments.
+The OWON SDS1102 handled Arduino PWM signals cleanly across the full 0-100% duty cycle range, but its FFT function produced aliasing artifacts above 50MHz due to limited analog bandwidth. For Raspberry Pi work, it revealed clock jitter that cheaper scopes missed completely - critical for debugging I2C timing issues. However, the fan noise (measured at 45dB from 1m) makes it problematic for audio work environments.
 
-During a particularly challenging SMPS repair, the [Siglent SDS1104X-E](https://www.amazon.com/dp/B085VZPR2Y?tag=tinkerbench-20)'s 50Ω input saved the day when measuring high-frequency switching noise. Other scopes' 1MΩ inputs loaded the circuit excessively, distorting the waveform. In 72-hour continuous operation stress tests, the Siglent maintained calibration within 1%, though temporary LCD burn-in appeared after 48 hours (which cleared after cooling).
+During a particularly challenging SMPS repair, the Siglent SDS1104X-E's 50Ω input saved the day when measuring high-frequency switching noise. Other scopes' 1MΩ inputs loaded the circuit excessively, distorting the waveform. In 72-hour continuous operation stress tests, the Siglent maintained calibration within 1%, though temporary LCD burn-in appeared after 48 hours (which cleared after cooling).
 
-The [FNIRSI 1014D](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) surprised me with its compact size and touch interface, but revealed limitations when debugging a vintage synth's audio path. Its limited sample depth caused aliasing on complex waveforms, and the 250MSa/s shared between two channels proved inadequate for time-correlated measurements. However, for basic Arduino work, it performed adequately if you ignore the 20-minute touchscreen calibration drift.
+The FNIRSI 1014D surprised me with its compact size and touch interface, but revealed limitations when debugging a vintage synth's audio path. Its limited sample depth caused aliasing on complex waveforms, and the 250MSa/s shared between two channels proved inadequate for time-correlated measurements. However, for basic Arduino work, it performed adequately if you ignore the 20-minute touchscreen calibration drift.
 
 ## Cost math
 
 Breaking down true cost per usable MHz of bandwidth after necessary accessories:
 - OWON: $2.95/MHz (98MHz real) - includes decent probes
 - Hantek: $4.01/MHz (87MHz real) - requires $50 better probes
-- [Rigol DS1054Z](https://www.amazon.com/dp/B0848Q34F8?tag=tinkerbench-20): $3.33/MHz (after hack to 100MHz) - needs $80 for full features
+- Rigol DS1054Z: $3.33/MHz (after hack to 100MHz) - needs $80 for full features
 - Siglent: $3.83/MHz (104MHz real) - includes best-in-class probes
 
-The [FNIRSI 1014D](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) seems cheapest at $199, but requires a $49 active probe for accurate measurements above 20MHz, bringing real cost to $4.77/MHz. More importantly, its limited sample memory (only 14kpts) often forces tradeoffs between time resolution and capture duration.
+The FNIRSI 1014D seems cheapest at $199, but requires a $49 active probe for accurate measurements above 20MHz, bringing real cost to $4.77/MHz. More importantly, its limited sample memory (only 14kpts) often forces tradeoffs between time resolution and capture duration.
 
 Long-term ownership costs matter too. The OWON and Siglent showed no measurable performance degradation after 6 months of daily use, while two sub-$150 models developed trigger jitter and vertical offset drift within 90 days. Factoring in expected lifespan, the OWON's true cost per year comes to about $58, compared to $120+ for disposable ultra-budget models.
 
 ## Alternatives and refills
 
-For Arduino-only work, the [DSO Nano v3](https://www.amazon.com/dp/B084YQW46L?tag=tinkerbench-20) ($89) handles basic 1MHz signals adequately. Its 2.8" screen is tiny but sufficient for checking digital waveforms, though the 200kSa/s sampling rate limits usefulness for analog signals. The built-in battery makes it handy for field work, but the 1MΩ-only input lacks protection for anything beyond 5V circuits.
+For Arduino-only work, the DSO Nano v3 ($89) handles basic 1MHz signals adequately. Its 2.8" screen is tiny but sufficient for checking digital waveforms, though the 200kSa/s sampling rate limits usefulness for analog signals. The built-in battery makes it handy for field work, but the 1MΩ-only input lacks protection for anything beyond 5V circuits.
 
 Consider used Tektronix TDS3000 series scopes ($600-$800) if you need:
 - Proper mains voltage isolation (CAT II rated)
@@ -93,7 +93,7 @@ Consider used Tektronix TDS3000 series scopes ($600-$800) if you need:
 - Industry-standard probe compatibility (TekVPI)
 - Deep memory (10Mpts standard)
 
-For educational settings, the [Rigol DS1054Z](https://www.amazon.com/dp/B0848Q34F8?tag=tinkerbench-20) (hackable to 100MHz) offers excellent value with four channels, though its 12MHz bandwidth in standard configuration limits usefulness. The 24Mpts memory depth helps when analyzing long serial data streams.
+For educational settings, the Rigol DS1054Z (hackable to 100MHz) offers excellent value with four channels, though its 12MHz bandwidth in standard configuration limits usefulness. The 24Mpts memory depth helps when analyzing long serial data streams.
 
 ## FAQ
 
@@ -115,7 +115,7 @@ The OWON and Siglent showed no degradation after 6 months of daily 4-hour use. T
 
 ### Are USB scopes viable?
 
-Only for very specific low-frequency applications. The [Hantek 6022BE](https://www.amazon.com/dp/B004QM8SLG?tag=tinkerbench-20) introduces 15ns latency - unusable for timing-critical work. USB 2.0 bandwidth limits sample rates, and ground loop issues are common. They work for audio frequency measurements but struggle with digital signals above 1MHz.
+Only for very specific low-frequency applications. The Hantek 6022BE introduces 15ns latency - unusable for timing-critical work. USB 2.0 bandwidth limits sample rates, and ground loop issues are common. They work for audio frequency measurements but struggle with digital signals above 1MHz.
 
 ### Should I buy used?
 
@@ -127,7 +127,7 @@ Only from reputable sellers providing recent calibration certificates. Key risks
 
 ## Bottom line
 
-The [OWON SDS1102](https://www.amazon.com/dp/B093TCYF9T?tag=tinkerbench-20) offers the best balance of price and performance at $289, delivering nearly its full claimed bandwidth with stable measurements. Its 7" display provides excellent waveform visibility, and the included probes are surprisingly decent for the price. For those needing robust construction and advanced features, the [Siglent SDS1104X-E](https://www.amazon.com/dp/B085VZPR2Y?tag=tinkerbench-20) justifies its $399 price with verified 100MHz+ bandwidth, selectable 50Ω inputs, and professional-grade build quality.
+The OWON SDS1102 offers the best balance of price and performance at $289, delivering nearly its full claimed bandwidth with stable measurements. Its 7" display provides excellent waveform visibility, and the included probes are surprisingly decent for the price. For those needing robust construction and advanced features, the Siglent SDS1104X-E justifies its $399 price with verified 100MHz+ bandwidth, selectable 50Ω inputs, and professional-grade build quality.
 
 Avoid anything under $150 unless you're only checking 1MHz digital signals - the false economy isn't worth the frustration of unreliable measurements and premature failure.
 

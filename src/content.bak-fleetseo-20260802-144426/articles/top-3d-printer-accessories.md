@@ -23,7 +23,7 @@ A good print starts long before the first layer is laid down, and it often requi
 
 No matter how dialed in your printer is, you'll inevitably have some minor imperfections: wisps of filament, small blobs, or elephant's foot on the first layer. A good set of tools for cleaning up these artifacts is invaluable.
 
-First up, a **craft knife or hobby knife** is indispensable. I've found that a handle with replaceable blades, like the ubiquitous [X-Acto knife](https://www.amazon.com/dp/B00004Z2SS/?tag=tinkerbench-20), is far superior to a fixed-blade utility knife for precision work. The fine point is perfect for slicing off stringing, trimming overhangs, and carefully separating support structures. Always keep a fresh blade on hand; a dull blade will tear and mar your print, not cut it cleanly.
+First up, a **craft knife or hobby knife** is indispensable. I've found that a handle with replaceable blades, like the ubiquitous X-Acto knife, is far superior to a fixed-blade utility knife for precision work. The fine point is perfect for slicing off stringing, trimming overhangs, and carefully separating support structures. Always keep a fresh blade on hand; a dull blade will tear and mar your print, not cut it cleanly.
 
 For more aggressive deburring or removing larger support nubs, a **flush cutter** (sometimes called a sprue cutter) is excellent. These are the same type of cutters you might use for electronics work or model building. The flat, flush cutting surface allows you to get right up against the print without leaving a significant nub. I prefer ones with a comfortable grip and a spring-loaded action for repetitive tasks. Don't cheap out too much here; a flimsy pair will bend or dull quickly.
 
@@ -51,7 +51,7 @@ The single most important accessory for filament is a **dry box or dehumidifier*
 
 For simple storage, airtight containers with desiccant packets are a good start. Large plastic storage bins with rubber seals work well. Just toss in some **rechargeable silica gel packets** (the kind that change color when saturated, allowing you to reactivate them in an oven). This keeps your unused filament dry.
 
-For active drying, a dedicated **filament dryer box** is a significant upgrade. These units, like the [Sunlu S2 Filament Dryer](https://www.amazon.com/dp/B0B6QZ12M6/?tag=tinkerbench-20), actively heat the filament to a controlled temperature, driving out absorbed moisture. Many even allow you to feed filament directly from the dryer to the printer, ensuring it stays dry during printing. This makes a noticeable difference, particularly with older spools or challenging materials. Consider this a must-have if you're serious about print quality and use a variety of filaments.
+For active drying, a dedicated **filament dryer box** is a significant upgrade. These units, like the Sunlu S2 Filament Dryer, actively heat the filament to a controlled temperature, driving out absorbed moisture. Many even allow you to feed filament directly from the dryer to the printer, ensuring it stays dry during printing. This makes a noticeable difference, particularly with older spools or challenging materials. Consider this a must-have if you're serious about print quality and use a variety of filaments.
 
 ### Measuring and Monitoring
 

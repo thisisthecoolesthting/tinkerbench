@@ -22,7 +22,7 @@ author: marcus-webb
 
 # Introduction
 
-"What's the best 3D printer I can actually trust under $300?" That question from retired engineer Mike R. launched our 90-day torture test of six sub-$300 machines.  For more context, see our [article on is arduino starter kit](/articles/arduino-starter-kit-worth-it).The market's flooded with 'beginner' printers that either crumble after 20 hours or nickel-and-dime you with mandatory upgrades. We purchased the [Creality Ender 3 V3 SE](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20), [Anycubic Kobra 2 Neo](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20), and four competitors at retail prices to answer three questions: Which models achieve consistent layer adhesion? What hidden costs emerge?
+"What's the best 3D printer I can actually trust under $300?" That question from retired engineer Mike R. launched our 90-day torture test of six sub-$300 machines.  For more context, see our [article on is arduino starter kit](/articles/arduino-starter-kit-worth-it).The market's flooded with 'beginner' printers that either crumble after 20 hours or nickel-and-dime you with mandatory upgrades. We purchased the Creality Ender 3 V3 SE, Anycubic Kobra 2 Neo, and four competitors at retail prices to answer three questions: Which models achieve consistent layer adhesion? What hidden costs emerge?
 
 And crucially – which printers won't make beginners quit in frustration?
 
@@ -37,14 +37,14 @@ The results revealed stark differences in reliability - while the $279 Anycubic 
 
 # Why this matters
 
-Modern 3D printers under $300 now include features that cost $800 just five years ago: auto-bed leveling, direct-drive extruders, and 150mm/s print speeds. But our tear-downs reveal where manufacturers cut corners.  For more context, see our [article on kickstart projects: raspberry pi](/articles/raspberry-pi-5-beginner-projects).The $199 [Sovol SV06](https://www.amazon.com/dp/B0F54TYKF9?tag=tinkerbench-20) uses plastic gears that strip after 80kg of filament, while the $279 [Elegoo Neptune 4](https://www.amazon.com/dp/B0G3BYYZN2?tag=tinkerbench-20) hides a $40 firmware unlock for essential thermal protections.
+Modern 3D printers under $300 now include features that cost $800 just five years ago: auto-bed leveling, direct-drive extruders, and 150mm/s print speeds. But our tear-downs reveal where manufacturers cut corners.  For more context, see our [article on kickstart projects: raspberry pi](/articles/raspberry-pi-5-beginner-projects).The $199 Sovol SV06 uses plastic gears that strip after 80kg of filament, while the $279 Elegoo Neptune 4 hides a $40 firmware unlock for essential thermal protections.
 
 For parents buying a first printer or makers prototyping product designs, these limitations determine whether the machine collects dust or becomes a workshop staple. We prioritized printers that balance educational value (visible mechanics for troubleshooting) with enough precision for functional parts like Raspberry Pi cases or replacement knobs.
 
 Key considerations for budget-conscious buyers:
 1. **Total Cost of Ownership**: The $229 Creality Ender 3 V3 SE requires $47 in mandatory upgrades (PEI build plate, metal extruder) to match out-of-box performance of the $279 Anycubic
-2. **Educational Value**: Open-frame designs like the [Kingroon KP3S](https://www.amazon.com/dp/B0GKFZ9SRL?tag=tinkerbench-20) allow students to observe extrusion mechanics but lack safety covers
-3. **Material Flexibility**: Only the [Flsun V400](https://www.amazon.com/dp/B0C7SX1H6J?tag=tinkerbench-20) could reliably print abrasive composites without nozzle erosion
+2. **Educational Value**: Open-frame designs like the Kingroon KP3S allow students to observe extrusion mechanics but lack safety covers
+3. **Material Flexibility**: Only the Flsun V400 could reliably print abrasive composites without nozzle erosion
 4. **Community Support**: Creality's vast user base means troubleshooting help is readily available versus obscure brands
 
 # Head-to-head comparison
@@ -55,7 +55,7 @@ Key considerations for budget-conscious buyers:
 | Anycubic Kobra 2 Neo  | 300mm/s     | 220x220x250mm | Textured PC     | 48dB       | No              | ±0.15mm        | 300°C           |
 | Sovol SV06          | 150mm/s     | 200x200x200mm | Spring steel    | 59dB       | Yes             | ±0.2mm         | 240°C           |
 
-Key findings: The [Anycubic Kobra 2 Neo](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20) delivers the fastest prints (benchies in 38 minutes vs 52 on the Creality) but lacks a filament sensor – risking failed prints when spools jam. The $159 [Kingroon KP3S](https://www.amazon.com/dp/B0GKFZ9SRL?tag=tinkerbench-20) surprised us with metal gearing but has a tiny 180mm cubed build area unsuitable for helmets or tool handles.
+Key findings: The Anycubic Kobra 2 Neo delivers the fastest prints (benchies in 38 minutes vs 52 on the Creality) but lacks a filament sensor – risking failed prints when spools jam. The $159 Kingroon KP3S surprised us with metal gearing but has a tiny 180mm cubed build area unsuitable for helmets or tool handles.
 
 Additional performance metrics:
 - **First-Layer Success Rate**: Creality 98%, Anycubic 91%, Sovol 84%
@@ -65,7 +65,7 @@ Additional performance metrics:
 
 # Real-world performance
 
-After printing 1kg of PLA+ on each machine, the [Creality Ender 3 V3 SE](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) required just two bed re-levelings, while the Anycubic needed six nozzle changes due to abrasive carbon-fiber filament wear. The Sovol's plastic extruder arm cracked during a 14-hour print – a $12 replacement part, but unacceptable at this price. For PETG printing (which demands 80-90°C beds), only the [Flsun V400](https://www.amazon.com/dp/B0C7SX1H6J?tag=tinkerbench-20) maintained temperature within 2°C of target, though it stretches our $300 limit at $319.
+After printing 1kg of PLA+ on each machine, the Creality Ender 3 V3 SE required just two bed re-levelings, while the Anycubic needed six nozzle changes due to abrasive carbon-fiber filament wear. The Sovol's plastic extruder arm cracked during a 14-hour print – a $12 replacement part, but unacceptable at this price. For PETG printing (which demands 80-90°C beds), only the Flsun V400 maintained temperature within 2°C of target, though it stretches our $300 limit at $319.
 
 Detailed failure analysis:
 1. **Thermal Runaway**: Kingroon KP3S triggered safety shutdowns 7 times during 24-hour prints
@@ -96,7 +96,7 @@ Detailed cost breakdown for first year:
 
 # Alternatives and refills
 
-Third-party upgrades like the $19 [Capricorn PTFE tube](https://www.amazon.com/dp/B0846GFNCQ?tag=tinkerbench-20) reduce filament friction for flexible TPU prints. For educators, the open-frame [Tronxy X1](https://www.amazon.com/dp/B0CDQXMV8W?tag=tinkerbench-20) lets students observe mechanics but requires manual bed leveling. Avoid bargain filaments under $15/kg – our tests showed diameter variances up to 0.15mm causing extrusion hiccups. The $22 [Overture PLA Pro](https://www.amazon.com/dp/B099NZC4PB?tag=tinkerbench-20) delivered consistent 0.05mm tolerances across 10 spools.
+Third-party upgrades like the $19 Capricorn PTFE tube reduce filament friction for flexible TPU prints. For educators, the open-frame Tronxy X1 lets students observe mechanics but requires manual bed leveling. Avoid bargain filaments under $15/kg – our tests showed diameter variances up to 0.15mm causing extrusion hiccups. The $22 Overture PLA Pro delivered consistent 0.05mm tolerances across 10 spools.
 
 Recommended accessory kit:
 1. $12 - Digital calipers for dimensional verification
@@ -129,7 +129,7 @@ Only for ABS printing (which warps without containment). PLA prints fine in open
 
 # Bottom line
 
-The [Creality Ender 3 V3 SE](https://www.amazon.com/dp/B0CB75LML9?tag=tinkerbench-20) remains our top pick for its consistent first-layer adhesion and modular design – but speed demons should stretch for the [Anycubic Kobra 2 Neo](https://www.amazon.com/dp/B0GF25F12C?tag=tinkerbench-20). Avoid the $199 Sovol SV06 unless you're comfortable replacing extruders. Budget $275 total for your first printer, 2kg of quality filament, and spare nozzles to start printing functional parts within 30 minutes of unboxing.
+The Creality Ender 3 V3 SE remains our top pick for its consistent first-layer adhesion and modular design – but speed demons should stretch for the Anycubic Kobra 2 Neo. Avoid the $199 Sovol SV06 unless you're comfortable replacing extruders. Budget $275 total for your first printer, 2kg of quality filament, and spare nozzles to start printing functional parts within 30 minutes of unboxing.
 
 Final recommendations by use case:
 - **Educators**: Creality Ender 3 V3 SE + $39 for enclosure kit
